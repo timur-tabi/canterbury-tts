@@ -1,0 +1,3530 @@
+{
+  "SaveName": "Canterbury",
+  "GameMode": "Canterbury",
+  "Date": "11/17/2020 11:10:09 PM",
+  "Gravity": 0.5,
+  "PlayArea": 0.6222222,
+  "GameType": "Game",
+  "GameComplexity": "Medium Complexity",
+  "PlayingTime": [
+    0,
+    0
+  ],
+  "PlayerCounts": [
+    2,
+    4
+  ],
+  "Tags": [
+    "Board Games"
+  ],
+  "Table": "Table_Custom",
+  "TableURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926489881/7A32A39FD692F3CEE69729A5B7E2C6AF1D00970E/",
+  "Sky": "Sky_Tunnel",
+  "Note": "",
+  "Rules": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 1.0,
+      "g": 0.007843138,
+      "b": 0.0
+    },
+    "Opacity": 1.0,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 1.0,
+    "ySize": 1.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.1
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.29337835,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 15.4458656,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.3933363
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.29337835,
+          "posZ": 34.43159,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.29337835,
+          "posZ": -34.2558136,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970547,
+          "scaleZ": 6.705048
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.29337835,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268948,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "DecalPallet": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 22.0001183,
+        "posY": 0.960000455,
+        "posZ": -7.868402,
+        "rotX": 0.0,
+        "rotY": 0.1727215,
+        "rotZ": 0.0,
+        "scaleX": 9.177352,
+        "scaleY": 1.0,
+        "scaleZ": 9.177352
+      },
+      "Nickname": "Structure Sideboard",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": true,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1680367304175579708/A930C0902E454F9FE11172EA6DCE29E132468AD6/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1680367304175582287/A9ECF40FB35125C646C011D56CBDBA9B5CE36688/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "63370c",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 1.557775,
+            "y": 0.1,
+            "z": -0.09
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.932366967,
+            "y": 0.1,
+            "z": -0.09
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.304674834,
+            "y": 0.1,
+            "z": -0.09
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.3129901,
+            "y": 0.1,
+            "z": -0.09
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9370926,
+            "y": 0.1,
+            "z": -0.09
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.56625211,
+            "y": 0.1,
+            "z": -0.09
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 1.55691159,
+            "y": 0.1000002,
+            "z": -0.7385268
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9321162,
+            "y": 0.1000002,
+            "z": -0.740270436
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.303271323,
+            "y": 0.1000002,
+            "z": -0.743294954
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.317553341,
+            "y": 0.1000002,
+            "z": -0.7385191
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9360926,
+            "y": 0.1000002,
+            "z": -0.737977862
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.56648326,
+            "y": 0.1000002,
+            "z": -0.740821362
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 15.9763527,
+        "posY": 0.9600003,
+        "posZ": 11.1396418,
+        "rotX": 9.866564E-09,
+        "rotY": -6.82971E-05,
+        "rotZ": -1.38095881E-08,
+        "scaleX": 8.256428,
+        "scaleY": 1.0,
+        "scaleZ": 8.256428
+      },
+      "Nickname": "King's Bonus Chart",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1680367392274079572/BB65D04FB898A7F726D7F62D41F87BF3DBDA5882/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "c22878"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -16.0000038,
+        "posY": 0.960009754,
+        "posZ": 0.0,
+        "rotX": 0.000119943812,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 20.0,
+        "scaleY": 1.0,
+        "scaleZ": 20.0
+      },
+      "Nickname": "Game Board",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1666856658079958165/CFCC2D95E614F81B9B51689BB489E683C013715E/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "e2f237",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.8609689,
+            "y": 0.1,
+            "z": -0.9545588
+          }
+        },
+        {
+          "Position": {
+            "x": 0.786930144,
+            "y": 0.1,
+            "z": -0.954700649
+          }
+        },
+        {
+          "Position": {
+            "x": 0.712255657,
+            "y": 0.1,
+            "z": -0.9551199
+          }
+        },
+        {
+          "Position": {
+            "x": 0.6370341,
+            "y": 0.1,
+            "z": -0.954460144
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5634405,
+            "y": 0.1,
+            "z": -0.9543325
+          }
+        },
+        {
+          "Position": {
+            "x": 0.488766044,
+            "y": 0.1,
+            "z": -0.9547516
+          }
+        },
+        {
+          "Position": {
+            "x": 0.412996024,
+            "y": 0.1,
+            "z": -0.9545226
+          }
+        },
+        {
+          "Position": {
+            "x": 0.336695939,
+            "y": 0.1,
+            "z": -0.954604745
+          }
+        },
+        {
+          "Position": {
+            "x": 0.2625649,
+            "y": 0.1,
+            "z": -0.954161
+          }
+        },
+        {
+          "Position": {
+            "x": 0.188425764,
+            "y": 0.1,
+            "z": -0.954796731
+          }
+        },
+        {
+          "Position": {
+            "x": 0.11321231,
+            "y": 0.1,
+            "z": -0.954344869
+          }
+        },
+        {
+          "Position": {
+            "x": 0.03696565,
+            "y": 0.1,
+            "z": -0.954406857
+          }
+        },
+        {
+          "Position": {
+            "x": -0.03825195,
+            "y": 0.1,
+            "z": -0.9544964
+          }
+        },
+        {
+          "Position": {
+            "x": -0.11347051,
+            "y": 0.1,
+            "z": -0.9545846
+          }
+        },
+        {
+          "Position": {
+            "x": -0.187602535,
+            "y": 0.1,
+            "z": -0.9541389
+          }
+        },
+        {
+          "Position": {
+            "x": -0.263365477,
+            "y": 0.1,
+            "z": -0.9547656
+          }
+        },
+        {
+          "Position": {
+            "x": -0.3391243,
+            "y": 0.1,
+            "z": -0.954850852
+          }
+        },
+        {
+          "Position": {
+            "x": -0.413678259,
+            "y": 0.1,
+            "z": -0.954359949
+          }
+        },
+        {
+          "Position": {
+            "x": -0.48889637,
+            "y": 0.1,
+            "z": -0.9544485
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5641144,
+            "y": 0.1,
+            "z": -0.954538
+          }
+        },
+        {
+          "Position": {
+            "x": -0.6382505,
+            "y": 0.1,
+            "z": -0.9546313
+          }
+        },
+        {
+          "Position": {
+            "x": -0.714551151,
+            "y": 0.1,
+            "z": -0.9547135
+          }
+        },
+        {
+          "Position": {
+            "x": -0.789393663,
+            "y": 0.1,
+            "z": -0.954978
+          }
+        },
+        {
+          "Position": {
+            "x": -0.8635232,
+            "y": 0.1,
+            "z": -0.953990936
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9489768,
+            "y": 0.1,
+            "z": -0.9464426
+          }
+        },
+        {
+          "Position": {
+            "x": 0.946529031,
+            "y": 0.1,
+            "z": -0.948417842
+          }
+        },
+        {
+          "Position": {
+            "x": -0.955193937,
+            "y": 0.1,
+            "z": -0.863882661
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9549745,
+            "y": 0.1,
+            "z": -0.787908554
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9553384,
+            "y": 0.1,
+            "z": -0.7129647
+          }
+        },
+        {
+          "Position": {
+            "x": -0.955269,
+            "y": 0.1,
+            "z": -0.638199747
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9557549,
+            "y": 0.1,
+            "z": -0.5638125
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9552469,
+            "y": 0.1,
+            "z": -0.488409519
+          }
+        },
+        {
+          "Position": {
+            "x": -0.955377758,
+            "y": 0.1,
+            "z": -0.412547678
+          }
+        },
+        {
+          "Position": {
+            "x": -0.955594361,
+            "y": 0.1,
+            "z": -0.3368183
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9551968,
+            "y": 0.1,
+            "z": -0.2620181
+          }
+        },
+        {
+          "Position": {
+            "x": -0.955690861,
+            "y": 0.1,
+            "z": -0.1874942
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9551986,
+            "y": 0.1,
+            "z": -0.112903535
+          }
+        },
+        {
+          "Position": {
+            "x": -0.955032468,
+            "y": 0.1,
+            "z": -0.0365662836
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9555007,
+            "y": 0.1,
+            "z": 0.0382676236
+          }
+        },
+        {
+          "Position": {
+            "x": -0.95540154,
+            "y": 0.1,
+            "z": 0.11316096
+          }
+        },
+        {
+          "Position": {
+            "x": -0.955546558,
+            "y": 0.1,
+            "z": 0.187499449
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9554739,
+            "y": 0.1,
+            "z": 0.26184848
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9554615,
+            "y": 0.1,
+            "z": 0.338481
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9553313,
+            "y": 0.1,
+            "z": 0.41375348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9555522,
+            "y": 0.1,
+            "z": 0.488411963
+          }
+        },
+        {
+          "Position": {
+            "x": -0.956469357,
+            "y": 0.1,
+            "z": 0.562892258
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9548643,
+            "y": 0.1,
+            "z": 0.6375396
+          }
+        },
+        {
+          "Position": {
+            "x": -0.954875,
+            "y": 0.1,
+            "z": 0.713848
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9550727,
+            "y": 0.1,
+            "z": 0.7896871
+          }
+        },
+        {
+          "Position": {
+            "x": -0.954794347,
+            "y": 0.1,
+            "z": 0.864645958
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9479782,
+            "y": 0.1,
+            "z": 0.949345767
+          }
+        },
+        {
+          "Position": {
+            "x": -0.8647733,
+            "y": 0.1,
+            "z": 0.95544976
+          }
+        },
+        {
+          "Position": {
+            "x": -0.78938514,
+            "y": 0.1,
+            "z": 0.955644131
+          }
+        },
+        {
+          "Position": {
+            "x": -0.7137767,
+            "y": 0.1,
+            "z": 0.9557063
+          }
+        },
+        {
+          "Position": {
+            "x": -0.638747752,
+            "y": 0.1,
+            "z": 0.9553911
+          }
+        },
+        {
+          "Position": {
+            "x": -0.563966,
+            "y": 0.1,
+            "z": 0.9556629
+          }
+        },
+        {
+          "Position": {
+            "x": -0.489470571,
+            "y": 0.1,
+            "z": 0.955361366
+          }
+        },
+        {
+          "Position": {
+            "x": -0.413255841,
+            "y": 0.1,
+            "z": 0.955633
+          }
+        },
+        {
+          "Position": {
+            "x": -0.338215083,
+            "y": 0.1,
+            "z": 0.955392957
+          }
+        },
+        {
+          "Position": {
+            "x": -0.263146162,
+            "y": 0.1,
+            "z": 0.9556648
+          }
+        },
+        {
+          "Position": {
+            "x": -0.188255027,
+            "y": 0.1,
+            "z": 0.955854356
+          }
+        },
+        {
+          "Position": {
+            "x": -0.113069311,
+            "y": 0.1,
+            "z": 0.956479967
+          }
+        },
+        {
+          "Position": {
+            "x": -0.0375828631,
+            "y": 0.1,
+            "z": 0.9563608
+          }
+        },
+        {
+          "Position": {
+            "x": 0.037767224,
+            "y": 0.1,
+            "z": 0.9563007
+          }
+        },
+        {
+          "Position": {
+            "x": 0.11282789,
+            "y": 0.1,
+            "z": 0.956349552
+          }
+        },
+        {
+          "Position": {
+            "x": 0.1876176,
+            "y": 0.1,
+            "z": 0.95633477
+          }
+        },
+        {
+          "Position": {
+            "x": 0.2619498,
+            "y": 0.1,
+            "z": 0.956067562
+          }
+        },
+        {
+          "Position": {
+            "x": 0.3379241,
+            "y": 0.1,
+            "z": 0.9560525
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4135039,
+            "y": 0.1,
+            "z": 0.9560375
+          }
+        },
+        {
+          "Position": {
+            "x": 0.48799482,
+            "y": 0.1,
+            "z": 0.9560367
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5631028,
+            "y": 0.1,
+            "z": 0.9568164
+          }
+        },
+        {
+          "Position": {
+            "x": 0.6380188,
+            "y": 0.1,
+            "z": 0.955736458
+          }
+        },
+        {
+          "Position": {
+            "x": 0.7139929,
+            "y": 0.1,
+            "z": 0.9557213
+          }
+        },
+        {
+          "Position": {
+            "x": 0.789572835,
+            "y": 0.1,
+            "z": 0.9557063
+          }
+        },
+        {
+          "Position": {
+            "x": 0.8642748,
+            "y": 0.1,
+            "z": 0.955789566
+          }
+        },
+        {
+          "Position": {
+            "x": 0.94906944,
+            "y": 0.1,
+            "z": 0.9555575
+          }
+        },
+        {
+          "Position": {
+            "x": 0.953653455,
+            "y": 0.1,
+            "z": 0.8714191
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9536359,
+            "y": 0.1,
+            "z": 0.7956371
+          }
+        },
+        {
+          "Position": {
+            "x": 0.953420639,
+            "y": 0.1,
+            "z": 0.720602453
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9533553,
+            "y": 0.1,
+            "z": 0.645356834
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9542425,
+            "y": 0.1,
+            "z": 0.571722746
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9536438,
+            "y": 0.1,
+            "z": 0.4961134
+          }
+        },
+        {
+          "Position": {
+            "x": 0.95355,
+            "y": 0.1,
+            "z": 0.419990033
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9533669,
+            "y": 0.1,
+            "z": 0.3450689
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9534203,
+            "y": 0.1,
+            "z": 0.269673824
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9532095,
+            "y": 0.1,
+            "z": 0.195679128
+          }
+        },
+        {
+          "Position": {
+            "x": 0.953673959,
+            "y": 0.1,
+            "z": 0.119686581
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9537844,
+            "y": 0.1,
+            "z": 0.04381486
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9536956,
+            "y": 0.1,
+            "z": -0.0315752439
+          }
+        },
+        {
+          "Position": {
+            "x": 0.953787744,
+            "y": 0.1,
+            "z": -0.1063465
+          }
+        },
+        {
+          "Position": {
+            "x": 0.954156339,
+            "y": 0.1,
+            "z": -0.180762634
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9537554,
+            "y": 0.1,
+            "z": -0.259234965
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9536236,
+            "y": 0.1,
+            "z": -0.334904879
+          }
+        },
+        {
+          "Position": {
+            "x": 0.953886,
+            "y": 0.1,
+            "z": -0.410522848
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9540008,
+            "y": 0.1,
+            "z": -0.485304415
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9526314,
+            "y": 0.1,
+            "z": -0.5616923
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9540396,
+            "y": 0.1,
+            "z": -0.637292743
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9540246,
+            "y": 0.1,
+            "z": -0.712877
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9541869,
+            "y": 0.1,
+            "z": -0.8634607
+          }
+        },
+        {
+          "Position": {
+            "x": 0.822495639,
+            "y": 0.1,
+            "z": -0.768028438
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.600166142,
+            "y": 0.1,
+            "z": -0.7678916
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.953865051,
+            "y": 0.1,
+            "z": -0.787828863
+          }
+        },
+        {
+          "Position": {
+            "x": 0.7109604,
+            "y": 0.1,
+            "z": -0.767925739
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.466160834,
+            "y": 0.1,
+            "z": -0.768460035
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.7664866,
+            "y": 0.100000195,
+            "z": -0.768952131
+          },
+          "Rotation": {
+            "x": -0.000119943812,
+            "y": -4.46236E-05,
+            "z": 5.78964064E-11
+          }
+        },
+        {
+          "Position": {
+            "x": 0.6547839,
+            "y": 0.100000218,
+            "z": -0.7684744
+          },
+          "Rotation": {
+            "x": -0.000119943812,
+            "y": -4.46236E-05,
+            "z": 5.78964064E-11
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 23.2438259,
+        "posY": 0.9442171,
+        "posZ": 29.4684849,
+        "rotX": 8.833431E-09,
+        "rotY": 90.00059,
+        "rotZ": -2.6167757E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Blue cubes",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 36.0044556,
+            "posY": 3.54650331,
+            "posZ": 13.0887766,
+            "rotX": 359.923584,
+            "rotY": 269.99942,
+            "rotZ": 359.9698,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Blue cube",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.466666579,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "618bd7"
+        }
+      ],
+      "GUID": "97bcca"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -22.4575977,
+        "posY": 0.944216967,
+        "posZ": -29.65758,
+        "rotX": -3.37549153E-07,
+        "rotY": -0.000702465943,
+        "rotZ": 4.878164E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Red cubes",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 29.6784534,
+            "posY": 3.53890014,
+            "posZ": 7.07350826,
+            "rotX": 359.8889,
+            "rotY": -0.000552984537,
+            "rotZ": 1.34870052,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Red cube",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.9264706,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "2471f1"
+        }
+      ],
+      "GUID": "551726"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 23.0444183,
+        "posY": 0.944217,
+        "posZ": -28.7585812,
+        "rotX": -1.00311468E-07,
+        "rotY": 359.991577,
+        "rotZ": -5.905484E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Yellow cubes",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 35.0079,
+            "posY": 3.54146647,
+            "posZ": 4.86130476,
+            "rotX": 358.7882,
+            "rotY": 0.00225211657,
+            "rotZ": 359.960052,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Yellow cube",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 0.9893046,
+            "b": 0.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "a8ac73"
+        }
+      ],
+      "GUID": "fd6678"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -23.3639469,
+        "posY": 0.944217145,
+        "posZ": 29.3558025,
+        "rotX": -3.63820817E-07,
+        "rotY": -0.00309221214,
+        "rotZ": 6.700629E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Green cubes",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 31.0111446,
+            "posY": 3.54637766,
+            "posZ": 12.132885,
+            "rotX": 0.222482,
+            "rotY": 0.00616449257,
+            "rotZ": 359.9246,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Green cube",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.0441174135,
+            "g": 1.0,
+            "b": 0.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "bf0b2b"
+        }
+      ],
+      "GUID": "c9ae8b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.93049932,
+        "posY": 1.58357549,
+        "posZ": -18.9681377,
+        "rotX": 359.9416,
+        "rotY": 179.996811,
+        "rotZ": 0.0364117771,
+        "scaleX": 1.2,
+        "scaleY": 1.0,
+        "scaleZ": 1.2
+      },
+      "Nickname": "Green score disc",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "fc3802"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.92918921,
+        "posY": 1.28407431,
+        "posZ": -18.9678955,
+        "rotX": 359.9639,
+        "rotY": 179.998245,
+        "rotZ": 0.0106635513,
+        "scaleX": 1.2,
+        "scaleY": 1.0,
+        "scaleZ": 1.2
+      },
+      "Nickname": "Blue score disc",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "be358c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.93001962,
+        "posY": 1.43394828,
+        "posZ": -18.967905,
+        "rotX": 359.962372,
+        "rotY": 179.99881,
+        "rotZ": 0.04014003,
+        "scaleX": 1.2,
+        "scaleY": 1.0,
+        "scaleZ": 1.2
+      },
+      "Nickname": "Red score disc",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "0d8495"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.930674,
+        "posY": 1.13496935,
+        "posZ": -18.9684048,
+        "rotX": 359.983124,
+        "rotY": 359.968262,
+        "rotZ": 359.986237,
+        "scaleX": 1.2,
+        "scaleY": 1.0,
+        "scaleZ": 1.2
+      },
+      "Nickname": "Yellow score disc",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "e0fb49"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.23351955,
+        "posY": 1.45778382,
+        "posZ": -19.057848,
+        "rotX": 0.0001225631,
+        "rotY": 0.0135653755,
+        "rotZ": -6.098533E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "City marker",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999486,
+        "b": 0.941
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674754/1089EE8B0722A8FC875FAF8D3E9DA0135ADE4D28/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674818/3AA05855A918FC6BB3A5C7531014EB59845F1B97/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "5ecd76"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 31.0208187,
+        "posY": 0.9430001,
+        "posZ": 10.9819756,
+        "rotX": -1.15567548E-06,
+        "rotY": 5.002118E-06,
+        "rotZ": 1.92961079E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Five gold bag",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7529412,
+        "g": 0.7529412,
+        "b": 0.7529412
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 31.2130146,
+            "posY": 3.192441,
+            "posZ": 10.9937067,
+            "rotX": 0.0487069227,
+            "rotY": -0.000240393376,
+            "rotZ": 359.534271,
+            "scaleX": 0.75,
+            "scaleY": 1.0,
+            "scaleZ": 0.75
+          },
+          "Nickname": "Five gold",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/five_gold.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.295,
+              "MergeDistancePixels": 25.0,
+              "StandUp": false,
+              "Stackable": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "79ecbd"
+        }
+      ],
+      "GUID": "3fbf02"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 35.53251,
+        "posY": 0.942999959,
+        "posZ": 10.7615719,
+        "rotX": -9.44969E-08,
+        "rotY": -3.395072E-06,
+        "rotZ": -1.00912352E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Ten gold bag",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6862744,
+        "b": 0.2156859
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 36.05046,
+            "posY": 3.18878412,
+            "posZ": 10.3320274,
+            "rotX": 359.5687,
+            "rotY": 0.00193991652,
+            "rotZ": 359.502747,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Ten gold",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/ten_gold.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.3,
+              "MergeDistancePixels": 25.0,
+              "StandUp": false,
+              "Stackable": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "bc0606"
+        }
+      ],
+      "GUID": "2a92a3"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 33.15713,
+        "posY": 0.943,
+        "posZ": 6.23778963,
+        "rotX": -2.03470947E-07,
+        "rotY": 0.00177389616,
+        "rotZ": 3.40535564E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "One gold bag",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.8,
+        "g": 0.7294118,
+        "b": 0.5803921
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 33.4605141,
+            "posY": 3.12750721,
+            "posZ": 5.089464,
+            "rotX": 359.420258,
+            "rotY": 0.0133841336,
+            "rotZ": 359.868774,
+            "scaleX": 0.5,
+            "scaleY": 1.0,
+            "scaleZ": 0.5
+          },
+          "Nickname": "One gold",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/one_gold.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.3,
+              "MergeDistancePixels": 25.0,
+              "StandUp": false,
+              "Stackable": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "dd87cf"
+        }
+      ],
+      "GUID": "871136"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.399253,
+        "posY": 1.50773466,
+        "posZ": -21.7832451,
+        "rotX": 0.000795689353,
+        "rotY": 0.01378363,
+        "rotZ": 0.00154444762,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "City marker 100",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999486,
+        "b": 0.941
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674754/1089EE8B0722A8FC875FAF8D3E9DA0135ADE4D28/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674818/3AA05855A918FC6BB3A5C7531014EB59845F1B97/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "8c6de8",
+      "ChildObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 3.088644E-08,
+            "posY": -0.472734332,
+            "posZ": 1.900225E-06,
+            "rotX": 0.0008058726,
+            "rotY": 179.984848,
+            "rotZ": 0.00154413551,
+            "scaleX": 1.20000017,
+            "scaleY": 1.0,
+            "scaleZ": 1.20000017
+          },
+          "Nickname": "City disk",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.627,
+            "g": 0.124999978,
+            "b": 0.941
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "fc7c3a"
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.4310109,
+        "posY": 1.664349,
+        "posZ": -22.4298382,
+        "rotX": 0.0008158552,
+        "rotY": 0.0138085531,
+        "rotZ": 0.00137291278,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "City marker 200",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999486,
+        "b": 0.941
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674754/1089EE8B0722A8FC875FAF8D3E9DA0135ADE4D28/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674818/3AA05855A918FC6BB3A5C7531014EB59845F1B97/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "096f90",
+      "ChildObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 3.088644E-08,
+            "posY": -0.472734332,
+            "posZ": 1.900225E-06,
+            "rotX": 0.0008058726,
+            "rotY": 179.984848,
+            "rotZ": 0.00154413551,
+            "scaleX": 1.20000017,
+            "scaleY": 1.0,
+            "scaleZ": 1.20000017
+          },
+          "Nickname": "City disk",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.627,
+            "g": 0.124999978,
+            "b": 0.941
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "fc7c3a"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -0.0137290079,
+            "posY": -0.6260384,
+            "posZ": 0.008261812,
+            "rotX": 0.0008125151,
+            "rotY": 179.985962,
+            "rotZ": 0.0013734065,
+            "scaleX": 1.25294125,
+            "scaleY": 1.04411757,
+            "scaleZ": 1.25294125
+          },
+          "Nickname": "City marker",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.627,
+            "g": 0.124999978,
+            "b": 0.941
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "103637"
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.30830741,
+        "posY": 1.82758451,
+        "posZ": -22.6363087,
+        "rotX": 0.0006082415,
+        "rotY": 0.0141163953,
+        "rotZ": 0.000261696521,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "City marker 300",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999486,
+        "b": 0.941
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674754/1089EE8B0722A8FC875FAF8D3E9DA0135ADE4D28/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674818/3AA05855A918FC6BB3A5C7531014EB59845F1B97/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "d23cdc",
+      "ChildObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 3.088644E-08,
+            "posY": -0.472734332,
+            "posZ": 1.900225E-06,
+            "rotX": 0.0008058726,
+            "rotY": 179.984848,
+            "rotZ": 0.00154413551,
+            "scaleX": 1.20000017,
+            "scaleY": 1.0,
+            "scaleZ": 1.20000017
+          },
+          "Nickname": "City disk",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.627,
+            "g": 0.124999978,
+            "b": 0.941
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "fc7c3a"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -0.0137290079,
+            "posY": -0.6260384,
+            "posZ": 0.008261812,
+            "rotX": 0.0008125151,
+            "rotY": 179.985962,
+            "rotZ": 0.0013734065,
+            "scaleX": 1.25294125,
+            "scaleY": 1.04411757,
+            "scaleZ": 1.25294125
+          },
+          "Nickname": "City marker",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.627,
+            "g": 0.124999978,
+            "b": 0.941
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "103637"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -3.570912E-05,
+            "posY": -0.785966635,
+            "posZ": 8.070915E-06,
+            "rotX": 0.000627301633,
+            "rotY": 179.986237,
+            "rotZ": 0.0002819822,
+            "scaleX": 1.30588233,
+            "scaleY": 1.08823514,
+            "scaleZ": 1.30588233
+          },
+          "Nickname": "City marker",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.627,
+            "g": 0.124999978,
+            "b": 0.941
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "9465e2"
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 34.3831253,
+        "posY": 0.9612171,
+        "posZ": -29.8478241,
+        "rotX": 6.34086234E-07,
+        "rotY": 179.999817,
+        "rotZ": -5.69557272E-08,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "Yellow player board",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/player_yellow_english.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/player_yellow_german.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "4f60c5",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 1.99815631,
+            "y": 0.100000143,
+            "z": 2.81491411E-05
+          }
+        },
+        {
+          "Position": {
+            "x": -0.009869894,
+            "y": 0.100000143,
+            "z": -0.0009975443
+          }
+        },
+        {
+          "Position": {
+            "x": -2.00767279,
+            "y": 0.100000143,
+            "z": -0.00010953017
+          }
+        }
+      ]
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 28.3886566,
+        "posY": 1.06305087,
+        "posZ": -29.8479271,
+        "rotX": -2.87946841E-06,
+        "rotY": 89.99773,
+        "rotZ": -2.95481618E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7867647,
+        "g": 0.732506037,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 3,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "320610"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -34.3561134,
+        "posY": 0.9612173,
+        "posZ": 29.948391,
+        "rotX": -2.0679191E-07,
+        "rotY": -3.88252056E-06,
+        "rotZ": -1.7595978E-08,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "Green player board",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/player_green_english.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/player_green_german.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "3c489f",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 1.99815631,
+            "y": 0.100000143,
+            "z": 2.81491411E-05
+          }
+        },
+        {
+          "Position": {
+            "x": -0.009869894,
+            "y": 0.100000143,
+            "z": -0.0009975443
+          }
+        },
+        {
+          "Position": {
+            "x": -2.00767279,
+            "y": 0.100000143,
+            "z": -0.00010953017
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -34.25763,
+        "posY": 0.961217165,
+        "posZ": -29.8387566,
+        "rotX": 6.84992756E-07,
+        "rotY": 179.9998,
+        "rotZ": -5.049523E-08,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "Red player board",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/player_red_english.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/player_red_german.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "aa2037",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 1.99815631,
+            "y": 0.100000143,
+            "z": 2.81491411E-05
+          }
+        },
+        {
+          "Position": {
+            "x": -0.009869894,
+            "y": 0.100000143,
+            "z": -0.0009975443
+          }
+        },
+        {
+          "Position": {
+            "x": -2.00767279,
+            "y": 0.100000143,
+            "z": -0.00010953017
+          }
+        }
+      ]
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -40.2520981,
+        "posY": 1.06305051,
+        "posZ": -29.8388615,
+        "rotX": 3.07742084E-07,
+        "rotY": 89.99934,
+        "rotZ": -1.39018357E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.838235259,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "bd0da8"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 40.5085068,
+        "posY": 1.06305063,
+        "posZ": 29.6801434,
+        "rotX": 2.34644787E-07,
+        "rotY": 89.9997559,
+        "rotZ": 8.253336E-09,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.1724138,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 5,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "55d8d6"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -28.3616447,
+        "posY": 1.06305075,
+        "posZ": 29.9484749,
+        "rotX": -1.65902554E-06,
+        "rotY": 89.9998245,
+        "rotZ": -3.0173635E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6985294,
+        "b": 0.00481740525
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 4,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "e88e72"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 34.5140381,
+        "posY": 0.9612173,
+        "posZ": 29.68006,
+        "rotX": 1.70570019E-07,
+        "rotY": -2.88239426E-06,
+        "rotZ": -2.07476525E-09,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "Blue player board",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/player_blue_english.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/player_blue_german.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "fe9bbb",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 1.99815631,
+            "y": 0.100000143,
+            "z": 2.81491411E-05
+          }
+        },
+        {
+          "Position": {
+            "x": -0.009869894,
+            "y": 0.100000143,
+            "z": -0.0009975443
+          }
+        },
+        {
+          "Position": {
+            "x": -2.00767279,
+            "y": 0.100000143,
+            "z": -0.00010953017
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.5542488,
+        "posY": 1.060001,
+        "posZ": -8.720155,
+        "rotX": 3.65048223E-08,
+        "rotY": -0.000222191462,
+        "rotZ": 1.691234E-07,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Farm",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/canterbury_punchboard_print-08/canterbury_punchboard_print-08-4-0.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "66c5ea"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 24.7937241,
+        "posY": 1.060001,
+        "posZ": -8.702789,
+        "rotX": 4.798829E-08,
+        "rotY": 7.596266E-05,
+        "rotZ": -2.03883985E-08,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Church",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/canterbury_punchboard_print-08/canterbury_punchboard_print-08-2-0.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "c70d91"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 19.1252117,
+        "posY": 1.060001,
+        "posZ": -8.688782,
+        "rotX": 2.76706551E-08,
+        "rotY": 5.502942E-05,
+        "rotZ": 1.42804346E-09,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Garrison",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/canterbury_punchboard_print-08/canterbury_punchboard_print-08-0-0.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "d8290e"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 13.397562,
+        "posY": 1.060001,
+        "posZ": -8.693499,
+        "rotX": -5.705193E-08,
+        "rotY": -0.000138784933,
+        "rotZ": -9.499482E-08,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Marketplace",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/canterbury_punchboard_print-08/canterbury_punchboard_print-08-0-2.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "745c0b"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 7.623577,
+        "posY": 1.060001,
+        "posZ": -8.67347,
+        "rotX": 4.05774223E-08,
+        "rotY": 0.000164354366,
+        "rotZ": -2.50756642E-07,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Stage",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/canterbury_punchboard_print-08/canterbury_punchboard_print-08-2-3.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "3c8293"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 36.2938156,
+        "posY": 1.060001,
+        "posZ": -8.737456,
+        "rotX": -1.04450915E-09,
+        "rotY": -0.005266818,
+        "rotZ": 2.21634817E-08,
+        "scaleX": 1.99723673,
+        "scaleY": 1.0,
+        "scaleZ": 1.99723673
+      },
+      "Nickname": "Fountain",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/canterbury_punchboard_print-08/canterbury_punchboard_print-08-6-0.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "e0bb22"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 18.7951965,
+        "posY": 0.9600005,
+        "posZ": -20.9571438,
+        "rotX": -4.85162036E-06,
+        "rotY": -3.2533917E-06,
+        "rotZ": -5.477765E-07,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/water_works.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "81ff32"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 24.30897,
+        "posY": 0.9600004,
+        "posZ": -21.1456966,
+        "rotX": -1.23895148E-07,
+        "rotY": 0.00199264172,
+        "rotZ": -3.75874242E-06,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/cathedral.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "52e61c"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.2527981,
+        "posY": 0.960000753,
+        "posZ": -21.9915581,
+        "rotX": 1.90348644E-07,
+        "rotY": -2.1927588E-05,
+        "rotZ": 3.33264052E-06,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Documents/pdf2png/canterbury_punchboard_print/granary.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "7729d6"
+    }
+  ],
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "VersionNumber": "v12.4.3"
+}

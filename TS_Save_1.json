@@ -1,7 +1,7 @@
 {
   "SaveName": "Canterbury",
   "GameMode": "Canterbury",
-  "Date": "11/22/2020 10:43:08 PM",
+  "Date": "11/23/2020 1:10:54 PM",
   "Gravity": 0.5,
   "PlayArea": 0.622,
   "GameType": "Game",
@@ -85,7 +85,7 @@
     "SkipEmpty": false,
     "DisableInteractions": false,
     "PassTurns": true,
-    "TurnColor": ""
+    "TurnColor": "Red"
   },
   "TabStates": {
     "0": {
@@ -1962,7 +1962,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.03500003,
+            "y": 0.0350000449,
             "z": 0.0
           }
         },
@@ -2034,7 +2034,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.03200003,
+            "y": 0.0320000462,
             "z": 0.0
           }
         },
@@ -2106,7 +2106,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0310000274,
+            "y": 0.03100004,
             "z": 0.0
           }
         },
@@ -2178,7 +2178,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0310000274,
+            "y": 0.03100004,
             "z": 0.0
           }
         },
@@ -2250,7 +2250,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0310000274,
+            "y": 0.03100004,
             "z": 0.0
           }
         },
@@ -5068,9 +5068,9 @@
             "z": -0.82375
           },
           "Rotation": {
-            "x": -3.32842234E-08,
+            "x": -3.328423E-08,
             "y": 269.978149,
-            "z": 2.29975257E-08
+            "z": 2.299753E-08
           }
         },
         {
@@ -5308,9 +5308,9 @@
             "z": 0.60125
           },
           "Rotation": {
-            "x": 4.74045976E-08,
+            "x": 4.7404594E-08,
             "y": 269.9781,
-            "z": 5.016704E-08
+            "z": 5.01670421E-08
           }
         },
         {
@@ -5428,7 +5428,7 @@
             "z": -0.712500036
           },
           "Rotation": {
-            "x": -2.752802E-10,
+            "x": -2.752961E-10,
             "y": 269.978149,
             "z": 9.868504E-08
           }
@@ -5452,7 +5452,7 @@
             "z": -1.33981037E-09
           },
           "Rotation": {
-            "x": -2.111675E-08,
+            "x": -2.11167528E-08,
             "y": 269.9781,
             "z": -8.34877838E-08
           }
@@ -5526,7 +5526,7 @@
           "Rotation": {
             "x": -5.752957E-08,
             "y": 269.9781,
-            "z": -5.08143856E-08
+            "z": -5.0814382E-08
           }
         },
         {
@@ -5716,9 +5716,9 @@
             "z": 0.60125
           },
           "Rotation": {
-            "x": 5.15917264E-08,
+            "x": 5.159172E-08,
             "y": 269.9781,
-            "z": -7.46155138E-08
+            "z": -7.461552E-08
           }
         },
         {
@@ -5800,7 +5800,7 @@
             "z": -0.356250018
           },
           "Rotation": {
-            "x": -1.05831596E-07,
+            "x": -1.0583161E-07,
             "y": 269.9781,
             "z": -1.491281E-07
           }
@@ -6172,7 +6172,7 @@
             "z": 0.656500041
           },
           "Rotation": {
-            "x": -4.65216885E-07,
+            "x": -4.65217084E-07,
             "y": 0.00362771843,
             "z": -4.62160244E-07
           }
@@ -6880,7 +6880,7 @@
             "z": -0.7675
           },
           "Rotation": {
-            "x": 5.706943E-07,
+            "x": 5.706945E-07,
             "y": 0.003627788,
             "z": 4.25169532E-07
           }
@@ -7467,11 +7467,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": 23.244,
-        "posY": 0.9442172,
+        "posY": 0.9442171,
         "posZ": 29.468,
-        "rotX": -3.23308626E-07,
-        "rotY": -6.52889639E-06,
-        "rotZ": 5.434327E-07,
+        "rotX": -4.092409E-07,
+        "rotY": -6.49246658E-06,
+        "rotZ": 7.445046E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7549,9 +7549,9 @@
         "posX": -22.458,
         "posY": 0.9442169,
         "posZ": -29.658,
-        "rotX": -3.368074E-07,
-        "rotY": -1.42343731E-06,
-        "rotZ": 5.421792E-07,
+        "rotX": -7.210561E-08,
+        "rotY": -1.41629857E-06,
+        "rotZ": -7.25728455E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7627,11 +7627,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": 23.044,
-        "posY": 0.944216847,
+        "posY": 0.944216967,
         "posZ": -28.759,
-        "rotX": -3.20601E-07,
-        "rotY": 2.11050337E-06,
-        "rotZ": 1.57251563E-07,
+        "rotX": -3.78307533E-07,
+        "rotY": 2.13576436E-06,
+        "rotZ": 3.932618E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7707,11 +7707,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -23.431,
-        "posY": 0.9442171,
+        "posY": 0.944217,
         "posZ": 29.359,
-        "rotX": -3.85454967E-07,
+        "rotX": -3.66809047E-07,
         "rotY": 1.99996567,
-        "rotZ": 7.837383E-07,
+        "rotZ": 5.67245536E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7786,12 +7786,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 2.93097138,
-        "posY": 1.13494766,
-        "posZ": -18.9680157,
-        "rotX": 0.0191301629,
-        "rotY": 180.001038,
-        "rotZ": -0.00378806354,
+        "posX": 2.93099046,
+        "posY": 1.13494372,
+        "posZ": -18.96801,
+        "rotX": 0.0159730669,
+        "rotY": 180.00087,
+        "rotZ": 0.008109856,
         "scaleX": 1.2,
         "scaleY": 1.0,
         "scaleZ": 1.2
@@ -7834,12 +7834,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 2.94051075,
-        "posY": 1.58356678,
-        "posZ": -18.9607124,
-        "rotX": 0.0625974461,
-        "rotY": 180.001968,
-        "rotZ": 0.111703373,
+        "posX": 2.940628,
+        "posY": 1.583571,
+        "posZ": -18.9610348,
+        "rotX": 0.111481607,
+        "rotY": 180.0024,
+        "rotZ": 0.112984255,
         "scaleX": 1.2,
         "scaleY": 1.0,
         "scaleZ": 1.2
@@ -7882,12 +7882,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 2.93100333,
-        "posY": 1.28405368,
-        "posZ": -18.97022,
-        "rotX": 0.07978717,
-        "rotY": 180.001617,
-        "rotZ": 0.0580413863,
+        "posX": 2.93107,
+        "posY": 1.28403127,
+        "posZ": -18.9702854,
+        "rotX": 0.0978969038,
+        "rotY": 180.001129,
+        "rotZ": 0.0546989366,
         "scaleX": 1.2,
         "scaleY": 1.0,
         "scaleZ": 1.2
@@ -7930,12 +7930,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 2.93221283,
-        "posY": 1.43397284,
-        "posZ": -18.9704132,
-        "rotX": 359.9345,
-        "rotY": 0.00286152028,
-        "rotZ": 359.916931,
+        "posX": 2.93227887,
+        "posY": 1.43396342,
+        "posZ": -18.97056,
+        "rotX": 359.89975,
+        "rotY": 0.003190909,
+        "rotZ": 359.919556,
         "scaleX": 1.2,
         "scaleY": 1.0,
         "scaleZ": 1.2
@@ -7981,19 +7981,19 @@
         "posX": 1.21999931,
         "posY": 1.45773435,
         "posZ": -19.1,
-        "rotX": -1.59905312E-07,
-        "rotY": 0.04630341,
-        "rotZ": 1.68391537E-07,
+        "rotX": -1.170016E-08,
+        "rotY": 0.0462890081,
+        "rotZ": 8.89100932E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
       "Nickname": "City marker",
-      "Description": "",
+      "Description": "The purple City Marker is used to record the City’s current Prosperity Points. The City Marker’s position on the Prosperity Track determines how much gold is available in the City Treasury, as well as the timing of District\nFavor scoring.",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124999769,
+        "g": 0.124999635,
         "b": 0.941
       },
       "Locked": false,
@@ -8134,7 +8134,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.686,
-        "b": 0.215999871
+        "b": 0.215999812
       },
       "Locked": true,
       "Grid": true,
@@ -8302,22 +8302,22 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 1.00058877,
-        "posY": 1.50800073,
+        "posX": 1.000589,
+        "posY": 1.50800037,
         "posZ": -21.5271549,
-        "rotX": 3.7102252E-06,
-        "rotY": -0.000103995473,
-        "rotZ": 1.64997607E-06,
+        "rotX": -5.947204E-07,
+        "rotY": -0.000115479284,
+        "rotZ": -2.90847765E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
       "Nickname": "City marker 100",
-      "Description": "",
+      "Description": "Each time the City Marker circles the Prosperity Track, a purple City Disk is placed beneath the City Marker, and this increases the amount of gold available in the Treasury.",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124999769,
+        "g": 0.124999635,
         "b": 0.941
       },
       "Locked": false,
@@ -8400,22 +8400,22 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.381000251,
-        "posY": 1.66430068,
+        "posX": -0.381000042,
+        "posY": 1.6643,
         "posZ": -22.017,
-        "rotX": 1.00051411E-05,
-        "rotY": 0.00017927702,
-        "rotZ": 1.12057933E-05,
+        "rotX": 5.33627222E-08,
+        "rotY": 0.000237370783,
+        "rotZ": -9.004644E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
       "Nickname": "City marker 200",
-      "Description": "",
+      "Description": "Each time the City Marker circles the Prosperity Track, a purple City Disk is placed beneath the City Marker, and this increases the amount of gold available in the Treasury.",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124999769,
+        "g": 0.124999635,
         "b": 0.941
       },
       "Locked": false,
@@ -8547,21 +8547,21 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": -2.11508465,
-        "posY": 1.82759988,
+        "posY": 1.8276,
         "posZ": -21.7882767,
-        "rotX": 1.03119446E-05,
-        "rotY": 0.00117649173,
-        "rotZ": 3.7953962E-06,
+        "rotX": 1.23663276E-05,
+        "rotY": 0.00119014643,
+        "rotZ": 4.90599223E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
       "Nickname": "City marker 300",
-      "Description": "",
+      "Description": "Each time the City Marker circles the Prosperity Track, a purple City Disk is placed beneath the City Marker, and this increases the amount of gold available in the Treasury.",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124999769,
+        "g": 0.124999635,
         "b": 0.941
       },
       "Locked": false,
@@ -8814,11 +8814,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": 28.389,
-        "posY": 1.06283319,
+        "posY": 1.06283331,
         "posZ": -29.848,
-        "rotX": -2.95152176E-07,
-        "rotY": 2.30533078E-05,
-        "rotZ": -3.034899E-07,
+        "rotX": -3.11410474E-07,
+        "rotY": 2.049359E-05,
+        "rotZ": -7.203716E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9001,9 +9001,9 @@
         "posX": -40.252,
         "posY": 1.06283331,
         "posZ": -29.839,
-        "rotX": -9.679994E-07,
-        "rotY": 3.32946329E-05,
-        "rotZ": 5.936392E-07,
+        "rotX": -1.47576074E-07,
+        "rotY": 3.159067E-05,
+        "rotZ": -1.53412486E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9040,9 +9040,9 @@
         "posX": 40.509,
         "posY": 1.06283355,
         "posZ": 29.68,
-        "rotX": -5.798821E-07,
-        "rotY": 2.13496E-05,
-        "rotZ": -1.317346E-06,
+        "rotX": 5.044219E-08,
+        "rotY": 3.072906E-05,
+        "rotZ": 1.8176039E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9052,7 +9052,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.0,
-        "g": 0.171999872,
+        "g": 0.171999812,
         "b": 1.0
       },
       "Locked": false,
@@ -9077,11 +9077,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -28.362,
-        "posY": 1.06283438,
+        "posY": 1.06283355,
         "posZ": 29.948,
-        "rotX": -6.315757E-07,
-        "rotY": -1.70755884E-05,
-        "rotZ": -1.500773E-07,
+        "rotX": -1.2673199E-07,
+        "rotY": -1.70766962E-05,
+        "rotZ": 2.067733E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9191,9 +9191,9 @@
         "posX": 36.288,
         "posY": 1.06000054,
         "posZ": -14.646,
-        "rotX": 7.752817E-09,
-        "rotY": -8.860276E-10,
-        "rotZ": -2.12901252E-08,
+        "rotX": 1.60024172E-08,
+        "rotY": -8.47550752E-10,
+        "rotZ": -1.493931E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -9241,9 +9241,9 @@
         "posX": 24.780632,
         "posY": 1.06000054,
         "posZ": -14.68651,
-        "rotX": -1.71974435E-08,
-        "rotY": 1.26940813E-06,
-        "rotZ": -2.5390543E-08,
+        "rotX": -1.30998545E-08,
+        "rotY": 1.26924522E-06,
+        "rotZ": -4.87277525E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -9291,9 +9291,9 @@
         "posX": 30.554,
         "posY": 1.06000054,
         "posZ": -14.662,
-        "rotX": -8.665744E-08,
-        "rotY": -2.75006018E-09,
-        "rotZ": 2.72379275E-09,
+        "rotX": -6.406796E-08,
+        "rotY": -3.29552652E-09,
+        "rotZ": 2.94346343E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -9341,9 +9341,9 @@
         "posX": 36.298,
         "posY": 1.06000054,
         "posZ": -8.694,
-        "rotX": -6.144618E-08,
-        "rotY": -4.8348E-09,
-        "rotZ": 1.50809512E-07,
+        "rotX": -1.79130311E-08,
+        "rotY": -5.08079445E-09,
+        "rotZ": -2.25436423E-07,
         "scaleX": 1.997,
         "scaleY": 1.0,
         "scaleZ": 1.997
@@ -9391,9 +9391,9 @@
         "posX": 30.553,
         "posY": 1.06000054,
         "posZ": -8.694,
-        "rotX": 5.5479898E-08,
-        "rotY": -1.1629921E-08,
-        "rotZ": 4.183862E-08,
+        "rotX": 3.729039E-08,
+        "rotY": -1.62412235E-08,
+        "rotZ": 1.52720734E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -9441,9 +9441,9 @@
         "posX": 24.794,
         "posY": 1.06000054,
         "posZ": -8.703,
-        "rotX": 7.379416E-08,
-        "rotY": -1.15806564E-08,
-        "rotZ": -6.26011953E-08,
+        "rotX": 4.94993735E-08,
+        "rotY": -1.566227E-08,
+        "rotZ": -1.650433E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -9491,9 +9491,9 @@
         "posX": 19.125,
         "posY": 1.06000054,
         "posZ": -8.689,
-        "rotX": 3.73040265E-08,
-        "rotY": -1.31506983E-08,
-        "rotZ": 4.13397458E-08,
+        "rotX": 4.81269637E-08,
+        "rotY": -1.81488691E-08,
+        "rotZ": 2.67262141E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -9541,9 +9541,9 @@
         "posX": 13.4,
         "posY": 1.06000054,
         "posZ": -8.694,
-        "rotX": 7.07278E-08,
-        "rotY": -1.01134638E-08,
-        "rotZ": -7.987011E-09,
+        "rotX": 5.09026172E-08,
+        "rotY": -1.53103024E-08,
+        "rotZ": -1.874016E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -9591,9 +9591,9 @@
         "posX": 7.62881851,
         "posY": 1.06000054,
         "posZ": -8.69393,
-        "rotX": 4.85070872E-09,
-        "rotY": -1.95484878E-11,
-        "rotZ": -6.067736E-08,
+        "rotX": 6.074963E-08,
+        "rotY": -3.956303E-09,
+        "rotZ": -5.81958837E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -9638,12 +9638,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.6999912,
-        "posY": 1.13488448,
-        "posZ": 9.139955,
-        "rotX": 0.0284562223,
-        "rotY": 179.999649,
-        "rotZ": -0.00425488967,
+        "posX": 25.7000217,
+        "posY": 1.13491392,
+        "posZ": 9.139963,
+        "rotX": 0.022097161,
+        "rotY": 179.9996,
+        "rotZ": 0.0177809875,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9686,12 +9686,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7000179,
-        "posY": 1.134891,
-        "posZ": 17.1799622,
-        "rotX": 0.026621135,
-        "rotY": 179.999771,
-        "rotZ": 0.0125578912,
+        "posX": 25.7000332,
+        "posY": 1.13494372,
+        "posZ": 17.1799831,
+        "rotX": 0.012009372,
+        "rotY": 179.999588,
+        "rotZ": 0.0218962263,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9734,12 +9734,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7000389,
-        "posY": 1.13492012,
-        "posZ": 3.77999854,
-        "rotX": 0.00340917916,
-        "rotY": 179.999649,
-        "rotZ": 0.0274909269,
+        "posX": 25.70003,
+        "posY": 1.13495445,
+        "posZ": 3.780021,
+        "rotX": 359.99118,
+        "rotY": 179.999359,
+        "rotZ": 0.0202887245,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9782,12 +9782,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.6999664,
-        "posY": 1.13489974,
-        "posZ": 6.46002245,
-        "rotX": 359.985168,
-        "rotY": 180.000015,
-        "rotZ": 359.97934,
+        "posX": 25.6999569,
+        "posY": 1.13489377,
+        "posZ": 6.4599905,
+        "rotX": 0.008053374,
+        "rotY": 179.999817,
+        "rotZ": 359.971619,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9830,12 +9830,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7000179,
-        "posY": 1.13488269,
-        "posZ": 11.8200283,
-        "rotX": 359.972961,
-        "rotY": 179.999969,
-        "rotZ": 0.008446319,
+        "posX": 25.6999855,
+        "posY": 1.13490891,
+        "posZ": 11.8200245,
+        "rotX": 359.9752,
+        "rotY": 180.000015,
+        "rotZ": 359.9853,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9879,11 +9879,11 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": 25.7000313,
-        "posY": 1.13494754,
-        "posZ": 14.4999981,
-        "rotX": 0.00732431747,
-        "rotY": 179.999878,
-        "rotZ": 0.0211827159,
+        "posY": 1.13493466,
+        "posZ": 14.500021,
+        "rotX": 359.992249,
+        "rotY": 179.999786,
+        "rotZ": 0.0204854663,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9926,12 +9926,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.699976,
-        "posY": 1.28404593,
-        "posZ": 3.78014946,
-        "rotX": 359.9294,
-        "rotY": 179.999084,
-        "rotZ": 359.983246,
+        "posX": 25.7000847,
+        "posY": 1.284059,
+        "posZ": 3.7803154,
+        "rotX": 359.8823,
+        "rotY": 179.998215,
+        "rotZ": 0.07110187,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9974,12 +9974,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.6998711,
-        "posY": 1.43395054,
-        "posZ": 3.78142,
-        "rotX": 359.902527,
-        "rotY": 180.00058,
-        "rotZ": 359.964539,
+        "posX": 25.7002468,
+        "posY": 1.433991,
+        "posZ": 3.78172183,
+        "rotX": 359.8518,
+        "rotY": 180.000671,
+        "rotZ": 0.06908269,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10022,12 +10022,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.700592,
-        "posY": 1.28403807,
-        "posZ": 6.45940876,
-        "rotX": 359.884644,
-        "rotY": 179.999222,
-        "rotZ": 0.00634018751,
+        "posX": 25.7006378,
+        "posY": 1.28403246,
+        "posZ": 6.459246,
+        "rotX": 359.9721,
+        "rotY": 179.998962,
+        "rotZ": 0.0406591967,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10070,12 +10070,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7021141,
-        "posY": 1.28401351,
-        "posZ": 11.8169508,
-        "rotX": 0.03895659,
-        "rotY": 180.023468,
-        "rotZ": 0.06971765,
+        "posX": 25.7019329,
+        "posY": 1.28403783,
+        "posZ": 11.8168793,
+        "rotX": 0.05878603,
+        "rotY": 180.023041,
+        "rotZ": 359.981873,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10118,12 +10118,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7014637,
-        "posY": 1.28401542,
-        "posZ": 9.14164448,
-        "rotX": 359.965576,
-        "rotY": 180.002,
-        "rotZ": 359.9352,
+        "posX": 25.7016411,
+        "posY": 1.2840395,
+        "posZ": 9.141742,
+        "rotX": 359.9363,
+        "rotY": 180.001617,
+        "rotZ": 0.0216031075,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10166,12 +10166,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7002411,
-        "posY": 1.284072,
-        "posZ": 14.5001249,
-        "rotX": 359.967651,
-        "rotY": 179.999283,
-        "rotZ": 0.113567933,
+        "posX": 25.7003117,
+        "posY": 1.284036,
+        "posZ": 14.5001736,
+        "rotX": 359.986481,
+        "rotY": 179.998535,
+        "rotZ": 0.126965344,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10214,12 +10214,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.6999016,
-        "posY": 1.28402877,
-        "posZ": 17.1799583,
-        "rotX": 359.974548,
-        "rotY": 179.999847,
-        "rotZ": 359.95462,
+        "posX": 25.7001019,
+        "posY": 1.28406155,
+        "posZ": 17.1801147,
+        "rotX": 359.9238,
+        "rotY": 179.9995,
+        "rotZ": 0.0718185157,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10262,12 +10262,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7010689,
-        "posY": 1.43392885,
-        "posZ": 6.460289,
-        "rotX": 359.8612,
-        "rotY": 180.003922,
-        "rotZ": 0.026935637,
+        "posX": 25.7012215,
+        "posY": 1.43391848,
+        "posZ": 6.45987558,
+        "rotX": 359.974854,
+        "rotY": 180.0033,
+        "rotZ": 0.0741044059,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10310,12 +10310,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7017269,
-        "posY": 1.43392,
-        "posZ": 9.142361,
-        "rotX": 359.9462,
-        "rotY": 180.008469,
-        "rotZ": 359.910919,
+        "posX": 25.702158,
+        "posY": 1.43394792,
+        "posZ": 9.142566,
+        "rotX": 359.9049,
+        "rotY": 180.0091,
+        "rotZ": 0.0116052013,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10358,12 +10358,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7001171,
-        "posY": 1.4339211,
-        "posZ": 11.8189116,
-        "rotX": 0.06215773,
-        "rotY": 179.998947,
-        "rotZ": 0.09041367,
+        "posX": 25.69968,
+        "posY": 1.43394721,
+        "posZ": 11.8187675,
+        "rotX": 0.09103153,
+        "rotY": 179.999191,
+        "rotZ": 359.98645,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10406,12 +10406,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.70051,
-        "posY": 1.4339788,
-        "posZ": 14.5002928,
-        "rotX": 359.934662,
-        "rotY": 180.001755,
-        "rotZ": 0.09562593,
+        "posX": 25.70067,
+        "posY": 1.43396652,
+        "posZ": 14.5002861,
+        "rotX": 359.9533,
+        "rotY": 180.002243,
+        "rotZ": 0.129716873,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10454,12 +10454,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7017536,
-        "posY": 1.43391621,
-        "posZ": 17.1790943,
-        "rotX": 359.941864,
-        "rotY": 179.999466,
-        "rotZ": 359.947083,
+        "posX": 25.7022972,
+        "posY": 1.43397725,
+        "posZ": 17.17938,
+        "rotX": 359.8957,
+        "rotY": 179.999359,
+        "rotZ": 0.08586829,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10502,12 +10502,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7003975,
-        "posY": 1.58357811,
-        "posZ": 6.45780563,
-        "rotX": 359.8221,
-        "rotY": 180.007721,
-        "rotZ": 0.0424170643,
+        "posX": 25.7007446,
+        "posY": 1.583566,
+        "posZ": 6.457101,
+        "rotX": 359.9599,
+        "rotY": 180.007614,
+        "rotZ": 0.103337117,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10550,12 +10550,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.70029,
-        "posY": 1.58356535,
-        "posZ": 9.139224,
-        "rotX": 359.921356,
-        "rotY": 180.009644,
-        "rotZ": 359.883026,
+        "posX": 25.7010155,
+        "posY": 1.583592,
+        "posZ": 9.139615,
+        "rotX": 359.869476,
+        "rotY": 180.010117,
+        "rotZ": 0.0117641045,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10598,12 +10598,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7005749,
-        "posY": 1.58356333,
-        "posZ": 11.8192816,
-        "rotX": 0.09060874,
-        "rotY": 180.006683,
-        "rotZ": 0.115700483,
+        "posX": 25.6998367,
+        "posY": 1.58358681,
+        "posZ": 11.8189888,
+        "rotX": 0.12619853,
+        "rotY": 180.006912,
+        "rotZ": 359.986023,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10646,12 +10646,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7027359,
-        "posY": 1.5835768,
-        "posZ": 14.500536,
-        "rotX": 359.9436,
-        "rotY": 180.02037,
-        "rotZ": 0.127552,
+        "posX": 25.7030735,
+        "posY": 1.583577,
+        "posZ": 14.5005188,
+        "rotX": 359.957428,
+        "rotY": 180.02034,
+        "rotZ": 0.17046085,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10694,12 +10694,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7014523,
-        "posY": 1.58355927,
-        "posZ": 17.1793518,
-        "rotX": 359.9164,
-        "rotY": 179.999908,
-        "rotZ": 359.924774,
+        "posX": 25.7024517,
+        "posY": 1.58361173,
+        "posZ": 17.179842,
+        "rotX": 359.859131,
+        "rotY": 180.000122,
+        "rotZ": 0.10502857,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10742,18 +10742,18 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": -5.857,
-        "posY": 0.9600004,
-        "posZ": -22.066,
-        "rotX": 8.10755836E-08,
-        "rotY": 90.0000153,
-        "rotZ": 4.93819172E-08,
+        "posX": -5.85695839,
+        "posY": 0.960000634,
+        "posZ": -22.0659027,
+        "rotX": 2.62741037E-06,
+        "rotY": 89.99835,
+        "rotZ": -2.03473564E-06,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
       },
-      "Nickname": "",
-      "Description": "",
+      "Nickname": "Score token",
+      "Description": "If a player's score marker circles around the Prosperity Track and passes the 100 Prosperity mark, he receives a Score Token to indicate that he has earned \"+100\" Points. If a player circles the Prosperity Track a second time, he flips his Score Token over to the \"+200\" side.",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
@@ -10795,12 +10795,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7006435,
-        "posY": 1.58358872,
-        "posZ": 3.780764,
-        "rotX": 359.889435,
-        "rotY": 180.000229,
-        "rotZ": 359.938019,
+        "posX": 25.70138,
+        "posY": 1.58362627,
+        "posZ": 3.781341,
+        "rotX": 359.807434,
+        "rotY": 180.000717,
+        "rotZ": 0.0826284,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10846,9 +10846,9 @@
         "posX": 7.62800026,
         "posY": 1.06000054,
         "posZ": -2.962,
-        "rotX": 1.55281953E-07,
-        "rotY": -6.17680644E-06,
-        "rotZ": -1.0640187E-07,
+        "rotX": 4.55338E-08,
+        "rotY": -6.18639342E-06,
+        "rotZ": -1.270528E-08,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10896,9 +10896,9 @@
         "posX": 13.395,
         "posY": 1.06000054,
         "posZ": -2.96400023,
-        "rotX": 8.465301E-08,
-        "rotY": -5.132235E-07,
-        "rotZ": -6.182271E-08,
+        "rotX": 7.597804E-08,
+        "rotY": -5.175157E-07,
+        "rotZ": -1.51128745E-07,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10946,9 +10946,9 @@
         "posX": 19.109,
         "posY": 1.06000054,
         "posZ": -2.95799971,
-        "rotX": -1.7111519E-07,
-        "rotY": 5.118351E-07,
-        "rotZ": 3.199035E-08,
+        "rotX": -2.28520008E-07,
+        "rotY": 5.0525307E-07,
+        "rotZ": -1.363948E-07,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10996,9 +10996,9 @@
         "posX": 24.7898083,
         "posY": 1.06000054,
         "posZ": -2.939951,
-        "rotX": -1.02547233E-07,
-        "rotY": 3.40257844E-09,
-        "rotZ": -1.1626959E-07,
+        "rotX": -1.427029E-07,
+        "rotY": 3.98516553E-09,
+        "rotZ": -6.62634747E-09,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11046,9 +11046,9 @@
         "posX": 30.5621414,
         "posY": 1.06000054,
         "posZ": -2.967482,
-        "rotX": -7.515052E-08,
-        "rotY": -8.81339361E-07,
-        "rotZ": -2.20915219E-09,
+        "rotX": -1.92750363E-07,
+        "rotY": -8.884115E-07,
+        "rotZ": -6.218065E-09,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11096,9 +11096,9 @@
         "posX": 36.289,
         "posY": 1.06000054,
         "posZ": -2.949,
-        "rotX": 3.1132263E-08,
-        "rotY": 1.35678428E-08,
-        "rotZ": 5.2217235E-08,
+        "rotX": -3.812592E-08,
+        "rotY": 1.22812489E-08,
+        "rotZ": -3.15976423E-09,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11158,7 +11158,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627451062,
-        "g": 0.1254901,
+        "g": 0.12549004,
         "b": 0.9411765
       },
       "Locked": true,
@@ -11184,9 +11184,9 @@
         "posX": 19.0817146,
         "posY": 1.06000054,
         "posZ": -14.6498032,
-        "rotX": 2.59934616E-08,
-        "rotY": 1.26986174E-06,
-        "rotZ": -4.06293061E-08,
+        "rotX": -2.79145933E-08,
+        "rotY": 1.26865984E-06,
+        "rotZ": -2.97790272E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -11234,9 +11234,9 @@
         "posX": 13.4103279,
         "posY": 1.06000054,
         "posZ": -14.640626,
-        "rotX": -7.359253E-09,
-        "rotY": 1.26975908E-06,
-        "rotZ": -3.40977167E-08,
+        "rotX": -6.001464E-08,
+        "rotY": 1.26763712E-06,
+        "rotZ": 2.95098381E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -11284,9 +11284,9 @@
         "posX": 7.62881851,
         "posY": 1.06000054,
         "posZ": -14.6681576,
-        "rotX": 9.070528E-09,
-        "rotY": 4.210482E-10,
-        "rotZ": -2.65805884E-08,
+        "rotX": -2.26376979E-08,
+        "rotY": -1.222178E-09,
+        "rotZ": -2.42763676E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -11377,6 +11377,606 @@
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "5afbb8"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -49.6774178,
+        "posY": 0.965224,
+        "posZ": 30.8667984,
+        "rotX": 8.770216E-08,
+        "rotY": -6.492952E-06,
+        "rotZ": 2.35118009E-07,
+        "scaleX": 6.084777,
+        "scaleY": 1.0,
+        "scaleZ": 6.084777
+      },
+      "Nickname": "Player guide",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_english.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_german.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "4085c1"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -49.3620758,
+        "posY": 0.9652238,
+        "posZ": -30.52545,
+        "rotX": 4.04267162E-08,
+        "rotY": 180.0,
+        "rotZ": -2.14782887E-07,
+        "scaleX": 6.084777,
+        "scaleY": 1.0,
+        "scaleZ": 6.084777
+      },
+      "Nickname": "Player guide",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_english.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_german.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "45a136"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 49.7630424,
+        "posY": 0.9612178,
+        "posZ": -30.7516346,
+        "rotX": 1.65443936E-07,
+        "rotY": 180.0,
+        "rotZ": 1.94089637E-07,
+        "scaleX": 6.084777,
+        "scaleY": 1.0,
+        "scaleZ": 6.084777
+      },
+      "Nickname": "Player guide",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_english.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_german.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "ee8f88"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 49.8937454,
+        "posY": 0.9612181,
+        "posZ": 30.9332943,
+        "rotX": 4.582191E-08,
+        "rotY": -9.753929E-06,
+        "rotZ": -1.18738711E-07,
+        "scaleX": 6.084777,
+        "scaleY": 1.0,
+        "scaleZ": 6.084777
+      },
+      "Nickname": "Player guide",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_english.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_german.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "d01c8d"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 8.58933449,
+        "posY": 1.4595294,
+        "posZ": -22.4712963,
+        "rotX": 0.0017922587,
+        "rotY": -9.620447E-05,
+        "rotZ": -0.0002521392,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/saxon_duke.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 25.0,
+          "StandUp": false,
+          "Stackable": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "c6dab7"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 8.58996,
+        "posY": 1.059993,
+        "posZ": -22.4708843,
+        "rotX": 0.00472562527,
+        "rotY": 0.0115941213,
+        "rotZ": -0.0009815795,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/saxon_earl.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 25.0,
+          "StandUp": false,
+          "Stackable": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "a7642a"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 8.671101,
+        "posY": 1.25952709,
+        "posZ": -22.4035664,
+        "rotX": 0.00171824091,
+        "rotY": 359.405579,
+        "rotZ": -0.000315538724,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/saxon_count.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 25.0,
+          "StandUp": false,
+          "Stackable": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "5518bd"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 8.626431,
+        "posY": 1.65933383,
+        "posZ": -22.446104,
+        "rotX": 0.000957015669,
+        "rotY": 359.863556,
+        "rotZ": -0.00013071252,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/saxon_prince.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 25.0,
+          "StandUp": false,
+          "Stackable": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "1e3ea2"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 14.1399975,
+        "posY": 1.25935459,
+        "posZ": -22.4699574,
+        "rotX": 0.0154544534,
+        "rotY": 359.95575,
+        "rotZ": -0.00266193436,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/sachsenfuerst.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 25.0,
+          "StandUp": false,
+          "Stackable": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "548e10"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 14.1399984,
+        "posY": 1.05996537,
+        "posZ": -22.4699936,
+        "rotX": 0.002906488,
+        "rotY": 0.0005437681,
+        "rotZ": 0.00100716972,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/sachsengraf.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 25.0,
+          "StandUp": false,
+          "Stackable": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "c94d59"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 14.1399813,
+        "posY": 1.45936811,
+        "posZ": -22.4698372,
+        "rotX": 0.0147203,
+        "rotY": 359.977173,
+        "rotZ": -0.00250308029,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/sachsenherzog.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 25.0,
+          "StandUp": false,
+          "Stackable": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "abf059"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 14.1399984,
+        "posY": 1.65913475,
+        "posZ": -22.4699574,
+        "rotX": 0.01564973,
+        "rotY": 359.976379,
+        "rotZ": -0.002129373,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/sachsenprinz.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 25.0,
+          "StandUp": false,
+          "Stackable": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "cef295"
     }
   ],
   "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",

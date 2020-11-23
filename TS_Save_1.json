@@ -1,7 +1,7 @@
 {
   "SaveName": "Canterbury",
   "GameMode": "Canterbury",
-  "Date": "11/23/2020 1:10:54 PM",
+  "Date": "11/23/2020 1:19:12 PM",
   "Gravity": 0.5,
   "PlayArea": 0.622,
   "GameType": "Game",
@@ -1962,7 +1962,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0350000449,
+            "y": 0.0350000523,
             "z": 0.0
           }
         },
@@ -2034,7 +2034,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0320000462,
+            "y": 0.0320000537,
             "z": 0.0
           }
         },
@@ -2106,7 +2106,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.03100004,
+            "y": 0.0310000479,
             "z": 0.0
           }
         },
@@ -2178,7 +2178,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.03100004,
+            "y": 0.0310000479,
             "z": 0.0
           }
         },
@@ -2250,7 +2250,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.03100004,
+            "y": 0.0310000479,
             "z": 0.0
           }
         },
@@ -6172,7 +6172,7 @@
             "z": 0.656500041
           },
           "Rotation": {
-            "x": -4.65217084E-07,
+            "x": -4.652172E-07,
             "y": 0.00362771843,
             "z": -4.62160244E-07
           }
@@ -6880,7 +6880,7 @@
             "z": -0.7675
           },
           "Rotation": {
-            "x": 5.706945E-07,
+            "x": 5.706946E-07,
             "y": 0.003627788,
             "z": 4.25169532E-07
           }
@@ -7469,9 +7469,9 @@
         "posX": 23.244,
         "posY": 0.9442171,
         "posZ": 29.468,
-        "rotX": -4.092409E-07,
-        "rotY": -6.49246658E-06,
-        "rotZ": 7.445046E-07,
+        "rotX": -3.90332758E-07,
+        "rotY": -6.47045044E-06,
+        "rotZ": 7.721337E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7547,11 +7547,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -22.458,
-        "posY": 0.9442169,
+        "posY": 0.944217,
         "posZ": -29.658,
-        "rotX": -7.210561E-08,
-        "rotY": -1.41629857E-06,
-        "rotZ": -7.25728455E-08,
+        "rotX": -3.695563E-07,
+        "rotY": -1.402919E-06,
+        "rotZ": 4.55289751E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7627,11 +7627,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": 23.044,
-        "posY": 0.944216967,
+        "posY": 0.9442169,
         "posZ": -28.759,
-        "rotX": -3.78307533E-07,
-        "rotY": 2.13576436E-06,
-        "rotZ": 3.932618E-07,
+        "rotX": -3.4371098E-07,
+        "rotY": 2.1428873E-06,
+        "rotZ": 5.58286558E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7707,11 +7707,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -23.431,
-        "posY": 0.944217,
+        "posY": 0.9442171,
         "posZ": 29.359,
-        "rotX": -3.66809047E-07,
+        "rotX": -8.17663164E-08,
         "rotY": 1.99996567,
-        "rotZ": 5.67245536E-07,
+        "rotZ": 1.0686874E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7786,12 +7786,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 2.93099046,
-        "posY": 1.13494372,
-        "posZ": -18.96801,
-        "rotX": 0.0159730669,
-        "rotY": 180.00087,
-        "rotZ": 0.008109856,
+        "posX": 2.9309988,
+        "posY": 1.13493192,
+        "posZ": -18.9680042,
+        "rotX": 0.0120900758,
+        "rotY": 180.000854,
+        "rotZ": 0.0135934334,
         "scaleX": 1.2,
         "scaleY": 1.0,
         "scaleZ": 1.2
@@ -7834,12 +7834,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 2.940628,
-        "posY": 1.583571,
-        "posZ": -18.9610348,
-        "rotX": 0.111481607,
-        "rotY": 180.0024,
-        "rotZ": 0.112984255,
+        "posX": 2.940655,
+        "posY": 1.58356607,
+        "posZ": -18.9611187,
+        "rotX": 0.121873453,
+        "rotY": 180.002884,
+        "rotZ": 0.1061168,
         "scaleX": 1.2,
         "scaleY": 1.0,
         "scaleZ": 1.2
@@ -7882,12 +7882,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 2.93107,
-        "posY": 1.28403127,
-        "posZ": -18.9702854,
-        "rotX": 0.0978969038,
-        "rotY": 180.001129,
-        "rotZ": 0.0546989366,
+        "posX": 2.9311,
+        "posY": 1.28401959,
+        "posZ": -18.9702911,
+        "rotX": 0.0962555259,
+        "rotY": 180.00087,
+        "rotZ": 0.0520071834,
         "scaleX": 1.2,
         "scaleY": 1.0,
         "scaleZ": 1.2
@@ -7930,12 +7930,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 2.93227887,
-        "posY": 1.43396342,
-        "posZ": -18.97056,
-        "rotX": 359.89975,
-        "rotY": 0.003190909,
-        "rotZ": 359.919556,
+        "posX": 2.93229747,
+        "posY": 1.43394756,
+        "posZ": -18.9705849,
+        "rotX": 359.8934,
+        "rotY": 0.00347589864,
+        "rotZ": 359.925476,
         "scaleX": 1.2,
         "scaleY": 1.0,
         "scaleZ": 1.2
@@ -7981,9 +7981,9 @@
         "posX": 1.21999931,
         "posY": 1.45773435,
         "posZ": -19.1,
-        "rotX": -1.170016E-08,
-        "rotY": 0.0462890081,
-        "rotZ": 8.89100932E-07,
+        "rotX": -5.3399566E-07,
+        "rotY": 0.0462766327,
+        "rotZ": -1.45940673E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7993,7 +7993,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124999635,
+        "g": 0.124999575,
         "b": 0.941
       },
       "Locked": false,
@@ -8134,7 +8134,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.686,
-        "b": 0.215999812
+        "b": 0.215999782
       },
       "Locked": true,
       "Grid": true,
@@ -8303,11 +8303,11 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": 1.000589,
-        "posY": 1.50800037,
+        "posY": 1.50800085,
         "posZ": -21.5271549,
-        "rotX": -5.947204E-07,
-        "rotY": -0.000115479284,
-        "rotZ": -2.90847765E-06,
+        "rotX": -1.0740142E-05,
+        "rotY": -0.000127200343,
+        "rotZ": 1.133744E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8317,7 +8317,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124999635,
+        "g": 0.124999575,
         "b": 0.941
       },
       "Locked": false,
@@ -8400,12 +8400,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.381000042,
-        "posY": 1.6643,
+        "posX": -0.381000072,
+        "posY": 1.66430044,
         "posZ": -22.017,
-        "rotX": 5.33627222E-08,
-        "rotY": 0.000237370783,
-        "rotZ": -9.004644E-07,
+        "rotX": 4.10880057E-06,
+        "rotY": 0.000286830764,
+        "rotZ": -6.169837E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8415,7 +8415,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124999635,
+        "g": 0.124999575,
         "b": 0.941
       },
       "Locked": false,
@@ -8549,9 +8549,9 @@
         "posX": -2.11508465,
         "posY": 1.8276,
         "posZ": -21.7882767,
-        "rotX": 1.23663276E-05,
-        "rotY": 0.00119014643,
-        "rotZ": 4.90599223E-06,
+        "rotX": 8.2709704E-07,
+        "rotY": 0.00112700241,
+        "rotZ": -4.00198218E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8561,7 +8561,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124999635,
+        "g": 0.124999575,
         "b": 0.941
       },
       "Locked": false,
@@ -8816,9 +8816,9 @@
         "posX": 28.389,
         "posY": 1.06283331,
         "posZ": -29.848,
-        "rotX": -3.11410474E-07,
-        "rotY": 2.049359E-05,
-        "rotZ": -7.203716E-07,
+        "rotX": -7.024455E-07,
+        "rotY": 1.96388646E-05,
+        "rotZ": -5.56954035E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8999,11 +8999,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -40.252,
-        "posY": 1.06283331,
+        "posY": 1.06283379,
         "posZ": -29.839,
-        "rotX": -1.47576074E-07,
-        "rotY": 3.159067E-05,
-        "rotZ": -1.53412486E-07,
+        "rotX": -1.0355343E-06,
+        "rotY": 2.9876408E-05,
+        "rotZ": 1.33735591E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9040,9 +9040,9 @@
         "posX": 40.509,
         "posY": 1.06283355,
         "posZ": 29.68,
-        "rotX": 5.044219E-08,
-        "rotY": 3.072906E-05,
-        "rotZ": 1.8176039E-06,
+        "rotX": 2.67637859E-07,
+        "rotY": 2.90265034E-05,
+        "rotZ": 6.13649831E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9052,7 +9052,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.0,
-        "g": 0.171999812,
+        "g": 0.171999782,
         "b": 1.0
       },
       "Locked": false,
@@ -9077,11 +9077,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -28.362,
-        "posY": 1.06283355,
+        "posY": 1.06283379,
         "posZ": 29.948,
-        "rotX": -1.2673199E-07,
-        "rotY": -1.70766962E-05,
-        "rotZ": 2.067733E-07,
+        "rotX": -1.24314158E-06,
+        "rotY": -1.877253E-05,
+        "rotZ": -2.89482568E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9191,9 +9191,9 @@
         "posX": 36.288,
         "posY": 1.06000054,
         "posZ": -14.646,
-        "rotX": 1.60024172E-08,
-        "rotY": -8.47550752E-10,
-        "rotZ": -1.493931E-08,
+        "rotX": -3.71094977E-08,
+        "rotY": -1.35332312E-09,
+        "rotZ": -3.59171821E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -9241,9 +9241,9 @@
         "posX": 24.780632,
         "posY": 1.06000054,
         "posZ": -14.68651,
-        "rotX": -1.30998545E-08,
-        "rotY": 1.26924522E-06,
-        "rotZ": -4.87277525E-08,
+        "rotX": -1.9664979E-08,
+        "rotY": 1.26894258E-06,
+        "rotZ": -3.23797948E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -9291,9 +9291,9 @@
         "posX": 30.554,
         "posY": 1.06000054,
         "posZ": -14.662,
-        "rotX": -6.406796E-08,
-        "rotY": -3.29552652E-09,
-        "rotZ": 2.94346343E-08,
+        "rotX": -1.04480776E-07,
+        "rotY": -4.65481653E-09,
+        "rotZ": 9.286453E-09,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -9336,314 +9336,14 @@
       "GUID": "7729d6"
     },
     {
-      "Name": "Custom_Tile",
-      "Transform": {
-        "posX": 36.298,
-        "posY": 1.06000054,
-        "posZ": -8.694,
-        "rotX": -1.79130311E-08,
-        "rotY": -5.08079445E-09,
-        "rotZ": -2.25436423E-07,
-        "scaleX": 1.997,
-        "scaleY": 1.0,
-        "scaleZ": 1.997
-      },
-      "Nickname": "Fountain",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/fountain.png",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomTile": {
-          "Type": 0,
-          "Thickness": 0.2,
-          "Stackable": true,
-          "Stretch": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "e0bb22"
-    },
-    {
-      "Name": "Custom_Tile",
-      "Transform": {
-        "posX": 30.553,
-        "posY": 1.06000054,
-        "posZ": -8.694,
-        "rotX": 3.729039E-08,
-        "rotY": -1.62412235E-08,
-        "rotZ": 1.52720734E-08,
-        "scaleX": 2.0,
-        "scaleY": 1.0,
-        "scaleZ": 2.0
-      },
-      "Nickname": "Farm",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/farm.png",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomTile": {
-          "Type": 0,
-          "Thickness": 0.2,
-          "Stackable": true,
-          "Stretch": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "66c5ea"
-    },
-    {
-      "Name": "Custom_Tile",
-      "Transform": {
-        "posX": 24.794,
-        "posY": 1.06000054,
-        "posZ": -8.703,
-        "rotX": 4.94993735E-08,
-        "rotY": -1.566227E-08,
-        "rotZ": -1.650433E-08,
-        "scaleX": 2.0,
-        "scaleY": 1.0,
-        "scaleZ": 2.0
-      },
-      "Nickname": "Church",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/church.png",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomTile": {
-          "Type": 0,
-          "Thickness": 0.2,
-          "Stackable": true,
-          "Stretch": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "c70d91"
-    },
-    {
-      "Name": "Custom_Tile",
-      "Transform": {
-        "posX": 19.125,
-        "posY": 1.06000054,
-        "posZ": -8.689,
-        "rotX": 4.81269637E-08,
-        "rotY": -1.81488691E-08,
-        "rotZ": 2.67262141E-08,
-        "scaleX": 2.0,
-        "scaleY": 1.0,
-        "scaleZ": 2.0
-      },
-      "Nickname": "Garrison",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garrison.png",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomTile": {
-          "Type": 0,
-          "Thickness": 0.2,
-          "Stackable": true,
-          "Stretch": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "d8290e"
-    },
-    {
-      "Name": "Custom_Tile",
-      "Transform": {
-        "posX": 13.4,
-        "posY": 1.06000054,
-        "posZ": -8.694,
-        "rotX": 5.09026172E-08,
-        "rotY": -1.53103024E-08,
-        "rotZ": -1.874016E-08,
-        "scaleX": 2.0,
-        "scaleY": 1.0,
-        "scaleZ": 2.0
-      },
-      "Nickname": "Marketplace",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/marketplace.png",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomTile": {
-          "Type": 0,
-          "Thickness": 0.2,
-          "Stackable": true,
-          "Stretch": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "745c0b"
-    },
-    {
-      "Name": "Custom_Tile",
-      "Transform": {
-        "posX": 7.62881851,
-        "posY": 1.06000054,
-        "posZ": -8.69393,
-        "rotX": 6.074963E-08,
-        "rotY": -3.956303E-09,
-        "rotZ": -5.81958837E-08,
-        "scaleX": 2.0,
-        "scaleY": 1.0,
-        "scaleZ": 2.0
-      },
-      "Nickname": "Stage",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/stage.png",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomTile": {
-          "Type": 0,
-          "Thickness": 0.2,
-          "Stackable": true,
-          "Stretch": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "3c8293"
-    },
-    {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7000217,
-        "posY": 1.13491392,
-        "posZ": 9.139963,
-        "rotX": 0.022097161,
-        "rotY": 179.9996,
-        "rotZ": 0.0177809875,
+        "posX": 25.7000275,
+        "posY": 1.13493955,
+        "posZ": 9.139973,
+        "rotX": 0.0154363764,
+        "rotY": 179.999435,
+        "rotZ": 0.0204198714,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9687,11 +9387,11 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": 25.7000332,
-        "posY": 1.13494372,
-        "posZ": 17.1799831,
-        "rotX": 0.012009372,
-        "rotY": 179.999588,
-        "rotZ": 0.0218962263,
+        "posY": 1.13495517,
+        "posZ": 17.1799946,
+        "rotX": 0.004531942,
+        "rotY": 179.999359,
+        "rotZ": 0.0216539856,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9734,12 +9434,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.70003,
-        "posY": 1.13495445,
-        "posZ": 3.780021,
-        "rotX": 359.99118,
-        "rotY": 179.999359,
-        "rotZ": 0.0202887245,
+        "posX": 25.7000217,
+        "posY": 1.13494253,
+        "posZ": 3.78003073,
+        "rotX": 359.9849,
+        "rotY": 179.999222,
+        "rotZ": 0.0149156144,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9782,12 +9482,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.6999569,
-        "posY": 1.13489377,
-        "posZ": 6.4599905,
-        "rotX": 0.008053374,
-        "rotY": 179.999817,
-        "rotZ": 359.971619,
+        "posX": 25.6999664,
+        "posY": 1.13492215,
+        "posZ": 6.459979,
+        "rotX": 0.0168495625,
+        "rotY": 179.999741,
+        "rotZ": 359.97818,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9830,12 +9530,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.6999855,
-        "posY": 1.13490891,
-        "posZ": 11.8200245,
-        "rotX": 359.9752,
-        "rotY": 180.000015,
-        "rotZ": 359.9853,
+        "posX": 25.6999779,
+        "posY": 1.13493514,
+        "posZ": 11.8200169,
+        "rotX": 359.981232,
+        "rotY": 179.9998,
+        "rotZ": 359.9816,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9878,12 +9578,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7000313,
-        "posY": 1.13493466,
-        "posZ": 14.500021,
-        "rotX": 359.992249,
-        "rotY": 179.999786,
-        "rotZ": 0.0204854663,
+        "posX": 25.7000275,
+        "posY": 1.13492227,
+        "posZ": 14.5000315,
+        "rotX": 359.985046,
+        "rotY": 179.9997,
+        "rotZ": 0.0170380212,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9926,12 +9626,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7000847,
-        "posY": 1.284059,
-        "posZ": 3.7803154,
-        "rotX": 359.8823,
-        "rotY": 179.998215,
-        "rotZ": 0.07110187,
+        "posX": 25.7001228,
+        "posY": 1.2840451,
+        "posZ": 3.78034377,
+        "rotX": 359.8955,
+        "rotY": 179.9979,
+        "rotZ": 0.0985820442,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9974,12 +9674,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7002468,
-        "posY": 1.433991,
-        "posZ": 3.78172183,
-        "rotX": 359.8518,
-        "rotY": 180.000671,
-        "rotZ": 0.06908269,
+        "posX": 25.70038,
+        "posY": 1.433979,
+        "posZ": 3.78171444,
+        "rotX": 359.867,
+        "rotY": 180.0007,
+        "rotZ": 0.105826825,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10022,12 +9722,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7006378,
-        "posY": 1.28403246,
-        "posZ": 6.459246,
-        "rotX": 359.9721,
-        "rotY": 179.998962,
-        "rotZ": 0.0406591967,
+        "posX": 25.7007084,
+        "posY": 1.28404927,
+        "posZ": 6.459136,
+        "rotX": 0.03406652,
+        "rotY": 179.998688,
+        "rotZ": 0.0617067963,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10070,12 +9770,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7019329,
-        "posY": 1.28403783,
-        "posZ": 11.8168793,
-        "rotX": 0.05878603,
-        "rotY": 180.023041,
-        "rotZ": 359.981873,
+        "posX": 25.7018337,
+        "posY": 1.284056,
+        "posZ": 11.8168344,
+        "rotX": 0.06239894,
+        "rotY": 180.022751,
+        "rotZ": 359.928528,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10118,12 +9818,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7016411,
-        "posY": 1.2840395,
-        "posZ": 9.141742,
-        "rotX": 359.9363,
-        "rotY": 180.001617,
-        "rotZ": 0.0216031075,
+        "posX": 25.7017345,
+        "posY": 1.28405476,
+        "posZ": 9.141795,
+        "rotX": 359.930542,
+        "rotY": 180.001266,
+        "rotZ": 0.07344582,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10166,12 +9866,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7003117,
-        "posY": 1.284036,
-        "posZ": 14.5001736,
-        "rotX": 359.986481,
-        "rotY": 179.998535,
-        "rotZ": 0.126965344,
+        "posX": 25.7003212,
+        "posY": 1.28402138,
+        "posZ": 14.5001993,
+        "rotX": 359.988037,
+        "rotY": 179.99826,
+        "rotZ": 0.120830208,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10214,12 +9914,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7001019,
-        "posY": 1.28406155,
-        "posZ": 17.1801147,
-        "rotX": 359.9238,
-        "rotY": 179.9995,
-        "rotZ": 0.0718185157,
+        "posX": 25.7001934,
+        "posY": 1.28406668,
+        "posZ": 17.1801357,
+        "rotX": 359.940063,
+        "rotY": 179.999176,
+        "rotZ": 0.121914506,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10262,12 +9962,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7012215,
-        "posY": 1.43391848,
-        "posZ": 6.45987558,
-        "rotX": 359.974854,
-        "rotY": 180.0033,
-        "rotZ": 0.0741044059,
+        "posX": 25.7013416,
+        "posY": 1.4339503,
+        "posZ": 6.45957756,
+        "rotX": 0.0500218719,
+        "rotY": 180.003479,
+        "rotZ": 0.09023923,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10310,12 +10010,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.702158,
-        "posY": 1.43394792,
-        "posZ": 9.142566,
-        "rotX": 359.9049,
-        "rotY": 180.0091,
-        "rotZ": 0.0116052013,
+        "posX": 25.70241,
+        "posY": 1.433975,
+        "posZ": 9.142636,
+        "rotX": 359.8977,
+        "rotY": 180.009186,
+        "rotZ": 0.07219592,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10358,12 +10058,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.69968,
-        "posY": 1.43394721,
-        "posZ": 11.8187675,
-        "rotX": 0.09103153,
-        "rotY": 179.999191,
-        "rotZ": 359.98645,
+        "posX": 25.69942,
+        "posY": 1.43397653,
+        "posZ": 11.8187132,
+        "rotX": 0.09432099,
+        "rotY": 179.999268,
+        "rotZ": 359.924438,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10406,12 +10106,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.70067,
-        "posY": 1.43396652,
-        "posZ": 14.5002861,
-        "rotX": 359.9533,
-        "rotY": 180.002243,
-        "rotZ": 0.129716873,
+        "posX": 25.7006912,
+        "posY": 1.433956,
+        "posZ": 14.5003042,
+        "rotX": 359.9593,
+        "rotY": 180.002609,
+        "rotZ": 0.132906348,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10454,12 +10154,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7022972,
-        "posY": 1.43397725,
-        "posZ": 17.17938,
-        "rotX": 359.8957,
-        "rotY": 179.999359,
-        "rotZ": 0.08586829,
+        "posX": 25.70254,
+        "posY": 1.43399286,
+        "posZ": 17.17936,
+        "rotX": 359.917816,
+        "rotY": 179.9994,
+        "rotZ": 0.142271474,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10502,12 +10202,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7007446,
-        "posY": 1.583566,
-        "posZ": 6.457101,
-        "rotX": 359.9599,
-        "rotY": 180.007614,
-        "rotZ": 0.103337117,
+        "posX": 25.7009468,
+        "posY": 1.58358765,
+        "posZ": 6.456563,
+        "rotX": 0.05670181,
+        "rotY": 180.007767,
+        "rotZ": 0.124461979,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10550,12 +10250,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7010155,
-        "posY": 1.583592,
-        "posZ": 9.139615,
-        "rotX": 359.869476,
-        "rotY": 180.010117,
-        "rotZ": 0.0117641045,
+        "posX": 25.701479,
+        "posY": 1.5836165,
+        "posZ": 9.139738,
+        "rotX": 359.8629,
+        "rotY": 180.010361,
+        "rotZ": 0.09231247,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10598,12 +10298,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.6998367,
-        "posY": 1.58358681,
-        "posZ": 11.8189888,
-        "rotX": 0.12619853,
-        "rotY": 180.006912,
-        "rotZ": 359.986023,
+        "posX": 25.699358,
+        "posY": 1.58361161,
+        "posZ": 11.8188944,
+        "rotX": 0.128415078,
+        "rotY": 180.007156,
+        "rotZ": 359.9039,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10646,12 +10346,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7030735,
-        "posY": 1.583577,
-        "posZ": 14.5005188,
-        "rotX": 359.957428,
-        "rotY": 180.02034,
-        "rotZ": 0.17046085,
+        "posX": 25.70314,
+        "posY": 1.583571,
+        "posZ": 14.5005312,
+        "rotX": 359.963776,
+        "rotY": 180.020569,
+        "rotZ": 0.173725739,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10694,12 +10394,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.7024517,
-        "posY": 1.58361173,
-        "posZ": 17.179842,
-        "rotX": 359.859131,
-        "rotY": 180.000122,
-        "rotZ": 0.10502857,
+        "posX": 25.70292,
+        "posY": 1.58362389,
+        "posZ": 17.179781,
+        "rotX": 359.890839,
+        "rotY": 180.00032,
+        "rotZ": 0.181989819,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10743,11 +10443,11 @@
       "Name": "Custom_Tile_Stack",
       "Transform": {
         "posX": -5.85695839,
-        "posY": 0.960000634,
+        "posY": 0.9600003,
         "posZ": -22.0659027,
-        "rotX": 2.62741037E-06,
-        "rotY": 89.99835,
-        "rotZ": -2.03473564E-06,
+        "rotX": -1.92256857E-06,
+        "rotY": 89.99834,
+        "rotZ": 1.97194845E-06,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -10795,12 +10495,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 25.70138,
-        "posY": 1.58362627,
-        "posZ": 3.781341,
-        "rotX": 359.807434,
-        "rotY": 180.000717,
-        "rotZ": 0.0826284,
+        "posX": 25.70167,
+        "posY": 1.58361161,
+        "posZ": 3.78133,
+        "rotX": 359.8296,
+        "rotY": 180.000854,
+        "rotZ": 0.137118563,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10843,12 +10543,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.62800026,
-        "posY": 1.06000054,
-        "posZ": -2.962,
-        "rotX": 4.55338E-08,
-        "rotY": -6.18639342E-06,
-        "rotZ": -1.270528E-08,
+        "posX": 7.62798548,
+        "posY": 1.059602,
+        "posZ": -2.96200585,
+        "rotX": 0.007923499,
+        "rotY": -0.000511875143,
+        "rotZ": 359.966248,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10857,9 +10557,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
       },
       "Locked": false,
       "Grid": false,
@@ -10893,12 +10593,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.395,
-        "posY": 1.06000054,
-        "posZ": -2.96400023,
-        "rotX": 7.597804E-08,
-        "rotY": -5.175157E-07,
-        "rotZ": -1.51128745E-07,
+        "posX": 13.3949814,
+        "posY": 1.0596236,
+        "posZ": -2.9639926,
+        "rotX": 0.008106941,
+        "rotY": -0.000877965,
+        "rotZ": 359.967926,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10907,9 +10607,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
       },
       "Locked": false,
       "Grid": false,
@@ -10943,12 +10643,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.109,
-        "posY": 1.06000054,
-        "posZ": -2.95799971,
-        "rotX": -2.28520008E-07,
-        "rotY": 5.0525307E-07,
-        "rotZ": -1.363948E-07,
+        "posX": 19.10901,
+        "posY": 1.0592612,
+        "posZ": -2.95814252,
+        "rotX": 0.0145886671,
+        "rotY": 0.00238761865,
+        "rotZ": 359.938049,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10957,9 +10657,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
       },
       "Locked": false,
       "Grid": false,
@@ -10993,12 +10693,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.7898083,
-        "posY": 1.06000054,
-        "posZ": -2.939951,
-        "rotX": -1.427029E-07,
-        "rotY": 3.98516553E-09,
-        "rotZ": -6.62634747E-09,
+        "posX": 24.7898254,
+        "posY": 1.05932975,
+        "posZ": -2.939941,
+        "rotX": 0.0117545994,
+        "rotY": 0.000412070629,
+        "rotZ": 359.9397,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11007,9 +10707,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
       },
       "Locked": false,
       "Grid": false,
@@ -11043,12 +10743,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.5621414,
-        "posY": 1.06000054,
-        "posZ": -2.967482,
-        "rotX": -1.92750363E-07,
-        "rotY": -8.884115E-07,
-        "rotZ": -6.218065E-09,
+        "posX": 30.56223,
+        "posY": 1.05899084,
+        "posZ": -2.96720719,
+        "rotX": 0.0181819312,
+        "rotY": -0.000407022715,
+        "rotZ": 359.9115,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11057,9 +10757,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
       },
       "Locked": false,
       "Grid": false,
@@ -11093,12 +10793,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.289,
-        "posY": 1.06000054,
-        "posZ": -2.949,
-        "rotX": -3.812592E-08,
-        "rotY": 1.22812489E-08,
-        "rotZ": -3.15976423E-09,
+        "posX": 36.2889671,
+        "posY": 1.05891311,
+        "posZ": -2.9490428,
+        "rotX": 0.0212043766,
+        "rotY": -0.00104154693,
+        "rotZ": 359.907532,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11107,9 +10807,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
       },
       "Locked": false,
       "Grid": false,
@@ -11158,7 +10858,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627451062,
-        "g": 0.12549004,
+        "g": 0.12549001,
         "b": 0.9411765
       },
       "Locked": true,
@@ -11184,9 +10884,9 @@
         "posX": 19.0817146,
         "posY": 1.06000054,
         "posZ": -14.6498032,
-        "rotX": -2.79145933E-08,
-        "rotY": 1.26865984E-06,
-        "rotZ": -2.97790272E-08,
+        "rotX": -4.58607126E-08,
+        "rotY": 1.26816508E-06,
+        "rotZ": -1.73510379E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -11234,9 +10934,9 @@
         "posX": 13.4103279,
         "posY": 1.06000054,
         "posZ": -14.640626,
-        "rotX": -6.001464E-08,
-        "rotY": 1.26763712E-06,
-        "rotZ": 2.95098381E-08,
+        "rotX": 2.3865903E-08,
+        "rotY": 1.26667112E-06,
+        "rotZ": 5.36810845E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -11284,9 +10984,9 @@
         "posX": 7.62881851,
         "posY": 1.06000054,
         "posZ": -14.6681576,
-        "rotX": -2.26376979E-08,
-        "rotY": -1.222178E-09,
-        "rotZ": -2.42763676E-08,
+        "rotX": -3.792903E-09,
+        "rotY": -1.856975E-09,
+        "rotZ": -3.421237E-08,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -11581,12 +11281,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 8.58933449,
-        "posY": 1.4595294,
-        "posZ": -22.4712963,
-        "rotX": 0.0017922587,
-        "rotY": -9.620447E-05,
-        "rotZ": -0.0002521392,
+        "posX": 8.589327,
+        "posY": 1.45964587,
+        "posZ": -22.4712849,
+        "rotX": 0.005244635,
+        "rotY": -0.000121600133,
+        "rotZ": -0.000215654945,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11631,12 +11331,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 8.58996,
-        "posY": 1.059993,
-        "posZ": -22.4708843,
-        "rotX": 0.00472562527,
-        "rotY": 0.0115941213,
-        "rotZ": -0.0009815795,
+        "posX": 8.589956,
+        "posY": 1.06000018,
+        "posZ": -22.47089,
+        "rotX": 0.002161875,
+        "rotY": 0.0115792239,
+        "rotZ": 0.00121162424,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11681,12 +11381,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 8.671101,
-        "posY": 1.25952709,
-        "posZ": -22.4035664,
-        "rotX": 0.00171824091,
-        "rotY": 359.405579,
-        "rotZ": -0.000315538724,
+        "posX": 8.671094,
+        "posY": 1.25962675,
+        "posZ": -22.4035683,
+        "rotX": 0.00529240025,
+        "rotY": 359.405548,
+        "rotZ": 6.836649E-05,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11731,12 +11431,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 8.626431,
-        "posY": 1.65933383,
-        "posZ": -22.446104,
-        "rotX": 0.000957015669,
-        "rotY": 359.863556,
-        "rotZ": -0.00013071252,
+        "posX": 8.626425,
+        "posY": 1.65947485,
+        "posZ": -22.4460754,
+        "rotX": 0.00660181139,
+        "rotY": 359.8635,
+        "rotZ": -0.00033034166,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11781,12 +11481,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 14.1399975,
-        "posY": 1.25935459,
-        "posZ": -22.4699574,
-        "rotX": 0.0154544534,
-        "rotY": 359.95575,
-        "rotZ": -0.00266193436,
+        "posX": 14.1399593,
+        "posY": 1.259389,
+        "posZ": -22.4699974,
+        "rotX": -0.001145257,
+        "rotY": 359.955963,
+        "rotZ": 0.0108558889,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11831,12 +11531,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 14.1399984,
-        "posY": 1.05996537,
-        "posZ": -22.4699936,
-        "rotX": 0.002906488,
-        "rotY": 0.0005437681,
-        "rotZ": 0.00100716972,
+        "posX": 14.1399927,
+        "posY": 1.05990708,
+        "posZ": -22.4700031,
+        "rotX": -0.0012423204,
+        "rotY": 0.000513759442,
+        "rotZ": 0.004098164,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11881,12 +11581,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 14.1399813,
-        "posY": 1.45936811,
-        "posZ": -22.4698372,
-        "rotX": 0.0147203,
-        "rotY": 359.977173,
-        "rotZ": -0.00250308029,
+        "posX": 14.1398964,
+        "posY": 1.45942008,
+        "posZ": -22.4699326,
+        "rotX": -0.000267157477,
+        "rotY": 359.9774,
+        "rotZ": 0.0104670366,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11931,12 +11631,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 14.1399984,
-        "posY": 1.65913475,
-        "posZ": -22.4699574,
-        "rotX": 0.01564973,
-        "rotY": 359.976379,
-        "rotZ": -0.002129373,
+        "posX": 14.1398592,
+        "posY": 1.65921187,
+        "posZ": -22.4701118,
+        "rotX": -0.000453859539,
+        "rotY": 359.9766,
+        "rotZ": 0.012480488,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -11977,6 +11677,2724 @@
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "cef295"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 36.28921,
+        "posY": 1.251065,
+        "posZ": -2.94861722,
+        "rotX": 0.287985831,
+        "rotY": 359.991058,
+        "rotZ": 359.833038,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "83d22f"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 36.2895622,
+        "posY": 1.4488343,
+        "posZ": -2.947331,
+        "rotX": 0.5029302,
+        "rotY": 359.9938,
+        "rotZ": 359.897827,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "da01a2"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 36.2895546,
+        "posY": 1.64164817,
+        "posZ": -2.94589472,
+        "rotX": 0.314909428,
+        "rotY": -0.000402586855,
+        "rotZ": 359.952545,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "dc201c"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 36.2899323,
+        "posY": 1.8396337,
+        "posZ": -2.94470787,
+        "rotX": 0.124792561,
+        "rotY": 0.000963351864,
+        "rotZ": 0.006954826,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "b1ee5f"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 36.2892761,
+        "posY": 2.033916,
+        "posZ": -2.94351459,
+        "rotX": 0.298293561,
+        "rotY": 0.009025563,
+        "rotZ": 0.0517821349,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "8fea93"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 36.2881,
+        "posY": 2.2324183,
+        "posZ": -2.94209313,
+        "rotX": 0.25645262,
+        "rotY": 0.00309493626,
+        "rotZ": 359.909149,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "21a545"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 36.28838,
+        "posY": 2.428279,
+        "posZ": -2.941071,
+        "rotX": 0.223314717,
+        "rotY": -0.000481615367,
+        "rotZ": 359.78598,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "4cd593"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 36.2870369,
+        "posY": 2.62727714,
+        "posZ": -2.94025636,
+        "rotX": 0.319087327,
+        "rotY": 0.000212134619,
+        "rotZ": 359.813934,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "d7d364"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 36.28829,
+        "posY": 2.824789,
+        "posZ": -2.938572,
+        "rotX": 0.245437726,
+        "rotY": 0.00352978753,
+        "rotZ": 359.831421,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "fc8841"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 36.2882347,
+        "posY": 3.02427816,
+        "posZ": -2.93766332,
+        "rotX": 0.2937851,
+        "rotY": 0.00388642773,
+        "rotZ": 359.845367,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "101e77"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 36.2891235,
+        "posY": 3.22353625,
+        "posZ": -2.95347834,
+        "rotX": 0.2850715,
+        "rotY": 0.0170641486,
+        "rotZ": 359.820862,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "393f2c"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.5634384,
+        "posY": 1.2514149,
+        "posZ": -2.96588755,
+        "rotX": 0.2641374,
+        "rotY": -0.00343868649,
+        "rotZ": 359.823761,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "1a541e"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.5645523,
+        "posY": 1.44922554,
+        "posZ": -2.96373749,
+        "rotX": 0.4716069,
+        "rotY": 359.98822,
+        "rotZ": 359.763184,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "60a8f7"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.5655746,
+        "posY": 1.6423831,
+        "posZ": -2.96133447,
+        "rotX": 0.4278156,
+        "rotY": 0.00846182648,
+        "rotZ": 359.9546,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "fb89b3"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.5658951,
+        "posY": 1.84047353,
+        "posZ": -2.95944738,
+        "rotX": 0.247907192,
+        "rotY": 359.984863,
+        "rotZ": 359.902924,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "d7a5ca"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.5653286,
+        "posY": 2.0349946,
+        "posZ": -2.95853734,
+        "rotX": 0.407311618,
+        "rotY": 359.992432,
+        "rotZ": 359.9466,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "d56647"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.5664444,
+        "posY": 2.233548,
+        "posZ": -2.95732141,
+        "rotX": 0.544203043,
+        "rotY": 0.005574637,
+        "rotZ": 359.986267,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "4c7bd9"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.5658855,
+        "posY": 2.42962241,
+        "posZ": -2.95643187,
+        "rotX": 0.428034633,
+        "rotY": 0.00675786426,
+        "rotZ": 0.019034991,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "b7d32d"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.5634136,
+        "posY": 2.62869048,
+        "posZ": -2.95738387,
+        "rotX": 0.338218361,
+        "rotY": 0.008137713,
+        "rotZ": 0.0453052446,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "14b239"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.559042,
+        "posY": 2.82633853,
+        "posZ": -2.956377,
+        "rotX": 0.268730342,
+        "rotY": -0.00428211,
+        "rotZ": 0.0653949454,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "0d5776"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.55622,
+        "posY": 3.02588463,
+        "posZ": -2.96048784,
+        "rotX": 0.22384043,
+        "rotY": -0.00358726224,
+        "rotZ": 0.07846007,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "b4d34d"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 30.5515461,
+        "posY": 3.225104,
+        "posZ": -2.96209264,
+        "rotX": 0.246299371,
+        "rotY": 0.004255988,
+        "rotZ": 0.07253165,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "ace8a4"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 24.790163,
+        "posY": 1.25580692,
+        "posZ": -2.939823,
+        "rotX": 0.173554987,
+        "rotY": 0.0007066395,
+        "rotZ": 359.8726,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "95cb16"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 24.7907677,
+        "posY": 1.45083737,
+        "posZ": -2.93908715,
+        "rotX": 0.233634368,
+        "rotY": -0.00104871229,
+        "rotZ": 359.699066,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "aec47c"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 24.7915916,
+        "posY": 1.64947367,
+        "posZ": -2.938492,
+        "rotX": 0.362348437,
+        "rotY": -0.00254119746,
+        "rotZ": 359.6623,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "204b1d"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 24.7920341,
+        "posY": 1.84561551,
+        "posZ": -2.93729186,
+        "rotX": 0.403614283,
+        "rotY": -0.003100206,
+        "rotZ": 359.537933,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "37d2a3"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 24.7928734,
+        "posY": 2.044651,
+        "posZ": -2.93663073,
+        "rotX": 0.311766267,
+        "rotY": 359.990082,
+        "rotZ": 359.564667,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "c54a17"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 24.79407,
+        "posY": 2.24227834,
+        "posZ": -2.93742967,
+        "rotX": 0.245217487,
+        "rotY": -0.00210676063,
+        "rotZ": 359.582642,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "22690c"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 24.7948055,
+        "posY": 2.44179559,
+        "posZ": -2.937698,
+        "rotX": 0.199254736,
+        "rotY": 0.000276070525,
+        "rotZ": 359.595642,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "05de29"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 24.7911682,
+        "posY": 2.64103079,
+        "posZ": -2.93641758,
+        "rotX": 0.222930253,
+        "rotY": 0.0173818842,
+        "rotZ": 359.603851,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "4e5b7a"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 19.1090851,
+        "posY": 1.25577509,
+        "posZ": -2.95852113,
+        "rotX": 359.851654,
+        "rotY": 0.0138221383,
+        "rotZ": 359.896,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "652d27"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 19.1088924,
+        "posY": 1.45077586,
+        "posZ": -2.95939231,
+        "rotX": 359.6898,
+        "rotY": 0.0312083885,
+        "rotZ": 359.944641,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "1d8ec7"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 19.1084423,
+        "posY": 1.64936,
+        "posZ": -2.96079373,
+        "rotX": 359.823517,
+        "rotY": 0.0328081921,
+        "rotZ": 359.906128,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "4d13be"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 19.1075668,
+        "posY": 1.84545052,
+        "posZ": -2.96136022,
+        "rotX": 359.9317,
+        "rotY": 0.0427787937,
+        "rotZ": 359.943085,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "8c0011"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 19.1066914,
+        "posY": 2.0444994,
+        "posZ": -2.96153069,
+        "rotX": 359.840729,
+        "rotY": 0.05250102,
+        "rotZ": 359.9163,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "84efe5"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 19.1031075,
+        "posY": 2.24211,
+        "posZ": -2.96121836,
+        "rotX": 359.907776,
+        "rotY": 0.0469049923,
+        "rotZ": 359.937561,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "19cb4a"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 19.0993042,
+        "posY": 2.44163036,
+        "posZ": -2.95785213,
+        "rotX": 359.954071,
+        "rotY": -0.000300737651,
+        "rotZ": 359.950958,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "cdfe81"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 19.09676,
+        "posY": 2.64083147,
+        "posZ": -2.9575367,
+        "rotX": 359.9758,
+        "rotY": -0.00161629391,
+        "rotZ": 359.9566,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "cb3e51"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 13.39514,
+        "posY": 1.25674427,
+        "posZ": -2.9638536,
+        "rotX": 359.978455,
+        "rotY": -0.00361017184,
+        "rotZ": 359.852356,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/merchant_stall.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "68a324"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 13.3956728,
+        "posY": 1.4559164,
+        "posZ": -2.9637897,
+        "rotX": 359.9018,
+        "rotY": -0.005239103,
+        "rotZ": 359.831543,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/merchant_stall.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "e0f9dc"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 13.3962841,
+        "posY": 1.65381181,
+        "posZ": -2.96396828,
+        "rotX": 359.876282,
+        "rotY": -0.0036595182,
+        "rotZ": 359.74707,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/merchant_stall.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "e329b7"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 13.39639,
+        "posY": 1.85339224,
+        "posZ": -2.96411157,
+        "rotX": 359.863556,
+        "rotY": -0.00568600744,
+        "rotZ": 359.7059,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/merchant_stall.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "f7c222"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 13.395668,
+        "posY": 2.05261517,
+        "posZ": -2.96333027,
+        "rotX": 359.884247,
+        "rotY": 0.0003814567,
+        "rotZ": 359.703979,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/merchant_stall.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "c1cc40"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 7.62809134,
+        "posY": 1.25670052,
+        "posZ": -2.96193552,
+        "rotX": 0.116918609,
+        "rotY": -0.00342491828,
+        "rotZ": 359.919128,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/pageant_wagon.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "cfbe4b"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 7.62827158,
+        "posY": 1.45596671,
+        "posZ": -2.961393,
+        "rotX": 0.0931266248,
+        "rotY": -0.00420814566,
+        "rotZ": 359.8459,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/pageant_wagon.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "69ff24"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 7.62855768,
+        "posY": 1.65386271,
+        "posZ": -2.9613204,
+        "rotX": 0.16753374,
+        "rotY": 359.993225,
+        "rotZ": 359.811523,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/pageant_wagon.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "fefa23"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 7.628287,
+        "posY": 1.85337222,
+        "posZ": -2.96074367,
+        "rotX": 0.122360744,
+        "rotY": -0.00513615971,
+        "rotZ": 359.79953,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/pageant_wagon.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "551b45"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 7.62830973,
+        "posY": 2.052605,
+        "posZ": -2.96085119,
+        "rotX": 0.102102838,
+        "rotY": 359.989838,
+        "rotZ": 359.8008,
+        "scaleX": 0.85,
+        "scaleY": 1.0,
+        "scaleZ": 0.85
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.831372559,
+        "g": 0.6156863,
+        "b": 0.113725461
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/pageant_wagon.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "318d32"
+    },
+    {
+      "Name": "Custom_Tile_Stack",
+      "Transform": {
+        "posX": 36.2980042,
+        "posY": 1.06000042,
+        "posZ": -8.694,
+        "rotX": -4.384385E-07,
+        "rotY": 3.204931E-05,
+        "rotZ": 9.10715642E-07,
+        "scaleX": 1.997,
+        "scaleY": 1.0,
+        "scaleZ": 1.997
+      },
+      "Nickname": "Fountain",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 6,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/fountain.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "e0bb22"
+    },
+    {
+      "Name": "Custom_Tile_Stack",
+      "Transform": {
+        "posX": 30.553,
+        "posY": 1.06000042,
+        "posZ": -8.693999,
+        "rotX": -1.42723863E-07,
+        "rotY": 3.65564774E-05,
+        "rotZ": 1.0808796E-07,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Farm",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 6,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/farm.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "66c5ea"
+    },
+    {
+      "Name": "Custom_Tile_Stack",
+      "Transform": {
+        "posX": 24.794,
+        "posY": 1.06000054,
+        "posZ": -8.703,
+        "rotX": 2.103061E-07,
+        "rotY": 3.25198E-05,
+        "rotZ": 5.132161E-07,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Church",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 5,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/church.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "c70d91"
+    },
+    {
+      "Name": "Custom_Tile_Stack",
+      "Transform": {
+        "posX": 19.1250019,
+        "posY": 1.06000054,
+        "posZ": -8.689,
+        "rotX": 7.5539316E-07,
+        "rotY": 4.47060229E-05,
+        "rotZ": -1.18839341E-06,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Garrison",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 5,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garrison.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "d8290e"
+    },
+    {
+      "Name": "Custom_Tile_Stack",
+      "Transform": {
+        "posX": 13.4,
+        "posY": 1.06000054,
+        "posZ": -8.694,
+        "rotX": -5.798182E-08,
+        "rotY": 1.384591E-05,
+        "rotZ": -9.708665E-07,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Marketplace",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 4,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/marketplace.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "745c0b"
+    },
+    {
+      "Name": "Custom_Tile_Stack",
+      "Transform": {
+        "posX": 7.62882,
+        "posY": 1.06000054,
+        "posZ": -8.693931,
+        "rotX": -1.13319807E-07,
+        "rotY": 6.28897351E-06,
+        "rotZ": 1.10399787E-08,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Stage",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 4,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/stage.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "3c8293"
     }
   ],
   "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",

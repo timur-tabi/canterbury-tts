@@ -1,7 +1,7 @@
 {
   "SaveName": "Canterbury",
   "GameMode": "Canterbury",
-  "Date": "11/24/2020 2:10:17 PM",
+  "Date": "11/24/2020 3:41:13 PM",
   "Gravity": 0.5,
   "PlayArea": 0.622,
   "GameType": "Game",
@@ -113,9 +113,9 @@
           "rotX": 0.0,
           "rotY": 180.9277,
           "rotZ": 0.0,
-          "scaleX": 19.7160816,
+          "scaleX": 19.7158146,
           "scaleY": 1.29675269,
-          "scaleZ": 3.9091692
+          "scaleZ": 3.90906262
         }
       },
       {
@@ -127,9 +127,9 @@
           "rotX": 0.0,
           "rotY": 180.9277,
           "rotZ": 0.0,
-          "scaleX": 19.71612,
+          "scaleX": 19.7158546,
           "scaleY": 1.29675269,
-          "scaleZ": 3.90918469
+          "scaleZ": 3.90908051
         }
       }
     ]
@@ -282,21 +282,21 @@
     null,
     {
       "Position": {
-        "x": 0.0,
+        "x": -27.175642,
         "y": -2.5,
-        "z": 0.0
+        "z": 17.5197048
       },
       "Rotation": {
-        "x": 65.0000153,
-        "y": 180.927658,
+        "x": 47.3404274,
+        "y": 53.9783669,
         "z": 0.0
       },
-      "Distance": 54.0758362,
+      "Distance": 14.7222242,
       "Zoomed": false,
       "AbsolutePosition": {
-        "x": 0.369998217,
-        "y": 46.50935,
-        "z": 22.8504353
+        "x": -35.24449,
+        "y": 8.326619,
+        "z": 11.6526871
       }
     },
     null,
@@ -2114,7 +2114,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.03200015,
+            "y": 0.0320001729,
             "z": 0.0
           }
         },
@@ -2186,7 +2186,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0310001355,
+            "y": 0.0310001541,
             "z": 0.0
           }
         },
@@ -2258,7 +2258,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0310001355,
+            "y": 0.0310001541,
             "z": 0.0
           }
         },
@@ -2330,7 +2330,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0310001355,
+            "y": 0.0310001541,
             "z": 0.0
           }
         },
@@ -5112,7 +5112,7 @@
             "z": 0.656500041
           },
           "Rotation": {
-            "x": -4.652185E-07,
+            "x": -4.65218818E-07,
             "y": 0.00362771843,
             "z": -4.62160244E-07
           }
@@ -5760,7 +5760,7 @@
             "z": -0.7675
           },
           "Rotation": {
-            "x": 5.706961E-07,
+            "x": 5.70696443E-07,
             "y": 0.003627788,
             "z": 4.25169532E-07
           }
@@ -6349,9 +6349,9 @@
         "posX": 23.244,
         "posY": 0.944217145,
         "posZ": 29.468,
-        "rotX": -3.76226183E-07,
-        "rotY": -6.33239733E-06,
-        "rotZ": 5.468286E-07,
+        "rotX": -3.370253E-07,
+        "rotY": -6.3520165E-06,
+        "rotZ": 4.721982E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6427,11 +6427,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -22.458,
-        "posY": 0.944216847,
+        "posY": 0.9442168,
         "posZ": -29.658,
-        "rotX": -3.932846E-07,
-        "rotY": -1.35885011E-06,
-        "rotZ": 3.96760981E-07,
+        "rotX": -1.91186146E-07,
+        "rotY": -1.36319534E-06,
+        "rotZ": 4.156232E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6509,9 +6509,9 @@
         "posX": 23.044,
         "posY": 0.944216967,
         "posZ": -28.759,
-        "rotX": 5.839807E-08,
-        "rotY": 2.24966288E-06,
-        "rotZ": 2.20091664E-07,
+        "rotX": -6.5068285E-08,
+        "rotY": 2.267665E-06,
+        "rotZ": -2.7678422E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6587,11 +6587,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -23.431,
-        "posY": 0.9442171,
+        "posY": 0.944217145,
         "posZ": 29.359,
-        "rotX": -3.17312868E-07,
+        "rotX": -2.77186217E-07,
         "rotY": 1.99996567,
-        "rotZ": 6.728485E-07,
+        "rotZ": 5.45516343E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6666,12 +6666,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -34.93908,
-        "posY": 1.68890727,
-        "posZ": 18.961132,
-        "rotX": 0.123249508,
-        "rotY": 359.9862,
-        "rotZ": 359.937,
+        "posX": -34.94115,
+        "posY": 1.68893182,
+        "posZ": 18.96143,
+        "rotX": 0.06844785,
+        "rotY": 359.985931,
+        "rotZ": 0.142472431,
         "scaleX": 1.2,
         "scaleY": 1.2,
         "scaleZ": 1.2
@@ -6706,7 +6706,7 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend",
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "fc3802"
@@ -6714,12 +6714,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -34.9370842,
-        "posY": 1.15029371,
-        "posZ": 18.9396553,
-        "rotX": 0.008742201,
-        "rotY": 359.901947,
-        "rotZ": 359.985748,
+        "posX": -34.9360657,
+        "posY": 1.3293792,
+        "posZ": 18.9398251,
+        "rotX": 0.0296791028,
+        "rotY": 0.0237010363,
+        "rotZ": 0.0999242738,
         "scaleX": 1.2,
         "scaleY": 1.2,
         "scaleZ": 1.2
@@ -6754,7 +6754,7 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend",
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "0d8495"
@@ -6762,12 +6762,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -34.9355,
-        "posY": 1.50925446,
-        "posZ": 18.9574966,
-        "rotX": 0.0996167362,
-        "rotY": 359.921,
-        "rotZ": 359.959229,
+        "posX": -34.934803,
+        "posY": 1.15029061,
+        "posZ": 18.9570713,
+        "rotX": 0.0146649713,
+        "rotY": 0.0375536047,
+        "rotZ": 0.009580564,
         "scaleX": 1.2,
         "scaleY": 1.2,
         "scaleZ": 1.2
@@ -6802,68 +6802,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend",
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "e0fb49"
     },
     {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -33.2201538,
-        "posY": 1.45806491,
-        "posZ": 19.0997639,
-        "rotX": -0.000268233736,
-        "rotY": 0.004940731,
-        "rotZ": -0.000229026991,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "City marker",
-      "Description": "The purple City Marker is used to record the City’s current Prosperity Points. The City Marker’s position on the Prosperity Track determines how much gold is available in the City Treasury, as well as the timing of District\nFavor scoring.",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.627,
-        "g": 0.124998756,
-        "b": 0.941
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674754/1089EE8B0722A8FC875FAF8D3E9DA0135ADE4D28/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674818/3AA05855A918FC6BB3A5C7531014EB59845F1B97/",
-        "NormalURL": "",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 0,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "5ecd76"
-    },
-    {
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": 16.36,
-        "posY": 0.9430001,
+        "posY": 0.943000138,
         "posZ": -18.91,
-        "rotX": -1.14065858E-06,
+        "rotX": -1.26362625E-06,
         "rotY": 180.0,
-        "rotZ": 1.89966931E-06,
+        "rotZ": 1.8692416E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6951,11 +6903,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": 21.91,
-        "posY": 0.9430001,
+        "posY": 0.943000138,
         "posZ": -18.91,
-        "rotX": -1.16933143E-06,
+        "rotX": -8.4986695E-08,
         "rotY": 180.0,
-        "rotZ": 1.82263591E-06,
+        "rotZ": 1.75685477E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6966,7 +6918,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.686,
-        "b": 0.215999365
+        "b": 0.215999275
       },
       "Locked": false,
       "Grid": true,
@@ -7043,11 +6995,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": 10.81,
-        "posY": 0.943,
+        "posY": 0.942999959,
         "posZ": -18.91,
-        "rotX": -1.91991418E-07,
+        "rotX": -1.01295967E-07,
         "rotY": 180.0,
-        "rotZ": 5.6318342E-08,
+        "rotZ": -1.75826528E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7132,444 +7084,6 @@
       "GUID": "871136"
     },
     {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -31.7344589,
-        "posY": 1.5079993,
-        "posZ": 21.5119743,
-        "rotX": -1.43568411E-06,
-        "rotY": 180.000092,
-        "rotZ": -5.507402E-06,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "City marker 100",
-      "Description": "Each time the City Marker circles the Prosperity Track, a purple City Disk is placed beneath the City Marker, and this increases the amount of gold available in the Treasury.",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.627,
-        "g": 0.124998756,
-        "b": 0.941
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674754/1089EE8B0722A8FC875FAF8D3E9DA0135ADE4D28/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674818/3AA05855A918FC6BB3A5C7531014EB59845F1B97/",
-        "NormalURL": "",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 0,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "8c6de8",
-      "ChildObjects": [
-        {
-          "Name": "Custom_Model",
-          "Transform": {
-            "posX": 0.0,
-            "posY": -0.473,
-            "posZ": 0.0,
-            "rotX": 0.0,
-            "rotY": 180.0,
-            "rotZ": 0.0,
-            "scaleX": 1.2,
-            "scaleY": 1.0,
-            "scaleZ": 1.2
-          },
-          "Nickname": "City disk",
-          "Description": "",
-          "GMNotes": "",
-          "ColorDiffuse": {
-            "r": 0.627,
-            "g": 0.125,
-            "b": 0.941
-          },
-          "Locked": false,
-          "Grid": false,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomMesh": {
-            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-            "DiffuseURL": "",
-            "NormalURL": "",
-            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-            "Convex": true,
-            "MaterialIndex": 1,
-            "TypeIndex": 0,
-            "CastShadows": true
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "GUID": "fc7c3a"
-        }
-      ]
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -30.1799889,
-        "posY": 1.6643,
-        "posZ": 21.3573456,
-        "rotX": -7.844047E-06,
-        "rotY": 179.999878,
-        "rotZ": -2.81477674E-06,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "City marker 200",
-      "Description": "Each time the City Marker circles the Prosperity Track, a purple City Disk is placed beneath the City Marker, and this increases the amount of gold available in the Treasury.",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.627,
-        "g": 0.124998756,
-        "b": 0.941
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674754/1089EE8B0722A8FC875FAF8D3E9DA0135ADE4D28/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674818/3AA05855A918FC6BB3A5C7531014EB59845F1B97/",
-        "NormalURL": "",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 0,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "096f90",
-      "ChildObjects": [
-        {
-          "Name": "Custom_Model",
-          "Transform": {
-            "posX": 0.0,
-            "posY": -0.473,
-            "posZ": 0.0,
-            "rotX": 0.0,
-            "rotY": 180.0,
-            "rotZ": 0.0,
-            "scaleX": 1.2,
-            "scaleY": 1.0,
-            "scaleZ": 1.2
-          },
-          "Nickname": "City disk",
-          "Description": "",
-          "GMNotes": "",
-          "ColorDiffuse": {
-            "r": 0.627,
-            "g": 0.125,
-            "b": 0.941
-          },
-          "Locked": false,
-          "Grid": false,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomMesh": {
-            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-            "DiffuseURL": "",
-            "NormalURL": "",
-            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-            "Convex": true,
-            "MaterialIndex": 1,
-            "TypeIndex": 0,
-            "CastShadows": true
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "GUID": "fc7c3a"
-        },
-        {
-          "Name": "Custom_Model",
-          "Transform": {
-            "posX": -0.014,
-            "posY": -0.626,
-            "posZ": 0.008,
-            "rotX": 0.0,
-            "rotY": 180.0,
-            "rotZ": 0.0,
-            "scaleX": 1.253,
-            "scaleY": 1.044,
-            "scaleZ": 1.253
-          },
-          "Nickname": "City marker",
-          "Description": "",
-          "GMNotes": "",
-          "ColorDiffuse": {
-            "r": 0.627,
-            "g": 0.125,
-            "b": 0.941
-          },
-          "Locked": false,
-          "Grid": false,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomMesh": {
-            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-            "DiffuseURL": "",
-            "NormalURL": "",
-            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-            "Convex": true,
-            "MaterialIndex": 1,
-            "TypeIndex": 0,
-            "CastShadows": true
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "GUID": "103637"
-        }
-      ]
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -28.2248363,
-        "posY": 1.8276,
-        "posZ": 21.13082,
-        "rotX": -2.532477E-07,
-        "rotY": 180.015518,
-        "rotZ": -1.5975246E-06,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "City marker 300",
-      "Description": "Each time the City Marker circles the Prosperity Track, a purple City Disk is placed beneath the City Marker, and this increases the amount of gold available in the Treasury.",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.627,
-        "g": 0.124998756,
-        "b": 0.941
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674754/1089EE8B0722A8FC875FAF8D3E9DA0135ADE4D28/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1666857035933674818/3AA05855A918FC6BB3A5C7531014EB59845F1B97/",
-        "NormalURL": "",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 0,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "d23cdc",
-      "ChildObjects": [
-        {
-          "Name": "Custom_Model",
-          "Transform": {
-            "posX": 0.0,
-            "posY": -0.473,
-            "posZ": 0.0,
-            "rotX": 0.0,
-            "rotY": 180.0,
-            "rotZ": 0.0,
-            "scaleX": 1.2,
-            "scaleY": 1.0,
-            "scaleZ": 1.2
-          },
-          "Nickname": "City disk",
-          "Description": "",
-          "GMNotes": "",
-          "ColorDiffuse": {
-            "r": 0.627,
-            "g": 0.125,
-            "b": 0.941
-          },
-          "Locked": false,
-          "Grid": false,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomMesh": {
-            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-            "DiffuseURL": "",
-            "NormalURL": "",
-            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-            "Convex": true,
-            "MaterialIndex": 1,
-            "TypeIndex": 0,
-            "CastShadows": true
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "GUID": "fc7c3a"
-        },
-        {
-          "Name": "Custom_Model",
-          "Transform": {
-            "posX": -0.014,
-            "posY": -0.626,
-            "posZ": 0.008,
-            "rotX": 0.0,
-            "rotY": 0.0,
-            "rotZ": 0.0,
-            "scaleX": 1.253,
-            "scaleY": 1.044,
-            "scaleZ": 1.253
-          },
-          "Nickname": "City marker",
-          "Description": "",
-          "GMNotes": "",
-          "ColorDiffuse": {
-            "r": 0.627,
-            "g": 0.125,
-            "b": 0.941
-          },
-          "Locked": false,
-          "Grid": false,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomMesh": {
-            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-            "DiffuseURL": "",
-            "NormalURL": "",
-            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-            "Convex": true,
-            "MaterialIndex": 1,
-            "TypeIndex": 0,
-            "CastShadows": true
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "GUID": "103637"
-        },
-        {
-          "Name": "Custom_Model",
-          "Transform": {
-            "posX": 0.0,
-            "posY": -0.786,
-            "posZ": 0.0,
-            "rotX": 0.0,
-            "rotY": 0.0,
-            "rotZ": 0.0,
-            "scaleX": 1.306,
-            "scaleY": 1.088,
-            "scaleZ": 1.306
-          },
-          "Nickname": "City marker",
-          "Description": "",
-          "GMNotes": "",
-          "ColorDiffuse": {
-            "r": 0.627,
-            "g": 0.125,
-            "b": 0.941
-          },
-          "Locked": false,
-          "Grid": false,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": false,
-          "CustomMesh": {
-            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-            "DiffuseURL": "",
-            "NormalURL": "",
-            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-            "Convex": true,
-            "MaterialIndex": 1,
-            "TypeIndex": 0,
-            "CastShadows": true
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "GUID": "9465e2"
-        }
-      ]
-    },
-    {
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 34.383,
@@ -7648,9 +7162,9 @@
         "posX": 28.389,
         "posY": 1.06283379,
         "posZ": -29.848,
-        "rotX": 1.71380032E-06,
-        "rotY": -7.678386E-06,
-        "rotZ": -1.1005676E-06,
+        "rotX": 7.349622E-07,
+        "rotY": -1.96349811E-05,
+        "rotZ": -3.96871428E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7833,9 +7347,9 @@
         "posX": -40.252,
         "posY": 1.06283379,
         "posZ": -29.839,
-        "rotX": -3.276684E-07,
-        "rotY": 2.64765549E-05,
-        "rotZ": -2.3178618E-06,
+        "rotX": 1.83012332E-07,
+        "rotY": 5.72144636E-05,
+        "rotZ": -2.61468131E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7870,11 +7384,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": 40.509,
-        "posY": 1.06283355,
+        "posY": 1.06283379,
         "posZ": 29.68,
-        "rotX": 2.83482233E-08,
-        "rotY": 0.000101602025,
-        "rotZ": -3.10159919E-07,
+        "rotX": 3.15581957E-07,
+        "rotY": 0.000102466423,
+        "rotZ": -2.88815568E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -7884,7 +7398,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.0,
-        "g": 0.1719994,
+        "g": 0.1719993,
         "b": 1.0
       },
       "Locked": false,
@@ -7909,11 +7423,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -28.362,
-        "posY": 1.06283379,
+        "posY": 1.06283331,
         "posZ": 29.948,
-        "rotX": 1.51619861E-06,
-        "rotY": 1.452314E-05,
-        "rotZ": -1.88763977E-06,
+        "rotX": 1.41739926E-08,
+        "rotY": 1.1953678E-05,
+        "rotZ": -1.567475E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8022,8 +7536,8 @@
       "Transform": {
         "posX": 7.71105337,
         "posY": 1.05494547,
-        "posZ": -1.08474994,
-        "rotX": 0.0047745835,
+        "posZ": -1.0847497,
+        "rotX": 0.004774557,
         "rotY": 179.996826,
         "rotZ": 359.988373,
         "scaleX": 2.0,
@@ -8073,7 +7587,7 @@
         "posX": 19.2190132,
         "posY": 1.05728424,
         "posZ": -1.04847419,
-        "rotX": 0.00477525825,
+        "rotX": 0.00477525964,
         "rotY": 180.000381,
         "rotZ": 359.988373,
         "scaleX": 2.0,
@@ -8123,7 +7637,7 @@
         "posX": 13.4466763,
         "posY": 1.05611038,
         "posZ": -1.075783,
-        "rotX": 0.00477485359,
+        "rotX": 0.004774898,
         "rotY": 179.998337,
         "rotZ": 359.988373,
         "scaleX": 2.0,
@@ -8170,12 +7684,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24489069,
-        "posY": 1.13092518,
-        "posZ": 10.4693089,
-        "rotX": 359.980469,
-        "rotY": 0.3093813,
-        "rotZ": 0.0358082764,
+        "posX": 6.24492836,
+        "posY": 1.13096452,
+        "posZ": 10.4692984,
+        "rotX": 359.971039,
+        "rotY": 0.309311658,
+        "rotZ": 0.009379884,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8218,12 +7732,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.248564,
-        "posY": 1.13156629,
-        "posZ": 18.4968929,
-        "rotX": 359.983978,
+        "posX": 6.24857044,
+        "posY": 1.1315248,
+        "posZ": 18.49693,
+        "rotX": 0.0112087866,
         "rotY": 359.9814,
-        "rotZ": -0.005316081,
+        "rotZ": 359.990753,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8266,12 +7780,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.248395,
-        "posY": 1.130562,
-        "posZ": 5.09706354,
-        "rotX": 0.00242208922,
-        "rotY": 0.0108807562,
-        "rotZ": 359.9924,
+        "posX": 6.2483716,
+        "posY": 1.13053167,
+        "posZ": 5.09708834,
+        "rotX": 0.0186811,
+        "rotY": 0.0106265908,
+        "rotZ": 0.008449005,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8314,12 +7828,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.249357,
-        "posY": 1.13073409,
-        "posZ": 7.780839,
-        "rotX": 359.985535,
-        "rotY": 0.007126423,
-        "rotZ": 0.03402731,
+        "posX": 6.24939442,
+        "posY": 1.1307168,
+        "posZ": 7.78081465,
+        "rotX": 359.968323,
+        "rotY": 0.00699705258,
+        "rotZ": 0.0048112385,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8362,12 +7876,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24756861,
-        "posY": 1.1311655,
-        "posZ": 13.1403637,
-        "rotX": 359.986328,
-        "rotY": 0.0520332269,
-        "rotZ": 359.99295,
+        "posX": 6.247567,
+        "posY": 1.13113546,
+        "posZ": 13.1404,
+        "rotX": 0.0122874277,
+        "rotY": 0.05192423,
+        "rotZ": -0.00541074062,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8410,12 +7924,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.246942,
-        "posY": 1.13136566,
-        "posZ": 15.8239355,
-        "rotX": 0.014563581,
-        "rotY": 0.0311404373,
-        "rotZ": -0.000829676632,
+        "posX": 6.24690771,
+        "posY": 1.13136089,
+        "posZ": 15.8239374,
+        "rotX": 0.0165845044,
+        "rotY": 0.0308703035,
+        "rotZ": 0.0205344874,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8458,12 +7972,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24857855,
-        "posY": 1.27966213,
-        "posZ": 5.09688663,
-        "rotX": 0.0454793945,
-        "rotY": -0.00296939071,
-        "rotZ": 359.8796,
+        "posX": 6.248546,
+        "posY": 1.27964354,
+        "posZ": 5.097035,
+        "rotX": 0.07101463,
+        "rotY": -0.003543632,
+        "rotZ": 359.9097,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8506,12 +8020,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.249044,
-        "posY": 1.4296,
-        "posZ": 5.097786,
-        "rotX": 0.070846945,
-        "rotY": 0.0048379954,
-        "rotZ": 359.8641,
+        "posX": 6.248961,
+        "posY": 1.42956722,
+        "posZ": 5.09801435,
+        "rotX": 0.09171682,
+        "rotY": 0.004837912,
+        "rotZ": 359.8896,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8554,12 +8068,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24714231,
-        "posY": 1.27988613,
-        "posZ": 7.78301,
-        "rotX": 0.02235873,
-        "rotY": 0.0385871343,
-        "rotZ": 0.131061658,
+        "posX": 6.247265,
+        "posY": 1.27985847,
+        "posZ": 7.78295565,
+        "rotX": 0.01641319,
+        "rotY": 0.0386872627,
+        "rotZ": 0.0551395565,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8602,12 +8116,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.247725,
-        "posY": 1.28032517,
-        "posZ": 13.140542,
-        "rotX": 359.985779,
-        "rotY": 0.0111152,
-        "rotZ": 359.9043,
+        "posX": 6.24777365,
+        "posY": 1.28027725,
+        "posZ": 13.1406193,
+        "rotX": 359.981964,
+        "rotY": 0.0111871492,
+        "rotZ": 359.9231,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8650,12 +8164,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.2515707,
-        "posY": 1.28008056,
-        "posZ": 10.4441633,
-        "rotX": 0.0433714427,
-        "rotY": 0.678035557,
-        "rotZ": 0.0111956419,
+        "posX": 6.251791,
+        "posY": 1.28008473,
+        "posZ": 10.44407,
+        "rotX": -0.000498244655,
+        "rotY": 0.6778537,
+        "rotZ": 359.9289,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8698,12 +8212,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.246723,
-        "posY": 1.28050745,
-        "posZ": 15.8244057,
-        "rotX": 0.08960905,
-        "rotY": 0.03499838,
-        "rotZ": 0.0246354155,
+        "posX": 6.246605,
+        "posY": 1.2804817,
+        "posZ": 15.8245153,
+        "rotX": 0.105165236,
+        "rotY": 0.0341787823,
+        "rotZ": 0.0340358727,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8746,12 +8260,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24890041,
-        "posY": 1.28072178,
-        "posZ": 18.4967346,
-        "rotX": 359.9292,
-        "rotY": 359.980316,
-        "rotZ": 359.906616,
+        "posX": 6.248908,
+        "posY": 1.28067255,
+        "posZ": 18.4967785,
+        "rotX": 359.939758,
+        "rotY": 359.981,
+        "rotZ": 359.955841,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8794,12 +8308,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.245892,
-        "posY": 1.42973065,
-        "posZ": 7.783588,
-        "rotX": 0.0589036979,
-        "rotY": 0.00556400372,
-        "rotZ": 0.124486133,
+        "posX": 6.24620867,
+        "posY": 1.42972159,
+        "posZ": 7.783504,
+        "rotX": 0.043325644,
+        "rotY": 0.00430667261,
+        "rotZ": 0.02998577,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8842,12 +8356,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.251416,
-        "posY": 1.429968,
-        "posZ": 10.4443178,
-        "rotX": 0.0685727447,
-        "rotY": 0.6279449,
-        "rotZ": 359.98938,
+        "posX": 6.25186729,
+        "posY": 1.429993,
+        "posZ": 10.444108,
+        "rotX": 0.0138027426,
+        "rotY": 0.627687335,
+        "rotZ": 359.899628,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8890,12 +8404,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.248026,
-        "posY": 1.4301517,
-        "posZ": 13.1406441,
-        "rotX": 359.96106,
-        "rotY": -0.00148025469,
-        "rotZ": 359.939148,
+        "posX": 6.248034,
+        "posY": 1.430124,
+        "posZ": 13.1407547,
+        "rotX": 359.9806,
+        "rotY": -0.00223085843,
+        "rotZ": 359.964417,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8938,12 +8452,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24693,
-        "posY": 1.43037117,
-        "posZ": 15.8244829,
-        "rotX": 0.0496621244,
-        "rotY": 0.026196612,
-        "rotZ": 0.034123335,
+        "posX": 6.24676561,
+        "posY": 1.43035471,
+        "posZ": 15.8246384,
+        "rotX": 0.0666931048,
+        "rotY": 0.02590275,
+        "rotZ": 0.04859431,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -8986,12 +8500,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.249206,
-        "posY": 1.430558,
-        "posZ": 18.4964256,
-        "rotX": 359.8984,
-        "rotY": 0.00217907014,
-        "rotZ": 359.9304,
+        "posX": 6.24909639,
+        "posY": 1.43052256,
+        "posZ": 18.496521,
+        "rotX": 359.9277,
+        "rotY": 0.00105083291,
+        "rotZ": 359.992126,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9034,12 +8548,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24420547,
-        "posY": 1.57938123,
-        "posZ": 7.784081,
-        "rotX": 0.0693524852,
-        "rotY": 0.0332565866,
-        "rotZ": 0.162821382,
+        "posX": 6.244728,
+        "posY": 1.57936513,
+        "posZ": 7.78400755,
+        "rotX": 0.06627033,
+        "rotY": 0.0328497849,
+        "rotZ": 0.04721316,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9082,12 +8596,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.23954439,
-        "posY": 1.57959116,
-        "posZ": 10.4512711,
-        "rotX": 0.07897188,
-        "rotY": 0.3831848,
-        "rotZ": 359.964264,
+        "posX": 6.240294,
+        "posY": 1.5796535,
+        "posZ": 10.450985,
+        "rotX": 0.028569812,
+        "rotY": 0.382882148,
+        "rotZ": 359.86496,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9130,12 +8644,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24867725,
-        "posY": 1.57978332,
-        "posZ": 13.140789,
-        "rotX": 359.939636,
-        "rotY": 0.0246484578,
-        "rotZ": 359.910858,
+        "posX": 6.248695,
+        "posY": 1.57976377,
+        "posZ": 13.1409225,
+        "rotX": 359.962158,
+        "rotY": 0.0244047474,
+        "rotZ": 359.94165,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9178,12 +8692,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.247577,
-        "posY": 1.57999253,
-        "posZ": 15.8279285,
-        "rotX": 0.037873894,
-        "rotY": 359.982574,
-        "rotZ": 0.0454654321,
+        "posX": 6.24731874,
+        "posY": 1.57999909,
+        "posZ": 15.8282537,
+        "rotX": 0.0894681,
+        "rotY": 359.983215,
+        "rotZ": 0.07216829,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9226,12 +8740,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.25006342,
-        "posY": 1.58020282,
-        "posZ": 18.4969959,
-        "rotX": 359.870575,
-        "rotY": 0.0274631139,
-        "rotZ": 359.8997,
+        "posX": 6.249828,
+        "posY": 1.58016992,
+        "posZ": 18.49707,
+        "rotX": 359.896973,
+        "rotY": 0.0276468843,
+        "rotZ": 359.982941,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9274,12 +8788,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.249575,
-        "posY": 1.5792259,
-        "posZ": 5.09871244,
-        "rotX": 0.08866253,
-        "rotY": 0.01591401,
-        "rotZ": 359.818573,
+        "posX": 6.24952459,
+        "posY": 1.579198,
+        "posZ": 5.09912968,
+        "rotX": 0.112342685,
+        "rotY": 0.0147520062,
+        "rotZ": 359.848969,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -9322,12 +8836,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.36752,
-        "posY": 1.05939412,
-        "posZ": -12.7814617,
-        "rotX": 0.0121288262,
-        "rotY": 180.003143,
-        "rotZ": 359.954468,
+        "posX": 36.36751,
+        "posY": 1.05937839,
+        "posZ": -12.7814608,
+        "rotX": 0.0123855714,
+        "rotY": 180.003357,
+        "rotZ": 359.953156,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -9338,7 +8852,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -9372,12 +8886,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.5969048,
-        "posY": 1.05822921,
-        "posZ": -12.7628889,
-        "rotX": 0.012046691,
-        "rotY": 180.158981,
-        "rotZ": 359.954865,
+        "posX": 30.5968971,
+        "posY": 1.05823052,
+        "posZ": -12.762886,
+        "rotX": 0.0119875921,
+        "rotY": 180.159271,
+        "rotZ": 359.954926,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -9388,7 +8902,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -9422,12 +8936,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.87631,
-        "posY": 1.05674517,
-        "posZ": -12.7795315,
-        "rotX": 0.0163705479,
-        "rotY": 179.790833,
-        "rotZ": 359.926239,
+        "posX": 24.876276,
+        "posY": 1.05671787,
+        "posZ": -12.7795486,
+        "rotX": 0.01827172,
+        "rotY": 179.792038,
+        "rotZ": 359.924377,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -9438,7 +8952,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -9472,12 +8986,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1962337,
-        "posY": 1.055623,
-        "posZ": -12.808341,
-        "rotX": 0.0175682511,
-        "rotY": 180.073853,
-        "rotZ": 359.92984,
+        "posX": 19.1961975,
+        "posY": 1.05563354,
+        "posZ": -12.8083487,
+        "rotX": 0.0168382786,
+        "rotY": 180.075165,
+        "rotZ": 359.930084,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -9488,7 +9002,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -9522,12 +9036,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.4235868,
-        "posY": 3.221585,
-        "posZ": -12.7647123,
-        "rotX": 0.177838057,
-        "rotY": 179.970245,
-        "rotZ": 359.143219,
+        "posX": 13.4192009,
+        "posY": 3.221348,
+        "posZ": -12.7656355,
+        "rotX": 0.212927118,
+        "rotY": 179.966644,
+        "rotZ": 359.130371,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -9538,7 +9052,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -9572,12 +9086,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.69905567,
-        "posY": 1.05303323,
-        "posZ": -12.79274,
-        "rotX": 0.02216641,
-        "rotY": 180.052643,
-        "rotZ": 359.9082,
+        "posX": 7.698986,
+        "posY": 1.05305827,
+        "posZ": -12.7926779,
+        "rotX": 0.02087754,
+        "rotY": 180.056213,
+        "rotZ": 359.909729,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -9588,7 +9102,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -9637,7 +9151,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627451062,
-        "g": 0.125489622,
+        "g": 0.125489533,
         "b": 0.9411765
       },
       "Locked": true,
@@ -9662,9 +9176,9 @@
       "Transform": {
         "posX": 24.9179268,
         "posY": 1.05843782,
-        "posZ": -1.08537233,
-        "rotX": 0.004775335,
-        "rotY": 180.000214,
+        "posZ": -1.08537269,
+        "rotX": 0.004775211,
+        "rotY": 180.0002,
         "rotZ": 359.988373,
         "scaleX": 2.0,
         "scaleY": 1.0,
@@ -9712,8 +9226,8 @@
       "Transform": {
         "posX": 30.5893135,
         "posY": 1.05958807,
-        "posZ": -1.09475768,
-        "rotX": 0.0047746785,
+        "posZ": -1.09475839,
+        "rotX": 0.00477461424,
         "rotY": 179.997208,
         "rotZ": 359.988373,
         "scaleX": 2.0,
@@ -9762,9 +9276,9 @@
       "Transform": {
         "posX": 36.37086,
         "posY": 1.06076384,
-        "posZ": -1.067371,
-        "rotX": 0.004775266,
-        "rotY": 180.000427,
+        "posZ": -1.06737077,
+        "rotX": 0.004775323,
+        "rotY": 180.0004,
         "rotZ": 359.988373,
         "scaleX": 2.0,
         "scaleY": 1.0,
@@ -10060,12 +9574,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 9.333864,
-        "posY": 1.45953643,
-        "posZ": 21.9945984,
-        "rotX": -0.00113490713,
-        "rotY": 179.999954,
-        "rotZ": 0.00166252942,
+        "posX": 9.33385849,
+        "posY": 1.45951819,
+        "posZ": 21.9946251,
+        "rotX": -0.00189543655,
+        "rotY": 179.999878,
+        "rotZ": 0.000262344081,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10111,11 +9625,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 9.334485,
-        "posY": 1.05998456,
-        "posZ": 21.994976,
-        "rotX": -0.000247787859,
-        "rotY": 179.999954,
-        "rotZ": 0.000504918746,
+        "posY": 1.05998874,
+        "posZ": 21.9949722,
+        "rotX": -0.0009290215,
+        "rotY": 179.999924,
+        "rotZ": -8.907534E-05,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10160,12 +9674,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 9.41566,
-        "posY": 1.25951028,
-        "posZ": 22.0623531,
-        "rotX": -0.000557747961,
-        "rotY": 179.999985,
-        "rotZ": 0.001443249,
+        "posX": 9.415659,
+        "posY": 1.25951135,
+        "posZ": 22.062376,
+        "rotX": -0.00206625741,
+        "rotY": 179.999969,
+        "rotZ": 0.0002488065,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10210,12 +9724,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 9.37095,
-        "posY": 1.65935564,
-        "posZ": 22.0198021,
-        "rotX": -0.00180510723,
-        "rotY": 179.999908,
-        "rotZ": 0.00251001539,
+        "posX": 9.37094,
+        "posY": 1.65931976,
+        "posZ": 22.0198326,
+        "rotX": -0.00259603141,
+        "rotY": 179.999863,
+        "rotZ": 0.000553668244,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10260,12 +9774,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 14.8812857,
-        "posY": 1.25970435,
-        "posZ": 21.9968872,
-        "rotX": 0.0158466063,
-        "rotY": 180.000122,
-        "rotZ": 0.0130322166,
+        "posX": 14.8812866,
+        "posY": 1.25981176,
+        "posZ": 21.9968643,
+        "rotX": 0.0132163931,
+        "rotY": 180.000031,
+        "rotZ": 0.00775027974,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10311,11 +9825,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 14.881876,
-        "posY": 1.06000233,
-        "posZ": 21.9967842,
-        "rotX": 0.000651924231,
-        "rotY": 180.000015,
-        "rotZ": 0.00091354613,
+        "posY": 1.06002212,
+        "posZ": 21.9967861,
+        "rotX": 0.000407952321,
+        "rotY": 179.999969,
+        "rotZ": 0.0005330549,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10360,12 +9874,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 14.8905735,
-        "posY": 1.4596926,
-        "posZ": 21.9945469,
-        "rotX": 0.0158658735,
-        "rotY": 180.001556,
-        "rotZ": 0.0125095965,
+        "posX": 14.8905573,
+        "posY": 1.45980918,
+        "posZ": 21.9945316,
+        "rotX": 0.0131516587,
+        "rotY": 180.001434,
+        "rotZ": 0.007645895,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10410,12 +9924,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 15.4216375,
-        "posY": 1.65936434,
-        "posZ": 21.5442734,
-        "rotX": 0.0204418134,
-        "rotY": 180.001511,
-        "rotZ": 0.0145801194,
+        "posX": 15.4216194,
+        "posY": 1.65954268,
+        "posZ": 21.54424,
+        "rotX": 0.0156295113,
+        "rotY": 180.001389,
+        "rotZ": 0.008253741,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10460,12 +9974,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.697283,
-        "posY": 1.24548578,
-        "posZ": -12.7877111,
-        "rotX": 359.729218,
-        "rotY": 179.931427,
-        "rotZ": 359.771271,
+        "posX": 7.69690561,
+        "posY": 1.24811721,
+        "posZ": -12.7870817,
+        "rotX": 359.7624,
+        "rotY": 179.929428,
+        "rotZ": 359.8009,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10476,7 +9990,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -10510,12 +10024,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.68525,
-        "posY": 1.44328737,
-        "posZ": -12.7801981,
-        "rotX": 359.670715,
-        "rotY": 179.8012,
-        "rotZ": 359.571625,
+        "posX": 7.68483353,
+        "posY": 1.44073415,
+        "posZ": -12.7791395,
+        "rotX": 359.6204,
+        "rotY": 179.799179,
+        "rotZ": 359.522675,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10526,7 +10040,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -10560,12 +10074,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.684812,
-        "posY": 1.63658392,
-        "posZ": -12.7759123,
-        "rotX": 359.421783,
-        "rotY": 179.816223,
-        "rotZ": 359.581757,
+        "posX": 7.68364,
+        "posY": 1.63883936,
+        "posZ": -12.77444,
+        "rotX": 359.432434,
+        "rotY": 179.797836,
+        "rotZ": 359.585,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10576,7 +10090,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -10610,12 +10124,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.662548,
-        "posY": 1.83237481,
-        "posZ": -12.751791,
-        "rotX": 359.59848,
-        "rotY": 180.092712,
-        "rotZ": 359.624329,
+        "posX": 7.66117,
+        "posY": 1.83213842,
+        "posZ": -12.749814,
+        "rotX": 359.578766,
+        "rotY": 180.06926,
+        "rotZ": 359.5944,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10626,7 +10140,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -10660,12 +10174,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.65362024,
-        "posY": 2.03057718,
-        "posZ": -12.7459641,
-        "rotX": 359.7613,
-        "rotY": 179.97374,
-        "rotZ": 359.6724,
+        "posX": 7.651902,
+        "posY": 2.03031683,
+        "posZ": -12.7435627,
+        "rotX": 359.743134,
+        "rotY": 179.947891,
+        "rotZ": 359.6432,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10676,7 +10190,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -10710,12 +10224,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.627742,
-        "posY": 2.225624,
-        "posZ": -12.7234287,
-        "rotX": 359.890869,
-        "rotY": 180.041626,
-        "rotZ": 359.710449,
+        "posX": 7.62571955,
+        "posY": 2.22531557,
+        "posZ": -12.7206945,
+        "rotX": 359.871338,
+        "rotY": 180.014374,
+        "rotZ": 359.677673,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10726,7 +10240,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -10760,12 +10274,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.62692165,
-        "posY": 2.42441058,
-        "posZ": -12.7158689,
-        "rotX": 0.00584149826,
-        "rotY": 180.127716,
-        "rotZ": 359.7433,
+        "posX": 7.624606,
+        "posY": 2.42409062,
+        "posZ": -12.7128763,
+        "rotX": 359.987061,
+        "rotY": 180.100647,
+        "rotZ": 359.7107,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10776,7 +10290,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -10810,12 +10324,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.648463,
-        "posY": 2.62135839,
-        "posZ": -12.7107058,
-        "rotX": 0.0976758748,
-        "rotY": 179.3743,
-        "rotZ": 359.772034,
+        "posX": 7.645935,
+        "posY": 2.62104154,
+        "posZ": -12.7075424,
+        "rotX": 0.07770147,
+        "rotY": 179.347382,
+        "rotZ": 359.7388,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10826,7 +10340,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -10860,12 +10374,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.62290525,
-        "posY": 2.82054734,
-        "posZ": -12.7025814,
-        "rotX": 0.0772794858,
-        "rotY": 179.389938,
-        "rotZ": 359.702881,
+        "posX": 7.620142,
+        "posY": 2.82021332,
+        "posZ": -12.6992731,
+        "rotX": 0.0573468432,
+        "rotY": 179.362045,
+        "rotZ": 359.669739,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10876,7 +10390,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -10910,12 +10424,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.603578,
-        "posY": 3.01890039,
-        "posZ": -12.698102,
-        "rotX": 0.131776541,
-        "rotY": 179.614975,
-        "rotZ": 359.727234,
+        "posX": 7.60063028,
+        "posY": 3.01855326,
+        "posZ": -12.6947212,
+        "rotX": 0.112349838,
+        "rotY": 179.587784,
+        "rotZ": 359.69455,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10926,7 +10440,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -10960,12 +10474,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.713149,
-        "posY": 3.219019,
-        "posZ": -12.7817831,
-        "rotX": 0.153273448,
-        "rotY": 179.985123,
-        "rotZ": 359.734558,
+        "posX": 7.71009827,
+        "posY": 3.21876168,
+        "posZ": -12.7782688,
+        "rotX": 0.13405925,
+        "rotY": 179.958359,
+        "rotZ": 359.701721,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -10976,7 +10490,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11010,12 +10524,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.43075,
-        "posY": 1.05425382,
-        "posZ": -12.781045,
-        "rotX": 0.0202911142,
-        "rotY": 180.027679,
-        "rotZ": 359.912,
+        "posX": 13.430687,
+        "posY": 1.05426,
+        "posZ": -12.7810221,
+        "rotX": 0.0206947438,
+        "rotY": 180.030426,
+        "rotZ": 359.912231,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11026,7 +10540,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11060,12 +10574,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.4178,
-        "posY": 1.24681175,
-        "posZ": -12.7764769,
-        "rotX": 359.9442,
-        "rotY": 180.213318,
-        "rotZ": 359.574982,
+        "posX": 13.4172726,
+        "posY": 1.24947751,
+        "posZ": -12.7762175,
+        "rotX": 359.955,
+        "rotY": 180.2092,
+        "rotZ": 359.63443,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11076,7 +10590,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11110,12 +10624,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.41392,
-        "posY": 1.44487023,
-        "posZ": -12.7714844,
-        "rotX": 0.00641376,
-        "rotY": 180.006882,
-        "rotZ": 359.3823,
+        "posX": 13.4131355,
+        "posY": 1.442273,
+        "posZ": -12.7712736,
+        "rotX": 0.0304845981,
+        "rotY": 180.00528,
+        "rotZ": 359.3144,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11126,7 +10640,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11160,12 +10674,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3584738,
-        "posY": 1.63749886,
-        "posZ": -12.7683821,
-        "rotX": 359.951752,
-        "rotY": 179.862717,
-        "rotZ": 359.120453,
+        "posX": 13.3568916,
+        "posY": 1.63975215,
+        "posZ": -12.7680407,
+        "rotX": 359.9674,
+        "rotY": 179.853683,
+        "rotZ": 359.127655,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11176,7 +10690,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11210,12 +10724,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3528357,
-        "posY": 1.83365643,
-        "posZ": -12.7616148,
-        "rotX": 0.14234519,
-        "rotY": 179.9768,
-        "rotZ": 359.164856,
+        "posX": 13.3506908,
+        "posY": 1.83345628,
+        "posZ": -12.7610741,
+        "rotX": 0.173477411,
+        "rotY": 179.974426,
+        "rotZ": 359.1513,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11226,7 +10740,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11260,12 +10774,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3395672,
-        "posY": 2.03177214,
-        "posZ": -12.7737665,
-        "rotX": 359.9732,
-        "rotY": 179.52771,
-        "rotZ": 359.212067,
+        "posX": 13.336832,
+        "posY": 2.03152418,
+        "posZ": -12.77366,
+        "rotX": 0.00180699048,
+        "rotY": 179.520889,
+        "rotZ": 359.198578,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11276,7 +10790,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11310,12 +10824,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3362856,
-        "posY": 2.226971,
-        "posZ": -12.7932663,
-        "rotX": 0.109307215,
-        "rotY": 179.240768,
-        "rotZ": 359.253,
+        "posX": 13.3330669,
+        "posY": 2.22670865,
+        "posZ": -12.7931929,
+        "rotX": 0.142633289,
+        "rotY": 179.240814,
+        "rotZ": 359.239166,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11326,7 +10840,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11360,12 +10874,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3279238,
-        "posY": 2.42567444,
-        "posZ": -12.7817764,
-        "rotX": 0.07255289,
-        "rotY": 178.988144,
-        "rotZ": 359.136841,
+        "posX": 13.3243637,
+        "posY": 2.42541552,
+        "posZ": -12.7816916,
+        "rotX": 0.105403729,
+        "rotY": 178.981354,
+        "rotZ": 359.122833,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11376,7 +10890,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11410,12 +10924,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3168144,
-        "posY": 2.6223433,
-        "posZ": -12.791625,
-        "rotX": 0.161708862,
-        "rotY": 178.884338,
-        "rotZ": 359.124817,
+        "posX": 13.3128757,
+        "posY": 2.622077,
+        "posZ": -12.79191,
+        "rotX": 0.196667582,
+        "rotY": 178.880524,
+        "rotZ": 359.110779,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11426,7 +10940,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11460,12 +10974,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3231,
-        "posY": 2.82175612,
-        "posZ": -12.7902,
-        "rotX": 0.23035717,
-        "rotY": 178.8493,
-        "rotZ": 359.103668,
+        "posX": 13.31901,
+        "posY": 2.82149529,
+        "posZ": -12.7907257,
+        "rotX": 0.264974117,
+        "rotY": 178.846634,
+        "rotZ": 359.0896,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11476,7 +10990,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11510,12 +11024,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3102055,
-        "posY": 3.01997662,
-        "posZ": -12.79461,
-        "rotX": 0.179153547,
-        "rotY": 178.670471,
-        "rotZ": 359.132568,
+        "posX": 13.3058882,
+        "posY": 3.01969862,
+        "posZ": -12.7953854,
+        "rotX": 0.2141454,
+        "rotY": 178.667236,
+        "rotZ": 359.1189,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11526,7 +11040,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11560,12 +11074,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1939831,
-        "posY": 1.25216973,
-        "posZ": -12.8076849,
-        "rotX": 359.972046,
-        "rotY": 180.065063,
-        "rotZ": 359.7569,
+        "posX": 19.1936741,
+        "posY": 1.25042009,
+        "posZ": -12.8075771,
+        "rotX": 359.967,
+        "rotY": 180.061539,
+        "rotZ": 359.736816,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11576,7 +11090,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11610,12 +11124,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1927013,
-        "posY": 1.44710588,
-        "posZ": -12.8073854,
-        "rotX": 0.123773925,
-        "rotY": 180.059662,
-        "rotZ": 359.766327,
+        "posX": 19.192194,
+        "posY": 1.44890153,
+        "posZ": -12.80717,
+        "rotX": 0.113585554,
+        "rotY": 180.059433,
+        "rotZ": 359.7813,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11626,7 +11140,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11660,12 +11174,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1889439,
-        "posY": 1.645777,
-        "posZ": -12.7984724,
-        "rotX": 0.256854445,
-        "rotY": 180.426147,
-        "rotZ": 359.808258,
+        "posX": 19.18815,
+        "posY": 1.64434314,
+        "posZ": -12.7982063,
+        "rotX": 0.155518621,
+        "rotY": 180.428848,
+        "rotZ": 359.893127,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11676,7 +11190,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11710,12 +11224,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1774178,
-        "posY": 1.84184265,
-        "posZ": -12.8009481,
-        "rotX": 0.294270843,
-        "rotY": 179.963821,
-        "rotZ": 359.6787,
+        "posX": 19.17685,
+        "posY": 1.84314537,
+        "posZ": -12.8004646,
+        "rotX": 0.26571852,
+        "rotY": 179.966888,
+        "rotZ": 359.859131,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11726,7 +11240,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11760,12 +11274,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.17392,
-        "posY": 2.04086566,
-        "posZ": -12.7968616,
-        "rotX": 0.200665221,
-        "rotY": 179.779877,
-        "rotZ": 359.6516,
+        "posX": 19.1737461,
+        "posY": 2.03999376,
+        "posZ": -12.7963114,
+        "rotX": 0.175832227,
+        "rotY": 179.778275,
+        "rotZ": 359.827637,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11776,7 +11290,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11810,12 +11324,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1720448,
-        "posY": 2.2384398,
-        "posZ": -12.8014965,
-        "rotX": 0.270982474,
-        "rotY": 179.737991,
-        "rotZ": 359.6292,
+        "posX": 19.1723938,
+        "posY": 2.23924875,
+        "posZ": -12.8009758,
+        "rotX": 0.244796515,
+        "rotY": 179.736588,
+        "rotZ": 359.8075,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11826,7 +11340,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11860,12 +11374,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.17865,
-        "posY": 2.43798923,
-        "posZ": -12.8037109,
-        "rotX": 0.316629,
-        "rotY": 179.630447,
-        "rotZ": 359.64212,
+        "posX": 19.1795483,
+        "posY": 2.43765974,
+        "posZ": -12.8031006,
+        "rotX": 0.290428817,
+        "rotY": 179.630463,
+        "rotZ": 359.820618,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11876,7 +11390,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11910,12 +11424,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1790829,
-        "posY": 2.637167,
-        "posZ": -12.8082609,
-        "rotX": 0.3396445,
-        "rotY": 179.73024,
-        "rotZ": 359.649048,
+        "posX": 19.180563,
+        "posY": 2.63739753,
+        "posZ": -12.8075676,
+        "rotX": 0.314079285,
+        "rotY": 179.731049,
+        "rotZ": 359.827881,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11926,7 +11440,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -11960,12 +11474,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8731651,
-        "posY": 1.25332963,
-        "posZ": -12.783021,
-        "rotX": 0.189977229,
-        "rotY": 179.964539,
-        "rotZ": 359.86792,
+        "posX": 24.8729076,
+        "posY": 1.25158048,
+        "posZ": -12.7831573,
+        "rotX": 0.235014677,
+        "rotY": 179.969376,
+        "rotZ": 359.868347,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -11976,7 +11490,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12010,12 +11524,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8745174,
-        "posY": 1.44824409,
-        "posZ": -12.7927094,
-        "rotX": 0.279391617,
-        "rotY": 179.8339,
-        "rotZ": 359.7055,
+        "posX": 24.874218,
+        "posY": 1.45020282,
+        "posZ": -12.7931442,
+        "rotX": 0.36708793,
+        "rotY": 179.83783,
+        "rotZ": 359.825928,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12026,7 +11540,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12060,12 +11574,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8751488,
-        "posY": 1.64677763,
-        "posZ": -12.8133507,
-        "rotX": 0.3186556,
-        "rotY": 180.123138,
-        "rotZ": 359.577728,
+        "posX": 24.875042,
+        "posY": 1.64551222,
+        "posZ": -12.8144083,
+        "rotX": 0.451535016,
+        "rotY": 180.12825,
+        "rotZ": 359.691742,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12076,7 +11590,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12110,12 +11624,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8787727,
-        "posY": 1.842878,
-        "posZ": -12.8208752,
-        "rotX": 0.308414549,
-        "rotY": 180.443817,
-        "rotZ": 359.459717,
+        "posX": 24.8788776,
+        "posY": 1.84433532,
+        "posZ": -12.8223906,
+        "rotX": 0.41908583,
+        "rotY": 180.443634,
+        "rotZ": 359.581635,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12126,7 +11640,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12160,12 +11674,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8898315,
-        "posY": 2.04199743,
-        "posZ": -12.834981,
-        "rotX": 0.281673342,
-        "rotY": 180.534744,
-        "rotZ": 359.3689,
+        "posX": 24.8901024,
+        "posY": 2.042024,
+        "posZ": -12.83688,
+        "rotX": 0.40393424,
+        "rotY": 180.531082,
+        "rotZ": 359.489166,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12176,7 +11690,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12210,12 +11724,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8891258,
-        "posY": 2.23953342,
-        "posZ": -12.848444,
-        "rotX": 0.266789138,
-        "rotY": 180.528549,
-        "rotZ": 359.297241,
+        "posX": 24.8895988,
+        "posY": 2.23953557,
+        "posZ": -12.8507948,
+        "rotX": 0.389477521,
+        "rotY": 180.520813,
+        "rotZ": 359.41864,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12226,7 +11740,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12260,12 +11774,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8840046,
-        "posY": 2.43900275,
-        "posZ": -12.84699,
-        "rotX": 0.252513736,
-        "rotY": 180.477554,
-        "rotZ": 359.2502,
+        "posX": 24.8847771,
+        "posY": 2.439016,
+        "posZ": -12.8497391,
+        "rotX": 0.375382453,
+        "rotY": 180.467438,
+        "rotZ": 359.371552,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12276,7 +11790,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12310,12 +11824,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8800068,
-        "posY": 2.63813114,
-        "posZ": -12.854846,
-        "rotX": 0.232469514,
-        "rotY": 180.590546,
-        "rotZ": 359.245422,
+        "posX": 24.8810978,
+        "posY": 2.63812971,
+        "posZ": -12.858036,
+        "rotX": 0.370656163,
+        "rotY": 180.578873,
+        "rotZ": 359.350555,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12326,7 +11840,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12360,12 +11874,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.5955086,
-        "posY": 1.2553376,
-        "posZ": -12.7619085,
-        "rotX": 0.113964938,
-        "rotY": 180.155563,
-        "rotZ": 359.954041,
+        "posX": 30.5954762,
+        "posY": 1.255344,
+        "posZ": -12.7619123,
+        "rotX": 0.113372527,
+        "rotY": 180.155716,
+        "rotZ": 359.953522,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12376,7 +11890,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12410,12 +11924,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.5908871,
-        "posY": 1.45461988,
-        "posZ": -12.7567377,
-        "rotX": 0.09018645,
-        "rotY": 179.935043,
-        "rotZ": 359.881348,
+        "posX": 30.59083,
+        "posY": 1.45462966,
+        "posZ": -12.7567453,
+        "rotX": 0.08972875,
+        "rotY": 179.934128,
+        "rotZ": 359.8812,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12426,7 +11940,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12460,12 +11974,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.57417,
-        "posY": 1.652474,
-        "posZ": -12.7556849,
-        "rotX": 0.120784305,
-        "rotY": 179.795685,
-        "rotZ": 359.80304,
+        "posX": 30.5740452,
+        "posY": 1.65250325,
+        "posZ": -12.7557993,
+        "rotX": 0.118791021,
+        "rotY": 179.793655,
+        "rotZ": 359.803955,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12476,7 +11990,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12510,12 +12024,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.57431,
-        "posY": 1.85204744,
-        "posZ": -12.755311,
-        "rotX": 0.163572848,
-        "rotY": 179.882584,
-        "rotZ": 359.816742,
+        "posX": 30.57415,
+        "posY": 1.852016,
+        "posZ": -12.755434,
+        "rotX": 0.131289437,
+        "rotY": 179.8824,
+        "rotZ": 359.849457,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12526,7 +12040,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12560,12 +12074,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.5678139,
-        "posY": 2.051239,
-        "posZ": -12.7570562,
-        "rotX": 0.144126832,
-        "rotY": 179.818436,
-        "rotZ": 359.818878,
+        "posX": 30.5677338,
+        "posY": 2.051228,
+        "posZ": -12.7571383,
+        "rotX": 0.111472428,
+        "rotY": 179.818222,
+        "rotZ": 359.852142,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12576,7 +12090,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12610,12 +12124,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.36033,
-        "posY": 1.2565397,
-        "posZ": -12.7807512,
-        "rotX": 0.121295907,
-        "rotY": 180.025726,
-        "rotZ": 359.9587,
+        "posX": 36.3603,
+        "posY": 1.25650978,
+        "posZ": -12.780776,
+        "rotX": 0.129577622,
+        "rotY": 180.025925,
+        "rotZ": 359.9657,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12626,7 +12140,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12660,12 +12174,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.359314,
-        "posY": 1.45575893,
-        "posZ": -12.7817163,
-        "rotX": 0.142229155,
-        "rotY": 179.981354,
-        "rotZ": 359.885071,
+        "posX": 36.3593178,
+        "posY": 1.45577288,
+        "posZ": -12.7817993,
+        "rotX": 0.20117788,
+        "rotY": 179.980469,
+        "rotZ": 359.943481,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12676,7 +12190,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12710,12 +12224,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.3511047,
-        "posY": 1.65363586,
-        "posZ": -12.7857494,
-        "rotX": 0.2196777,
-        "rotY": 179.9233,
-        "rotZ": 359.85437,
+        "posX": 36.3513,
+        "posY": 1.65365732,
+        "posZ": -12.7861738,
+        "rotX": 0.284130126,
+        "rotY": 179.921036,
+        "rotZ": 359.917572,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12726,7 +12240,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12760,12 +12274,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.349247,
-        "posY": 1.85315883,
-        "posZ": -12.7866192,
-        "rotX": 0.20619826,
-        "rotY": 179.8842,
-        "rotZ": 359.8995,
+        "posX": 36.3496666,
+        "posY": 1.85315025,
+        "posZ": -12.7873278,
+        "rotX": 0.23723352,
+        "rotY": 179.882767,
+        "rotZ": 359.930359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12776,7 +12290,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12810,12 +12324,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.3440552,
-        "posY": 2.0523963,
-        "posZ": -12.78659,
-        "rotX": 0.233299971,
-        "rotY": 179.883179,
-        "rotZ": 359.9037,
+        "posX": 36.34455,
+        "posY": 2.05239463,
+        "posZ": -12.78746,
+        "rotX": 0.2652448,
+        "rotY": 179.882385,
+        "rotZ": 359.9354,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -12826,7 +12340,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113725044
+        "b": 0.113724954
       },
       "Locked": false,
       "Grid": false,
@@ -12860,10 +12374,10 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 7.70174646,
-        "posY": 1.05444729,
+        "posX": 7.701748,
+        "posY": 1.05444741,
         "posZ": -7.04070044,
-        "rotX": 0.004778477,
+        "rotX": 0.00477842335,
         "rotY": 180.013428,
         "rotZ": 359.988373,
         "scaleX": 1.997,
@@ -12916,7 +12430,7 @@
         "posX": 13.4464636,
         "posY": 1.05561328,
         "posZ": -7.04083,
-        "rotX": 0.00477581238,
+        "rotX": 0.0047758054,
         "rotY": 180.002487,
         "rotZ": 359.988373,
         "scaleX": 2.0,
@@ -12969,8 +12483,8 @@
         "posX": 19.2004433,
         "posY": 1.056781,
         "posZ": -7.041037,
-        "rotX": 0.00477514276,
-        "rotY": 179.999084,
+        "rotX": 0.0047754827,
+        "rotY": 179.99913,
         "rotZ": 359.988373,
         "scaleX": 2.0,
         "scaleY": 1.0,
@@ -13022,8 +12536,8 @@
         "posX": 24.8718281,
         "posY": 1.05793214,
         "posZ": -7.041241,
-        "rotX": 0.00477607,
-        "rotY": 180.0021,
+        "rotX": 0.004776529,
+        "rotY": 180.002167,
         "rotZ": 359.988373,
         "scaleX": 2.0,
         "scaleY": 1.0,
@@ -13075,7 +12589,7 @@
         "posX": 30.5982857,
         "posY": 1.05909431,
         "posZ": -7.04149246,
-        "rotX": 0.004775144,
+        "rotX": 0.004775045,
         "rotY": 179.999344,
         "rotZ": 359.988373,
         "scaleX": 2.0,
@@ -13128,7 +12642,7 @@
         "posX": 36.37061,
         "posY": 1.0602659,
         "posZ": -7.041655,
-        "rotX": 0.00477844151,
+        "rotX": 0.00477840472,
         "rotY": 180.016434,
         "rotZ": 359.988373,
         "scaleX": 2.0,
@@ -13178,12 +12692,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -34.93646,
-        "posY": 1.32941842,
-        "posZ": 18.9571228,
-        "rotX": 0.0815210938,
-        "rotY": 359.88443,
-        "rotZ": 359.9325,
+        "posX": -34.93696,
+        "posY": 1.50930691,
+        "posZ": 18.9569435,
+        "rotX": 0.0517125279,
+        "rotY": 0.0475334637,
+        "rotZ": 0.108812846,
         "scaleX": 1.2,
         "scaleY": 1.2,
         "scaleZ": 1.2
@@ -13218,7 +12732,7 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend",
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "eb4ccb"
@@ -13256,10 +12770,96 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"+100\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 500,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\n    if alt_click then\n        -- ignore right-clicks for now\n        -- in the future, right-click will increment the city marker\n        return\n    end\n\n    if color == \"Green\" then\n        disc = getObjectFromGUID('fc3802')\n    elseif color == \"Yellow\" then\n        disc = getObjectFromGUID('e0fb49')\n    elseif color == \"Red\" then\n        disc = getObjectFromGUID('0d8495')\n    elseif color == \"Blue\" then\n        disc = getObjectFromGUID('eb4ccb')\n    else\n        return\n    end\n\n    buttons = disc.getButtons()\n    if buttons == nil then\n        return\n    end\n    button = buttons[1]\n\n    score = tonumber(button.label)\n    if score == nil then\n        label = \"100\"\n    elseif score == 100 then\n        label = \"200\"\n    else \n        label = \"\"\n    end\n    \n    disc.editButton({index = 0, label=label})\nend",
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"+100\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 500,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Left-click to increment your score marker, right-click to increment the city score marker.\"\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\n    local marker\n\n    if alt_click then\n        -- ignore right-clicks for now\n        -- in the future, right-click will increment the city marker\n        marker = getObjectFromGUID('6bff57')\n    elseif color == \"Green\" then\n        marker = getObjectFromGUID('fc3802')\n    elseif color == \"Yellow\" then\n        marker = getObjectFromGUID('e0fb49')\n    elseif color == \"Red\" then\n        marker = getObjectFromGUID('0d8495')\n    elseif color == \"Blue\" then\n        mark = getObjectFromGUID('eb4ccb')\n    else\n        return\n    end\n\n    marker.call(\"increment\")\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "50c5ee"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -33.2199974,
+        "posY": 1.060331,
+        "posZ": 19.1000023,
+        "rotX": -0.00026881852,
+        "rotY": 1.76712438E-05,
+        "rotZ": -0.000229296435,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "City marker",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.5019608,
+        "g": 0.0,
+        "b": 0.5019608
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "file:////home/ttabi/Documents/3d/city_marker.obj",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "function onLoad()\n    local left = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0.38, 0.94, 0},\n        rotation       = {0, 270, 37},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    local right = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {-0.38, 0.94, 0},\n        rotation       = {0, 90, -37},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(left)\n    self.createButton(right)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"300\",\n    [\"300\"] = \"\",\n}\n\nfunction increment()\n    -- Assume that both sides have the same value\n    local button = self.getButtons()[1]\n    local label = table[button.label]\n\n    self.editButton({index = 0, label=label})\n    self.editButton({index = 1, label=label})\nend",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "6bff57"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -22.49,
+        "posY": 1.08621716,
+        "posZ": 30.93,
+        "rotX": 2.20835773E-06,
+        "rotY": 0.00717462925,
+        "rotZ": -4.367185E-07,
+        "scaleX": 0.5,
+        "scaleY": 0.25,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Green cube",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0439999551,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "bf0b2b"
     }
   ],
   "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",

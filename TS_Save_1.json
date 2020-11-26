@@ -1,7 +1,7 @@
 {
   "SaveName": "Canterbury",
   "GameMode": "Canterbury",
-  "Date": "11/24/2020 5:14:26 PM",
+  "Date": "11/26/2020 11:49:30 AM",
   "Gravity": 0.5,
   "PlayArea": 0.622,
   "GameType": "Game",
@@ -18,7 +18,7 @@
     "Board Games"
   ],
   "Table": "Table_Custom",
-  "TableURL": "file:////home/ttabi/Pictures/Canterbury/dark_grey_background.jpg",
+  "TableURL": "http://cloud-3.steamusercontent.com/ugc/1651095327071030324/45EDC7C4806730883A3AEB990675850A19200473/",
   "Sky": "Sky_Tunnel",
   "Note": "",
   "Rules": "",
@@ -85,9 +85,9 @@
           "rotX": 0.0,
           "rotY": 179.8,
           "rotZ": 0.0,
-          "scaleX": 15.3279543,
+          "scaleX": 15.3531609,
           "scaleY": 11.8970528,
-          "scaleZ": 6.35068035
+          "scaleZ": 6.36277
         }
       },
       {
@@ -313,12 +313,12 @@
     {
       "Name": "Infinite_Bag",
       "Transform": {
-        "posX": 23.244,
-        "posY": 0.944217145,
-        "posZ": 29.468,
-        "rotX": 1.23575523E-08,
-        "rotY": -6.3510106E-06,
-        "rotZ": 2.1353971E-08,
+        "posX": 23.2421055,
+        "posY": 0.9442172,
+        "posZ": 29.4587021,
+        "rotX": -4.13237053E-08,
+        "rotY": 359.8496,
+        "rotZ": 2.55396174E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -394,11 +394,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -22.458,
-        "posY": 0.944216967,
+        "posY": 0.944217,
         "posZ": -29.658,
-        "rotX": -1.42654244E-08,
-        "rotY": -1.35551534E-06,
-        "rotZ": -3.15566129E-09,
+        "rotX": 5.63056268E-08,
+        "rotY": -1.392922E-06,
+        "rotZ": 1.57879583E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -474,11 +474,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": 23.044,
-        "posY": 0.944217,
+        "posY": 0.944216847,
         "posZ": -28.759,
-        "rotX": 2.59857327E-08,
-        "rotY": 2.26423367E-06,
-        "rotZ": 1.14741345E-08,
+        "rotX": -1.34151037E-07,
+        "rotY": 2.32702337E-06,
+        "rotZ": -3.06268163E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -554,11 +554,11 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -23.431,
-        "posY": 0.944217145,
+        "posY": 0.944217265,
         "posZ": 29.359,
-        "rotX": 2.00367278E-08,
-        "rotY": 1.99996567,
-        "rotZ": -2.35389734E-08,
+        "rotX": -6.910389E-08,
+        "rotY": 1.999973,
+        "rotZ": -7.460611E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -592,12 +592,12 @@
         {
           "Name": "BlockSquare",
           "Transform": {
-            "posX": -23.2569313,
-            "posY": 3.09887934,
-            "posZ": 28.7905178,
-            "rotX": 357.728241,
-            "rotY": 357.5872,
-            "rotZ": 358.103363,
+            "posX": -22.836216,
+            "posY": 3.02658463,
+            "posZ": 28.7979832,
+            "rotX": 357.954559,
+            "rotY": 358.109955,
+            "rotZ": 358.005249,
             "scaleX": 0.5,
             "scaleY": 0.25,
             "scaleZ": 0.5
@@ -606,18 +606,18 @@
           "Description": "",
           "GMNotes": "",
           "ColorDiffuse": {
-            "r": 0.04399997,
+            "r": 0.0439999551,
             "g": 1.0,
             "b": 0.0
           },
           "Locked": false,
-          "Grid": true,
+          "Grid": false,
           "Snap": true,
           "IgnoreFoW": false,
           "MeasureMovement": false,
           "DragSelectable": true,
           "Autoraise": true,
-          "Sticky": true,
+          "Sticky": false,
           "Tooltip": true,
           "GridProjection": false,
           "HideWhenFaceDown": false,
@@ -633,12 +633,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -34.9432373,
-        "posY": 1.68887627,
-        "posZ": 18.960083,
-        "rotX": 0.02799159,
-        "rotY": 359.975525,
-        "rotZ": 0.060297057,
+        "posX": -41.69801,
+        "posY": 1.68899357,
+        "posZ": 22.1820927,
+        "rotX": 359.9304,
+        "rotY": 359.963562,
+        "rotZ": 359.8824,
         "scaleX": 1.2,
         "scaleY": 1.2,
         "scaleZ": 1.2
@@ -681,12 +681,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -34.94247,
-        "posY": 1.329399,
-        "posZ": 18.95999,
-        "rotX": 0.0212974139,
-        "rotY": 0.0280197915,
-        "rotZ": 0.07007406,
+        "posX": -41.6979866,
+        "posY": 1.329438,
+        "posZ": 22.18258,
+        "rotX": 359.9297,
+        "rotY": 359.9793,
+        "rotZ": 359.928558,
         "scaleX": 1.2,
         "scaleY": 1.2,
         "scaleZ": 1.2
@@ -729,12 +729,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -34.9402771,
-        "posY": 1.15027678,
-        "posZ": 18.9597378,
-        "rotX": 0.0179333463,
-        "rotY": 0.00639908947,
-        "rotZ": 0.00581246568,
+        "posX": -41.69538,
+        "posY": 1.15030849,
+        "posZ": 22.181488,
+        "rotX": 359.992126,
+        "rotY": 0.02365076,
+        "rotZ": 359.9821,
         "scaleX": 1.2,
         "scaleY": 1.2,
         "scaleZ": 1.2
@@ -777,12 +777,12 @@
     {
       "Name": "Infinite_Bag",
       "Transform": {
-        "posX": 16.36,
-        "posY": 0.943,
-        "posZ": -18.91,
-        "rotX": -2.57431321E-08,
-        "rotY": 180.0,
-        "rotZ": 5.44183232E-09,
+        "posX": 9.697951,
+        "posY": 0.942999959,
+        "posZ": 4.286142,
+        "rotX": -4.166446E-06,
+        "rotY": 179.999847,
+        "rotZ": -1.93086237E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -795,14 +795,14 @@
         "g": 0.753,
         "b": 0.753
       },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
       "IgnoreFoW": false,
       "MeasureMovement": false,
       "DragSelectable": true,
       "Autoraise": true,
-      "Sticky": true,
+      "Sticky": false,
       "Tooltip": true,
       "GridProjection": false,
       "HideWhenFaceDown": false,
@@ -847,7 +847,7 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "file:////home/ttabi/Pictures/Canterbury/five_gold.png",
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636321525/5A051D6CDE7E1DA1A4E02ACAC6FADB2F9025A2AC/",
             "ImageSecondaryURL": "",
             "ImageScalar": 1.0,
             "WidthScale": 0.0,
@@ -869,12 +869,12 @@
     {
       "Name": "Infinite_Bag",
       "Transform": {
-        "posX": 21.91,
-        "posY": 0.942999959,
-        "posZ": -18.91,
-        "rotX": -1.38004639E-08,
-        "rotY": 180.0,
-        "rotZ": -3.16811573E-08,
+        "posX": 15.2479534,
+        "posY": 0.9429997,
+        "posZ": 4.286003,
+        "rotX": -3.94809376E-07,
+        "rotY": 179.999847,
+        "rotZ": 2.653231E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -885,16 +885,16 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.686,
-        "b": 0.215999246
+        "b": 0.215998918
       },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
       "IgnoreFoW": false,
       "MeasureMovement": false,
       "DragSelectable": true,
       "Autoraise": true,
-      "Sticky": true,
+      "Sticky": false,
       "Tooltip": true,
       "GridProjection": false,
       "HideWhenFaceDown": false,
@@ -939,7 +939,7 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "file:////home/ttabi/Pictures/Canterbury/ten_gold.png",
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636321605/05FB1C465124122171308A1F2A3B5B6C096DC7C0/",
             "ImageSecondaryURL": "",
             "ImageScalar": 1.0,
             "WidthScale": 0.0,
@@ -961,12 +961,12 @@
     {
       "Name": "Infinite_Bag",
       "Transform": {
-        "posX": 10.81,
-        "posY": 0.942999959,
-        "posZ": -18.91,
-        "rotX": -1.43125849E-08,
-        "rotY": 180.0,
-        "rotZ": 2.96900833E-08,
+        "posX": 4.147849,
+        "posY": 0.9429997,
+        "posZ": 4.294932,
+        "rotX": -3.021172E-06,
+        "rotY": 179.999832,
+        "rotZ": 2.89079526E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -979,14 +979,14 @@
         "g": 0.729,
         "b": 0.58
       },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
       "IgnoreFoW": false,
       "MeasureMovement": false,
       "DragSelectable": true,
       "Autoraise": true,
-      "Sticky": true,
+      "Sticky": false,
       "Tooltip": true,
       "GridProjection": false,
       "HideWhenFaceDown": false,
@@ -1031,7 +1031,7 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "file:////home/ttabi/Pictures/Canterbury/one_gold.png",
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636321667/D14A6EE1FE3273A9E150B5A65B328708780028E2/",
             "ImageSecondaryURL": "",
             "ImageScalar": 1.0,
             "WidthScale": 0.0,
@@ -1084,8 +1084,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/player_yellow_english.png",
-        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/player_yellow_german.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636321726/6AB1DAE03E833BCEDF0ED9C1FBABD0896955A439/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636321830/2CCDBFDF2BD0FB4734EF2A44D27FBD0BB2FAC9B2/",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -1129,9 +1129,9 @@
         "posX": 28.389,
         "posY": 1.06283438,
         "posZ": -29.848,
-        "rotX": 7.46634953E-07,
-        "rotY": -1.79293111E-05,
-        "rotZ": 7.3371055E-08,
+        "rotX": 2.60259162E-06,
+        "rotY": -1.706815E-05,
+        "rotZ": -1.40405768E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1196,8 +1196,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/player_green_english.png",
-        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/player_green_german.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636321975/558220AA968D250700CFFC50D3242DBA782987CD/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322097/F6C596E192B5912F539F3B6367E9A1ECD2CEBED7/",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -1269,8 +1269,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/player_red_english.png",
-        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/player_red_german.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322213/E64F68D15CF2261E10E71EB3FC08106F8774D8CD/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322337/181488D226FE1D8ED67AC48294535A6B4AB7E138/",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -1312,11 +1312,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -40.252,
-        "posY": 1.06283331,
+        "posY": 1.06283379,
         "posZ": -29.839,
-        "rotX": 1.95934589E-07,
-        "rotY": 6.745095E-05,
-        "rotZ": -3.801959E-07,
+        "rotX": -4.673215E-07,
+        "rotY": 0.000102466933,
+        "rotZ": -3.15162538E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1351,11 +1351,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": 40.509,
-        "posY": 1.06283331,
+        "posY": 1.06283379,
         "posZ": 29.68,
-        "rotX": -8.7962E-07,
-        "rotY": 0.0001016017,
-        "rotZ": -3.90202018E-07,
+        "rotX": -6.64926858E-07,
+        "rotY": 0.000102450751,
+        "rotZ": 8.137523E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1365,7 +1365,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.0,
-        "g": 0.171999276,
+        "g": 0.171998978,
         "b": 1.0
       },
       "Locked": false,
@@ -1390,11 +1390,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -28.362,
-        "posY": 1.06283379,
+        "posY": 1.06283438,
         "posZ": 29.948,
-        "rotX": -3.643543E-07,
-        "rotY": 1.02553267E-05,
-        "rotZ": -2.50795983E-06,
+        "rotX": -1.06846767E-06,
+        "rotY": -1.7073804E-05,
+        "rotZ": -6.736805E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1459,8 +1459,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/player_blue_english.png",
-        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/player_blue_german.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322474/F8F7F122E4231EA695B224DFDE12D9501192DF62/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322593/1D608FDCB353E09958504F4780C47A4BDBE1C846/",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -1501,12 +1501,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.71105242,
-        "posY": 1.05494547,
-        "posZ": -1.0847429,
-        "rotX": 0.004774649,
-        "rotY": 179.9969,
-        "rotZ": 359.988373,
+        "posX": 1.058375,
+        "posY": 1.05110574,
+        "posZ": -0.683488,
+        "rotX": 0.0425973833,
+        "rotY": 179.981735,
+        "rotZ": 359.974243,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -1532,7 +1532,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/water_works.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322705/07B8137E8AA19D707DA5A4D9B455D1D60FA4CBF1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -1551,12 +1551,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.21901,
-        "posY": 1.05728424,
-        "posZ": -1.0484674,
-        "rotX": 0.0047752,
-        "rotY": 180.000473,
-        "rotZ": 359.988373,
+        "posX": 12.571846,
+        "posY": 1.05694282,
+        "posZ": -0.6375706,
+        "rotX": 0.04363706,
+        "rotY": 180.024445,
+        "rotZ": 359.973419,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -1582,7 +1582,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/cathedral.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322795/8AADD3F07FF7BA8A10BB45178C6716AAF9B80BFB/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -1601,12 +1601,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.4466753,
-        "posY": 1.05611038,
-        "posZ": -1.07577538,
-        "rotX": 0.00477483356,
-        "rotY": 179.998413,
-        "rotZ": 359.988373,
+        "posX": 6.79801,
+        "posY": 1.05463111,
+        "posZ": -0.6715298,
+        "rotX": 0.03527458,
+        "rotY": 180.025452,
+        "rotZ": 359.9756,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -1632,7 +1632,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/granary.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322905/7F6334640EAAEE1DE814A93FA060997F91EAFA4F/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -1651,12 +1651,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24407864,
-        "posY": 1.13094568,
-        "posZ": 10.4713478,
-        "rotX": 359.983521,
-        "rotY": 359.9278,
-        "rotZ": 0.0323809348,
+        "posX": -0.902378261,
+        "posY": 1.13526857,
+        "posZ": 13.9186583,
+        "rotX": 359.9784,
+        "rotY": 359.983154,
+        "rotZ": -0.005034617,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1699,12 +1699,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.249794,
-        "posY": 1.13152921,
-        "posZ": 18.4980965,
-        "rotX": 0.0178429037,
-        "rotY": 359.963348,
-        "rotZ": 0.0279017258,
+        "posX": -0.900621951,
+        "posY": 1.13520455,
+        "posZ": 21.953968,
+        "rotX": 0.0129361767,
+        "rotY": 359.984222,
+        "rotZ": 359.9721,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1747,12 +1747,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.247926,
-        "posY": 1.1305666,
-        "posZ": 5.096695,
-        "rotX": -0.004633624,
-        "rotY": 359.973969,
-        "rotZ": 0.0339682661,
+        "posX": -0.9017908,
+        "posY": 1.13523126,
+        "posZ": 8.553925,
+        "rotX": 359.988281,
+        "rotY": 0.00652456749,
+        "rotZ": 359.9747,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1795,12 +1795,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24688148,
-        "posY": 1.13071418,
-        "posZ": 7.781758,
-        "rotX": 0.0194722861,
-        "rotY": 0.00289579737,
-        "rotZ": 0.0289523248,
+        "posX": -0.9009727,
+        "posY": 1.13525975,
+        "posZ": 11.2363071,
+        "rotX": 0.000792481762,
+        "rotY": 359.988953,
+        "rotZ": 359.971863,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1843,12 +1843,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.249372,
-        "posY": 1.13112366,
-        "posZ": 13.1395864,
-        "rotX": 0.0145677747,
-        "rotY": 359.991058,
-        "rotZ": 359.992462,
+        "posX": -0.9012969,
+        "posY": 1.13525653,
+        "posZ": 16.5941029,
+        "rotX": 359.992035,
+        "rotY": -0.004979093,
+        "rotZ": 359.973755,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1891,12 +1891,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24929047,
-        "posY": 1.13135517,
-        "posZ": 15.8224993,
-        "rotX": 359.982544,
-        "rotY": 0.0142543782,
-        "rotZ": 0.0295173768,
+        "posX": -0.9005381,
+        "posY": 1.13527012,
+        "posZ": 19.27658,
+        "rotX": 0.0189266261,
+        "rotY": 0.003891344,
+        "rotZ": 359.9887,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1939,12 +1939,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.2294364,
-        "posY": 1.27964282,
-        "posZ": 5.106221,
-        "rotX": 359.971283,
-        "rotY": 0.00124130468,
-        "rotZ": 0.146816418,
+        "posX": -0.901836455,
+        "posY": 1.28436315,
+        "posZ": 8.553788,
+        "rotX": 359.9016,
+        "rotY": 359.962341,
+        "rotZ": 0.0227452219,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1987,12 +1987,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24764,
-        "posY": 1.42962253,
-        "posZ": 5.09792233,
-        "rotX": 359.9462,
-        "rotY": -0.00129561056,
-        "rotZ": 0.162755191,
+        "posX": -0.901940346,
+        "posY": 1.43426418,
+        "posZ": 8.553598,
+        "rotX": 359.878082,
+        "rotY": 359.9512,
+        "rotZ": 0.0423248336,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2035,12 +2035,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24630547,
-        "posY": 1.27984786,
-        "posZ": 7.781884,
-        "rotX": 359.969147,
-        "rotY": 359.971954,
-        "rotZ": 359.972961,
+        "posX": -0.903618634,
+        "posY": 1.2843883,
+        "posZ": 11.2373362,
+        "rotX": 0.06309383,
+        "rotY": 0.060715232,
+        "rotZ": 0.0231863353,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2083,12 +2083,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.249298,
-        "posY": 1.280242,
-        "posZ": 13.1396189,
-        "rotX": 359.9615,
-        "rotY": 359.9697,
-        "rotZ": 0.0289644375,
+        "posX": -0.9002121,
+        "posY": 1.28437555,
+        "posZ": 16.593235,
+        "rotX": 0.0848239,
+        "rotY": 359.9589,
+        "rotZ": 359.970367,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2131,12 +2131,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24787474,
-        "posY": 1.28004,
-        "posZ": 10.465004,
-        "rotX": 0.01999853,
-        "rotY": 0.212820187,
-        "rotZ": 0.101764947,
+        "posX": -0.9027568,
+        "posY": 1.28438425,
+        "posZ": 13.9173441,
+        "rotX": 359.883057,
+        "rotY": 0.0145581933,
+        "rotZ": 359.981934,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2179,12 +2179,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24737549,
-        "posY": 1.280538,
-        "posZ": 15.8203459,
-        "rotX": 359.89093,
-        "rotY": 0.04095833,
-        "rotZ": 0.0302576423,
+        "posX": -0.8997321,
+        "posY": 1.28436863,
+        "posZ": 19.2777443,
+        "rotX": 0.135814548,
+        "rotY": 359.965942,
+        "rotZ": 359.973022,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2227,12 +2227,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.25155163,
-        "posY": 1.28064561,
-        "posZ": 18.49687,
-        "rotX": 359.9934,
-        "rotY": 0.040320307,
-        "rotZ": 359.970428,
+        "posX": -0.9003615,
+        "posY": 1.28433931,
+        "posZ": 21.9547958,
+        "rotX": 359.958435,
+        "rotY": 359.991058,
+        "rotZ": 0.03241026,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2275,12 +2275,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.253031,
-        "posY": 1.429736,
-        "posZ": 7.774133,
-        "rotX": 359.9525,
-        "rotY": 0.0235965829,
-        "rotZ": 359.944427,
+        "posX": -0.9035681,
+        "posY": 1.43427861,
+        "posZ": 11.2369118,
+        "rotX": 0.09653278,
+        "rotY": 0.0491760336,
+        "rotZ": 0.0207029227,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2323,12 +2323,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.247852,
-        "posY": 1.42996168,
-        "posZ": 10.46492,
-        "rotX": 359.991241,
-        "rotY": 0.00197063223,
-        "rotZ": 0.115539171,
+        "posX": -0.902736,
+        "posY": 1.43427491,
+        "posZ": 13.9167109,
+        "rotX": 359.910736,
+        "rotY": 359.9674,
+        "rotZ": 359.954,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2371,12 +2371,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.249173,
-        "posY": 1.43013954,
-        "posZ": 13.1396418,
-        "rotX": 359.930939,
-        "rotY": 359.973541,
-        "rotZ": 0.0150418077,
+        "posX": -0.899967134,
+        "posY": 1.43429255,
+        "posZ": 16.59386,
+        "rotX": 0.107908823,
+        "rotY": 359.9665,
+        "rotZ": -0.005014273,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2419,12 +2419,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24725056,
-        "posY": 1.43042183,
-        "posZ": 15.8197947,
-        "rotX": 359.87558,
-        "rotY": -0.00106512662,
-        "rotZ": 0.0578349158,
+        "posX": -0.8994786,
+        "posY": 1.43430662,
+        "posZ": 19.2781258,
+        "rotX": 0.156234667,
+        "rotY": 359.988525,
+        "rotZ": -0.00236119749,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2467,12 +2467,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.25168657,
-        "posY": 1.43054414,
-        "posZ": 18.49692,
-        "rotX": 0.0229614135,
-        "rotY": 0.0428579,
-        "rotZ": 359.953979,
+        "posX": -0.900376141,
+        "posY": 1.43423581,
+        "posZ": 21.9549351,
+        "rotX": 359.940948,
+        "rotY": 0.0162489619,
+        "rotZ": 0.0597666055,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2515,12 +2515,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24522257,
-        "posY": 1.57939255,
-        "posZ": 7.78215075,
-        "rotX": 359.968475,
-        "rotY": 0.0107476441,
-        "rotZ": 359.9336,
+        "posX": -0.904895365,
+        "posY": 1.58391964,
+        "posZ": 11.2366838,
+        "rotX": 0.1247662,
+        "rotY": 0.0204765555,
+        "rotZ": 0.0396581,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2563,12 +2563,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24365044,
-        "posY": 1.57960677,
-        "posZ": 10.4669991,
-        "rotX": 359.967773,
-        "rotY": 0.230356887,
-        "rotZ": 0.133775651,
+        "posX": -0.9024121,
+        "posY": 1.58391082,
+        "posZ": 13.9171267,
+        "rotX": 359.874969,
+        "rotY": 0.000371008849,
+        "rotZ": 359.9448,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2611,12 +2611,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.24907827,
-        "posY": 1.57978356,
-        "posZ": 13.1391954,
-        "rotX": 359.926117,
-        "rotY": 0.00100135955,
-        "rotZ": 359.993561,
+        "posX": -0.900530756,
+        "posY": 1.58392346,
+        "posZ": 16.59532,
+        "rotX": 0.1464159,
+        "rotY": 359.975983,
+        "rotZ": -0.004200123,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2659,12 +2659,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.246598,
-        "posY": 1.58003,
-        "posZ": 15.8190117,
-        "rotX": 359.878143,
-        "rotY": 359.973877,
-        "rotZ": 0.07372086,
+        "posX": -0.9011475,
+        "posY": 1.58393109,
+        "posZ": 19.2787743,
+        "rotX": 0.203169748,
+        "rotY": 0.00335732219,
+        "rotZ": 359.992462,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2707,12 +2707,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.252661,
-        "posY": 1.58017266,
-        "posZ": 18.4970284,
-        "rotX": 0.0163606461,
-        "rotY": 0.0245136674,
-        "rotZ": 359.964935,
+        "posX": -0.9013609,
+        "posY": 1.58387625,
+        "posZ": 21.9539089,
+        "rotX": 359.9174,
+        "rotY": -0.00257454929,
+        "rotZ": 0.0858663544,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2755,12 +2755,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.248749,
-        "posY": 1.57925689,
-        "posZ": 5.098043,
-        "rotX": 359.9365,
-        "rotY": 0.00221064314,
-        "rotZ": 0.20914872,
+        "posX": -0.9025572,
+        "posY": 1.58390367,
+        "posZ": 8.55245,
+        "rotX": 359.8431,
+        "rotY": 359.964325,
+        "rotZ": 0.06344487,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2803,12 +2803,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.3693581,
-        "posY": 1.05945373,
-        "posZ": -12.7793741,
-        "rotX": 0.0100395456,
-        "rotY": 179.978516,
-        "rotZ": 359.9589,
+        "posX": 29.7163086,
+        "posY": 1.05710709,
+        "posZ": -12.3921957,
+        "rotX": 0.0427305661,
+        "rotY": 179.993,
+        "rotZ": 359.978943,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2819,7 +2819,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -2834,7 +2834,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/pageant_wagon.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322994/7C94DC4DE24D88D9BBE0D425C605B6C3C967DFDF/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -2853,12 +2853,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.5988483,
-        "posY": 1.05824971,
-        "posZ": -12.7617273,
-        "rotX": 0.0110541014,
-        "rotY": 180.16037,
-        "rotZ": 359.9574,
+        "posX": 23.9543934,
+        "posY": 1.04934776,
+        "posZ": -12.37981,
+        "rotX": 0.07538241,
+        "rotY": 180.007248,
+        "rotZ": 359.952728,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2869,7 +2869,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -2884,7 +2884,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/merchant_stall.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323089/36C0580BEC0DD38A969CA846452DE994AB818BF0/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -2903,12 +2903,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.88053,
-        "posY": 1.05675328,
-        "posZ": -12.7758932,
-        "rotX": 0.0201961882,
-        "rotY": 179.825882,
-        "rotZ": 359.9264,
+        "posX": 18.230114,
+        "posY": 1.04835892,
+        "posZ": -12.3950586,
+        "rotX": 0.07517854,
+        "rotY": 179.891357,
+        "rotZ": 359.9312,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2919,7 +2919,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -2934,7 +2934,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323202/897C0569AD09E04D3C96082DD65B1C2ED83AFCCB/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -2953,12 +2953,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1981869,
-        "posY": 1.05570734,
-        "posZ": -12.8054657,
-        "rotX": 0.0108195627,
-        "rotY": 180.078064,
-        "rotZ": 359.933472,
+        "posX": 12.566596,
+        "posY": 1.04788661,
+        "posZ": -12.3925047,
+        "rotX": 0.0693477,
+        "rotY": 180.341782,
+        "rotZ": 359.929169,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2969,7 +2969,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -2984,7 +2984,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323311/3EF962BBE45E57B313B2CE4E2F39B37010C02DA2/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3003,12 +3003,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3932467,
-        "posY": 3.22106862,
-        "posZ": -12.8416214,
-        "rotX": 0.08168836,
-        "rotY": 180.966476,
-        "rotZ": 359.127228,
+        "posX": 6.705596,
+        "posY": 3.216689,
+        "posZ": -12.4507751,
+        "rotX": 0.196885362,
+        "rotY": 180.020035,
+        "rotZ": 359.7394,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3019,7 +3019,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -3034,7 +3034,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323399/B086F5B69CFE79A30D124CC62AA0E497CC7AC0A1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3053,12 +3053,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.70144939,
-        "posY": 1.05307066,
-        "posZ": -12.7940826,
-        "rotX": 0.0191722084,
-        "rotY": 180.036484,
-        "rotZ": 359.911163,
+        "posX": 1.05668545,
+        "posY": 1.04555976,
+        "posZ": -12.3673677,
+        "rotX": 0.08521068,
+        "rotY": 179.806412,
+        "rotZ": 359.947021,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3069,7 +3069,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -3084,7 +3084,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323485/5046E502DC7FD714C1C1EEFAFC10074C695940FC/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3103,12 +3103,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -18.6083946,
-        "posY": 1.18517113,
-        "posZ": -2.74527431,
-        "rotX": -0.000269784185,
-        "rotY": 0.0035041105,
-        "rotZ": -0.000232370934,
+        "posX": -25.4126415,
+        "posY": 1.18521369,
+        "posZ": 0.49518168,
+        "rotX": -0.000266916,
+        "rotY": 0.00350224529,
+        "rotZ": -0.0002306351,
         "scaleX": 0.5,
         "scaleY": 0.25,
         "scaleZ": 0.5
@@ -3118,10 +3118,10 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627451062,
-        "g": 0.1254895,
+        "g": 0.1254892,
         "b": 0.9411765
       },
-      "Locked": true,
+      "Locked": false,
       "Grid": false,
       "Snap": true,
       "IgnoreFoW": false,
@@ -3141,12 +3141,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.9179077,
-        "posY": 1.05843782,
-        "posZ": -1.08537447,
-        "rotX": 0.00477527175,
-        "rotY": 180.00029,
-        "rotZ": 359.988373,
+        "posX": 18.2690372,
+        "posY": 1.05833685,
+        "posZ": -0.684673846,
+        "rotX": 0.0397534445,
+        "rotY": 180.026245,
+        "rotZ": 359.972351,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -3172,7 +3172,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/citadel.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323569/A5060FE382B87438562BE2DF290C3807BAF8B90F/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3191,12 +3191,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.5892982,
-        "posY": 1.05958807,
-        "posZ": -1.09475982,
-        "rotX": 0.00477447733,
-        "rotY": 179.9973,
-        "rotZ": 359.988373,
+        "posX": 23.9407234,
+        "posY": 1.05955946,
+        "posZ": -0.7180862,
+        "rotX": 0.00390957342,
+        "rotY": 180.001556,
+        "rotZ": 359.9889,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -3222,7 +3222,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/guild_hall.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323672/2E28398E66061B2DE81CA08A7E4E5A8CFDB6BE32/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3241,12 +3241,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.3708649,
-        "posY": 1.06076372,
-        "posZ": -1.067363,
-        "rotX": 0.00477511249,
-        "rotY": 180.000488,
-        "rotZ": 359.988373,
+        "posX": 29.7094154,
+        "posY": 1.06065834,
+        "posZ": -0.666694045,
+        "rotX": 0.00376485637,
+        "rotY": 179.827347,
+        "rotZ": 359.988983,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -3272,7 +3272,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/town_square.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323828/880168AA5DD6F2AC3BA6827218423A97E1F2EA2C/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3291,12 +3291,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": -18.2068,
-        "posY": 1.06019282,
-        "posZ": 2.21074867,
-        "rotX": 0.000265804672,
-        "rotY": 180.000031,
-        "rotZ": 0.000229914178,
+        "posX": -25.3935986,
+        "posY": 1.060238,
+        "posZ": 5.675304,
+        "rotX": 0.00026574012,
+        "rotY": 180.0,
+        "rotZ": 0.000229975514,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3309,7 +3309,7 @@
         "g": 0.02745098,
         "b": 0.0
       },
-      "Locked": true,
+      "Locked": false,
       "Grid": false,
       "Snap": true,
       "IgnoreFoW": false,
@@ -3322,7 +3322,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/city_well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323960/F96905C68F49CC5583E796F43516D91FE8FEE222/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3372,8 +3372,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_english.png",
-        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_german.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324056/CE8530649E6069F8AE630D89AB9C2A7B5D61E470/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324209/ECDADA2870F566C74BFBFBF9300C27D60C02B45A/",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -3422,8 +3422,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_english.png",
-        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_german.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324056/CE8530649E6069F8AE630D89AB9C2A7B5D61E470/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324209/ECDADA2870F566C74BFBFBF9300C27D60C02B45A/",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -3441,12 +3441,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 49.7630424,
-        "posY": 0.9612178,
-        "posZ": -30.7516346,
-        "rotX": 1.65443936E-07,
+        "posX": 37.6700668,
+        "posY": 0.9600005,
+        "posZ": -5.42754,
+        "rotX": 7.616962E-09,
         "rotY": 180.0,
-        "rotZ": 1.94089637E-07,
+        "rotZ": -3.024288E-09,
         "scaleX": 6.084777,
         "scaleY": 1.0,
         "scaleZ": 6.084777
@@ -3459,7 +3459,7 @@
         "g": 1.0,
         "b": 1.0
       },
-      "Locked": true,
+      "Locked": false,
       "Grid": false,
       "Snap": false,
       "IgnoreFoW": false,
@@ -3472,8 +3472,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_english.png",
-        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_german.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324056/CE8530649E6069F8AE630D89AB9C2A7B5D61E470/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324209/ECDADA2870F566C74BFBFBF9300C27D60C02B45A/",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -3522,8 +3522,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_english.png",
-        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/player_guide_german.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324056/CE8530649E6069F8AE630D89AB9C2A7B5D61E470/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324209/ECDADA2870F566C74BFBFBF9300C27D60C02B45A/",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -3541,12 +3541,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 9.333846,
-        "posY": 1.459535,
-        "posZ": 21.994606,
-        "rotX": 0.00220585754,
-        "rotY": 179.999847,
-        "rotZ": -0.00236518239,
+        "posX": -19.4093876,
+        "posY": 1.45955992,
+        "posZ": -19.5094738,
+        "rotX": 0.001034373,
+        "rotY": 179.999756,
+        "rotZ": 0.000224654461,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3572,7 +3572,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/saxon_duke.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324354/9ED781CCC27332A97D0544510B22E3CB689AC62D/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3591,12 +3591,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 9.334488,
-        "posY": 1.05998886,
-        "posZ": 21.9949722,
-        "rotX": 0.0009332366,
-        "rotY": 180.0,
-        "rotZ": -0.000355056021,
+        "posX": -19.408762,
+        "posY": 1.0599916,
+        "posZ": -19.5091572,
+        "rotX": 0.0004897246,
+        "rotY": 179.999878,
+        "rotZ": -0.000135745329,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3622,7 +3622,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/saxon_earl.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324493/AB6CAE40EDE9FA792049F3969CFBF686DC799207/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3641,12 +3641,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 9.415654,
-        "posY": 1.25952554,
-        "posZ": 22.0623741,
-        "rotX": 0.00228352263,
+        "posX": -19.3275928,
+        "posY": 1.25955272,
+        "posZ": -19.44171,
+        "rotX": 0.0006893873,
         "rotY": 179.999969,
-        "rotZ": -0.00161067664,
+        "rotZ": 0.000281397544,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3672,7 +3672,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/saxon_count.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324600/372651C73462BEA3496E5121D60FE5ABCF10266A/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3691,12 +3691,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 9.37091,
-        "posY": 1.65935826,
-        "posZ": 22.0197926,
-        "rotX": 0.00278264517,
-        "rotY": 179.999863,
-        "rotZ": -0.0027674,
+        "posX": -19.3723183,
+        "posY": 1.65938807,
+        "posZ": -19.4842644,
+        "rotX": 0.000368118082,
+        "rotY": 179.999969,
+        "rotZ": 0.000344037224,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3722,7 +3722,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/saxon_prince.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324721/7E865AFA3C4FC2425C81BDC567680E859A8079C1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3741,12 +3741,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 14.8812885,
-        "posY": 1.25978446,
-        "posZ": 21.99681,
-        "rotX": 0.0123039,
-        "rotY": 180.000092,
-        "rotZ": 0.00661326153,
+        "posX": -13.8620539,
+        "posY": 1.259788,
+        "posZ": -19.5071678,
+        "rotX": 0.0113713369,
+        "rotY": 180.0001,
+        "rotZ": 0.00621703733,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3772,7 +3772,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/sachsenfuerst.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324834/320C3DE082D1CE6DE7D08649C1B2EA8498B3AD6B/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3791,12 +3791,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 14.881876,
-        "posY": 1.060009,
-        "posZ": 21.99678,
-        "rotX": 0.000401129742,
-        "rotY": 179.999908,
-        "rotZ": -0.000285264716,
+        "posX": -13.8615351,
+        "posY": 1.060015,
+        "posZ": -19.5070934,
+        "rotX": -0.00026256917,
+        "rotY": 179.999329,
+        "rotZ": -0.0003481175,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3822,7 +3822,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/sachsengraf.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324928/49BC68EBD287AE6D6761CB45649DBEFA63A28AFB/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3841,12 +3841,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 14.8905544,
-        "posY": 1.459777,
-        "posZ": 21.99448,
-        "rotX": 0.0129205715,
-        "rotY": 180.00148,
-        "rotZ": 0.006235963,
+        "posX": -13.852828,
+        "posY": 1.4597832,
+        "posZ": -19.5095024,
+        "rotX": 0.0110815773,
+        "rotY": 180.0008,
+        "rotZ": 0.006297745,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3872,7 +3872,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/sachsenherzog.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636325023/E37504D976C769CC5D52467D217E3B42C0A42B7A/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3891,12 +3891,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 15.4216366,
-        "posY": 1.65936339,
-        "posZ": 21.54413,
-        "rotX": 0.0214648973,
-        "rotY": 180.001373,
-        "rotZ": 0.0113600353,
+        "posX": -13.3216791,
+        "posY": 1.65938926,
+        "posZ": -19.9599857,
+        "rotX": 0.0186360069,
+        "rotY": 180.000854,
+        "rotZ": 0.01111565,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3922,7 +3922,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/sachsenprinz.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636325149/0A24837D2215C4004808C70EC112718FD6A5F2A9/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3941,12 +3941,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.700634,
-        "posY": 1.245542,
-        "posZ": -12.78685,
-        "rotX": 359.7088,
-        "rotY": 179.92009,
-        "rotZ": 359.7477,
+        "posX": 1.05329275,
+        "posY": 1.23769116,
+        "posZ": -12.3703737,
+        "rotX": 0.516850531,
+        "rotY": 179.803,
+        "rotZ": 359.8478,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3957,7 +3957,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -3972,7 +3972,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323485/5046E502DC7FD714C1C1EEFAFC10074C695940FC/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -3991,12 +3991,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.68784952,
-        "posY": 1.44340014,
-        "posZ": -12.7776289,
-        "rotX": 359.6508,
-        "rotY": 179.796234,
-        "rotZ": 359.553925,
+        "posX": 1.05091166,
+        "posY": 1.436018,
+        "posZ": -12.3705635,
+        "rotX": 0.6973608,
+        "rotY": 179.847885,
+        "rotZ": 359.915558,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4007,7 +4007,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4022,7 +4022,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323485/5046E502DC7FD714C1C1EEFAFC10074C695940FC/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4041,12 +4041,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.68017,
-        "posY": 1.63653612,
-        "posZ": -12.7684174,
-        "rotX": 359.532745,
-        "rotY": 179.786987,
-        "rotZ": 359.2948,
+        "posX": 1.07446432,
+        "posY": 1.6284169,
+        "posZ": -12.4527445,
+        "rotX": 1.03364062,
+        "rotY": 178.8345,
+        "rotZ": 359.929779,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4057,7 +4057,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4072,7 +4072,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323485/5046E502DC7FD714C1C1EEFAFC10074C695940FC/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4091,12 +4091,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.656412,
-        "posY": 1.83420014,
-        "posZ": -12.7431383,
-        "rotX": 359.722076,
-        "rotY": 180.05423,
-        "rotZ": 359.349,
+        "posX": 1.05481052,
+        "posY": 1.82598269,
+        "posZ": -12.4874859,
+        "rotX": 0.9726229,
+        "rotY": 180.289063,
+        "rotZ": 0.141459286,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4107,7 +4107,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4122,7 +4122,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323485/5046E502DC7FD714C1C1EEFAFC10074C695940FC/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4141,12 +4141,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.64482164,
-        "posY": 2.0284915,
-        "posZ": -12.7400923,
-        "rotX": 359.8677,
-        "rotY": 179.984253,
-        "rotZ": 359.370636,
+        "posX": 1.08477426,
+        "posY": 2.01969719,
+        "posZ": -12.5475283,
+        "rotX": 0.9719891,
+        "rotY": 180.040558,
+        "rotZ": 359.9535,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4157,7 +4157,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4172,7 +4172,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323485/5046E502DC7FD714C1C1EEFAFC10074C695940FC/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4191,12 +4191,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.6176343,
-        "posY": 2.22678471,
-        "posZ": -12.7185469,
-        "rotX": 0.005333349,
-        "rotY": 180.061508,
-        "rotZ": 359.4113,
+        "posX": 1.05328512,
+        "posY": 2.21691442,
+        "posZ": -12.5540857,
+        "rotX": 1.10990131,
+        "rotY": 181.064224,
+        "rotZ": -0.0012569906,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4207,7 +4207,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4222,7 +4222,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323485/5046E502DC7FD714C1C1EEFAFC10074C695940FC/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4241,12 +4241,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.615823,
-        "posY": 2.42280722,
-        "posZ": -12.7181835,
-        "rotX": 359.9771,
-        "rotY": 180.261642,
-        "rotZ": 359.5304,
+        "posX": 1.05093575,
+        "posY": 2.41496873,
+        "posZ": -12.5984774,
+        "rotX": 0.9976944,
+        "rotY": 180.348679,
+        "rotZ": 359.955444,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4257,7 +4257,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4272,7 +4272,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323485/5046E502DC7FD714C1C1EEFAFC10074C695940FC/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4291,12 +4291,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.635739,
-        "posY": 2.622049,
-        "posZ": -12.713378,
-        "rotX": 0.0597361028,
-        "rotY": 179.516266,
-        "rotZ": 359.555664,
+        "posX": 1.02167618,
+        "posY": 2.612281,
+        "posZ": -12.5735826,
+        "rotX": 0.9608767,
+        "rotY": 180.753723,
+        "rotZ": 359.858948,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4307,7 +4307,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4322,7 +4322,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323485/5046E502DC7FD714C1C1EEFAFC10074C695940FC/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4341,12 +4341,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.610673,
-        "posY": 2.81951523,
-        "posZ": -12.6947947,
-        "rotX": 0.0502419956,
-        "rotY": 179.478073,
-        "rotZ": 359.4897,
+        "posX": 1.00247967,
+        "posY": 2.811552,
+        "posZ": -12.5736208,
+        "rotX": 1.03021586,
+        "rotY": 181.354767,
+        "rotZ": 359.8894,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4357,7 +4357,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4372,7 +4372,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323485/5046E502DC7FD714C1C1EEFAFC10074C695940FC/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4391,12 +4391,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.58314,
-        "posY": 3.0188508,
-        "posZ": -12.7074766,
-        "rotX": 0.0420763828,
-        "rotY": 180.184,
-        "rotZ": 359.533569,
+        "posX": 1.00319457,
+        "posY": 3.01018643,
+        "posZ": -12.56326,
+        "rotX": 1.01454723,
+        "rotY": 181.199844,
+        "rotZ": 359.9309,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4407,7 +4407,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4422,7 +4422,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323485/5046E502DC7FD714C1C1EEFAFC10074C695940FC/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4441,12 +4441,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 7.687567,
-        "posY": 3.21888161,
-        "posZ": -12.8019371,
-        "rotX": 0.04701241,
-        "rotY": 180.848038,
-        "rotZ": 359.518921,
+        "posX": 0.9990964,
+        "posY": 3.20940733,
+        "posZ": -12.59596,
+        "rotX": 0.9912243,
+        "rotY": 180.6263,
+        "rotZ": 359.914459,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4457,7 +4457,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4472,7 +4472,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/well.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323485/5046E502DC7FD714C1C1EEFAFC10074C695940FC/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4491,12 +4491,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.4367018,
-        "posY": 1.05424106,
-        "posZ": -12.7792749,
-        "rotX": 0.0215995274,
-        "rotY": 180.01265,
-        "rotZ": 359.9132,
+        "posX": 6.787819,
+        "posY": 1.04914653,
+        "posZ": -12.3599358,
+        "rotX": 0.09201126,
+        "rotY": 180.031387,
+        "rotZ": 359.9067,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4507,7 +4507,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4522,7 +4522,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323399/B086F5B69CFE79A30D124CC62AA0E497CC7AC0A1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4541,12 +4541,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.4263763,
-        "posY": 1.246925,
-        "posZ": -12.7713442,
-        "rotX": -0.00419414369,
-        "rotY": 180.25592,
-        "rotZ": 359.5793,
+        "posX": 6.78704357,
+        "posY": 1.246808,
+        "posZ": -12.3622007,
+        "rotX": 0.314923376,
+        "rotY": 180.035858,
+        "rotZ": 359.841156,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4557,7 +4557,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4572,7 +4572,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323399/B086F5B69CFE79A30D124CC62AA0E497CC7AC0A1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4591,12 +4591,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.4214964,
-        "posY": 1.44491065,
-        "posZ": -12.7663021,
-        "rotX": 0.199927211,
-        "rotY": 180.0674,
-        "rotZ": 359.649048,
+        "posX": 6.78526926,
+        "posY": 1.43892586,
+        "posZ": -12.3841486,
+        "rotX": 0.140840232,
+        "rotY": 180.024384,
+        "rotZ": 359.848755,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4607,7 +4607,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4622,7 +4622,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323399/B086F5B69CFE79A30D124CC62AA0E497CC7AC0A1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4641,12 +4641,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3600483,
-        "posY": 1.63782692,
-        "posZ": -12.7649164,
-        "rotX": 0.1879976,
-        "rotY": 179.969208,
-        "rotZ": 359.3775,
+        "posX": 6.78632641,
+        "posY": 1.63660252,
+        "posZ": -12.3868608,
+        "rotX": 359.92807,
+        "rotY": 179.916016,
+        "rotZ": 359.793457,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4657,7 +4657,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4672,7 +4672,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323399/B086F5B69CFE79A30D124CC62AA0E497CC7AC0A1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4691,12 +4691,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3533573,
-        "posY": 1.8360275,
-        "posZ": -12.7587595,
-        "rotX": 0.133010954,
-        "rotY": 180.098679,
-        "rotZ": 359.2032,
+        "posX": 6.762903,
+        "posY": 1.83231163,
+        "posZ": -12.4258308,
+        "rotX": 359.767242,
+        "rotY": 180.224472,
+        "rotZ": 359.818268,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4707,7 +4707,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4722,7 +4722,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323399/B086F5B69CFE79A30D124CC62AA0E497CC7AC0A1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4741,12 +4741,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3418951,
-        "posY": 2.03017879,
-        "posZ": -12.77924,
-        "rotX": 0.004375409,
-        "rotY": 179.774979,
-        "rotZ": 359.2262,
+        "posX": 6.74701834,
+        "posY": 2.02675271,
+        "posZ": -12.44323,
+        "rotX": 359.926178,
+        "rotY": 180.413773,
+        "rotZ": 359.742981,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4757,7 +4757,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4772,7 +4772,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323399/B086F5B69CFE79A30D124CC62AA0E497CC7AC0A1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4791,12 +4791,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3320923,
-        "posY": 2.228686,
-        "posZ": -12.800211,
-        "rotX": 0.130443469,
-        "rotY": 179.338715,
-        "rotZ": 359.1863,
+        "posX": 6.747399,
+        "posY": 2.22522926,
+        "posZ": -12.3907661,
+        "rotX": 359.884125,
+        "rotY": 180.327057,
+        "rotZ": 359.8807,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4807,7 +4807,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4822,7 +4822,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323399/B086F5B69CFE79A30D124CC62AA0E497CC7AC0A1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4841,12 +4841,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.3061981,
-        "posY": 2.42431569,
-        "posZ": -12.8063269,
-        "rotX": 0.0302087758,
-        "rotY": 179.459854,
-        "rotZ": 359.222534,
+        "posX": 6.70981741,
+        "posY": 2.42131,
+        "posZ": -12.4195566,
+        "rotX": 0.015770141,
+        "rotY": 180.075531,
+        "rotZ": 359.836975,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4857,7 +4857,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4872,7 +4872,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323399/B086F5B69CFE79A30D124CC62AA0E497CC7AC0A1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4891,12 +4891,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.2942839,
-        "posY": 2.62323427,
-        "posZ": -12.82322,
-        "rotX": 0.11941205,
-        "rotY": 179.428986,
-        "rotZ": 359.195,
+        "posX": 6.704185,
+        "posY": 2.620363,
+        "posZ": -12.4369707,
+        "rotX": 0.104796447,
+        "rotY": 180.026016,
+        "rotZ": 359.81015,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4907,7 +4907,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4922,7 +4922,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323399/B086F5B69CFE79A30D124CC62AA0E497CC7AC0A1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4941,12 +4941,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.2953329,
-        "posY": 2.8208735,
-        "posZ": -12.8336554,
-        "rotX": 0.0561415665,
-        "rotY": 179.738663,
-        "rotZ": 359.190033,
+        "posX": 6.702828,
+        "posY": 2.81792569,
+        "posZ": -12.4586468,
+        "rotX": 0.127294362,
+        "rotY": 179.956421,
+        "rotZ": 359.744843,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4957,7 +4957,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -4972,7 +4972,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323399/B086F5B69CFE79A30D124CC62AA0E497CC7AC0A1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -4991,12 +4991,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 13.2818422,
-        "posY": 3.020167,
-        "posZ": -12.8356667,
-        "rotX": 0.06758885,
-        "rotY": 179.61171,
-        "rotZ": 359.1407,
+        "posX": 6.70397663,
+        "posY": 3.01747918,
+        "posZ": -12.449275,
+        "rotX": 0.173878968,
+        "rotY": 180.0781,
+        "rotZ": 359.73172,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5007,7 +5007,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5022,7 +5022,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garden.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323399/B086F5B69CFE79A30D124CC62AA0E497CC7AC0A1/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5041,12 +5041,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.195961,
-        "posY": 1.25238025,
-        "posZ": -12.8027363,
-        "rotX": 359.953461,
-        "rotY": 180.096451,
-        "rotZ": 359.7424,
+        "posX": 12.5670519,
+        "posY": 1.24171841,
+        "posZ": -12.3831425,
+        "rotX": 0.2291096,
+        "rotY": 180.291336,
+        "rotZ": 359.99,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5057,7 +5057,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5072,7 +5072,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323311/3EF962BBE45E57B313B2CE4E2F39B37010C02DA2/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5091,12 +5091,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1879253,
-        "posY": 1.44726479,
-        "posZ": -12.8056221,
-        "rotX": 0.096255,
-        "rotY": 180.13298,
-        "rotZ": 359.6333,
+        "posX": 12.5822582,
+        "posY": 1.44017553,
+        "posZ": -12.3657932,
+        "rotX": 0.387310565,
+        "rotY": 180.127289,
+        "rotZ": 359.943085,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5107,7 +5107,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5122,7 +5122,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323311/3EF962BBE45E57B313B2CE4E2F39B37010C02DA2/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5141,12 +5141,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.182272,
-        "posY": 1.64581573,
-        "posZ": -12.8009863,
-        "rotX": 359.967163,
-        "rotY": 180.509,
-        "rotZ": 359.598236,
+        "posX": 12.5743208,
+        "posY": 1.63542938,
+        "posZ": -12.3739786,
+        "rotX": 0.246385768,
+        "rotY": 179.930328,
+        "rotZ": 359.977051,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5157,7 +5157,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5172,7 +5172,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323311/3EF962BBE45E57B313B2CE4E2F39B37010C02DA2/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5191,12 +5191,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1577415,
-        "posY": 1.84183025,
-        "posZ": -12.8102112,
-        "rotX": 359.863342,
-        "rotY": 180.243469,
-        "rotZ": 359.607269,
+        "posX": 12.5654125,
+        "posY": 1.83313143,
+        "posZ": -12.3935051,
+        "rotX": 0.125830516,
+        "rotY": 179.166626,
+        "rotZ": 359.944519,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5207,7 +5207,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5222,7 +5222,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323311/3EF962BBE45E57B313B2CE4E2F39B37010C02DA2/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5241,12 +5241,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1545944,
-        "posY": 2.04083443,
-        "posZ": -12.8045778,
-        "rotX": 359.835571,
-        "rotY": 180.102753,
-        "rotZ": 359.699646,
+        "posX": 12.5658178,
+        "posY": 2.0322423,
+        "posZ": -12.3884783,
+        "rotX": 0.0386808477,
+        "rotY": 179.294113,
+        "rotZ": 359.918274,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5257,7 +5257,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5272,7 +5272,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323311/3EF962BBE45E57B313B2CE4E2F39B37010C02DA2/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5291,12 +5291,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1454239,
-        "posY": 2.23851871,
-        "posZ": -12.833993,
-        "rotX": 359.779663,
-        "rotY": 180.512054,
-        "rotZ": 359.716949,
+        "posX": 12.5577021,
+        "posY": 2.22982049,
+        "posZ": -12.3749228,
+        "rotX": 0.09534982,
+        "rotY": 179.290909,
+        "rotZ": 359.938873,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5307,7 +5307,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5322,7 +5322,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323311/3EF962BBE45E57B313B2CE4E2F39B37010C02DA2/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5341,12 +5341,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1508961,
-        "posY": 2.4380815,
-        "posZ": -12.83527,
-        "rotX": 359.765564,
-        "rotY": 180.451843,
-        "rotZ": 359.671234,
+        "posX": 12.55851,
+        "posY": 2.4294064,
+        "posZ": -12.3458147,
+        "rotX": 0.10914962,
+        "rotY": 179.194733,
+        "rotZ": 359.8933,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5357,7 +5357,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5372,7 +5372,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323311/3EF962BBE45E57B313B2CE4E2F39B37010C02DA2/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5391,12 +5391,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 19.1396484,
-        "posY": 2.63726878,
-        "posZ": -12.84536,
-        "rotX": 359.7507,
-        "rotY": 181.010681,
-        "rotZ": 359.677368,
+        "posX": 12.5604315,
+        "posY": 2.628678,
+        "posZ": -12.3146667,
+        "rotX": 0.129946992,
+        "rotY": 178.862534,
+        "rotZ": 359.8991,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5407,7 +5407,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5422,7 +5422,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/chapel.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323311/3EF962BBE45E57B313B2CE4E2F39B37010C02DA2/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5441,12 +5441,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8777046,
-        "posY": 1.253527,
-        "posZ": -12.7784472,
-        "rotX": 0.212298289,
-        "rotY": 180.002014,
-        "rotZ": 359.9494,
+        "posX": 18.2292328,
+        "posY": 1.24403024,
+        "posZ": -12.3899193,
+        "rotX": 0.248126775,
+        "rotY": 179.90538,
+        "rotZ": 359.9714,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5457,7 +5457,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5472,7 +5472,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323202/897C0569AD09E04D3C96082DD65B1C2ED83AFCCB/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5491,12 +5491,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8806419,
-        "posY": 1.44860721,
-        "posZ": -12.7943211,
-        "rotX": 0.25266993,
-        "rotY": 179.98674,
-        "rotZ": 359.772522,
+        "posX": 18.2149,
+        "posY": 1.43869674,
+        "posZ": -12.3610363,
+        "rotX": 0.395026267,
+        "rotY": 179.929688,
+        "rotZ": -0.00289063528,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5507,7 +5507,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5522,7 +5522,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323202/897C0569AD09E04D3C96082DD65B1C2ED83AFCCB/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5541,12 +5541,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8798389,
-        "posY": 1.6473341,
-        "posZ": -12.8191166,
-        "rotX": 0.3727197,
-        "rotY": 180.234131,
-        "rotZ": 359.814178,
+        "posX": 18.2145348,
+        "posY": 1.63732326,
+        "posZ": -12.3596125,
+        "rotX": 0.435103148,
+        "rotY": 179.894226,
+        "rotZ": 359.863129,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5557,7 +5557,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5572,7 +5572,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323202/897C0569AD09E04D3C96082DD65B1C2ED83AFCCB/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5591,12 +5591,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8718166,
-        "posY": 1.84320247,
-        "posZ": -12.8421326,
-        "rotX": 0.290428549,
-        "rotY": 180.087326,
-        "rotZ": 359.824036,
+        "posX": 18.190485,
+        "posY": 1.83343124,
+        "posZ": -12.3472,
+        "rotX": 0.400833637,
+        "rotY": 179.977188,
+        "rotZ": 359.742432,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5607,7 +5607,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5622,7 +5622,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323202/897C0569AD09E04D3C96082DD65B1C2ED83AFCCB/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5641,12 +5641,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8807888,
-        "posY": 2.04227734,
-        "posZ": -12.8572464,
-        "rotX": 0.3776727,
-        "rotY": 180.102982,
-        "rotZ": 359.851868,
+        "posX": 18.1875687,
+        "posY": 2.03248787,
+        "posZ": -12.3446426,
+        "rotX": 0.37352556,
+        "rotY": 179.857346,
+        "rotZ": 359.650635,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5657,7 +5657,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5672,7 +5672,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323202/897C0569AD09E04D3C96082DD65B1C2ED83AFCCB/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5691,12 +5691,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8517742,
-        "posY": 2.239634,
-        "posZ": -12.8902254,
-        "rotX": 0.315224856,
-        "rotY": 180.05101,
-        "rotZ": 359.860931,
+        "posX": 18.1850033,
+        "posY": 2.23049283,
+        "posZ": -12.376277,
+        "rotX": 0.3101125,
+        "rotY": 180.480026,
+        "rotZ": 359.63327,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5707,7 +5707,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5722,7 +5722,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323202/897C0569AD09E04D3C96082DD65B1C2ED83AFCCB/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5741,12 +5741,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8448944,
-        "posY": 2.43914437,
-        "posZ": -12.8894148,
-        "rotX": 0.361177683,
-        "rotY": 179.923737,
-        "rotZ": 359.8737,
+        "posX": 18.1767159,
+        "posY": 2.42906475,
+        "posZ": -12.3420563,
+        "rotX": 0.348512262,
+        "rotY": 180.049942,
+        "rotZ": 359.6439,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5757,7 +5757,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5772,7 +5772,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323202/897C0569AD09E04D3C96082DD65B1C2ED83AFCCB/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5791,12 +5791,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 24.8374233,
-        "posY": 2.638208,
-        "posZ": -12.9111891,
-        "rotX": 0.3370903,
-        "rotY": 179.890762,
-        "rotZ": 359.8801,
+        "posX": 18.17237,
+        "posY": 2.628719,
+        "posZ": -12.3566275,
+        "rotX": 0.350230455,
+        "rotY": 179.304031,
+        "rotZ": 359.61676,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5807,7 +5807,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5822,7 +5822,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/watchtower.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323202/897C0569AD09E04D3C96082DD65B1C2ED83AFCCB/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5841,12 +5841,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.5974064,
-        "posY": 1.25534058,
-        "posZ": -12.7612734,
-        "rotX": 359.92334,
-        "rotY": 179.96196,
-        "rotZ": 359.905151,
+        "posX": 23.9665356,
+        "posY": 1.24547338,
+        "posZ": -12.388689,
+        "rotX": 0.0471350774,
+        "rotY": 180.179367,
+        "rotZ": 359.843719,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5857,7 +5857,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5872,7 +5872,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/merchant_stall.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323089/36C0580BEC0DD38A969CA846452DE994AB818BF0/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5891,12 +5891,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.5895443,
-        "posY": 1.4545722,
-        "posZ": -12.7538328,
-        "rotX": -0.00239495677,
-        "rotY": 179.657837,
-        "rotZ": 359.929138,
+        "posX": 23.9678822,
+        "posY": 1.44450629,
+        "posZ": -12.3875446,
+        "rotX": 0.07420398,
+        "rotY": 180.326691,
+        "rotZ": 359.7516,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5907,7 +5907,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5922,7 +5922,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/merchant_stall.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323089/36C0580BEC0DD38A969CA846452DE994AB818BF0/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5941,12 +5941,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.5603981,
-        "posY": 1.65243363,
-        "posZ": -12.767992,
-        "rotX": 0.06699505,
-        "rotY": 179.692352,
-        "rotZ": 359.894562,
+        "posX": 23.9712067,
+        "posY": 1.64211762,
+        "posZ": -12.401226,
+        "rotX": 0.05512599,
+        "rotY": 180.477463,
+        "rotZ": 359.685028,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5957,7 +5957,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -5972,7 +5972,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/merchant_stall.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323089/36C0580BEC0DD38A969CA846452DE994AB818BF0/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -5991,12 +5991,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.5646648,
-        "posY": 1.852004,
-        "posZ": -12.7779865,
-        "rotX": 0.109284885,
-        "rotY": 179.8352,
-        "rotZ": 359.908051,
+        "posX": 23.970211,
+        "posY": 1.841625,
+        "posZ": -12.4002552,
+        "rotX": 0.06907755,
+        "rotY": 180.57431,
+        "rotZ": 359.63855,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -6007,7 +6007,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -6022,7 +6022,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/merchant_stall.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323089/36C0580BEC0DD38A969CA846452DE994AB818BF0/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6041,12 +6041,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 30.5487671,
-        "posY": 2.05117059,
-        "posZ": -12.8002129,
-        "rotX": 0.1358006,
-        "rotY": 180.1643,
-        "rotZ": 359.897034,
+        "posX": 23.9723434,
+        "posY": 2.04083872,
+        "posZ": -12.402442,
+        "rotX": 0.06274234,
+        "rotY": 180.696045,
+        "rotZ": 359.617,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -6057,7 +6057,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -6072,7 +6072,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/merchant_stall.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636323089/36C0580BEC0DD38A969CA846452DE994AB818BF0/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6091,12 +6091,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.34667,
-        "posY": 1.25645256,
-        "posZ": -12.7912846,
-        "rotX": 0.1081745,
-        "rotY": 180.402618,
-        "rotZ": 359.873962,
+        "posX": 29.7121372,
+        "posY": 1.25363159,
+        "posZ": -12.3960581,
+        "rotX": 359.933533,
+        "rotY": 180.029343,
+        "rotZ": 0.009696834,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -6107,7 +6107,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -6122,7 +6122,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/pageant_wagon.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322994/7C94DC4DE24D88D9BBE0D425C605B6C3C967DFDF/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6141,12 +6141,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.34122,
-        "posY": 1.45579481,
-        "posZ": -12.7876282,
-        "rotX": 0.0848587751,
-        "rotY": 180.474686,
-        "rotZ": 359.8066,
+        "posX": 29.7125225,
+        "posY": 1.45274448,
+        "posZ": -12.3972931,
+        "rotX": 359.848022,
+        "rotY": 179.96843,
+        "rotZ": 359.984436,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -6157,7 +6157,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -6172,7 +6172,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/pageant_wagon.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322994/7C94DC4DE24D88D9BBE0D425C605B6C3C967DFDF/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6191,12 +6191,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.30702,
-        "posY": 1.65364408,
-        "posZ": -12.7771683,
-        "rotX": 0.07578719,
-        "rotY": 179.997269,
-        "rotZ": 359.712677,
+        "posX": 29.7126732,
+        "posY": 1.65042555,
+        "posZ": -12.3984833,
+        "rotX": 359.822235,
+        "rotY": 179.697983,
+        "rotZ": 0.05525138,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -6207,7 +6207,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -6222,7 +6222,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/pageant_wagon.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322994/7C94DC4DE24D88D9BBE0D425C605B6C3C967DFDF/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6241,12 +6241,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.296463,
-        "posY": 1.8531338,
-        "posZ": -12.7850027,
-        "rotX": 0.115357265,
-        "rotY": 179.4951,
-        "rotZ": 359.7002,
+        "posX": 29.7141056,
+        "posY": 1.84993958,
+        "posZ": -12.3962822,
+        "rotX": 359.7767,
+        "rotY": 179.638214,
+        "rotZ": 0.0687079653,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -6257,7 +6257,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -6272,7 +6272,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/pageant_wagon.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322994/7C94DC4DE24D88D9BBE0D425C605B6C3C967DFDF/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6291,12 +6291,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 36.24898,
-        "posY": 2.0521,
-        "posZ": -12.7885075,
-        "rotX": 0.09640423,
-        "rotY": 179.316544,
-        "rotZ": 359.6981,
+        "posX": 29.720396,
+        "posY": 2.04912043,
+        "posZ": -12.3938246,
+        "rotX": 359.752258,
+        "rotY": 179.544113,
+        "rotZ": 0.0768466,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -6307,7 +6307,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724925
+        "b": 0.113724612
       },
       "Locked": false,
       "Grid": false,
@@ -6322,7 +6322,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/pageant_wagon.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636322994/7C94DC4DE24D88D9BBE0D425C605B6C3C967DFDF/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6341,12 +6341,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 7.701904,
-        "posY": 1.05444729,
-        "posZ": -7.0406146,
-        "rotX": 0.004778645,
-        "rotY": 180.011978,
-        "rotZ": 359.988373,
+        "posX": 1.054011,
+        "posY": 1.05478239,
+        "posZ": -6.62538338,
+        "rotX": 0.004717912,
+        "rotY": 179.997574,
+        "rotZ": 359.990845,
         "scaleX": 1.997,
         "scaleY": 1.0,
         "scaleZ": 1.997
@@ -6375,7 +6375,7 @@
       "MeshIndex": -1,
       "Number": 6,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/fountain.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636325258/8EC3F1CEC497F2E619AD2211B0B96B1B6B50FDEA/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6394,12 +6394,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 13.4466219,
-        "posY": 1.05561328,
-        "posZ": -7.040743,
-        "rotX": 0.00477643963,
-        "rotY": 180.001022,
-        "rotZ": 359.988342,
+        "posX": 6.79499054,
+        "posY": 1.04922342,
+        "posZ": -6.62392,
+        "rotX": 0.0406321473,
+        "rotY": 180.011734,
+        "rotZ": 359.9727,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -6428,7 +6428,7 @@
       "MeshIndex": -1,
       "Number": 6,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/farm.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636325319/7A57950E2C8646C3F3C1C91E747736B174632249/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6447,12 +6447,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 19.2006035,
-        "posY": 1.056781,
-        "posZ": -7.04094839,
-        "rotX": 0.00477512041,
-        "rotY": 179.997467,
-        "rotZ": 359.988373,
+        "posX": 12.5484324,
+        "posY": 1.05523229,
+        "posZ": -6.63588238,
+        "rotX": 0.0221965276,
+        "rotY": 180.02681,
+        "rotZ": 359.985748,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -6481,7 +6481,7 @@
       "MeshIndex": -1,
       "Number": 5,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/church.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636325374/2A6098B7C86B9CE44F9363EDF8484D0AEBC5DE4F/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6500,12 +6500,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 24.8719921,
-        "posY": 1.05793214,
-        "posZ": -7.041151,
-        "rotX": 0.004775166,
-        "rotY": 180.000488,
-        "rotZ": 359.988373,
+        "posX": 18.2194729,
+        "posY": 1.0547148,
+        "posZ": -6.63862658,
+        "rotX": 0.04071218,
+        "rotY": 179.99205,
+        "rotZ": 359.971039,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -6534,7 +6534,7 @@
       "MeshIndex": -1,
       "Number": 5,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/garrison.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636325437/F0C5CF86CF502A5273CA9965954D7985345165E9/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6553,12 +6553,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 30.5984211,
-        "posY": 1.05909443,
-        "posZ": -7.04141855,
-        "rotX": 0.004775075,
-        "rotY": 179.997818,
-        "rotZ": 359.988342,
+        "posX": 23.94399,
+        "posY": 1.05750036,
+        "posZ": -6.64036846,
+        "rotX": 0.0429859757,
+        "rotY": 179.9867,
+        "rotZ": 359.972931,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -6587,7 +6587,7 @@
       "MeshIndex": -1,
       "Number": 4,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/marketplace.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636325489/C6CA1AC287FACB22A5ED70C1D3C49FEB653F9394/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6606,12 +6606,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 36.3707428,
-        "posY": 1.0602659,
-        "posZ": -7.04158068,
-        "rotX": 0.004777828,
-        "rotY": 180.014908,
-        "rotZ": 359.988373,
+        "posX": 29.7185574,
+        "posY": 1.05988669,
+        "posZ": -6.644674,
+        "rotX": 0.04066253,
+        "rotY": 179.821838,
+        "rotZ": 359.9742,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -6640,7 +6640,7 @@
       "MeshIndex": -1,
       "Number": 4,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/stage.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636325550/8A763F5A1954954674AE48668192C3EA78A8E859/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -6659,12 +6659,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -34.94236,
-        "posY": 1.50924253,
-        "posZ": 18.9599457,
-        "rotX": 0.0273772869,
-        "rotY": -0.0011251457,
-        "rotZ": 0.0362717,
+        "posX": -41.6975746,
+        "posY": 1.50935686,
+        "posZ": 22.1821251,
+        "rotX": 359.951782,
+        "rotY": 359.9733,
+        "rotZ": 359.9087,
         "scaleX": 1.2,
         "scaleY": 1.2,
         "scaleZ": 1.2
@@ -6707,12 +6707,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -34.897934,
+        "posX": -42.0945663,
         "posY": 0.960000157,
-        "posZ": 20.860569,
-        "rotX": 1.61351124E-07,
+        "posZ": 25.02754,
+        "rotX": 1.83064785E-07,
         "rotY": 180.0,
-        "rotZ": 6.67920759E-08,
+        "rotZ": 1.18333517E-07,
         "scaleX": 1.15,
         "scaleY": 0.0,
         "scaleZ": 1.15
@@ -6737,7 +6737,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"+100\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 500,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Left-click to increment your score marker, right-click to increment the city score marker.\"\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\n    local marker\n\n    if alt_click then\n        -- ignore right-clicks for now\n        -- in the future, right-click will increment the city marker\n        marker = getObjectFromGUID('6bff57')\n    elseif color == \"Green\" then\n        marker = getObjectFromGUID('fc3802')\n    elseif color == \"Yellow\" then\n        marker = getObjectFromGUID('e0fb49')\n    elseif color == \"Red\" then\n        marker = getObjectFromGUID('0d8495')\n    elseif color == \"Blue\" then\n        mark = getObjectFromGUID('eb4ccb')\n    else\n        return\n    end\n\n    marker.call(\"increment\")\nend",
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"+100\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 500,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Left-click to increment your score marker, right-click to increment the city score marker. This button replaces the score marker and the city discs.\"\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\n    local marker\n\n    if alt_click then\n        -- ignore right-clicks for now\n        -- in the future, right-click will increment the city marker\n        marker = getObjectFromGUID('6bff57')\n    elseif color == \"Green\" then\n        marker = getObjectFromGUID('fc3802')\n    elseif color == \"Yellow\" then\n        marker = getObjectFromGUID('e0fb49')\n    elseif color == \"Red\" then\n        marker = getObjectFromGUID('0d8495')\n    elseif color == \"Blue\" then\n        mark = getObjectFromGUID('eb4ccb')\n    else\n        return\n    end\n\n    marker.call(\"increment\")\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "50c5ee"
@@ -6745,12 +6745,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -33.2199974,
-        "posY": 1.060331,
-        "posZ": 19.1000023,
-        "rotX": -0.0002686783,
-        "rotY": 0.00265736156,
-        "rotZ": -0.000229757614,
+        "posX": -39.9753036,
+        "posY": 1.06037319,
+        "posZ": 22.3212719,
+        "rotX": -0.0002664296,
+        "rotY": 0.00269377953,
+        "rotZ": -0.000229283149,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6776,7 +6776,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomMesh": {
-        "MeshURL": "file:////home/ttabi/Documents/3d/city_marker.obj",
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636325604/26775B2BB16FE34ED5AF7DF12660343432452213/",
         "DiffuseURL": "",
         "NormalURL": "",
         "ColliderURL": "",
@@ -6791,52 +6791,14 @@
       "GUID": "6bff57"
     },
     {
-      "Name": "BlockSquare",
-      "Transform": {
-        "posX": -22.49,
-        "posY": 1.08621716,
-        "posZ": 30.93,
-        "rotX": -6.75229046E-08,
-        "rotY": 0.007174621,
-        "rotZ": -1.48790946E-07,
-        "scaleX": 0.5,
-        "scaleY": 0.25,
-        "scaleZ": 0.5
-      },
-      "Nickname": "Green cube",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.0439999327,
-        "g": 1.0,
-        "b": 0.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "bf0b2b"
-    },
-    {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 21.9994144,
-        "posY": 0.9572796,
-        "posZ": -7.867061,
-        "rotX": 0.004775273,
-        "rotY": 180.00206,
-        "rotZ": 359.988373,
+        "posX": 15.3544483,
+        "posY": 0.9576166,
+        "posZ": -7.50409651,
+        "rotX": 0.00394860562,
+        "rotY": 179.846558,
+        "rotZ": 359.989929,
         "scaleX": 9.177,
         "scaleY": 1.0,
         "scaleZ": 9.177
@@ -6849,21 +6811,21 @@
         "g": 1.0,
         "b": 1.0
       },
-      "Locked": true,
+      "Locked": false,
       "Grid": false,
       "Snap": false,
       "IgnoreFoW": false,
-      "MeasureMovement": true,
+      "MeasureMovement": false,
       "DragSelectable": true,
       "Autoraise": true,
       "Sticky": true,
       "Tooltip": true,
-      "GridProjection": true,
+      "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/sideboard_english.png",
-        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/sideboard_german.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1680367304175579708/A930C0902E454F9FE11172EA6DCE29E132468AD6/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1680367304175582287/A9ECF40FB35125C646C011D56CBDBA9B5CE36688/",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -7099,9 +7061,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": -16.0,
-        "posY": 0.9601732,
-        "posZ": -7.34305956E-07,
+        "posX": -22.7553139,
+        "posY": 0.960215449,
+        "posZ": 3.22126961,
         "rotX": 0.000265547773,
         "rotY": 180.0,
         "rotZ": 0.000229713551,
@@ -7130,7 +7092,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/gameboard.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1666856658079958165/CFCC2D95E614F81B9B51689BB489E683C013715E/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -7950,7 +7912,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0320001878,
+            "y": 0.03200026,
             "z": 0.0
           }
         },
@@ -8022,7 +7984,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0310001671,
+            "y": 0.0310002342,
             "z": 0.0
           }
         },
@@ -8094,7 +8056,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0310001671,
+            "y": 0.0310002342,
             "z": 0.0
           }
         },
@@ -8166,7 +8128,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0310001671,
+            "y": 0.0310002342,
             "z": 0.0
           }
         },
@@ -10948,7 +10910,7 @@
             "z": 0.656500041
           },
           "Rotation": {
-            "x": -4.65219017E-07,
+            "x": -4.6522004E-07,
             "y": 0.00362771843,
             "z": -4.62160244E-07
           }
@@ -11596,7 +11558,7 @@
             "z": -0.7675
           },
           "Rotation": {
-            "x": 5.7069667E-07,
+            "x": 5.706977E-07,
             "y": 0.003627788,
             "z": 4.25169532E-07
           }
@@ -12182,12 +12144,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 15.9746828,
-        "posY": 0.958220065,
-        "posZ": 11.1411238,
-        "rotX": 0.00432213023,
+        "posX": 8.823703,
+        "posY": 0.9601667,
+        "posZ": 14.5967159,
+        "rotX": -0.000112782975,
         "rotY": 180.00209,
-        "rotZ": 359.987366,
+        "rotZ": 0.000959460333,
         "scaleX": 8.256,
         "scaleY": 1.0,
         "scaleZ": 8.256
@@ -12201,19 +12163,19 @@
         "b": 1.0
       },
       "Locked": true,
-      "Grid": true,
-      "Snap": true,
+      "Grid": false,
+      "Snap": false,
       "IgnoreFoW": false,
       "MeasureMovement": false,
       "DragSelectable": true,
-      "Autoraise": true,
+      "Autoraise": false,
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": true,
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/kings_bonus_chart.png",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1680367392274079572/BB65D04FB898A7F726D7F62D41F87BF3DBDA5882/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -12860,6 +12822,200 @@
           }
         }
       ]
+    },
+    {
+      "Name": "Custom_PDF",
+      "Transform": {
+        "posX": 33.0729,
+        "posY": 0.9600007,
+        "posZ": 13.7321167,
+        "rotX": -3.46518148E-09,
+        "rotY": 180.0,
+        "rotZ": 5.83280135E-09,
+        "scaleX": 5.8616,
+        "scaleY": 1.0,
+        "scaleZ": 5.8616
+      },
+      "Nickname": "English rulebook",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomPDF": {
+        "PDFUrl": "http://www.zdh.com/quixotic/canterbury_rulebook_web3.pdf",
+        "PDFPassword": "",
+        "PDFPage": 5,
+        "PDFPageOffset": 0
+      },
+      "LuaScript": "function onLoad()\n    children = self.getChildren()[1].getChildren()[1].getChildren()\n    children[1].getComponents()[1].set('localScale', {0.5,2,1}) -- next page    \n    children[2].getComponents()[1].set('localScale', {0.5,2,1}) -- prev page\n    children[3].getComponents()[1].set('localScale', {1,0.5,1}) -- pop out\nend",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "a0a73f"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -23.6700039,
+        "posY": 3.111217,
+        "posZ": -34.42515,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.5,
+        "scaleY": 1.0,
+        "scaleZ": 0.5
+      },
+      "Nickname": "One gold",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636321667/D14A6EE1FE3273A9E150B5A65B328708780028E2/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.3,
+          "MergeDistancePixels": 25.0,
+          "StandUp": false,
+          "Stackable": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "44047a"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 23.6700039,
+        "posY": 3.111217,
+        "posZ": -34.2558136,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.5,
+        "scaleY": 1.0,
+        "scaleZ": 0.5
+      },
+      "Nickname": "One gold",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636321667/D14A6EE1FE3273A9E150B5A65B328708780028E2/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.3,
+          "MergeDistancePixels": 25.0,
+          "StandUp": false,
+          "Stackable": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "02800d"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 23.6700039,
+        "posY": 3.11121726,
+        "posZ": 34.4527626,
+        "rotX": 0.0,
+        "rotY": -8.53773543E-07,
+        "rotZ": 0.0,
+        "scaleX": 0.5,
+        "scaleY": 1.0,
+        "scaleZ": 0.5
+      },
+      "Nickname": "One gold",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636321667/D14A6EE1FE3273A9E150B5A65B328708780028E2/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.3,
+          "MergeDistancePixels": 25.0,
+          "StandUp": false,
+          "Stackable": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "dd87cf"
     }
   ],
   "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",

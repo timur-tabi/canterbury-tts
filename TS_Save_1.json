@@ -1,7 +1,7 @@
 {
   "SaveName": "Canterbury",
   "GameMode": "Canterbury",
-  "Date": "11/26/2020 1:57:31 PM",
+  "Date": "11/26/2020 5:23:57 PM",
   "Gravity": 0.5,
   "PlayArea": 0.622,
   "GameType": "Game",
@@ -556,9 +556,9 @@
         "posX": -4.0,
         "posY": 0.944217,
         "posZ": -29.9317627,
-        "rotX": 7.38467349E-07,
+        "rotX": 7.38467463E-07,
         "rotY": 359.9691,
-        "rotZ": 7.310755E-07,
+        "rotZ": 7.310754E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -633,12 +633,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -41.69788,
-        "posY": 1.68892121,
-        "posZ": 22.1826057,
-        "rotX": 0.0101556787,
-        "rotY": 359.963043,
-        "rotZ": 359.91748,
+        "posX": -41.69781,
+        "posY": 1.68891633,
+        "posZ": 22.182579,
+        "rotX": 0.000274236547,
+        "rotY": 359.9632,
+        "rotZ": 359.922638,
         "scaleX": 1.2,
         "scaleY": 1.2,
         "scaleZ": 1.2
@@ -681,12 +681,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -41.6979675,
-        "posY": 1.32941616,
-        "posZ": 22.1826172,
-        "rotX": 0.0127587439,
-        "rotY": 359.978851,
-        "rotZ": 359.952545,
+        "posX": -41.6979179,
+        "posY": 1.32942259,
+        "posZ": 22.1826344,
+        "rotX": 0.0128993252,
+        "rotY": 359.978821,
+        "rotZ": 359.946167,
         "scaleX": 1.2,
         "scaleY": 1.2,
         "scaleZ": 1.2
@@ -729,12 +729,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -41.6954,
-        "posY": 1.15030754,
-        "posZ": 22.1814537,
-        "rotX": 359.9787,
-        "rotY": 0.0238947477,
-        "rotZ": -0.0009970076,
+        "posX": -41.69539,
+        "posY": 1.15031278,
+        "posZ": 22.1814556,
+        "rotX": 359.980682,
+        "rotY": 0.0237002056,
+        "rotZ": 359.993134,
         "scaleX": 1.2,
         "scaleY": 1.2,
         "scaleZ": 1.2
@@ -885,7 +885,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.686,
-        "b": 0.2159988
+        "b": 0.215998769
       },
       "Locked": true,
       "Grid": false,
@@ -1129,9 +1129,9 @@
         "posX": 38.006,
         "posY": 1.063051,
         "posZ": -30.0000057,
-        "rotX": -1.6867034E-06,
-        "rotY": -0.000112699687,
-        "rotZ": -3.90199546E-07,
+        "rotX": -1.997277E-06,
+        "rotY": -0.000106737236,
+        "rotZ": 3.038235E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1312,11 +1312,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -49.9827,
-        "posY": 1.06705689,
+        "posY": 1.06705737,
         "posZ": -30.0775776,
-        "rotX": 5.57401927E-06,
+        "rotX": 4.78348E-06,
         "rotY": 359.985779,
-        "rotZ": 2.51060351E-06,
+        "rotZ": 4.8085526E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1351,11 +1351,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": 9.005991,
-        "posY": 1.06305075,
+        "posY": 1.06305051,
         "posZ": -29.9999771,
-        "rotX": -2.18779974E-06,
-        "rotY": -0.000275767117,
-        "rotZ": -1.98768657E-06,
+        "rotX": 4.1646507E-07,
+        "rotY": -0.0002937033,
+        "rotZ": 1.33401059E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1365,7 +1365,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.0,
-        "g": 0.171998858,
+        "g": 0.171998829,
         "b": 1.0
       },
       "Locked": false,
@@ -1392,9 +1392,9 @@
         "posX": -20.994009,
         "posY": 1.06305039,
         "posZ": -29.9999828,
-        "rotX": -1.33717634E-07,
+        "rotX": 1.31007084E-07,
         "rotY": 359.988068,
-        "rotZ": 9.738495E-07,
+        "rotZ": 1.02051274E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1501,12 +1501,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.058361,
-        "posY": 1.05183077,
-        "posZ": -0.683684468,
-        "rotX": 0.0558415055,
-        "rotY": 179.981491,
-        "rotZ": 359.979462,
+        "posX": 1.05834508,
+        "posY": 1.0533247,
+        "posZ": -0.6837756,
+        "rotX": 0.0609915555,
+        "rotY": 179.981384,
+        "rotZ": 359.979248,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -1551,12 +1551,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5718164,
-        "posY": 1.05661571,
-        "posZ": -0.6377348,
-        "rotX": 0.05751593,
-        "rotY": 180.024323,
-        "rotZ": 359.978455,
+        "posX": 12.5718021,
+        "posY": 1.05735981,
+        "posZ": -0.6377954,
+        "rotX": 0.0594899021,
+        "rotY": 180.024261,
+        "rotZ": 359.9778,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -1601,12 +1601,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.79799032,
-        "posY": 1.05497837,
-        "posZ": -0.6716841,
-        "rotX": 0.0595277,
-        "rotY": 180.02536,
-        "rotZ": 359.9795,
+        "posX": 6.797979,
+        "posY": 1.05475545,
+        "posZ": -0.671752632,
+        "rotX": 0.0583002269,
+        "rotY": 180.025284,
+        "rotZ": 359.97757,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -1651,12 +1651,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9023485,
-        "posY": 1.13524759,
-        "posZ": 13.9186869,
-        "rotX": 0.00285391579,
-        "rotY": 359.982941,
-        "rotZ": 359.975861,
+        "posX": -0.902352035,
+        "posY": 1.13523138,
+        "posZ": 13.9187031,
+        "rotX": 0.0148833143,
+        "rotY": 359.98288,
+        "rotZ": 359.9785,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1699,12 +1699,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.90067023,
-        "posY": 1.13526881,
-        "posZ": 21.95398,
-        "rotX": 0.0227410663,
-        "rotY": 359.9838,
-        "rotZ": 0.00129095349,
+        "posX": -0.9006818,
+        "posY": 1.135262,
+        "posZ": 21.9539757,
+        "rotX": 0.0193619635,
+        "rotY": 359.983643,
+        "rotZ": 0.008479868,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1747,12 +1747,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901814938,
-        "posY": 1.13527274,
-        "posZ": 8.553972,
-        "rotX": 0.0257152729,
-        "rotY": 0.00639780657,
-        "rotZ": 359.990723,
+        "posX": -0.901827455,
+        "posY": 1.13529372,
+        "posZ": 8.553968,
+        "rotX": 0.0236707274,
+        "rotY": 0.00621670159,
+        "rotZ": -0.00231613847,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1795,12 +1795,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9010031,
-        "posY": 1.13526952,
-        "posZ": 11.2363415,
-        "rotX": 0.0210299622,
-        "rotY": 359.9885,
-        "rotZ": 359.993469,
+        "posX": -0.901015043,
+        "posY": 1.13524878,
+        "posZ": 11.2363453,
+        "rotX": 0.0235190969,
+        "rotY": 359.988434,
+        "rotZ": 0.00214534719,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1843,12 +1843,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901314139,
-        "posY": 1.13526964,
-        "posZ": 16.5941467,
-        "rotX": 0.0173369087,
-        "rotY": -0.005615605,
-        "rotZ": 359.986481,
+        "posX": -0.901324153,
+        "posY": 1.13525832,
+        "posZ": 16.5941525,
+        "rotX": 0.0211109389,
+        "rotY": -0.00565872435,
+        "rotZ": 359.99353,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1891,12 +1891,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9005848,
-        "posY": 1.13523078,
-        "posZ": 19.2765713,
-        "rotX": 0.0112758679,
-        "rotY": 0.003618558,
-        "rotZ": 0.0200494733,
+        "posX": -0.9005926,
+        "posY": 1.13521171,
+        "posZ": 19.276556,
+        "rotX": -0.000396355754,
+        "rotY": 0.003590029,
+        "rotZ": 0.0258230157,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1939,12 +1939,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9020351,
-        "posY": 1.28439069,
-        "posZ": 8.55402851,
-        "rotX": 0.0227851719,
-        "rotY": 359.9617,
-        "rotZ": 0.08575408,
+        "posX": -0.902100861,
+        "posY": 1.284401,
+        "posZ": 8.554113,
+        "rotX": 0.07886254,
+        "rotY": 359.961578,
+        "rotZ": 0.09646566,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1987,12 +1987,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9023339,
-        "posY": 1.43430674,
-        "posZ": 8.554147,
-        "rotX": 0.0123900743,
-        "rotY": 359.9506,
-        "rotZ": 0.116389543,
+        "posX": -0.902432561,
+        "posY": 1.43433177,
+        "posZ": 8.554392,
+        "rotX": 0.07692388,
+        "rotY": 359.950653,
+        "rotZ": 0.127941668,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2035,12 +2035,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9035489,
-        "posY": 1.28439,
-        "posZ": 11.2376089,
-        "rotX": 0.126221761,
-        "rotY": 0.06043186,
-        "rotZ": 359.937225,
+        "posX": -0.9035519,
+        "posY": 1.28437626,
+        "posZ": 11.2376146,
+        "rotX": 0.107097507,
+        "rotY": 0.0603066273,
+        "rotZ": 359.929047,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2083,12 +2083,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9001461,
-        "posY": 1.284369,
-        "posZ": 16.59347,
-        "rotX": 0.117659867,
-        "rotY": 359.9569,
-        "rotZ": 359.92746,
+        "posX": -0.90015924,
+        "posY": 1.28435719,
+        "posZ": 16.593502,
+        "rotX": 0.1149758,
+        "rotY": 359.9566,
+        "rotZ": 359.928925,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2131,12 +2131,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9025258,
-        "posY": 1.28434813,
-        "posZ": 13.91739,
-        "rotX": 359.930145,
-        "rotY": 0.0134884855,
-        "rotZ": 359.905243,
+        "posX": -0.902519763,
+        "posY": 1.2843411,
+        "posZ": 13.9174309,
+        "rotX": 359.9461,
+        "rotY": 0.0134645887,
+        "rotZ": 359.911652,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2179,12 +2179,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.899915636,
-        "posY": 1.284338,
-        "posZ": 19.2778168,
-        "rotX": 0.119115889,
-        "rotY": 359.964722,
-        "rotZ": 0.0279199183,
+        "posX": -0.8999256,
+        "posY": 1.28433061,
+        "posZ": 19.2777748,
+        "rotX": 0.0962250754,
+        "rotY": 359.964355,
+        "rotZ": 0.0177770518,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2227,12 +2227,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9006386,
-        "posY": 1.2843734,
-        "posZ": 21.9550381,
-        "rotX": 0.08701888,
-        "rotY": 359.990845,
-        "rotZ": 0.09734099,
+        "posX": -0.900663853,
+        "posY": 1.28436077,
+        "posZ": 21.9550877,
+        "rotX": 0.111347355,
+        "rotY": 359.99057,
+        "rotZ": 0.08281986,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2275,12 +2275,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9032487,
-        "posY": 1.434302,
-        "posZ": 11.2373562,
-        "rotX": 0.1495541,
-        "rotY": 0.0484808125,
-        "rotZ": 359.918945,
+        "posX": -0.903217435,
+        "posY": 1.43427873,
+        "posZ": 11.2373114,
+        "rotX": 0.123173818,
+        "rotY": 0.04829669,
+        "rotZ": 359.903442,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2323,12 +2323,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9022829,
-        "posY": 1.43428075,
-        "posZ": 13.91684,
-        "rotX": 359.9415,
-        "rotY": 359.9683,
-        "rotZ": 359.8766,
+        "posX": -0.9022894,
+        "posY": 1.43426752,
+        "posZ": 13.9169064,
+        "rotX": 359.94696,
+        "rotY": 359.968384,
+        "rotZ": 359.881775,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2371,12 +2371,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.89974165,
-        "posY": 1.43430638,
-        "posZ": 16.5941982,
-        "rotX": 0.144600257,
-        "rotY": 359.9675,
-        "rotZ": 359.944519,
+        "posX": -0.8997426,
+        "posY": 1.4342953,
+        "posZ": 16.5942287,
+        "rotX": 0.1432049,
+        "rotY": 359.967957,
+        "rotZ": 359.9409,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2419,12 +2419,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.89978236,
-        "posY": 1.43426836,
-        "posZ": 19.2781963,
-        "rotX": 0.141975179,
-        "rotY": 359.9898,
-        "rotZ": 0.0459680669,
+        "posX": -0.8997506,
+        "posY": 1.43424833,
+        "posZ": 19.2781086,
+        "rotX": 0.124558643,
+        "rotY": 359.989868,
+        "rotZ": 0.02679955,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2467,12 +2467,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9008451,
-        "posY": 1.43430793,
-        "posZ": 21.9555283,
-        "rotX": 0.07946326,
-        "rotY": 0.0169161335,
-        "rotZ": 0.128477782,
+        "posX": -0.900836349,
+        "posY": 1.43429923,
+        "posZ": 21.9556541,
+        "rotX": 0.108432986,
+        "rotY": 0.0169803463,
+        "rotZ": 0.114193372,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2515,12 +2515,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9041676,
-        "posY": 1.5839417,
-        "posZ": 11.23748,
-        "rotX": 0.19123821,
-        "rotY": 0.0205315147,
-        "rotZ": 359.895081,
+        "posX": -0.9040523,
+        "posY": 1.58392215,
+        "posZ": 11.2373934,
+        "rotX": 0.15613021,
+        "rotY": 0.0205234587,
+        "rotZ": 359.872467,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2563,12 +2563,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901608348,
-        "posY": 1.58390617,
-        "posZ": 13.9172325,
-        "rotX": 359.91275,
-        "rotY": -6.87604552E-05,
-        "rotZ": 359.8481,
+        "posX": -0.9015926,
+        "posY": 1.58389747,
+        "posZ": 13.91729,
+        "rotX": 359.918732,
+        "rotY": -5.31762562E-05,
+        "rotZ": 359.854675,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2611,12 +2611,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.900064,
-        "posY": 1.583928,
-        "posZ": 16.5959435,
-        "rotX": 0.184963807,
-        "rotY": 359.975739,
-        "rotZ": 359.921539,
+        "posX": -0.900033355,
+        "posY": 1.583917,
+        "posZ": 16.5960159,
+        "rotX": 0.18085888,
+        "rotY": 359.975861,
+        "rotZ": 359.9151,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2659,12 +2659,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901617169,
-        "posY": 1.58389568,
-        "posZ": 19.2789822,
-        "rotX": 0.186010614,
-        "rotY": 0.00317558949,
-        "rotZ": 0.04863564,
+        "posX": -0.901533246,
+        "posY": 1.5838815,
+        "posZ": 19.278883,
+        "rotX": 0.164332345,
+        "rotY": 0.00306344987,
+        "rotZ": 0.0226979069,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2707,12 +2707,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902185142,
-        "posY": 1.58393431,
-        "posZ": 21.9549961,
-        "rotX": 0.103784315,
-        "rotY": -0.00115008431,
-        "rotZ": 0.1677422,
+        "posX": -0.9021628,
+        "posY": 1.58392382,
+        "posZ": 21.9552574,
+        "rotX": 0.144524947,
+        "rotY": -0.0009302127,
+        "rotZ": 0.144507855,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2755,12 +2755,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.903292239,
-        "posY": 1.58393955,
-        "posZ": 8.553335,
-        "rotX": 0.009365538,
-        "rotY": 359.9639,
-        "rotZ": 0.155393124,
+        "posX": -0.90346545,
+        "posY": 1.58396065,
+        "posZ": 8.553812,
+        "rotX": 0.0979005247,
+        "rotY": 359.964325,
+        "rotZ": 0.168172672,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2803,12 +2803,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.7163486,
-        "posY": 1.05121112,
-        "posZ": -12.39229,
-        "rotX": 0.08498332,
-        "rotY": 179.992966,
-        "rotZ": 359.969818,
+        "posX": 29.716362,
+        "posY": 1.05121708,
+        "posZ": -12.3923073,
+        "rotX": 0.07255051,
+        "rotY": 179.993042,
+        "rotZ": 359.97467,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2819,7 +2819,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -2853,12 +2853,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.95442,
-        "posY": 1.051047,
+        "posX": 23.9544277,
+        "posY": 1.05727375,
         "posZ": -12.37995,
-        "rotX": 0.07403756,
-        "rotY": 180.0068,
-        "rotZ": 359.949463,
+        "rotX": 0.02657178,
+        "rotY": 180.006927,
+        "rotZ": 359.972015,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2869,7 +2869,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -2904,11 +2904,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 18.2302,
-        "posY": 1.04969537,
-        "posZ": -12.3953629,
-        "rotX": 0.0716760457,
-        "rotY": 179.889145,
-        "rotZ": 359.929047,
+        "posY": 1.0525068,
+        "posZ": -12.3954086,
+        "rotX": 0.0572927929,
+        "rotY": 179.8889,
+        "rotZ": 359.940552,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2919,7 +2919,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -2953,12 +2953,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5665884,
-        "posY": 1.0464344,
-        "posZ": -12.3927135,
-        "rotX": 0.0545064919,
-        "rotY": 180.341354,
-        "rotZ": 359.922333,
+        "posX": 12.566577,
+        "posY": 1.04664,
+        "posZ": -12.392767,
+        "rotX": 0.0590430647,
+        "rotY": 180.3413,
+        "rotZ": 359.9311,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2969,7 +2969,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -3003,12 +3003,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.69771671,
-        "posY": 3.21562576,
-        "posZ": -12.4667,
-        "rotX": 0.5197612,
-        "rotY": 180.001511,
-        "rotZ": 359.542175,
+        "posX": 6.69932556,
+        "posY": 3.20729446,
+        "posZ": -12.468853,
+        "rotX": 0.5335101,
+        "rotY": 179.993378,
+        "rotZ": 359.598236,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3019,7 +3019,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -3053,12 +3053,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.05671084,
-        "posY": 1.0453099,
-        "posZ": -12.3677588,
-        "rotX": 0.07557913,
-        "rotY": 179.804291,
-        "rotZ": 359.942932,
+        "posX": 1.05672383,
+        "posY": 1.04912508,
+        "posZ": -12.3678379,
+        "rotX": 0.07188246,
+        "rotY": 179.80368,
+        "rotZ": 359.9517,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3069,7 +3069,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -3118,7 +3118,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627451062,
-        "g": 0.125489086,
+        "g": 0.125489056,
         "b": 0.9411765
       },
       "Locked": true,
@@ -3141,12 +3141,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.2689819,
-        "posY": 1.05831861,
-        "posZ": -0.6847897,
-        "rotX": 0.0155118,
-        "rotY": 180.025848,
-        "rotZ": 359.9815,
+        "posX": 18.2689648,
+        "posY": 1.05916154,
+        "posZ": -0.6848168,
+        "rotX": 0.03204401,
+        "rotY": 180.025787,
+        "rotZ": 359.982,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -3191,12 +3191,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.9406548,
-        "posY": 1.06038189,
-        "posZ": -0.7181761,
-        "rotX": 0.0166441482,
-        "rotY": 180.001,
-        "rotZ": 359.981964,
+        "posX": 23.9406376,
+        "posY": 1.06096315,
+        "posZ": -0.718203247,
+        "rotX": 0.05666393,
+        "rotY": 180.000931,
+        "rotZ": 359.9779,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -3241,12 +3241,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.70941,
-        "posY": 1.062445,
-        "posZ": -0.6667002,
-        "rotX": 0.0168049075,
-        "rotY": 179.82692,
-        "rotZ": 359.981964,
+        "posX": 29.7094135,
+        "posY": 1.06066155,
+        "posZ": -0.666700959,
+        "rotX": 0.004032197,
+        "rotY": 179.826889,
+        "rotZ": 359.989471,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -3389,414 +3389,14 @@
       "GUID": "ee8f88"
     },
     {
-      "Name": "Custom_Token",
-      "Transform": {
-        "posX": -49.1300468,
-        "posY": 1.4646728,
-        "posZ": -4.66999245,
-        "rotX": 0.003693956,
-        "rotY": 179.992126,
-        "rotZ": 359.9942,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324354/9ED781CCC27332A97D0544510B22E3CB689AC62D/",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomToken": {
-          "Thickness": 0.2,
-          "MergeDistancePixels": 25.0,
-          "StandUp": false,
-          "Stackable": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "c6dab7"
-    },
-    {
-      "Name": "Custom_Token",
-      "Transform": {
-        "posX": -49.1299934,
-        "posY": 1.06518793,
-        "posZ": -4.6699996,
-        "rotX": -0.001214977,
-        "rotY": 179.996536,
-        "rotZ": -0.00199358328,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324493/AB6CAE40EDE9FA792049F3969CFBF686DC799207/",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomToken": {
-          "Thickness": 0.2,
-          "MergeDistancePixels": 25.0,
-          "StandUp": false,
-          "Stackable": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "a7642a"
-    },
-    {
-      "Name": "Custom_Token",
-      "Transform": {
-        "posX": -49.13003,
-        "posY": 1.264707,
-        "posZ": -4.66998434,
-        "rotX": 0.0015940161,
-        "rotY": 179.989578,
-        "rotZ": -0.004687381,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324600/372651C73462BEA3496E5121D60FE5ABCF10266A/",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomToken": {
-          "Thickness": 0.2,
-          "MergeDistancePixels": 25.0,
-          "StandUp": false,
-          "Stackable": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "5518bd"
-    },
-    {
-      "Name": "Custom_Token",
-      "Transform": {
-        "posX": -49.13007,
-        "posY": 1.664472,
-        "posZ": -4.67000675,
-        "rotX": 0.00414987141,
-        "rotY": 180.009125,
-        "rotZ": 359.993225,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324721/7E865AFA3C4FC2425C81BDC567680E859A8079C1/",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomToken": {
-          "Thickness": 0.2,
-          "MergeDistancePixels": 25.0,
-          "StandUp": false,
-          "Stackable": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "1e3ea2"
-    },
-    {
-      "Name": "Custom_Token",
-      "Transform": {
-        "posX": 48.55,
-        "posY": 1.26079893,
-        "posZ": -4.670003,
-        "rotX": -0.0005052525,
-        "rotY": 179.99498,
-        "rotZ": 0.000443481025,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324834/320C3DE082D1CE6DE7D08649C1B2EA8498B3AD6B/",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomToken": {
-          "Thickness": 0.2,
-          "MergeDistancePixels": 25.0,
-          "StandUp": false,
-          "Stackable": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "548e10"
-    },
-    {
-      "Name": "Custom_Token",
-      "Transform": {
-        "posX": 48.5500259,
-        "posY": 1.06120992,
-        "posZ": -4.66999769,
-        "rotX": -0.000197829257,
-        "rotY": 179.966385,
-        "rotZ": -0.0005185518,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636324928/49BC68EBD287AE6D6761CB45649DBEFA63A28AFB/",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomToken": {
-          "Thickness": 0.2,
-          "MergeDistancePixels": 25.0,
-          "StandUp": false,
-          "Stackable": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "c94d59"
-    },
-    {
-      "Name": "Custom_Token",
-      "Transform": {
-        "posX": 48.55,
-        "posY": 1.46082687,
-        "posZ": -4.67000532,
-        "rotX": -0.0003888267,
-        "rotY": 180.003647,
-        "rotZ": 0.00137279276,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636325023/E37504D976C769CC5D52467D217E3B42C0A42B7A/",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomToken": {
-          "Thickness": 0.2,
-          "MergeDistancePixels": 25.0,
-          "StandUp": false,
-          "Stackable": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "abf059"
-    },
-    {
-      "Name": "Custom_Token",
-      "Transform": {
-        "posX": 48.5500031,
-        "posY": 1.66066456,
-        "posZ": -4.67001247,
-        "rotX": -0.00102729769,
-        "rotY": 180.029984,
-        "rotZ": 0.0017877972,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651095198636325149/0A24837D2215C4004808C70EC112718FD6A5F2A9/",
-        "ImageSecondaryURL": "",
-        "ImageScalar": 1.0,
-        "WidthScale": 0.0,
-        "CustomToken": {
-          "Thickness": 0.2,
-          "MergeDistancePixels": 25.0,
-          "StandUp": false,
-          "Stackable": true
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "GUID": "cef295"
-    },
-    {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.05327117,
-        "posY": 1.23750424,
-        "posZ": -12.3718786,
-        "rotX": 0.5064387,
-        "rotY": 179.7913,
-        "rotZ": 359.840759,
+        "posX": 1.0533241,
+        "posY": 1.2413168,
+        "posZ": -12.3722057,
+        "rotX": 0.5061578,
+        "rotY": 179.788315,
+        "rotZ": 359.8504,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3807,7 +3407,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -3841,12 +3441,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.05046511,
-        "posY": 1.43583894,
-        "posZ": -12.3723383,
-        "rotX": 0.6862482,
-        "rotY": 179.856491,
-        "rotZ": 359.908875,
+        "posX": 1.05046773,
+        "posY": 1.4396646,
+        "posZ": -12.372736,
+        "rotX": 0.6847705,
+        "rotY": 179.85788,
+        "rotZ": 359.9183,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3857,7 +3457,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -3891,12 +3491,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.07332611,
-        "posY": 1.62821,
-        "posZ": -12.4565067,
-        "rotX": 1.02563953,
-        "rotY": 178.877213,
-        "rotZ": 359.9226,
+        "posX": 1.07322681,
+        "posY": 1.63206339,
+        "posZ": -12.4573383,
+        "rotX": 1.0247463,
+        "rotY": 178.885956,
+        "rotZ": 359.932556,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3907,7 +3507,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -3941,12 +3541,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.05393636,
-        "posY": 1.825755,
-        "posZ": -12.4918423,
-        "rotX": 0.9645153,
-        "rotY": 180.353455,
-        "rotZ": 0.1356178,
+        "posX": 1.05393612,
+        "posY": 1.82962227,
+        "posZ": -12.4928017,
+        "rotX": 0.9635146,
+        "rotY": 180.3669,
+        "rotZ": 0.144641057,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3957,7 +3557,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -3991,12 +3591,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.08330619,
-        "posY": 2.01942539,
-        "posZ": -12.553586,
-        "rotX": 0.962810159,
-        "rotY": 180.079712,
-        "rotZ": 359.945526,
+        "posX": 1.08322251,
+        "posY": 2.02329659,
+        "posZ": -12.5549278,
+        "rotX": 0.963411868,
+        "rotY": 180.087875,
+        "rotZ": 359.95517,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4007,7 +3607,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4041,12 +3641,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.05179369,
-        "posY": 2.21799183,
-        "posZ": -12.5607834,
-        "rotX": 1.00236928,
-        "rotY": 181.09758,
-        "rotZ": 359.836334,
+        "posX": 1.05178988,
+        "posY": 2.221866,
+        "posZ": -12.5622349,
+        "rotX": 1.00270319,
+        "rotY": 181.1023,
+        "rotZ": 359.845947,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4057,7 +3657,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4091,12 +3691,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.048379,
-        "posY": 2.41332269,
-        "posZ": -12.6056747,
-        "rotX": 0.8845158,
-        "rotY": 180.361115,
-        "rotZ": 359.7676,
+        "posX": 1.04829729,
+        "posY": 2.41718841,
+        "posZ": -12.607357,
+        "rotX": 0.885570645,
+        "rotY": 180.361526,
+        "rotZ": 359.777252,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4107,7 +3707,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4141,12 +3741,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.01818871,
-        "posY": 2.61270046,
-        "posZ": -12.5806541,
-        "rotX": 0.8600873,
-        "rotY": 180.753754,
-        "rotZ": 359.687164,
+        "posX": 1.01809,
+        "posY": 2.61656976,
+        "posZ": -12.5823736,
+        "rotX": 0.861,
+        "rotY": 180.751709,
+        "rotZ": 359.696655,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4157,7 +3757,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4191,12 +3791,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.998061061,
-        "posY": 2.81024742,
-        "posZ": -12.5808315,
-        "rotX": 0.9283956,
-        "rotY": 181.362976,
-        "rotZ": 359.712524,
+        "posX": 0.9979247,
+        "posY": 2.81411576,
+        "posZ": -12.5826626,
+        "rotX": 0.9295294,
+        "rotY": 181.3627,
+        "rotZ": 359.722168,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4207,7 +3807,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4241,12 +3841,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.998237967,
-        "posY": 3.00996876,
-        "posZ": -12.5702887,
-        "rotX": 0.9143674,
-        "rotY": 181.213181,
-        "rotZ": 359.7555,
+        "posX": 0.998149633,
+        "posY": 3.013837,
+        "posZ": -12.572156,
+        "rotX": 0.9155074,
+        "rotY": 181.213943,
+        "rotZ": 359.7652,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4257,7 +3857,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4291,12 +3891,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.9934342,
-        "posY": 3.20867419,
-        "posZ": -12.6028137,
-        "rotX": 0.8893184,
-        "rotY": 180.636215,
-        "rotZ": 359.740082,
+        "posX": 0.993359745,
+        "posY": 3.21254086,
+        "posZ": -12.6047258,
+        "rotX": 0.8905578,
+        "rotY": 180.636276,
+        "rotZ": 359.749756,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4307,7 +3907,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4341,12 +3941,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.78784561,
-        "posY": 1.05164027,
-        "posZ": -12.3602991,
-        "rotX": 0.054526303,
-        "rotY": 180.028549,
-        "rotZ": 359.935638,
+        "posX": 6.787919,
+        "posY": 1.04018521,
+        "posZ": -12.3603868,
+        "rotX": 0.152408451,
+        "rotY": 180.027039,
+        "rotZ": 359.901642,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4357,7 +3957,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4391,12 +3991,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.78708458,
-        "posY": 1.243359,
-        "posZ": -12.3635464,
-        "rotX": 0.3888814,
-        "rotY": 180.021591,
-        "rotZ": 359.782837,
+        "posX": 6.787065,
+        "posY": 1.23781025,
+        "posZ": -12.364069,
+        "rotX": 0.3798526,
+        "rotY": 180.017776,
+        "rotZ": 359.833344,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4407,7 +4007,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4441,12 +4041,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.78520727,
-        "posY": 1.44071424,
-        "posZ": -12.3862591,
-        "rotX": 0.144463226,
-        "rotY": 180.0216,
-        "rotZ": 359.8532,
+        "posX": 6.78544,
+        "posY": 1.42971373,
+        "posZ": -12.3869238,
+        "rotX": 0.214685008,
+        "rotY": 180.019379,
+        "rotZ": 359.842743,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4457,7 +4057,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4491,12 +4091,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.78570127,
-        "posY": 1.63378251,
-        "posZ": -12.3898516,
-        "rotX": 0.266461551,
-        "rotY": 179.90242,
-        "rotZ": 359.583374,
+        "posX": 6.785906,
+        "posY": 1.62769365,
+        "posZ": -12.3908215,
+        "rotX": 0.269501716,
+        "rotY": 179.898758,
+        "rotZ": 359.651062,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4507,7 +4107,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4541,12 +4141,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.76147175,
-        "posY": 1.83161545,
-        "posZ": -12.4304771,
-        "rotX": 0.08024813,
-        "rotY": 180.215057,
-        "rotZ": 359.641418,
+        "posX": 6.76190424,
+        "posY": 1.82308316,
+        "posZ": -12.4315777,
+        "rotX": 0.112043068,
+        "rotY": 180.212173,
+        "rotZ": 359.6774,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4557,7 +4157,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4591,12 +4191,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.74423456,
-        "posY": 2.02591586,
-        "posZ": -12.4499416,
-        "rotX": 0.249150142,
-        "rotY": 180.400986,
-        "rotZ": 359.555,
+        "posX": 6.74476147,
+        "posY": 2.01743078,
+        "posZ": -12.4512939,
+        "rotX": 0.273005635,
+        "rotY": 180.3962,
+        "rotZ": 359.603668,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4607,7 +4207,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4641,12 +4241,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.743868,
-        "posY": 2.22465754,
-        "posZ": -12.3990011,
-        "rotX": 0.206225887,
-        "rotY": 180.316879,
-        "rotZ": 359.6943,
+        "posX": 6.744576,
+        "posY": 2.21623421,
+        "posZ": -12.4004869,
+        "rotX": 0.231094018,
+        "rotY": 180.313416,
+        "rotZ": 359.7394,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4657,7 +4257,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4691,12 +4291,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.70508337,
-        "posY": 2.42045259,
-        "posZ": -12.4297762,
-        "rotX": 0.340132564,
-        "rotY": 180.062881,
-        "rotZ": 359.64267,
+        "posX": 6.70592356,
+        "posY": 2.41208887,
+        "posZ": -12.4314966,
+        "rotX": 0.359399736,
+        "rotY": 180.057648,
+        "rotZ": 359.694763,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4707,7 +4307,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4741,12 +4341,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.698762,
-        "posY": 2.6193862,
-        "posZ": -12.4486561,
-        "rotX": 0.428304225,
-        "rotY": 180.0092,
-        "rotZ": 359.6159,
+        "posX": 6.69980145,
+        "posY": 2.61102533,
+        "posZ": -12.45049,
+        "rotX": 0.447288841,
+        "rotY": 180.002731,
+        "rotZ": 359.66803,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4757,7 +4357,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4791,12 +4391,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.69646835,
-        "posY": 2.81682229,
-        "posZ": -12.4720469,
-        "rotX": 0.450743556,
-        "rotY": 179.937073,
-        "rotZ": 359.547668,
+        "posX": 6.69768953,
+        "posY": 2.808482,
+        "posZ": -12.4740486,
+        "rotX": 0.4661918,
+        "rotY": 179.929245,
+        "rotZ": 359.60318,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4807,7 +4407,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4841,12 +4441,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.696921,
-        "posY": 3.016425,
-        "posZ": -12.4639616,
-        "rotX": 0.49774316,
-        "rotY": 180.0567,
-        "rotZ": 359.53537,
+        "posX": 6.698344,
+        "posY": 3.0080874,
+        "posZ": -12.4660358,
+        "rotX": 0.5128649,
+        "rotY": 180.048279,
+        "rotZ": 359.591,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4857,7 +4457,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4891,12 +4491,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5669384,
-        "posY": 1.24457073,
-        "posZ": -12.3833113,
-        "rotX": 0.234440774,
-        "rotY": 180.293671,
-        "rotZ": 359.9738,
+        "posX": 12.5669432,
+        "posY": 1.24476755,
+        "posZ": -12.3833733,
+        "rotX": 0.240096286,
+        "rotY": 180.294067,
+        "rotZ": 359.983,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4907,7 +4507,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4941,12 +4541,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5820971,
-        "posY": 1.43921423,
-        "posZ": -12.36626,
-        "rotX": 0.390701354,
-        "rotY": 180.126617,
-        "rotZ": 359.914734,
+        "posX": 12.5821152,
+        "posY": 1.43939924,
+        "posZ": -12.3663864,
+        "rotX": 0.396228284,
+        "rotY": 180.126663,
+        "rotZ": 359.922516,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4957,7 +4557,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -4991,12 +4591,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5741129,
-        "posY": 1.63774359,
-        "posZ": -12.3746548,
-        "rotX": 0.253702,
-        "rotY": 179.9343,
-        "rotZ": 359.9546,
+        "posX": 12.5741606,
+        "posY": 1.637932,
+        "posZ": -12.3748341,
+        "rotX": 0.259503841,
+        "rotY": 179.934921,
+        "rotZ": 359.962341,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5007,7 +4607,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5041,12 +4641,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5648813,
-        "posY": 1.83374822,
-        "posZ": -12.3945465,
-        "rotX": 0.130078465,
-        "rotY": 179.1656,
-        "rotZ": 359.9127,
+        "posX": 12.5649,
+        "posY": 1.83394086,
+        "posZ": -12.3947992,
+        "rotX": 0.136053234,
+        "rotY": 179.165192,
+        "rotZ": 359.9199,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5057,7 +4657,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5091,12 +4691,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5650806,
-        "posY": 2.032848,
-        "posZ": -12.3895712,
-        "rotX": 0.04240503,
-        "rotY": 179.2889,
-        "rotZ": 359.886627,
+        "posX": 12.5651054,
+        "posY": 2.033042,
+        "posZ": -12.3898458,
+        "rotX": 0.0484555438,
+        "rotY": 179.287689,
+        "rotZ": 359.8939,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5107,7 +4707,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5141,12 +4741,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5567417,
-        "posY": 2.23042512,
-        "posZ": -12.3761387,
-        "rotX": 0.0984346047,
-        "rotY": 179.288956,
-        "rotZ": 359.904633,
+        "posX": 12.5567656,
+        "posY": 2.23062086,
+        "posZ": -12.3764448,
+        "rotX": 0.104468077,
+        "rotY": 179.2883,
+        "rotZ": 359.911957,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5157,7 +4757,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5191,12 +4791,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5574474,
-        "posY": 2.429992,
-        "posZ": -12.3470755,
-        "rotX": 0.1457705,
-        "rotY": 179.191483,
-        "rotZ": 359.8913,
+        "posX": 12.557498,
+        "posY": 2.43019,
+        "posZ": -12.3474092,
+        "rotX": 0.1518861,
+        "rotY": 179.1907,
+        "rotZ": 359.8986,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5207,7 +4807,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5241,12 +4841,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5593491,
-        "posY": 2.62928677,
-        "posZ": -12.3160944,
-        "rotX": 0.165542841,
-        "rotY": 178.8602,
-        "rotZ": 359.8966,
+        "posX": 12.55942,
+        "posY": 2.6294868,
+        "posZ": -12.316452,
+        "rotX": 0.171734825,
+        "rotY": 178.859573,
+        "rotZ": 359.904083,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5257,7 +4857,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5291,12 +4891,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.2292023,
-        "posY": 1.24539173,
-        "posZ": -12.3901987,
-        "rotX": 0.241474614,
-        "rotY": 179.9066,
-        "rotZ": 359.966,
+        "posX": 18.229187,
+        "posY": 1.246446,
+        "posZ": -12.3902636,
+        "rotX": 0.21757251,
+        "rotY": 179.906769,
+        "rotZ": 359.958527,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5307,7 +4907,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5341,12 +4941,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.2146187,
-        "posY": 1.44002736,
-        "posZ": -12.3614655,
-        "rotX": 0.385510534,
-        "rotY": 179.931656,
-        "rotZ": 359.9885,
+        "posX": 18.21454,
+        "posY": 1.44334555,
+        "posZ": -12.3615227,
+        "rotX": 0.375739962,
+        "rotY": 179.933,
+        "rotZ": -0.00486562727,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5357,7 +4957,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5391,12 +4991,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.21426,
-        "posY": 1.63865554,
-        "posZ": -12.3601274,
-        "rotX": 0.425978929,
-        "rotY": 179.892929,
-        "rotZ": 359.8543,
+        "posX": 18.21422,
+        "posY": 1.64198971,
+        "posZ": -12.3601942,
+        "rotX": 0.415277869,
+        "rotY": 179.893021,
+        "rotZ": 359.862976,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5407,7 +5007,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5441,12 +5041,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.18989,
-        "posY": 1.83474207,
-        "posZ": -12.34789,
-        "rotX": 0.389717758,
-        "rotY": 179.9654,
-        "rotZ": 359.7322,
+        "posX": 18.1897964,
+        "posY": 1.83811021,
+        "posZ": -12.3480015,
+        "rotX": 0.3832968,
+        "rotY": 179.962311,
+        "rotZ": 359.740326,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5457,7 +5057,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5491,12 +5091,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.1868229,
-        "posY": 2.03379583,
-        "posZ": -12.3453026,
-        "rotX": 0.362404466,
-        "rotY": 179.840912,
-        "rotZ": 359.6403,
+        "posX": 18.1867256,
+        "posY": 2.03716779,
+        "posZ": -12.3454,
+        "rotX": 0.355896682,
+        "rotY": 179.836349,
+        "rotZ": 359.648621,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5507,7 +5107,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5541,12 +5141,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.1840267,
-        "posY": 2.23125,
-        "posZ": -12.3770781,
-        "rotX": 0.29501763,
-        "rotY": 180.456528,
-        "rotZ": 359.6223,
+        "posX": 18.1839,
+        "posY": 2.23462582,
+        "posZ": -12.3772106,
+        "rotX": 0.2887862,
+        "rotY": 180.449844,
+        "rotZ": 359.630524,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5557,7 +5157,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5591,12 +5191,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.17562,
-        "posY": 2.430916,
-        "posZ": -12.3428268,
-        "rotX": 0.338390559,
-        "rotY": 180.0292,
-        "rotZ": 359.633026,
+        "posX": 18.1754971,
+        "posY": 2.434287,
+        "posZ": -12.3429451,
+        "rotX": 0.332303524,
+        "rotY": 180.023376,
+        "rotZ": 359.641266,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5607,7 +5207,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5641,12 +5241,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.1712074,
-        "posY": 2.630019,
-        "posZ": -12.3574438,
-        "rotX": 0.339817077,
-        "rotY": 179.282166,
-        "rotZ": 359.6067,
+        "posX": 18.17111,
+        "posY": 2.63339138,
+        "posZ": -12.3575668,
+        "rotX": 0.333396226,
+        "rotY": 179.276,
+        "rotZ": 359.615265,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5657,7 +5257,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5691,12 +5291,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.96644,
-        "posY": 1.24720764,
-        "posZ": -12.3888969,
-        "rotX": 0.0479868837,
-        "rotY": 180.176682,
-        "rotZ": 359.839783,
+        "posX": 23.9665127,
+        "posY": 1.25389564,
+        "posZ": -12.3887339,
+        "rotX": 0.00384178339,
+        "rotY": 180.17688,
+        "rotZ": 359.860016,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5707,7 +5307,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5741,12 +5341,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.9677162,
-        "posY": 1.44623983,
-        "posZ": -12.3878422,
-        "rotX": 0.07504232,
-        "rotY": 180.324554,
-        "rotZ": 359.74765,
+        "posX": 23.9678516,
+        "posY": 1.45302868,
+        "posZ": -12.3875332,
+        "rotX": 0.029295776,
+        "rotY": 180.325012,
+        "rotZ": 359.7762,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5757,7 +5357,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5791,12 +5391,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.97087,
-        "posY": 1.64384627,
-        "posZ": -12.4015226,
-        "rotX": 0.056060914,
-        "rotY": 180.473465,
-        "rotZ": 359.681,
+        "posX": 23.9710732,
+        "posY": 1.65074062,
+        "posZ": -12.4010448,
+        "rotX": 0.0117465844,
+        "rotY": 180.473877,
+        "rotZ": 359.6991,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5807,7 +5407,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5841,12 +5441,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.96981,
-        "posY": 1.84335089,
-        "posZ": -12.400609,
-        "rotX": 0.07004649,
-        "rotY": 180.571411,
-        "rotZ": 359.634369,
+        "posX": 23.970068,
+        "posY": 1.85026658,
+        "posZ": -12.3999815,
+        "rotX": 0.0258913264,
+        "rotY": 180.572189,
+        "rotZ": 359.653656,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5857,7 +5457,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5891,12 +5491,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.9718781,
-        "posY": 2.04256272,
-        "posZ": -12.4027786,
-        "rotX": 0.06340554,
-        "rotY": 180.692673,
-        "rotZ": 359.6132,
+        "posX": 23.972187,
+        "posY": 2.049473,
+        "posZ": -12.4019871,
+        "rotX": 0.0196136348,
+        "rotY": 180.693466,
+        "rotZ": 359.627136,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5907,7 +5507,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5941,12 +5541,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.7121181,
-        "posY": 1.247271,
-        "posZ": -12.3963432,
-        "rotX": 359.9734,
-        "rotY": 180.028976,
-        "rotZ": 0.00420512352,
+        "posX": 29.7121525,
+        "posY": 1.25006187,
+        "posZ": -12.3963194,
+        "rotX": 359.962616,
+        "rotY": 180.029251,
+        "rotZ": 0.00666877627,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5957,7 +5557,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -5991,12 +5591,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.71248,
-        "posY": 1.44630063,
-        "posZ": -12.3976812,
-        "rotX": 359.8809,
-        "rotY": 179.9687,
-        "rotZ": 359.977478,
+        "posX": 29.71253,
+        "posY": 1.4469378,
+        "posZ": -12.3976212,
+        "rotX": 359.871277,
+        "rotY": 179.969376,
+        "rotZ": 359.979553,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -6007,7 +5607,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -6041,12 +5641,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.7125874,
-        "posY": 1.64391947,
-        "posZ": -12.3989487,
-        "rotX": 359.861816,
-        "rotY": 179.696548,
-        "rotZ": 0.0485599227,
+        "posX": 29.71264,
+        "posY": 1.646217,
+        "posZ": -12.3988476,
+        "rotX": 359.851257,
+        "rotY": 179.697037,
+        "rotZ": 0.0492915921,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -6057,7 +5657,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -6091,12 +5691,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.71398,
-        "posY": 1.843425,
-        "posZ": -12.3968468,
-        "rotX": 359.815674,
-        "rotY": 179.636078,
-        "rotZ": 0.06193943,
+        "posX": 29.7140312,
+        "posY": 1.84488475,
+        "posZ": -12.3967,
+        "rotX": 359.804718,
+        "rotY": 179.636383,
+        "rotZ": 0.06261514,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -6107,7 +5707,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -6141,12 +5741,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.7202473,
-        "posY": 2.04261446,
-        "posZ": -12.3945036,
-        "rotX": 359.793671,
-        "rotY": 179.541336,
-        "rotZ": 0.06928335,
+        "posX": 29.7202988,
+        "posY": 2.044064,
+        "posZ": -12.394311,
+        "rotX": 359.782349,
+        "rotY": 179.5416,
+        "rotZ": 0.06931699,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -6157,7 +5757,7 @@
       "ColorDiffuse": {
         "r": 0.831372559,
         "g": 0.6156863,
-        "b": 0.113724478
+        "b": 0.113724448
       },
       "Locked": false,
       "Grid": false,
@@ -6191,12 +5791,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 1.05401492,
-        "posY": 1.05446,
-        "posZ": -6.62545872,
-        "rotX": 0.00448278664,
-        "rotY": 179.997391,
-        "rotZ": 359.990417,
+        "posX": 1.05401707,
+        "posY": 1.055006,
+        "posZ": -6.625469,
+        "rotX": 0.0102465786,
+        "rotY": 179.99736,
+        "rotZ": 359.9931,
         "scaleX": 1.997,
         "scaleY": 1.0,
         "scaleZ": 1.997
@@ -6244,12 +5844,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 6.795,
-        "posY": 1.055813,
-        "posZ": -6.6239953,
-        "rotX": 0.0042086537,
-        "rotY": 180.011642,
-        "rotZ": 359.988983,
+        "posX": 6.795001,
+        "posY": 1.04847455,
+        "posZ": -6.6240654,
+        "rotX": 0.055477567,
+        "rotY": 180.0115,
+        "rotZ": 359.978027,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -6297,12 +5897,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 12.5484457,
-        "posY": 1.05697179,
-        "posZ": -6.635943,
-        "rotX": 0.00419769343,
-        "rotY": 180.026611,
-        "rotZ": 359.9884,
+        "posX": 12.5484371,
+        "posY": 1.05416846,
+        "posZ": -6.635988,
+        "rotX": 0.0323247761,
+        "rotY": 180.0265,
+        "rotZ": 359.980927,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -6351,11 +5951,11 @@
       "Name": "Custom_Tile_Stack",
       "Transform": {
         "posX": 18.2194786,
-        "posY": 1.05805492,
-        "posZ": -6.63869953,
-        "rotX": 0.004181244,
-        "rotY": 179.991776,
-        "rotZ": 359.989,
+        "posY": 1.05278051,
+        "posZ": -6.638744,
+        "rotX": 0.0554880723,
+        "rotY": 179.991608,
+        "rotZ": 359.976318,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -6403,12 +6003,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 23.9440041,
-        "posY": 1.05913413,
-        "posZ": -6.64038229,
-        "rotX": 0.00418045931,
-        "rotY": 179.986481,
-        "rotZ": 359.9895,
+        "posX": 23.9440117,
+        "posY": 1.05823612,
+        "posZ": -6.640385,
+        "rotX": 0.009919889,
+        "rotY": 179.986465,
+        "rotZ": 359.99176,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -6456,12 +6056,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 29.7185822,
-        "posY": 1.06021452,
-        "posZ": -6.644677,
-        "rotX": 0.00398356654,
-        "rotY": 179.821579,
-        "rotZ": 359.989777,
+        "posX": 29.718586,
+        "posY": 1.0571425,
+        "posZ": -6.64469528,
+        "rotX": 0.0560309924,
+        "rotY": 179.821426,
+        "rotZ": 359.978973,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -6509,12 +6109,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -41.6975975,
-        "posY": 1.50929523,
-        "posZ": 22.18238,
-        "rotX": 359.993744,
-        "rotY": 359.973633,
-        "rotZ": 359.931335,
+        "posX": -41.69754,
+        "posY": 1.5092907,
+        "posZ": 22.1823788,
+        "rotX": 359.985077,
+        "rotY": 359.973541,
+        "rotZ": 359.936157,
         "scaleX": 1.2,
         "scaleY": 1.2,
         "scaleZ": 1.2
@@ -6598,9 +6198,9 @@
         "posX": -39.975296,
         "posY": 1.06037331,
         "posZ": 22.3212719,
-        "rotX": -0.0002652272,
-        "rotY": 0.002697022,
-        "rotZ": -0.000229717174,
+        "rotX": -0.000266270945,
+        "rotY": 0.00269772788,
+        "rotZ": -0.000229690573,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6643,12 +6243,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 15.3544512,
-        "posY": 0.9576117,
-        "posZ": -7.50413132,
-        "rotX": 0.0039641913,
+        "posX": 15.3544531,
+        "posY": 0.957605243,
+        "posZ": -7.5041337,
+        "rotX": 0.003970032,
         "rotY": 179.846512,
-        "rotZ": 359.9899,
+        "rotZ": 359.989868,
         "scaleX": 9.177,
         "scaleY": 1.0,
         "scaleZ": 9.177
@@ -7834,7 +7434,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0310002621,
+            "y": 0.0310002677,
             "z": 0.0
           }
         },
@@ -7906,7 +7506,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0310002621,
+            "y": 0.0310002677,
             "z": 0.0
           }
         },
@@ -7978,7 +7578,7 @@
           },
           "Rotation": {
             "x": 0.0,
-            "y": 0.0310002621,
+            "y": 0.0310002677,
             "z": 0.0
           }
         },
@@ -10760,7 +10360,7 @@
             "z": 0.656500041
           },
           "Rotation": {
-            "x": -4.65220438E-07,
+            "x": -4.65220552E-07,
             "y": 0.00362771843,
             "z": -4.62160244E-07
           }
@@ -11997,7 +11597,7 @@
         "posX": 8.823703,
         "posY": 0.9601667,
         "posZ": 14.5967159,
-        "rotX": -0.000112783076,
+        "rotX": -0.0001127831,
         "rotY": 180.00209,
         "rotZ": 0.000959460333,
         "scaleX": 8.256,
@@ -12709,10 +12309,10 @@
       "CustomPDF": {
         "PDFUrl": "http://www.zdh.com/quixotic/canterbury_rulebook_web3.pdf",
         "PDFPassword": "",
-        "PDFPage": 5,
+        "PDFPage": 0,
         "PDFPageOffset": 0
       },
-      "LuaScript": "function onLoad()\n    children = self.getChildren()[1].getChildren()[1].getChildren()\n    children[1].getComponents()[1].set('localScale', {0.5,2,1}) -- next page    \n    children[2].getComponents()[1].set('localScale', {0.5,2,1}) -- prev page\n    children[3].getComponents()[1].set('localScale', {1,0.5,1}) -- pop out\nend",
+      "LuaScript": "function onLoad()\n    children = self.getChildren()[1].getChildren()[1].getChildren()\n    children[1].getComponents()[1].set('localScale', {0.8,2,1}) -- next page    \n    children[2].getComponents()[1].set('localScale', {0.8,2,1}) -- prev page\n    children[3].getComponents()[1].set('localScale', {1,0.5,1}) -- pop out\n    children[1].getComponents()[1].set('localPosition', {340, 0, 0})\n    children[2].getComponents()[1].set('localPosition', {-340, 0, 0})\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "a0a73f"
@@ -12766,6 +12366,306 @@
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "45f36e"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 40.9669647,
+        "posY": 0.961217046,
+        "posZ": 29.15554,
+        "rotX": 1.68856687E-07,
+        "rotY": 180.0004,
+        "rotZ": -1.81217132E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Build / No-build token",
+      "Description": "For the two-player expert variant rules.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.478431284,
+        "g": 0.470588148,
+        "b": 0.466666579
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/build.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/no_build.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "24da88"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -35.56751,
+        "posY": 0.9600005,
+        "posZ": -19.6291389,
+        "rotX": 4.32857923E-05,
+        "rotY": 180.032822,
+        "rotZ": -1.739514E-05,
+        "scaleX": 1.53154719,
+        "scaleY": 1.0,
+        "scaleZ": 1.53154719
+      },
+      "Nickname": "First player",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.854901969,
+        "g": 0.7529412,
+        "b": 0.5058824
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/saxon_prince.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/sachsenprinz.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "7ed858"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -18.7618465,
+        "posY": 0.9600005,
+        "posZ": -20.0303135,
+        "rotX": -2.746199E-06,
+        "rotY": 180.0,
+        "rotZ": -4.03371769E-06,
+        "scaleX": 1.53154719,
+        "scaleY": 1.0,
+        "scaleZ": 1.53154719
+      },
+      "Nickname": "Fourth player",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.854901969,
+        "g": 0.7529412,
+        "b": 0.5058824
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/saxon_earl.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/sachsengraf.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "886874"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -29.97633,
+        "posY": 0.9600004,
+        "posZ": -19.80162,
+        "rotX": 2.0543057E-05,
+        "rotY": 180.029114,
+        "rotZ": 1.16264646E-05,
+        "scaleX": 1.53154719,
+        "scaleY": 1.0,
+        "scaleZ": 1.53154719
+      },
+      "Nickname": "Second player",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.854901969,
+        "g": 0.7529412,
+        "b": 0.5058824
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/saxon_duke.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/sachsenherzog.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "e67c99"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -24.573267,
+        "posY": 0.9600005,
+        "posZ": -19.942997,
+        "rotX": 2.94769143E-06,
+        "rotY": 180.000046,
+        "rotZ": -4.91162564E-06,
+        "scaleX": 1.53154719,
+        "scaleY": 1.0,
+        "scaleZ": 1.53154719
+      },
+      "Nickname": "Third player",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.854901969,
+        "g": 0.7529412,
+        "b": 0.5058824
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/saxon_count.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/sachsenfuerst.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "39477f"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 44.29356,
+        "posY": 0.961217165,
+        "posZ": 29.26421,
+        "rotX": -1.359589E-06,
+        "rotY": 180.000519,
+        "rotZ": -8.229833E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Build / No-build token",
+      "Description": "For the two-player expert variant rules.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.478431284,
+        "g": 0.470588148,
+        "b": 0.466666579
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/build.png",
+        "ImageSecondaryURL": "file:////home/ttabi/Pictures/Canterbury/no_build.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "e42c68"
     }
   ],
   "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",

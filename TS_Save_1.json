@@ -1,7 +1,7 @@
 {
   "SaveName": "Canterbury",
   "GameMode": "Canterbury",
-  "Date": "11/29/2020 9:50:38 PM",
+  "Date": "12/11/2020 6:22:24 PM",
   "Gravity": 0.5,
   "PlayArea": 0.622,
   "GameType": "Game",
@@ -19,7 +19,7 @@
   ],
   "Table": "Table_Custom",
   "TableURL": "http://cloud-3.steamusercontent.com/ugc/1651095327071030324/45EDC7C4806730883A3AEB990675850A19200473/",
-  "Sky": "Sky_Tunnel",
+  "Sky": "Sky_Museum",
   "Note": "",
   "Rules": "",
   "Grid": {
@@ -79,7 +79,7 @@
       {
         "Color": "Blue",
         "Transform": {
-          "posX": 15.0,
+          "posX": 15.0000019,
           "posY": 1.0,
           "posZ": -35.0,
           "rotX": 0.0,
@@ -87,13 +87,13 @@
           "rotZ": 0.0,
           "scaleX": 19.725,
           "scaleY": 0.324,
-          "scaleZ": 0.326
+          "scaleZ": 0.325999945
         }
       },
       {
         "Color": "Green",
         "Transform": {
-          "posX": -15.0,
+          "posX": -15.0000019,
           "posY": 1.0,
           "posZ": -35.0,
           "rotX": 0.0,
@@ -101,7 +101,7 @@
           "rotZ": 0.0,
           "scaleX": 19.725,
           "scaleY": 0.324,
-          "scaleZ": 0.326
+          "scaleZ": 0.325999945
         }
       },
       {
@@ -115,7 +115,7 @@
           "rotZ": 0.0,
           "scaleX": 19.725,
           "scaleY": 0.324,
-          "scaleZ": 0.326
+          "scaleZ": 0.325999945
         }
       },
       {
@@ -129,7 +129,7 @@
           "rotZ": 0.0,
           "scaleX": 19.725,
           "scaleY": 0.324,
-          "scaleZ": 0.326
+          "scaleZ": 0.325999945
         }
       }
     ]
@@ -278,18 +278,6 @@
       "id": 11
     }
   },
-  "CameraStates": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
   "DecalPallet": [],
   "ObjectStates": [
     {
@@ -329,6 +317,7 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",
@@ -408,6 +397,7 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",
@@ -487,6 +477,7 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",
@@ -566,6 +557,7 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",
@@ -607,147 +599,6 @@
         }
       ],
       "GUID": "c9ae8b"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -41.698,
-        "posY": 1.689,
-        "posZ": 22.182,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 1.2,
-        "scaleY": 1.2,
-        "scaleZ": 1.2
-      },
-      "Nickname": "Green score disc",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.0,
-        "g": 1.0,
-        "b": 0.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-        "DiffuseURL": "",
-        "NormalURL": "",
-        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 0,
-        "CastShadows": true
-      },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
-      "LuaScriptState": "",
-      "GUID": "fc3802"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -41.698,
-        "posY": 1.329,
-        "posZ": 22.183,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 1.2,
-        "scaleY": 1.2,
-        "scaleZ": 1.2
-      },
-      "Nickname": "Red score disc",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 0.0,
-        "b": 0.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-        "DiffuseURL": "",
-        "NormalURL": "",
-        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 0,
-        "CastShadows": true
-      },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
-      "LuaScriptState": "",
-      "GUID": "0d8495"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -41.695,
-        "posY": 1.15,
-        "posZ": 22.181,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 1.2,
-        "scaleY": 1.2,
-        "scaleZ": 1.2
-      },
-      "Nickname": "Yellow score disc",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 0.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-        "DiffuseURL": "",
-        "NormalURL": "",
-        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 0,
-        "CastShadows": true
-      },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
-      "LuaScriptState": "",
-      "GUID": "e0fb49"
     },
     {
       "Name": "Infinite_Bag",
@@ -860,7 +711,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.686,
-        "b": 0.216
+        "b": 0.215999842
       },
       "Locked": true,
       "Grid": false,
@@ -1102,11 +953,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": 38.006,
-        "posY": 1.063,
+        "posY": 1.06283355,
         "posZ": -30.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "rotX": -5.29438644E-08,
+        "rotY": 1.96395158E-05,
+        "rotZ": -5.969745E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1287,11 +1138,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -49.983,
-        "posY": 1.067,
+        "posY": 1.0668335,
         "posZ": -30.078,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "rotX": -6.23238464E-07,
+        "rotY": 3.15834877E-05,
+        "rotZ": 1.53412418E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1326,11 +1177,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": 9.006,
-        "posY": 1.063,
+        "posY": 1.06283355,
         "posZ": -30.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "rotX": 8.300113E-07,
+        "rotY": -7.42567952E-10,
+        "rotZ": 3.36840344E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1340,7 +1191,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.0,
-        "g": 0.172,
+        "g": 0.171999842,
         "b": 1.0
       },
       "Locked": false,
@@ -1365,11 +1216,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -20.994,
-        "posY": 1.063,
+        "posY": 1.06283331,
         "posZ": -30.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "rotX": -3.18497541E-07,
+        "rotY": 6.83265125E-06,
+        "rotZ": -6.436653E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1476,12 +1327,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.058,
-        "posY": 1.055,
-        "posZ": -0.684,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 1.05790055,
+        "posY": 1.05102682,
+        "posZ": -0.6845531,
+        "rotX": 0.03066073,
+        "rotY": 179.998871,
+        "rotZ": 359.971649,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -1526,12 +1377,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.572,
-        "posY": 1.057,
-        "posZ": -0.638,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 12.5719271,
+        "posY": 1.05656314,
+        "posZ": -0.6383384,
+        "rotX": 0.0560733974,
+        "rotY": 179.99881,
+        "rotZ": 359.976471,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -1576,12 +1427,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.798,
-        "posY": 1.055,
-        "posZ": -0.672,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.79792643,
+        "posY": 1.0536052,
+        "posZ": -0.672457755,
+        "rotX": 0.02902951,
+        "rotY": 179.998856,
+        "rotZ": 359.9702,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -1626,12 +1477,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
-        "posY": 1.135,
-        "posZ": 13.919,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.9020096,
+        "posY": 1.13490725,
+        "posZ": 13.9190321,
+        "rotX": 0.0233625956,
+        "rotY": -0.000200876617,
+        "rotZ": 0.007199139,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1668,17 +1519,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "946adc"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
-        "posY": 1.135,
-        "posZ": 21.954,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.900980234,
+        "posY": 1.134935,
+        "posZ": 21.9540272,
+        "rotX": 0.0180864632,
+        "rotY": -0.000461318239,
+        "rotZ": 359.982,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1715,17 +1567,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "98c6fd"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
-        "posY": 1.135,
-        "posZ": 8.554,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.90202713,
+        "posY": 1.13490963,
+        "posZ": 8.554024,
+        "rotX": 0.018143788,
+        "rotY": -6.325657E-05,
+        "rotZ": 0.0210805722,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1762,17 +1615,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "abe989"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
-        "posY": 1.135,
-        "posZ": 11.236,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.90102464,
+        "posY": 1.13490975,
+        "posZ": 11.2360258,
+        "rotX": 0.018612301,
+        "rotY": -0.0002738518,
+        "rotZ": 0.01705967,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1809,17 +1663,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "b6ccbc"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
-        "posY": 1.135,
-        "posZ": 16.594,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.90100944,
+        "posY": 1.1348983,
+        "posZ": 16.59404,
+        "rotX": 0.0263872389,
+        "rotY": -0.000278264866,
+        "rotZ": 0.007699224,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1856,17 +1711,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "f14de0"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
-        "posY": 1.135,
-        "posZ": 19.277,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.9010044,
+        "posY": 1.13490808,
+        "posZ": 19.27704,
+        "rotX": 0.02474515,
+        "rotY": -0.0005320786,
+        "rotZ": 0.003131189,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1903,17 +1759,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "71aaaf"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
-        "posY": 1.284,
-        "posZ": 8.554,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.901961565,
+        "posY": 1.28404772,
+        "posZ": 8.553966,
+        "rotX": 359.956818,
+        "rotY": -0.000124528844,
+        "rotZ": 359.986084,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1950,17 +1807,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "55a0b9"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
-        "posY": 1.584,
-        "posZ": 8.554,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.9007247,
+        "posY": 1.5835489,
+        "posZ": 8.553532,
+        "rotX": 359.927856,
+        "rotY": 0.000670016452,
+        "rotZ": 359.9759,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1997,17 +1855,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "204a31"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.904,
-        "posY": 1.284,
-        "posZ": 11.238,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.9039496,
+        "posY": 1.28401077,
+        "posZ": 11.2381,
+        "rotX": 0.0206362922,
+        "rotY": -0.0005023376,
+        "rotZ": 359.965057,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2044,17 +1903,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "212edc"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9,
-        "posY": 1.284,
-        "posZ": 16.593,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.8998482,
+        "posY": 1.28403938,
+        "posZ": 16.59312,
+        "rotX": 359.9938,
+        "rotY": 0.0004680317,
+        "rotZ": 359.949646,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2091,17 +1951,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "e6b3dc"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.903,
-        "posY": 1.284,
-        "posZ": 13.917,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.902843356,
+        "posY": 1.284011,
+        "posZ": 13.9172258,
+        "rotX": 0.07068397,
+        "rotY": -0.00135604083,
+        "rotZ": 359.9276,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2138,17 +1999,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "c8c173"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9,
-        "posY": 1.284,
-        "posZ": 19.278,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.899868548,
+        "posY": 1.28404939,
+        "posZ": 19.2782631,
+        "rotX": 0.0540350974,
+        "rotY": 0.00103239366,
+        "rotZ": 359.93338,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2185,17 +2047,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "3d5d30"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
-        "posY": 1.284,
-        "posZ": 21.955,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.9012602,
+        "posY": 1.583591,
+        "posZ": 21.9552288,
+        "rotX": 0.1284555,
+        "rotY": -0.000548287353,
+        "rotZ": 0.05926049,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2232,17 +2095,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "289467"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
-        "posY": 1.584,
-        "posZ": 11.235,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.900756,
+        "posY": 1.583563,
+        "posZ": 11.2354183,
+        "rotX": 0.0779742748,
+        "rotY": -0.000653841242,
+        "rotZ": 359.980133,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2279,17 +2143,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "8a73ef"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
-        "posY": 1.584,
-        "posZ": 13.917,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.900252,
+        "posY": 1.583573,
+        "posZ": 13.9178963,
+        "rotX": 0.137200817,
+        "rotY": -7.41760741E-05,
+        "rotZ": 359.909515,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2326,17 +2191,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "881675"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
-        "posY": 1.584,
-        "posZ": 16.592,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.9004271,
+        "posY": 1.58353651,
+        "posZ": 16.5919762,
+        "rotX": 359.9687,
+        "rotY": -0.00143771863,
+        "rotZ": 359.946716,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2373,17 +2239,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "554ff6"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
-        "posY": 1.584,
-        "posZ": 19.274,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.9004255,
+        "posY": 1.58354151,
+        "posZ": 19.2745724,
+        "rotX": 0.0401467159,
+        "rotY": -0.00184930791,
+        "rotZ": 359.9341,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2420,17 +2287,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "5eb69a"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
-        "posY": 1.584,
-        "posZ": 21.951,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.9020662,
+        "posY": 1.43396938,
+        "posZ": 21.951086,
+        "rotX": 0.0925591961,
+        "rotY": -0.000487529673,
+        "rotZ": 0.0454204567,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2467,17 +2335,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "3322fd"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.905,
-        "posY": 1.434,
-        "posZ": 11.237,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.9048762,
+        "posY": 1.43391442,
+        "posZ": 11.2371912,
+        "rotX": 0.0483931452,
+        "rotY": -0.000238884575,
+        "rotZ": 359.984222,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2514,17 +2383,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "40acb1"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
-        "posY": 1.434,
-        "posZ": 13.918,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.901602447,
+        "posY": 1.43393528,
+        "posZ": 13.9184389,
+        "rotX": 0.10022857,
+        "rotY": 0.00107531331,
+        "rotZ": 359.923859,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2561,17 +2431,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "a524d6"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
-        "posY": 1.434,
-        "posZ": 16.596,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.9007006,
+        "posY": 1.43390369,
+        "posZ": 16.59605,
+        "rotX": 359.96283,
+        "rotY": -0.0017269823,
+        "rotZ": 359.970428,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2608,17 +2479,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "5808d7"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
-        "posY": 1.434,
-        "posZ": 19.278,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.9016805,
+        "posY": 1.43389928,
+        "posZ": 19.2783737,
+        "rotX": 0.0174990073,
+        "rotY": -0.00184995052,
+        "rotZ": 359.950836,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2655,17 +2527,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "ed27ad"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.903,
-        "posY": 1.434,
-        "posZ": 21.955,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.9030598,
+        "posY": 1.2840488,
+        "posZ": 21.9549828,
+        "rotX": 0.0598103069,
+        "rotY": -0.00071532157,
+        "rotZ": 0.0509785265,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2702,17 +2575,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "0de0a6"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.904,
-        "posY": 1.434,
-        "posZ": 8.553,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "posX": -0.903919041,
+        "posY": 1.43393111,
+        "posZ": 8.552778,
+        "rotX": 359.92334,
+        "rotY": -0.000236077976,
+        "rotZ": -0.005729241,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2749,17 +2623,18 @@
       },
       "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "7f1cbf"
     },
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.716,
-        "posY": 1.055,
-        "posZ": -12.392,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 29.7161617,
+        "posY": 1.05644083,
+        "posZ": -12.3920116,
+        "rotX": 0.06197591,
+        "rotY": 179.999054,
+        "rotZ": 359.964355,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2770,7 +2645,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -2804,12 +2679,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.954,
-        "posY": 1.055,
-        "posZ": -12.38,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 23.95406,
+        "posY": 1.05198216,
+        "posZ": -12.3801556,
+        "rotX": 0.0676771849,
+        "rotY": 179.998611,
+        "rotZ": 359.9525,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2820,7 +2695,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -2854,12 +2729,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.23,
-        "posY": 1.049,
-        "posZ": -12.396,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 18.2302036,
+        "posY": 1.0453229,
+        "posZ": -12.3963757,
+        "rotX": 0.0652580559,
+        "rotY": 179.997177,
+        "rotZ": 359.9135,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2870,7 +2745,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -2904,12 +2779,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.567,
-        "posY": 1.045,
-        "posZ": -12.393,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 12.5671844,
+        "posY": 1.04663932,
+        "posZ": -12.3933249,
+        "rotX": 0.0491029769,
+        "rotY": 179.999756,
+        "rotZ": 359.919464,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2920,7 +2795,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -2954,12 +2829,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.699,
-        "posY": 3.216,
-        "posZ": -12.48,
-        "rotX": 1.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.675752,
+        "posY": 3.21131325,
+        "posZ": -12.5224638,
+        "rotX": 1.29419577,
+        "rotY": 179.722214,
+        "rotZ": 359.102448,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2970,7 +2845,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3004,12 +2879,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.057,
-        "posY": 1.041,
-        "posZ": -12.368,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 1.05724216,
+        "posY": 1.046679,
+        "posZ": -12.3686342,
+        "rotX": 0.20417203,
+        "rotY": 179.992279,
+        "rotZ": 359.9306,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3020,7 +2895,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3069,7 +2944,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.125,
+        "g": 0.124999858,
         "b": 0.941
       },
       "Locked": true,
@@ -3092,12 +2967,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.269,
-        "posY": 1.059,
-        "posZ": -0.685,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 18.2688847,
+        "posY": 1.05919945,
+        "posZ": -0.6851611,
+        "rotX": 0.0577136129,
+        "rotY": 179.9989,
+        "rotZ": 359.976685,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -3142,12 +3017,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.941,
-        "posY": 1.059,
-        "posZ": -0.718,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 23.9409065,
+        "posY": 1.06124091,
+        "posZ": -0.7180704,
+        "rotX": 0.05703892,
+        "rotY": 179.99913,
+        "rotZ": 359.977173,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -3192,12 +3067,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.709,
-        "posY": 1.06,
-        "posZ": -0.667,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 29.7089024,
+        "posY": 1.06291962,
+        "posZ": -0.6668448,
+        "rotX": 0.05516973,
+        "rotY": 179.998856,
+        "rotZ": 359.978546,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -3342,12 +3217,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.054,
-        "posY": 1.239,
-        "posZ": -12.374,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 1.05416763,
+        "posY": 1.24480546,
+        "posZ": -12.3766651,
+        "rotX": 0.397755831,
+        "rotY": 179.973663,
+        "rotZ": 359.860626,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3358,7 +3233,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3392,12 +3267,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.05,
-        "posY": 1.431,
-        "posZ": -12.376,
-        "rotX": 1.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 1.05005133,
+        "posY": 1.43760777,
+        "posZ": -12.3818645,
+        "rotX": 0.815333843,
+        "rotY": 179.941971,
+        "rotZ": 359.766235,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3408,7 +3283,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3442,12 +3317,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.073,
-        "posY": 1.628,
-        "posZ": -12.462,
-        "rotX": 1.0,
-        "rotY": 179.0,
-        "rotZ": 0.0,
+        "posX": 1.07161367,
+        "posY": 1.63497329,
+        "posZ": -12.4686737,
+        "rotX": 0.9779449,
+        "rotY": 178.9752,
+        "rotZ": 359.817749,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3458,7 +3333,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3492,12 +3367,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.054,
-        "posY": 1.821,
-        "posZ": -12.499,
-        "rotX": 1.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 1.05222654,
+        "posY": 1.82822561,
+        "posZ": -12.5075645,
+        "rotX": 1.24209964,
+        "rotY": 179.9444,
+        "rotZ": 359.741364,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3508,7 +3383,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3542,12 +3417,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.084,
-        "posY": 2.019,
-        "posZ": -12.563,
-        "rotX": 1.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 1.08063114,
+        "posY": 2.02553439,
+        "posZ": -12.5736752,
+        "rotX": 1.38725781,
+        "rotY": 179.975647,
+        "rotZ": 359.79187,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3558,7 +3433,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3592,12 +3467,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.053,
-        "posY": 2.214,
-        "posZ": -12.572,
-        "rotX": 1.0,
-        "rotY": 181.0,
-        "rotZ": 0.0,
+        "posX": 1.04804218,
+        "posY": 2.22039962,
+        "posZ": -12.5853167,
+        "rotX": 1.26721072,
+        "rotY": 180.941422,
+        "rotZ": 359.730347,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3608,7 +3483,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3642,12 +3517,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.05,
-        "posY": 2.412,
-        "posZ": -12.619,
-        "rotX": 1.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 1.04358375,
+        "posY": 2.41708136,
+        "posZ": -12.6342058,
+        "rotX": 1.36933649,
+        "rotY": 179.958328,
+        "rotZ": 359.730377,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3658,7 +3533,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3692,12 +3567,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.02,
-        "posY": 2.61,
-        "posZ": -12.595,
-        "rotX": 1.0,
-        "rotY": 181.0,
-        "rotZ": 0.0,
+        "posX": 1.0121032,
+        "posY": 2.61661744,
+        "posZ": -12.6121178,
+        "rotX": 1.34836543,
+        "rotY": 180.938644,
+        "rotZ": 359.66803,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3708,7 +3583,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3742,12 +3617,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.0,
-        "posY": 2.809,
-        "posZ": -12.597,
-        "rotX": 1.0,
-        "rotY": 181.0,
-        "rotZ": 0.0,
+        "posX": 0.990428865,
+        "posY": 2.814085,
+        "posZ": -12.6160736,
+        "rotX": 1.32281375,
+        "rotY": 180.9185,
+        "rotZ": 359.595825,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3758,7 +3633,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3792,12 +3667,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.002,
-        "posY": 3.007,
-        "posZ": -12.587,
-        "rotX": 1.0,
-        "rotY": 181.0,
-        "rotZ": 0.0,
+        "posX": 0.991085,
+        "posY": 3.01387048,
+        "posZ": -12.6074772,
+        "rotX": 1.2775501,
+        "rotY": 180.926437,
+        "rotZ": 359.6093,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3808,7 +3683,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3842,12 +3717,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.997,
-        "posY": 3.207,
-        "posZ": -12.621,
-        "rotX": 1.0,
-        "rotY": 181.0,
-        "rotZ": 0.0,
+        "posX": 0.9847392,
+        "posY": 3.21230149,
+        "posZ": -12.64275,
+        "rotX": 1.29889309,
+        "rotY": 180.92189,
+        "rotZ": 359.603027,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3858,7 +3733,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3892,12 +3767,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.788,
-        "posY": 1.052,
-        "posZ": -12.361,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.78827524,
+        "posY": 1.04801929,
+        "posZ": -12.3617,
+        "rotX": 0.0697563,
+        "rotY": 179.989426,
+        "rotZ": 359.924164,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3908,7 +3783,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3942,12 +3817,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.787,
-        "posY": 1.244,
-        "posZ": -12.366,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.78721428,
+        "posY": 1.24002576,
+        "posZ": -12.3683414,
+        "rotX": 0.43624568,
+        "rotY": 179.958466,
+        "rotZ": 359.771423,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3958,7 +3833,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -3992,12 +3867,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.786,
-        "posY": 1.441,
-        "posZ": -12.389,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.7856164,
+        "posY": 1.43779659,
+        "posZ": -12.3942013,
+        "rotX": 0.632365,
+        "rotY": 179.926514,
+        "rotZ": 359.711731,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4008,7 +3883,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4042,12 +3917,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.786,
-        "posY": 1.634,
-        "posZ": -12.394,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.784729,
+        "posY": 1.63088655,
+        "posZ": -12.40332,
+        "rotX": 0.7786609,
+        "rotY": 179.889954,
+        "rotZ": 359.449463,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4058,7 +3933,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4092,12 +3967,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.762,
-        "posY": 1.832,
-        "posZ": -12.436,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.758878,
+        "posY": 1.828321,
+        "posZ": -12.44956,
+        "rotX": 0.940818965,
+        "rotY": 179.858963,
+        "rotZ": 359.401031,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4108,7 +3983,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4142,12 +4017,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.745,
-        "posY": 2.026,
-        "posZ": -12.458,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.739838,
+        "posY": 2.02231765,
+        "posZ": -12.4767342,
+        "rotX": 1.11058426,
+        "rotY": 179.824783,
+        "rotZ": 359.319824,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4158,7 +4033,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4192,12 +4067,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.745,
-        "posY": 2.225,
-        "posZ": -12.408,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.7365,
+        "posY": 2.22194147,
+        "posZ": -12.43123,
+        "rotX": 1.06947279,
+        "rotY": 179.790039,
+        "rotZ": 359.1955,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4208,7 +4083,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4242,12 +4117,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.706,
-        "posY": 2.421,
-        "posZ": -12.44,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.694547,
+        "posY": 2.416927,
+        "posZ": -12.4690151,
+        "rotX": 1.198966,
+        "rotY": 179.761749,
+        "rotZ": 359.151123,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4258,7 +4133,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4292,12 +4167,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.7,
-        "posY": 2.62,
-        "posZ": -12.46,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.685886,
+        "posY": 2.61544371,
+        "posZ": -12.4938164,
+        "rotX": 1.28518784,
+        "rotY": 179.744675,
+        "rotZ": 359.124878,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4308,7 +4183,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4342,12 +4217,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.697,
-        "posY": 2.817,
-        "posZ": -12.484,
-        "rotX": 1.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.67997742,
+        "posY": 2.81243777,
+        "posZ": -12.5235786,
+        "rotX": 1.34809256,
+        "rotY": 179.719711,
+        "rotZ": 359.109741,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4358,7 +4233,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4392,12 +4267,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.698,
-        "posY": 3.017,
-        "posZ": -12.476,
-        "rotX": 1.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.67795324,
+        "posY": 3.01218367,
+        "posZ": -12.5170965,
+        "rotX": 1.30473673,
+        "rotY": 179.728836,
+        "rotZ": 359.1227,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4408,7 +4283,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4442,12 +4317,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.567,
-        "posY": 1.239,
-        "posZ": -12.384,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 12.5668125,
+        "posY": 1.24483359,
+        "posZ": -12.3846931,
+        "rotX": -0.000297926541,
+        "rotY": 180.0029,
+        "rotZ": 359.748322,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4458,7 +4333,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4492,12 +4367,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.583,
-        "posY": 1.437,
-        "posZ": -12.367,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 12.5819817,
+        "posY": 1.43956327,
+        "posZ": -12.367506,
+        "rotX": 359.838623,
+        "rotY": 180.000427,
+        "rotZ": 359.7805,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4508,7 +4383,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4542,12 +4417,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.575,
-        "posY": 1.632,
-        "posZ": -12.375,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 12.5729866,
+        "posY": 1.63811064,
+        "posZ": -12.3748989,
+        "rotX": 359.973969,
+        "rotY": 180.002075,
+        "rotZ": 359.742,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4558,7 +4433,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4592,12 +4467,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.566,
-        "posY": 1.831,
-        "posZ": -12.395,
-        "rotX": 0.0,
-        "rotY": 179.0,
-        "rotZ": 0.0,
+        "posX": 12.56318,
+        "posY": 1.83411312,
+        "posZ": -12.3946657,
+        "rotX": 0.07490327,
+        "rotY": 179.000992,
+        "rotZ": 359.770966,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4608,7 +4483,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4642,12 +4517,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.567,
-        "posY": 2.029,
-        "posZ": -12.39,
-        "rotX": 0.0,
-        "rotY": 179.0,
-        "rotZ": 0.0,
+        "posX": 12.5632143,
+        "posY": 2.03321028,
+        "posZ": -12.3899031,
+        "rotX": 359.986816,
+        "rotY": 178.997879,
+        "rotZ": 359.797577,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4658,7 +4533,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4692,12 +4567,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.558,
-        "posY": 2.227,
-        "posZ": -12.377,
-        "rotX": 0.0,
-        "rotY": 179.0,
-        "rotZ": 0.0,
+        "posX": 12.5535679,
+        "posY": 2.23079133,
+        "posZ": -12.3767166,
+        "rotX": 359.9555,
+        "rotY": 178.999878,
+        "rotZ": 359.728821,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4708,7 +4583,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4742,12 +4617,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.559,
-        "posY": 2.426,
-        "posZ": -12.348,
-        "rotX": 0.0,
-        "rotY": 179.0,
-        "rotZ": 0.0,
+        "posX": 12.5535316,
+        "posY": 2.43031049,
+        "posZ": -12.3475456,
+        "rotX": 359.911163,
+        "rotY": 178.998032,
+        "rotZ": 359.741974,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4758,7 +4633,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4792,12 +4667,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.561,
-        "posY": 2.625,
-        "posZ": -12.317,
-        "rotX": 0.0,
-        "rotY": 179.0,
-        "rotZ": 0.0,
+        "posX": 12.5545864,
+        "posY": 2.629483,
+        "posZ": -12.3162117,
+        "rotX": 359.887878,
+        "rotY": 178.997116,
+        "rotZ": 359.749,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4808,7 +4683,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4842,12 +4717,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.229,
-        "posY": 1.247,
-        "posZ": -12.391,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 18.2287846,
+        "posY": 1.24354482,
+        "posZ": -12.3915033,
+        "rotX": 0.0150212441,
+        "rotY": 179.993347,
+        "rotZ": 359.7434,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4858,7 +4733,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4892,12 +4767,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.214,
-        "posY": 1.441,
-        "posZ": -12.362,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 18.2122917,
+        "posY": 1.43806219,
+        "posZ": -12.3622913,
+        "rotX": 359.9524,
+        "rotY": 179.985641,
+        "rotZ": 359.557281,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4908,7 +4783,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4942,12 +4817,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.214,
-        "posY": 1.64,
-        "posZ": -12.361,
-        "rotX": 1.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 18.2105942,
+        "posY": 1.63661456,
+        "posZ": -12.3610325,
+        "rotX": 0.0912668258,
+        "rotY": 179.984375,
+        "rotZ": 359.598877,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4958,7 +4833,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -4992,12 +4867,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.19,
-        "posY": 1.836,
-        "posZ": -12.349,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 18.1845722,
+        "posY": 1.83251929,
+        "posZ": -12.3454885,
+        "rotX": 0.0603999048,
+        "rotY": 179.988129,
+        "rotZ": 359.472076,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5008,7 +4883,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5042,12 +4917,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.187,
-        "posY": 2.035,
-        "posZ": -12.347,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 18.1795635,
+        "posY": 2.03153181,
+        "posZ": -12.3434706,
+        "rotX": 0.0331292637,
+        "rotY": 179.9843,
+        "rotZ": 359.380676,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5058,7 +4933,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5092,12 +4967,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.184,
-        "posY": 2.233,
-        "posZ": -12.38,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 18.17392,
+        "posY": 2.22907257,
+        "posZ": -12.3767376,
+        "rotX": 0.103671238,
+        "rotY": 179.986649,
+        "rotZ": 359.359558,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5108,7 +4983,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5142,12 +5017,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.176,
-        "posY": 2.432,
-        "posZ": -12.346,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 18.163578,
+        "posY": 2.42855477,
+        "posZ": -12.343008,
+        "rotX": 0.09022195,
+        "rotY": 179.984009,
+        "rotZ": 359.314545,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5158,7 +5033,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5192,12 +5067,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.171,
-        "posY": 2.631,
-        "posZ": -12.361,
-        "rotX": 0.0,
-        "rotY": 179.0,
-        "rotZ": 0.0,
+        "posX": 18.156044,
+        "posY": 2.627666,
+        "posZ": -12.358304,
+        "rotX": 0.1028881,
+        "rotY": 178.984756,
+        "rotZ": 359.3211,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5208,7 +5083,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5242,12 +5117,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.966,
-        "posY": 1.254,
-        "posZ": -12.389,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 23.9658852,
+        "posY": 1.2484138,
+        "posZ": -12.3895006,
+        "rotX": 0.188421175,
+        "rotY": 179.999588,
+        "rotZ": 359.9867,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5258,7 +5133,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5292,12 +5167,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.968,
-        "posY": 1.451,
-        "posZ": -12.388,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 23.96787,
+        "posY": 1.44744575,
+        "posZ": -12.3891973,
+        "rotX": 0.09739906,
+        "rotY": 180.001251,
+        "rotZ": 0.0123016126,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5308,7 +5183,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5342,12 +5217,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.971,
-        "posY": 1.65,
-        "posZ": -12.402,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 23.9708824,
+        "posY": 1.64508963,
+        "posZ": -12.4036741,
+        "rotX": 0.1730226,
+        "rotY": 180.00209,
+        "rotZ": 0.0312470254,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5358,7 +5233,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5392,12 +5267,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.97,
-        "posY": 1.849,
-        "posZ": -12.401,
-        "rotX": 0.0,
-        "rotY": 181.0,
-        "rotZ": 0.0,
+        "posX": 23.9699612,
+        "posY": 1.844627,
+        "posZ": -12.4032993,
+        "rotX": 0.217646837,
+        "rotY": 181.003464,
+        "rotZ": 0.04828573,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5408,7 +5283,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5442,12 +5317,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.972,
-        "posY": 2.048,
-        "posZ": -12.403,
-        "rotX": 0.0,
-        "rotY": 181.0,
-        "rotZ": 0.0,
+        "posX": 23.97209,
+        "posY": 2.04380918,
+        "posZ": -12.4061136,
+        "rotX": 0.2428231,
+        "rotY": 181.003723,
+        "rotZ": 0.0545485765,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5458,7 +5333,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5492,12 +5367,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.712,
-        "posY": 1.252,
-        "posZ": -12.396,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 29.71204,
+        "posY": 1.25317383,
+        "posZ": -12.3963041,
+        "rotX": 0.18338339,
+        "rotY": 179.998734,
+        "rotZ": 359.9296,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5508,7 +5383,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5542,12 +5417,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.713,
-        "posY": 1.451,
-        "posZ": -12.398,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 29.7127533,
+        "posY": 1.45234644,
+        "posZ": -12.3989725,
+        "rotX": 0.263705224,
+        "rotY": 180.000763,
+        "rotZ": 359.9546,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5558,7 +5433,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5592,12 +5467,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.712,
-        "posY": 1.649,
-        "posZ": -12.399,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 29.71157,
+        "posY": 1.65007925,
+        "posZ": -12.4010487,
+        "rotX": 0.344891727,
+        "rotY": 179.999588,
+        "rotZ": 359.931976,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5608,7 +5483,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5642,12 +5517,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.713,
-        "posY": 1.848,
-        "posZ": -12.397,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 29.7123356,
+        "posY": 1.849581,
+        "posZ": -12.4002934,
+        "rotX": 0.297292382,
+        "rotY": 180.000183,
+        "rotZ": 359.945343,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5658,7 +5533,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5692,12 +5567,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.719,
-        "posY": 2.047,
-        "posZ": -12.394,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 29.7181168,
+        "posY": 2.04879212,
+        "posZ": -12.398387,
+        "rotX": 0.277703047,
+        "rotY": 180.000366,
+        "rotZ": 359.9514,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5708,7 +5583,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.114
+        "b": 0.113999851
       },
       "Locked": false,
       "Grid": false,
@@ -5742,12 +5617,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 1.054,
-        "posY": 1.055,
-        "posZ": -6.626,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 1.05401027,
+        "posY": 1.04662263,
+        "posZ": -6.62631845,
+        "rotX": 0.0592466742,
+        "rotY": 179.999359,
+        "rotZ": 359.9793,
         "scaleX": 1.997,
         "scaleY": 1.0,
         "scaleZ": 1.997
@@ -5795,12 +5670,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 6.795,
-        "posY": 1.049,
-        "posZ": -6.624,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 6.79498434,
+        "posY": 1.05111825,
+        "posZ": -6.62435246,
+        "rotX": 0.030718185,
+        "rotY": 179.998978,
+        "rotZ": 359.9721,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -5848,12 +5723,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 12.548,
-        "posY": 1.054,
-        "posZ": -6.636,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 12.548008,
+        "posY": 1.051062,
+        "posZ": -6.636224,
+        "rotX": 0.0583520532,
+        "rotY": 179.999008,
+        "rotZ": 359.974731,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -5901,12 +5776,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 18.219,
-        "posY": 1.053,
-        "posZ": -6.639,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 18.2189388,
+        "posY": 1.05352187,
+        "posZ": -6.63921261,
+        "rotX": 0.058580026,
+        "rotY": 179.999329,
+        "rotZ": 359.976532,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -5954,12 +5829,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 23.944,
-        "posY": 1.056,
-        "posZ": -6.641,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 23.9439526,
+        "posY": 1.05486953,
+        "posZ": -6.641079,
+        "rotX": 0.0542915352,
+        "rotY": 179.998962,
+        "rotZ": 359.975861,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -6007,12 +5882,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 29.719,
-        "posY": 1.061,
-        "posZ": -6.645,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 29.7190342,
+        "posY": 1.057925,
+        "posZ": -6.644952,
+        "rotX": 0.0581933446,
+        "rotY": 179.998962,
+        "rotZ": 359.977081,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -6058,53 +5933,6 @@
       "GUID": "3c8293"
     },
     {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -41.698,
-        "posY": 1.509,
-        "posZ": 22.182,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 1.2,
-        "scaleY": 1.2,
-        "scaleZ": 1.2
-      },
-      "Nickname": "Blue score disc",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": false,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-        "DiffuseURL": "",
-        "NormalURL": "",
-        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1666857035926491798/767A862576D3765C0639150A3EC39D1ED3D36D53/",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 0,
-        "CastShadows": true
-      },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
-      "LuaScriptState": "",
-      "GUID": "eb4ccb"
-    },
-    {
       "Name": "BlockSquare",
       "Transform": {
         "posX": -42.095,
@@ -6137,19 +5965,20 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"+100\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 500,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Left-click to increment your score marker, right-click to increment the city score marker. This button replaces the score marker and the city discs.\"\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\n    local marker\n\n    if alt_click then\n        marker = getObjectFromGUID('6bff57')\n    elseif color == \"Green\" then\n        marker = getObjectFromGUID('fc3802')\n    elseif color == \"Yellow\" then\n        marker = getObjectFromGUID('e0fb49')\n    elseif color == \"Red\" then\n        marker = getObjectFromGUID('0d8495')\n    elseif color == \"Blue\" then\n        mark = getObjectFromGUID('eb4ccb')\n    else\n        return\n    end\n\n    marker.call(\"increment\")\nend",
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"+100\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 500,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Left-click to increment your score marker, right-click to increment the city score marker. This button replaces the score marker and the city discs.\"\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\n    local marker\n\n    if alt_click then\n        marker = getObjectFromGUID('6bff57')\n    elseif color == \"Green\" then\n        marker = getObjectFromGUID('a0ccfc')\n    elseif color == \"Yellow\" then\n        marker = getObjectFromGUID('c4ec6a')\n    elseif color == \"Red\" then\n        marker = getObjectFromGUID('237668')\n    elseif color == \"Blue\" then\n        marker = getObjectFromGUID('5d159c')\n    else\n        print(\"Unknown color \", color)\n        return\n    end\n\n    marker.call(\"increment\")\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "50c5ee"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
         "posX": -39.975,
-        "posY": 1.06,
+        "posY": 1.06000018,
         "posZ": 22.321,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "rotX": 9.961756E-09,
+        "rotY": 4.54597178E-08,
+        "rotZ": 2.18236792E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -6158,9 +5987,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.502,
+        "r": 0.5019998,
         "g": 0.0,
-        "b": 0.502
+        "b": 0.5019998
       },
       "Locked": false,
       "Grid": false,
@@ -6186,17 +6015,18 @@
       },
       "LuaScript": "function onLoad()\n    local left = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0.38, 0.94, 0},\n        rotation       = {0, 270, 37},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    local right = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {-0.38, 0.94, 0},\n        rotation       = {0, 90, -37},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(left)\n    self.createButton(right)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"300\",\n    [\"300\"] = \"\",\n}\n\nfunction increment()\n    -- Assume that both sides have the same value\n    local button = self.getButtons()[1]\n    local label = table[button.label]\n\n    self.editButton({index = 0, label=label})\n    self.editButton({index = 1, label=label})\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "6bff57"
     },
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 15.354,
-        "posY": 0.958,
-        "posZ": -7.504,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "posX": 15.3540182,
+        "posY": 0.957628667,
+        "posZ": -7.504066,
+        "rotX": 0.003936118,
+        "rotY": 179.999878,
+        "rotZ": 359.99,
         "scaleX": 9.177,
         "scaleY": 1.0,
         "scaleZ": 9.177
@@ -6501,8 +6331,9 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad()\n    local co = -0.844 -- column offset\n    local cs = 0.3565 -- column scale\n    local bs = 0.0526 -- button offset\n    local ro = -0.576 -- row offset\n    local rs = 0.3565 -- row scale\n    local index = 0\n    for c = 0,4 do\n        for r = 0,4 do\n            for b=0,5 do\n                -- skip the city service marker\n                if not (c == 2 and r == 2 and b == 0) then\n                    local button = {\n                        width = 20,\n                        height = 20,\n                        color = {0, 0, 0, 0},\n                        hover_color = {0, 0, 0, 0.7},\n                        press_color = {0, 0, 0, 0},\n                        function_owner = self,\n                        click_function = \"button\"..index,\n                        position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                        cube = nil, -- the cube object that's placed on this token\n                        token = nil, -- the score token object moved by the button on this cube\n                        cube_color = nil, -- the color of the cube on this button\n                    }\n\n                    self.createButton(button)\n                    -- I don't know why current_index is needed, but it has something to do with upvalues\n                    -- 'index' is already a local variable, so I don't know why we need another one\n                    -- Why don't we need a copy of 'button'?\n                    local current_index = b\n                    local func = function(obj, player, alt_click)\n                        buttonClicked(obj, player, alt_click, current_index, button)\n                    end\n                    self.setVar(\"button\"..index, func)\n                    index = index + 1\n                end\n            end\n        end\n    end\nend\n\nscoreToken = {\n--          green     red       yellow    blue\n    [0] = {'0de0a6', '3322fd', '289467', '98c6fd'}, -- water\n    [1] = {'ed27ad', '5eb69a', '3d5d30', '71aaaf'}, -- food\n    [2] = {'5808d7', '554ff6', 'e6b3dc', 'f14de0'}, -- religion\n    [3] = {'a524d6', '881675', 'c8c173', '946adc'}, -- defense\n    [4] = {'40acb1', '8a73ef', '212edc', 'b6ccbc'}, -- commerce\n    [5] = {'7f1cbf', '204a31', '55a0b9', 'abe989'}, -- entertainment\n}\n\nfunction buttonClicked(board, player, alt_click, index, button)\n    local token\n    local cubeBag\n    local score\n\n    if button.cube then\n        -- only allow a player to remove his own cubes\n        if button.cube_color ~= player then\n            return\n        end\n        token = button.token\n        score = token.getVar(\"score\") - 1\n\n        destroyObject(button.cube)\n        button.cube = nil\n        button.token = nil\n    else\n        if player == \"Red\" then\n            cubeBag = getObjectFromGUID(\"551726\")\n            token = getObjectFromGUID(scoreToken[index][2])\n        elseif player == \"Green\" then\n            cubeBag = getObjectFromGUID(\"c9ae8b\")\n            token = getObjectFromGUID(scoreToken[index][1])\n        elseif player == \"Blue\" then\n            cubeBag = getObjectFromGUID(\"97bcca\")\n            token = getObjectFromGUID(scoreToken[index][4])\n        elseif player == \"Yellow\" then\n            cubeBag = getObjectFromGUID(\"fd6678\")\n            token = getObjectFromGUID(scoreToken[index][3])\n        else\n            return\n        end\n\n        score = token.getVar(\"score\") + 1\n\n        -- We have to invert the X-axis for some log(button)\n        local buttonPos = {-button.position.x, button.position.y, button.position.z}\n        local params = {\n            smooth = false,\n            position = board.positionToWorld(buttonPos),\n        }\n        button.cube = cubeBag.takeObject(params) -- take the cube from the cube Bag\n        button.cube.interactable = false\n        button.token = token\n        button.cube_color = player\n    end\n\n    token.setVar(\"score\", score)\n    if score > 14 then\n        score = 14\n    end\n\n    local tokenPos = token.getPosition()\n    tokenPos.x = -0.9011 + 1.4 * score\n    tokenPos.y = 2\n    token.setPosition(tokenPos)\nend\n",
+      "LuaScript": "function onLoad()\n    local co = -0.844 -- column offset\n    local cs = 0.3565 -- column scale\n    local bs = 0.0526 -- button offset\n    local ro = -0.576 -- row offset\n    local rs = 0.3565 -- row scale\n    local index = 0\n    for c = 0,4 do\n        for r = 0,4 do\n            for b=0,5 do\n                -- skip the city service marker\n                if not (c == 2 and r == 2 and b == 0) then\n                    local button = {\n                        width = 20,\n                        height = 20,\n                        color = {0, 0, 0, 0},\n                        hover_color = {0, 0, 0, 0.7},\n                        press_color = {0, 0, 0, 0},\n                        function_owner = self,\n                        click_function = \"button\"..index,\n                        position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                        cube = nil, -- the cube object that's placed on this token\n                        token = nil, -- the score token object moved by the button on this cube\n                        cube_color = nil, -- the color of the cube on this button\n                    }\n\n                    self.createButton(button)\n                    -- I don't know why current_index is needed, but it has something to do with upvalues\n                    -- 'index' is already a local variable, so I don't know why we need another one\n                    -- Why don't we need a copy of 'button'?\n                    local current_index = b\n                    local func = function(obj, player, alt_click)\n                        buttonClicked(obj, player, alt_click, current_index, button)\n                    end\n                    self.setVar(\"button\"..index, func)\n                    index = index + 1\n                end\n            end\n        end\n    end\nend\n\nscoreToken = {\n--          green     red       yellow    blue\n    [0] = {'0de0a6', '3322fd', '289467', '98c6fd'}, -- water\n    [1] = {'ed27ad', '5eb69a', '3d5d30', '71aaaf'}, -- food\n    [2] = {'5808d7', '554ff6', 'e6b3dc', 'f14de0'}, -- religion\n    [3] = {'a524d6', '881675', 'c8c173', '946adc'}, -- defense\n    [4] = {'40acb1', '8a73ef', '212edc', 'b6ccbc'}, -- commerce\n    [5] = {'7f1cbf', '204a31', '55a0b9', 'abe989'}, -- entertainment\n}\n\nfunction buttonClicked(board, player, alt_click, index, button)\n    local token\n    local cubeBag\n    local score\n\n    if button.cube then\n        -- only allow a player to remove his own cubes\n        if button.cube_color ~= player then\n            return\n        end\n        token = button.token\n        score = token.getVar(\"score\") - 1\n\n        destroyObject(button.cube)\n        button.cube = nil\n        button.token = nil\n    else\n        if player == \"Red\" then\n            cubeBag = getObjectFromGUID(\"551726\")\n            token = getObjectFromGUID(scoreToken[index][2])\n        elseif player == \"Green\" then\n            cubeBag = getObjectFromGUID(\"c9ae8b\")\n            token = getObjectFromGUID(scoreToken[index][1])\n        elseif player == \"Blue\" then\n            cubeBag = getObjectFromGUID(\"97bcca\")\n            token = getObjectFromGUID(scoreToken[index][4])\n        elseif player == \"Yellow\" then\n            cubeBag = getObjectFromGUID(\"fd6678\")\n            token = getObjectFromGUID(scoreToken[index][3])\n        else\n            return\n        end\n\n        score = token.getVar(\"score\") + 1\n\n        -- We have to invert the X-axis for some log(button)\n        local buttonPos = {-button.position.x, button.position.y, button.position.z}\n        local params = {\n            smooth = false,\n            position = board.positionToWorld(buttonPos),\n        }\n        button.cube = cubeBag.takeObject(params) -- take the cube from the cube Bag\n        button.cube.interactable = false\n        button.token = token\n        button.cube_color = player\n    end\n\n    token.setVar(\"score\", score)\n    if score > 14 then\n        score = 14\n    end\n\n    local tokenPos = token.getPosition()\n    tokenPos.x = -0.9011 + 1.4 * score\n    tokenPos.y = 2\n    token.setPosition(tokenPos)\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "e2f237",
       "AttachedSnapPoints": [
         {
@@ -10562,6 +10393,7 @@
       },
       "LuaScript": "function onLoad()\n    children = self.getChildren()[1].getChildren()[1].getChildren()\n    children[1].getComponents()[1].set('localScale', {0.8,2,1}) -- next page    \n    children[2].getComponents()[1].set('localScale', {0.8,2,1}) -- prev page\n    children[3].getComponents()[1].set('localScale', {1,0.5,1}) -- pop out\n    children[1].getComponents()[1].set('localPosition', {340, 0, 0})\n    children[2].getComponents()[1].set('localPosition', {-340, 0, 0})\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "a0a73f"
     },
     {
@@ -10618,11 +10450,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 40.967,
-        "posY": 0.961,
+        "posY": 0.961217165,
         "posZ": 29.156,
-        "rotX": 0.0,
+        "rotX": 1.15779869E-06,
         "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotZ": 7.750089E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10631,9 +10463,9 @@
       "Description": "For the two-player expert variant rules.",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.478,
-        "g": 0.471,
-        "b": 0.467
+        "r": 0.477999866,
+        "g": 0.470999956,
+        "b": 0.4669997
       },
       "Locked": false,
       "Grid": false,
@@ -10668,11 +10500,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": -35.568,
-        "posY": 0.96,
+        "posY": 0.9599997,
         "posZ": -19.629,
-        "rotX": 0.0,
+        "rotX": -4.04604361E-06,
         "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotZ": -4.65365156E-06,
         "scaleX": 1.532,
         "scaleY": 1.0,
         "scaleZ": 1.532
@@ -10683,7 +10515,7 @@
       "ColorDiffuse": {
         "r": 0.855,
         "g": 0.753,
-        "b": 0.506
+        "b": 0.505999744
       },
       "Locked": false,
       "Grid": false,
@@ -10718,11 +10550,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": -18.762,
-        "posY": 0.96,
+        "posY": 0.9600004,
         "posZ": -20.03,
-        "rotX": 0.0,
+        "rotX": 9.796575E-06,
         "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotZ": 4.69404227E-07,
         "scaleX": 1.532,
         "scaleY": 1.0,
         "scaleZ": 1.532
@@ -10733,7 +10565,7 @@
       "ColorDiffuse": {
         "r": 0.855,
         "g": 0.753,
-        "b": 0.506
+        "b": 0.505999744
       },
       "Locked": false,
       "Grid": false,
@@ -10768,11 +10600,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": -29.976,
-        "posY": 0.96,
+        "posY": 0.960000038,
         "posZ": -19.802,
-        "rotX": 0.0,
+        "rotX": -6.62219E-07,
         "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotZ": -2.18612811E-07,
         "scaleX": 1.532,
         "scaleY": 1.0,
         "scaleZ": 1.532
@@ -10783,7 +10615,7 @@
       "ColorDiffuse": {
         "r": 0.855,
         "g": 0.753,
-        "b": 0.506
+        "b": 0.505999744
       },
       "Locked": false,
       "Grid": false,
@@ -10818,11 +10650,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": -24.573,
-        "posY": 0.96,
+        "posY": 0.9600004,
         "posZ": -19.943,
-        "rotX": 0.0,
+        "rotX": 9.781719E-06,
         "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotZ": 4.542215E-07,
         "scaleX": 1.532,
         "scaleY": 1.0,
         "scaleZ": 1.532
@@ -10833,7 +10665,7 @@
       "ColorDiffuse": {
         "r": 0.855,
         "g": 0.753,
-        "b": 0.506
+        "b": 0.505999744
       },
       "Locked": false,
       "Grid": false,
@@ -10868,11 +10700,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 44.294,
-        "posY": 0.961,
+        "posY": 0.961217165,
         "posZ": 29.264,
-        "rotX": 0.0,
+        "rotX": 4.39481937E-06,
         "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotZ": -1.9540887E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10881,9 +10713,9 @@
       "Description": "For the two-player expert variant rules.",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.478,
-        "g": 0.471,
-        "b": 0.467
+        "r": 0.477999866,
+        "g": 0.470999956,
+        "b": 0.4669997
       },
       "Locked": false,
       "Grid": false,
@@ -10913,6 +10745,206 @@
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "e42c68"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -41.6948967,
+        "posY": 1.458949,
+        "posZ": 22.1808872,
+        "rotX": 0.073764354,
+        "rotY": 359.9731,
+        "rotZ": 359.904846,
+        "scaleX": 0.6,
+        "scaleY": 1.0,
+        "scaleZ": 0.6
+      },
+      "Nickname": "Green score disc",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/green_circle.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "a0ccfc"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -41.6955452,
+        "posY": 1.25903189,
+        "posZ": 22.18113,
+        "rotX": 0.0614034,
+        "rotY": 0.00837069,
+        "rotZ": 359.927246,
+        "scaleX": 0.6,
+        "scaleY": 1.0,
+        "scaleZ": 0.6
+      },
+      "Nickname": "Blue score disc",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/blue_circle.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "5d159c"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -41.6947327,
+        "posY": 1.05989325,
+        "posZ": 22.1808834,
+        "rotX": 0.0210875776,
+        "rotY": 0.004717124,
+        "rotZ": 0.004772717,
+        "scaleX": 0.6,
+        "scaleY": 1.0,
+        "scaleZ": 0.6
+      },
+      "Nickname": "Yellow score disc",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/yellow_circle.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {0, 0, 0},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "c4ec6a"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -41.6966248,
+        "posY": 1.65859044,
+        "posZ": 22.18024,
+        "rotX": 0.10182488,
+        "rotY": 0.0148602137,
+        "rotZ": 359.8821,
+        "scaleX": 0.6,
+        "scaleY": 1.0,
+        "scaleZ": 0.6
+      },
+      "Nickname": "Red score disc",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "file:////home/ttabi/Pictures/Canterbury/red_circle.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "237668"
     }
   ],
   "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",

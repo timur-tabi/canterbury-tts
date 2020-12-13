@@ -1,7 +1,7 @@
 {
   "SaveName": "Canterbury",
   "GameMode": "Canterbury",
-  "Date": "12/11/2020 7:12:13 PM",
+  "Date": "12/12/2020 8:23:35 PM",
   "Gravity": 0.5,
   "PlayArea": 0.622,
   "GameType": "Game",
@@ -80,29 +80,29 @@
       {
         "Color": "Blue",
         "Transform": {
-          "posX": 15.0000019,
+          "posX": 15.0,
           "posY": 1.0,
           "posZ": -35.0,
-          "rotX": 0.0,
-          "rotY": 0.0,
-          "rotZ": 0.0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0,
           "scaleX": 19.725,
           "scaleY": 0.324,
-          "scaleZ": 0.325999945
+          "scaleZ": 0.326
         }
       },
       {
         "Color": "Green",
         "Transform": {
-          "posX": -15.0000019,
+          "posX": -15.0,
           "posY": 1.0,
           "posZ": -35.0,
-          "rotX": 0.0,
-          "rotY": 0.0,
-          "rotZ": 0.0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0,
           "scaleX": 19.725,
           "scaleY": 0.324,
-          "scaleZ": 0.325999945
+          "scaleZ": 0.326
         }
       },
       {
@@ -111,12 +111,12 @@
           "posX": -44.0,
           "posY": 1.0,
           "posZ": -35.0,
-          "rotX": 0.0,
-          "rotY": 0.0,
-          "rotZ": 0.0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0,
           "scaleX": 19.725,
           "scaleY": 0.324,
-          "scaleZ": 0.325999945
+          "scaleZ": 0.326
         }
       },
       {
@@ -125,12 +125,12 @@
           "posX": 44.0,
           "posY": 1.0,
           "posZ": -35.0,
-          "rotX": 0.0,
-          "rotY": 0.0,
-          "rotZ": 0.0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0,
           "scaleX": 19.725,
           "scaleY": 0.324,
-          "scaleZ": 0.325999945
+          "scaleZ": 0.326
         }
       }
     ]
@@ -287,14 +287,14 @@
         "posX": -36.0,
         "posY": 0.94,
         "posZ": 28.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
-      "Nickname": "Blue cubes",
+      "Nickname": "Blue cube bag",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -316,19 +316,13 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "function onLoad()\n    self.interactable = false\nend",
+      "LuaScript": "function onLoad()\n    self.interactable = false\nend\n",
       "LuaScriptState": "",
       "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",
           "Transform": {
-            "posX": 3.931,
-            "posY": 3.027,
-            "posZ": -30.719,
-            "rotX": 0.0,
-            "rotY": 0.0,
-            "rotZ": 1.0,
             "scaleX": 0.5,
             "scaleY": 0.25,
             "scaleZ": 0.5
@@ -338,7 +332,7 @@
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.0,
-            "g": 0.467,
+            "g": 0.0,
             "b": 1.0
           },
           "Locked": false,
@@ -353,7 +347,7 @@
           "GridProjection": false,
           "HideWhenFaceDown": false,
           "Hands": false,
-          "LuaScript": "",
+          "LuaScript": "function onLoad()\n    self.interactable = false\nend",
           "LuaScriptState": "",
           "XmlUI": "",
           "GUID": "618bd7"
@@ -367,14 +361,14 @@
         "posX": -42.0,
         "posY": 0.94,
         "posZ": 28.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
-      "Nickname": "Red cubes",
+      "Nickname": "Red cube bag",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -396,19 +390,13 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "function onLoad()\n    self.interactable = false\nend",
+      "LuaScript": "function onLoad()\n    self.interactable = false\nend\n",
       "LuaScriptState": "",
       "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",
           "Transform": {
-            "posX": -32.711,
-            "posY": 3.157,
-            "posZ": -30.135,
-            "rotX": 0.0,
-            "rotY": 90.0,
-            "rotZ": 180.0,
             "scaleX": 0.5,
             "scaleY": 0.25,
             "scaleZ": 0.5
@@ -417,7 +405,7 @@
           "Description": "",
           "GMNotes": "",
           "ColorDiffuse": {
-            "r": 0.926,
+            "r": 1.0,
             "g": 0.0,
             "b": 0.0
           },
@@ -433,7 +421,7 @@
           "GridProjection": false,
           "HideWhenFaceDown": false,
           "Hands": false,
-          "LuaScript": "",
+          "LuaScript": "function onLoad()\n    self.interactable = false\nend",
           "LuaScriptState": "",
           "XmlUI": "",
           "GUID": "2471f1"
@@ -447,14 +435,14 @@
         "posX": -33.0,
         "posY": 0.94,
         "posZ": 28.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
-      "Nickname": "Yellow cubes",
+      "Nickname": "Yellow cube bag",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -476,19 +464,13 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "function onLoad()\n    self.interactable = false\nend",
+      "LuaScript": "function onLoad()\n    self.interactable = false\nend\n",
       "LuaScriptState": "",
       "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",
           "Transform": {
-            "posX": 32.987,
-            "posY": 2.976,
-            "posZ": -30.796,
-            "rotX": 0.0,
-            "rotY": 0.0,
-            "rotZ": 0.0,
             "scaleX": 0.5,
             "scaleY": 0.25,
             "scaleZ": 0.5
@@ -498,7 +480,7 @@
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 1.0,
-            "g": 0.989,
+            "g": 1.0,
             "b": 0.0
           },
           "Locked": false,
@@ -513,7 +495,7 @@
           "GridProjection": false,
           "HideWhenFaceDown": false,
           "Hands": false,
-          "LuaScript": "",
+          "LuaScript": "function onLoad()\n    self.interactable = false\nend",
           "LuaScriptState": "",
           "XmlUI": "",
           "GUID": "a8ac73"
@@ -527,14 +509,14 @@
         "posX": -39.0,
         "posY": 0.94,
         "posZ": 28.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
-      "Nickname": "Green cubes",
+      "Nickname": "Green cube bag",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -556,19 +538,13 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "function onLoad()\n    self.interactable = false\nend",
+      "LuaScript": "function onLoad()\n    self.interactable = false\nend\n",
       "LuaScriptState": "",
       "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",
           "Transform": {
-            "posX": -3.844,
-            "posY": 3.092,
-            "posZ": -30.52,
-            "rotX": 0.0,
-            "rotY": 0.0,
-            "rotZ": 0.0,
             "scaleX": 0.5,
             "scaleY": 0.25,
             "scaleZ": 0.5
@@ -577,7 +553,7 @@
           "Description": "",
           "GMNotes": "",
           "ColorDiffuse": {
-            "r": 0.044,
+            "r": 0.0,
             "g": 1.0,
             "b": 0.0
           },
@@ -593,10 +569,10 @@
           "GridProjection": false,
           "HideWhenFaceDown": false,
           "Hands": false,
-          "LuaScript": "",
+          "LuaScript": "function onLoad()\n    self.interactable = false\nend\n",
           "LuaScriptState": "",
           "XmlUI": "",
-          "GUID": "bf0b2b"
+          "GUID": "2471f1"
         }
       ],
       "GUID": "c9ae8b"
@@ -607,9 +583,9 @@
         "posX": 9.698,
         "posY": 0.943,
         "posZ": 4.286,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -646,9 +622,9 @@
             "posX": 16.056,
             "posY": 3.191,
             "posZ": -18.894,
-            "rotX": 0.0,
-            "rotY": 0.0,
-            "rotZ": 0.0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
             "scaleX": 0.75,
             "scaleY": 1.0,
             "scaleZ": 0.75
@@ -699,9 +675,9 @@
         "posX": 15.248,
         "posY": 0.943,
         "posZ": 4.286,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -712,7 +688,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.686,
-        "b": 0.215999812
+        "b": 0.216
       },
       "Locked": true,
       "Grid": false,
@@ -738,9 +714,9 @@
             "posX": 37.122,
             "posY": 3.192,
             "posZ": 6.936,
-            "rotX": 0.0,
-            "rotY": 0.0,
-            "rotZ": 0.0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
             "scaleX": 1.0,
             "scaleY": 1.0,
             "scaleZ": 1.0
@@ -791,9 +767,9 @@
         "posX": 4.148,
         "posY": 0.943,
         "posZ": 4.295,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -830,9 +806,9 @@
             "posX": 10.286,
             "posY": 3.185,
             "posZ": -18.741,
-            "rotX": 0.0,
-            "rotY": 0.0,
-            "rotZ": 0.0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
             "scaleX": 0.5,
             "scaleY": 1.0,
             "scaleZ": 0.5
@@ -883,9 +859,9 @@
         "posX": 44.0,
         "posY": 0.961,
         "posZ": -30.0,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 3.0,
         "scaleY": 1.0,
         "scaleZ": 3.0
@@ -954,11 +930,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": 38.006,
-        "posY": 1.06283379,
+        "posY": 1.063,
         "posZ": -30.0,
-        "rotX": -1.08805644E-07,
-        "rotY": 1.79414128E-05,
-        "rotZ": -2.95485688E-06,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -995,9 +971,9 @@
         "posX": -15.0,
         "posY": 0.961,
         "posZ": -30.0,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 3.0,
         "scaleY": 1.0,
         "scaleZ": 3.0
@@ -1068,9 +1044,9 @@
         "posX": -43.989,
         "posY": 0.965,
         "posZ": -30.078,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 3.0,
         "scaleY": 1.0,
         "scaleZ": 3.0
@@ -1139,11 +1115,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -49.983,
-        "posY": 1.06683373,
+        "posY": 1.067,
         "posZ": -30.078,
-        "rotX": -1.38404317E-07,
-        "rotY": 2.988829E-05,
-        "rotZ": -1.44074284E-06,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1178,11 +1154,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": 9.006,
-        "posY": 1.06283355,
+        "posY": 1.063,
         "posZ": -30.0,
-        "rotX": 1.21229175E-06,
-        "rotY": -1.69821942E-06,
-        "rotZ": -2.09441328E-06,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1192,7 +1168,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.0,
-        "g": 0.171999812,
+        "g": 0.172,
         "b": 1.0
       },
       "Locked": false,
@@ -1217,11 +1193,11 @@
       "Name": "PlayerPawn",
       "Transform": {
         "posX": -20.994,
-        "posY": 1.06283379,
+        "posY": 1.063,
         "posZ": -30.0,
-        "rotX": -3.49346664E-07,
-        "rotY": 5.13325858E-06,
-        "rotZ": -2.66470715E-06,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1258,9 +1234,9 @@
         "posX": 15.0,
         "posY": 0.961,
         "posZ": -30.0,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 3.0,
         "scaleY": 1.0,
         "scaleZ": 3.0
@@ -1328,12 +1304,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.05791819,
-        "posY": 1.05183864,
-        "posZ": -0.684688449,
-        "rotX": 0.0560098849,
-        "rotY": 179.9987,
-        "rotZ": 359.9794,
+        "posX": 1.058,
+        "posY": 1.055,
+        "posZ": -0.685,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -1378,12 +1354,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5719442,
-        "posY": 1.05663276,
-        "posZ": -0.638445437,
-        "rotX": 0.05765367,
-        "rotY": 179.9987,
-        "rotZ": 359.978363,
+        "posX": 12.572,
+        "posY": 1.057,
+        "posZ": -0.639,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -1428,12 +1404,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.79794,
-        "posY": 1.05498683,
-        "posZ": -0.672583163,
-        "rotX": 0.05966003,
-        "rotY": 179.998734,
-        "rotZ": 359.9794,
+        "posX": 6.798,
+        "posY": 1.055,
+        "posZ": -0.673,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -1478,12 +1454,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9020235,
-        "posY": 1.13490844,
-        "posZ": 13.9190254,
-        "rotX": 0.0176914353,
-        "rotY": -0.000226200718,
-        "rotZ": 0.0169095714,
+        "posX": -0.902,
+        "posY": 1.135,
+        "posZ": 13.919,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1518,20 +1494,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "946adc"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9009922,
-        "posY": 1.134943,
-        "posZ": 21.95403,
-        "rotX": 0.0201964937,
-        "rotY": -0.0006071556,
-        "rotZ": 359.989624,
+        "posX": -0.901,
+        "posY": 1.135,
+        "posZ": 21.954,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1566,20 +1542,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "98c6fd"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.90203476,
-        "posY": 1.13491011,
-        "posZ": 8.554012,
-        "rotX": 0.0109645287,
-        "rotY": -0.000260472065,
-        "rotZ": 0.0260255933,
+        "posX": -0.902,
+        "posY": 1.135,
+        "posZ": 8.554,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1614,20 +1590,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "abe989"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9010339,
-        "posY": 1.13490379,
-        "posZ": 11.2360125,
-        "rotX": 0.008585684,
-        "rotY": -0.000278216758,
-        "rotZ": 0.0243046824,
+        "posX": -0.901,
+        "posY": 1.135,
+        "posZ": 11.236,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1662,20 +1638,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "b6ccbc"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9010245,
-        "posY": 1.13489711,
-        "posZ": 16.5940323,
-        "rotX": 0.0203763973,
-        "rotY": -0.000318473671,
-        "rotZ": 0.019115068,
+        "posX": -0.901,
+        "posY": 1.135,
+        "posZ": 16.594,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1710,20 +1686,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "f14de0"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9010198,
-        "posY": 1.13491,
-        "posZ": 19.2770348,
-        "rotX": 0.0206768028,
-        "rotY": -0.000613919459,
-        "rotZ": 0.0138831437,
+        "posX": -0.901,
+        "posY": 1.135,
+        "posZ": 19.277,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1758,20 +1734,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "71aaaf"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9019589,
-        "posY": 1.284019,
-        "posZ": 8.553912,
-        "rotX": 359.948761,
-        "rotY": -0.000185401674,
-        "rotZ": 359.9774,
+        "posX": -0.902,
+        "posY": 1.284,
+        "posZ": 8.554,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1806,20 +1782,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "55a0b9"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9006124,
-        "posY": 1.58356631,
-        "posZ": 8.553384,
-        "rotX": 359.90274,
-        "rotY": 0.0007027449,
-        "rotZ": 359.9506,
+        "posX": -0.902,
+        "posY": 1.584,
+        "posZ": 8.553,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1854,20 +1830,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "204a31"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9039914,
-        "posY": 1.28405213,
-        "posZ": 11.2381334,
-        "rotX": 0.05711102,
-        "rotY": -0.0007926406,
-        "rotZ": 359.982178,
+        "posX": -0.904,
+        "posY": 1.284,
+        "posZ": 11.238,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1902,20 +1878,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "212edc"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.8998744,
-        "posY": 1.28403008,
-        "posZ": 16.5931263,
-        "rotX": 0.0131588476,
-        "rotY": 0.000663870655,
-        "rotZ": 359.9522,
+        "posX": -0.9,
+        "posY": 1.284,
+        "posZ": 16.593,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1950,20 +1926,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "e6b3dc"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9029415,
-        "posY": 1.28406608,
-        "posZ": 13.9172916,
-        "rotX": 0.111238383,
-        "rotY": -0.00153100817,
-        "rotZ": 359.980469,
+        "posX": -0.903,
+        "posY": 1.284,
+        "posZ": 13.917,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1998,20 +1974,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "c8c173"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.8999468,
-        "posY": 1.284062,
-        "posZ": 19.2783146,
-        "rotX": 0.08404353,
-        "rotY": 0.00077505206,
-        "rotZ": 359.971832,
+        "posX": -0.9,
+        "posY": 1.284,
+        "posZ": 19.278,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2046,20 +2022,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "3d5d30"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9012723,
-        "posY": 1.58355844,
-        "posZ": 21.9552956,
-        "rotX": 0.127869874,
-        "rotY": -0.0005790767,
-        "rotZ": 0.03729546,
+        "posX": -0.901,
+        "posY": 1.584,
+        "posZ": 21.956,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2094,20 +2070,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "289467"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.900925,
-        "posY": 1.58356059,
-        "posZ": 11.2356262,
-        "rotX": 0.104309209,
-        "rotY": -0.0007698107,
-        "rotZ": 0.004074164,
+        "posX": -0.9,
+        "posY": 1.584,
+        "posZ": 11.235,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2142,20 +2118,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "8a73ef"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.900665045,
-        "posY": 1.58358514,
-        "posZ": 13.9182281,
-        "rotX": 0.1811299,
-        "rotY": -0.0002936076,
-        "rotZ": 359.9725,
+        "posX": -0.9,
+        "posY": 1.584,
+        "posZ": 13.917,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2190,20 +2166,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "881675"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9003988,
-        "posY": 1.58356273,
-        "posZ": 16.5920486,
-        "rotX": 359.973358,
-        "rotY": -0.00153356756,
-        "rotZ": 359.9347,
+        "posX": -0.902,
+        "posY": 1.584,
+        "posZ": 16.591,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2238,20 +2214,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "554ff6"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9006313,
-        "posY": 1.58356476,
-        "posZ": 19.2747822,
-        "rotX": 0.06250439,
-        "rotY": -0.00214823941,
-        "rotZ": 359.9528,
+        "posX": -0.901,
+        "posY": 1.584,
+        "posZ": 19.273,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2286,20 +2262,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "5eb69a"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902108,
-        "posY": 1.4339186,
-        "posZ": 21.9511223,
-        "rotX": 0.0918201357,
-        "rotY": -0.000557100051,
-        "rotZ": 0.0346133932,
+        "posX": -0.902,
+        "posY": 1.434,
+        "posZ": 21.951,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2334,20 +2310,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "3322fd"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.904974937,
-        "posY": 1.43392134,
-        "posZ": 11.2373085,
-        "rotX": 0.0743728653,
-        "rotY": -0.000203866948,
-        "rotZ": 0.0134397075,
+        "posX": -0.904,
+        "posY": 1.434,
+        "posZ": 11.237,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2382,20 +2358,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "40acb1"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901852667,
-        "posY": 1.43396139,
-        "posZ": 13.9186134,
-        "rotX": 0.141479179,
-        "rotY": 0.0009509933,
-        "rotZ": 359.987457,
+        "posX": -0.901,
+        "posY": 1.434,
+        "posZ": 13.918,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2430,20 +2406,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "a524d6"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.900713861,
-        "posY": 1.43392277,
-        "posZ": 16.5961037,
-        "rotX": 359.978027,
-        "rotY": -0.00185911672,
-        "rotZ": 359.9623,
+        "posX": -0.901,
+        "posY": 1.434,
+        "posZ": 16.596,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2478,20 +2454,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "5808d7"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9018401,
-        "posY": 1.43392634,
-        "posZ": 19.2785015,
-        "rotX": 0.04346425,
-        "rotY": -0.00205172854,
-        "rotZ": 359.974945,
+        "posX": -0.902,
+        "posY": 1.434,
+        "posZ": 19.278,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2526,20 +2502,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "ed27ad"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9031032,
-        "posY": 1.284037,
-        "posZ": 21.9550152,
-        "rotX": 0.06382145,
-        "rotY": -0.0004048212,
-        "rotZ": 0.0534156375,
+        "posX": -0.903,
+        "posY": 1.284,
+        "posZ": 21.955,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2574,20 +2550,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "0de0a6"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.903875351,
-        "posY": 1.433924,
-        "posZ": 8.552705,
-        "rotX": 359.9158,
-        "rotY": -0.0006240979,
-        "rotZ": 359.976746,
+        "posX": -0.904,
+        "posY": 1.434,
+        "posZ": 8.552,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2622,20 +2598,20 @@
         "TypeIndex": 0,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    self.setVar(\"score\", 0)\n    self.interactable = false\nend    ",
-      "LuaScriptState": "",
+      "LuaScript": "function onLoad(save_state)\n    if save_state ~= \"\" then\n        self.setVar(\"score\", tonumber(JSON.decode(save_state)))\n    else\n        self.setVar(\"score\", 0)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return JSON.encode(self.getVar(\"score\"))\nend",
+      "LuaScriptState": "0",
       "XmlUI": "",
       "GUID": "7f1cbf"
     },
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.71621,
-        "posY": 1.05121648,
-        "posZ": -12.3920956,
-        "rotX": 0.0852758437,
-        "rotY": 179.998459,
-        "rotZ": 359.969818,
+        "posX": 29.716,
+        "posY": 1.051,
+        "posZ": -12.392,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2646,7 +2622,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -2680,12 +2656,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.95411,
-        "posY": 1.05103135,
-        "posZ": -12.3802214,
-        "rotX": 0.07415619,
-        "rotY": 179.99826,
-        "rotZ": 359.9493,
+        "posX": 23.954,
+        "posY": 1.054,
+        "posZ": -12.38,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2696,7 +2672,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -2730,12 +2706,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.2302952,
-        "posY": 1.0475173,
-        "posZ": -12.3964949,
-        "rotX": 0.057242047,
-        "rotY": 179.996536,
-        "rotZ": 359.904144,
+        "posX": 18.23,
+        "posY": 1.054,
+        "posZ": -12.397,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2746,7 +2722,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -2780,12 +2756,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.56722,
-        "posY": 1.04642677,
-        "posZ": -12.39346,
-        "rotX": 0.05386156,
-        "rotY": 179.998947,
-        "rotZ": 359.918945,
+        "posX": 12.567,
+        "posY": 1.051,
+        "posZ": -12.394,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2796,7 +2772,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -2830,12 +2806,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.680757,
-        "posY": 3.21400237,
-        "posZ": -12.5275192,
-        "rotX": 1.427663,
-        "rotY": 179.682922,
-        "rotZ": 359.250641,
+        "posX": 6.667,
+        "posY": 3.21,
+        "posZ": -12.538,
+        "rotX": 1,
+        "rotY": 179,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2846,7 +2822,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -2880,12 +2856,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.05730581,
-        "posY": 1.04528439,
-        "posZ": -12.36879,
-        "rotX": 0.07707382,
-        "rotY": 179.991516,
-        "rotZ": 359.940338,
+        "posX": 1.057,
+        "posY": 1.041,
+        "posZ": -12.369,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -2896,7 +2872,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -2933,9 +2909,9 @@
         "posX": -25.379,
         "posY": 1.185,
         "posZ": 0.449,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 0.5,
         "scaleY": 0.25,
         "scaleZ": 0.5
@@ -2945,7 +2921,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124999829,
+        "g": 0.125,
         "b": 0.941
       },
       "Locked": true,
@@ -2968,12 +2944,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.2689114,
-        "posY": 1.05832624,
-        "posZ": -0.6851762,
-        "rotX": 0.0156127317,
-        "rotY": 179.998734,
-        "rotZ": 359.981476,
+        "posX": 18.269,
+        "posY": 1.058,
+        "posZ": -0.685,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -3018,12 +2994,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.94093,
-        "posY": 1.06039441,
-        "posZ": -0.718068838,
-        "rotX": 0.01675881,
-        "rotY": 179.998978,
-        "rotZ": 359.981934,
+        "posX": 23.941,
+        "posY": 1.06,
+        "posZ": -0.718,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -3068,12 +3044,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.7089214,
-        "posY": 1.062463,
-        "posZ": -0.666826248,
-        "rotX": 0.0169856,
-        "rotY": 179.998764,
-        "rotZ": 359.981964,
+        "posX": 29.709,
+        "posY": 1.06,
+        "posZ": -0.667,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -3121,9 +3097,9 @@
         "posX": -24.962,
         "posY": 1.06,
         "posZ": 5.441,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3171,9 +3147,9 @@
         "posX": 48.718,
         "posY": 0.961,
         "posZ": -19.285,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 6.085,
         "scaleY": 1.0,
         "scaleZ": 6.085
@@ -3218,12 +3194,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.05429244,
-        "posY": 1.23763168,
-        "posZ": -12.37666,
-        "rotX": 0.531931,
-        "rotY": 179.971939,
-        "rotZ": 359.849365,
+        "posX": 1.054,
+        "posY": 1.236,
+        "posZ": -12.379,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3234,7 +3210,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3268,12 +3244,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.05019832,
-        "posY": 1.43596292,
-        "posZ": -12.3825426,
-        "rotX": 0.7049736,
-        "rotY": 179.935837,
-        "rotZ": 359.784515,
+        "posX": 1.051,
+        "posY": 1.429,
+        "posZ": -12.386,
+        "rotX": 1,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3284,7 +3260,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3318,12 +3294,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.0716908,
-        "posY": 1.62839735,
-        "posZ": -12.46939,
-        "rotX": 1.05670929,
-        "rotY": 178.978363,
-        "rotZ": 359.809265,
+        "posX": 1.071,
+        "posY": 1.626,
+        "posZ": -12.475,
+        "rotX": 1,
+        "rotY": 179,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3334,7 +3310,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3368,12 +3344,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.052359,
-        "posY": 1.82607388,
-        "posZ": -12.5088158,
-        "rotX": 1.21680307,
-        "rotY": 179.9417,
-        "rotZ": 359.776062,
+        "posX": 1.052,
+        "posY": 1.819,
+        "posZ": -12.516,
+        "rotX": 1,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3384,7 +3360,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3418,12 +3394,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.08075655,
-        "posY": 2.019506,
-        "posZ": -12.5752258,
-        "rotX": 1.42012286,
-        "rotY": 179.981079,
-        "rotZ": 359.796,
+        "posX": 1.08,
+        "posY": 2.015,
+        "posZ": -12.585,
+        "rotX": 1,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3434,7 +3410,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3468,12 +3444,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.0480485,
-        "posY": 2.217673,
-        "posZ": -12.5871649,
-        "rotX": 1.28361833,
-        "rotY": 180.940765,
-        "rotZ": 359.778076,
+        "posX": 1.046,
+        "posY": 2.213,
+        "posZ": -12.598,
+        "rotX": 1,
+        "rotY": 181,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3484,7 +3460,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3518,12 +3494,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.04365051,
-        "posY": 2.41265631,
-        "posZ": -12.6364317,
-        "rotX": 1.31725025,
-        "rotY": 179.96373,
-        "rotZ": 359.852631,
+        "posX": 1.041,
+        "posY": 2.408,
+        "posZ": -12.65,
+        "rotX": 1,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3534,7 +3510,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3568,12 +3544,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.01252341,
-        "posY": 2.61222172,
-        "posZ": -12.6142473,
-        "rotX": 1.29407346,
-        "rotY": 180.939941,
-        "rotZ": 359.788116,
+        "posX": 1.009,
+        "posY": 2.608,
+        "posZ": -12.628,
+        "rotX": 1,
+        "rotY": 181,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3584,7 +3560,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3618,12 +3594,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.9911982,
-        "posY": 2.80973482,
-        "posZ": -12.6182384,
-        "rotX": 1.27053988,
-        "rotY": 180.917389,
-        "rotZ": 359.7197,
+        "posX": 0.987,
+        "posY": 2.805,
+        "posZ": -12.634,
+        "rotX": 1,
+        "rotY": 181,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3634,7 +3610,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3668,12 +3644,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.9923216,
-        "posY": 3.00951052,
-        "posZ": -12.6095171,
-        "rotX": 1.22552192,
-        "rotY": 180.927231,
-        "rotZ": 359.733,
+        "posX": 0.988,
+        "posY": 3.005,
+        "posZ": -12.626,
+        "rotX": 1,
+        "rotY": 181,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3684,7 +3660,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3718,12 +3694,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.986429,
-        "posY": 3.20799041,
-        "posZ": -12.6446934,
-        "rotX": 1.24620473,
-        "rotY": 180.921967,
-        "rotZ": 359.7271,
+        "posX": 0.982,
+        "posY": 3.203,
+        "posZ": -12.663,
+        "rotX": 1,
+        "rotY": 181,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3734,7 +3710,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3768,12 +3744,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.78835,
-        "posY": 1.05158889,
-        "posZ": -12.3617392,
-        "rotX": 0.0561626852,
-        "rotY": 179.988647,
-        "rotZ": 359.933868,
+        "posX": 6.788,
+        "posY": 1.047,
+        "posZ": -12.363,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3784,7 +3760,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3818,12 +3794,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.787455,
-        "posY": 1.24337173,
-        "posZ": -12.3685055,
-        "rotX": 0.4174833,
-        "rotY": 179.951675,
-        "rotZ": 359.798981,
+        "posX": 6.787,
+        "posY": 1.239,
+        "posZ": -12.372,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3834,7 +3810,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3868,12 +3844,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.786032,
-        "posY": 1.44108474,
-        "posZ": -12.3943644,
-        "rotX": 0.6210719,
-        "rotY": 179.915878,
-        "rotZ": 359.736664,
+        "posX": 6.785,
+        "posY": 1.437,
+        "posZ": -12.398,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3884,7 +3860,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3918,12 +3894,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.785333,
-        "posY": 1.63404512,
-        "posZ": -12.4037552,
-        "rotX": 0.898562968,
-        "rotY": 179.8704,
-        "rotZ": 359.611572,
+        "posX": 6.783,
+        "posY": 1.63,
+        "posZ": -12.41,
+        "rotX": 1,
+        "rotY": 180,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3934,7 +3910,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -3968,12 +3944,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.7601285,
-        "posY": 1.8313967,
-        "posZ": -12.4505091,
-        "rotX": 1.06637216,
-        "rotY": 179.8358,
-        "rotZ": 359.5612,
+        "posX": 6.757,
+        "posY": 1.827,
+        "posZ": -12.458,
+        "rotX": 1,
+        "rotY": 180,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -3984,7 +3960,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4018,12 +3994,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.74167967,
-        "posY": 2.025227,
-        "posZ": -12.4784365,
-        "rotX": 1.23766255,
-        "rotY": 179.795959,
-        "rotZ": 359.479279,
+        "posX": 6.737,
+        "posY": 2.021,
+        "posZ": -12.488,
+        "rotX": 1,
+        "rotY": 180,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4034,7 +4010,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4068,12 +4044,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.73880148,
-        "posY": 2.22492266,
-        "posZ": -12.43344,
-        "rotX": 1.19589043,
-        "rotY": 179.7573,
-        "rotZ": 359.351471,
+        "posX": 6.732,
+        "posY": 2.22,
+        "posZ": -12.442,
+        "rotX": 1,
+        "rotY": 180,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4084,7 +4060,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4118,12 +4094,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.697391,
-        "posY": 2.41982174,
-        "posZ": -12.471941,
-        "rotX": 1.32782662,
-        "rotY": 179.72583,
-        "rotZ": 359.304016,
+        "posX": 6.688,
+        "posY": 2.415,
+        "posZ": -12.482,
+        "rotX": 1,
+        "rotY": 179,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4134,7 +4110,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4168,12 +4144,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.68931,
-        "posY": 2.61827612,
-        "posZ": -12.4972677,
-        "rotX": 1.41652966,
-        "rotY": 179.70665,
-        "rotZ": 359.2771,
+        "posX": 6.679,
+        "posY": 2.614,
+        "posZ": -12.508,
+        "rotX": 1,
+        "rotY": 179,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4184,7 +4160,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4218,12 +4194,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.683946,
-        "posY": 2.81514931,
-        "posZ": -12.5276442,
-        "rotX": 1.48210061,
-        "rotY": 179.680252,
-        "rotZ": 359.2592,
+        "posX": 6.673,
+        "posY": 2.811,
+        "posZ": -12.539,
+        "rotX": 1,
+        "rotY": 179,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4234,7 +4210,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4268,12 +4244,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.68245125,
-        "posY": 3.0148983,
-        "posZ": -12.5216608,
-        "rotX": 1.437297,
-        "rotY": 179.690155,
-        "rotZ": 359.2726,
+        "posX": 6.67,
+        "posY": 3.01,
+        "posZ": -12.532,
+        "rotX": 1,
+        "rotY": 179,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4284,7 +4260,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4318,12 +4294,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.566803,
-        "posY": 1.24458933,
-        "posZ": -12.3848429,
-        "rotX": 0.0032045485,
-        "rotY": 180.000351,
-        "rotZ": 359.7444,
+        "posX": 12.567,
+        "posY": 1.249,
+        "posZ": -12.385,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4334,7 +4310,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4368,12 +4344,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5819035,
-        "posY": 1.4392215,
-        "posZ": -12.367734,
-        "rotX": 359.841919,
-        "rotY": 179.997772,
-        "rotZ": 359.778931,
+        "posX": 12.582,
+        "posY": 1.444,
+        "posZ": -12.368,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4384,7 +4360,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4418,12 +4394,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5728989,
-        "posY": 1.63775611,
-        "posZ": -12.3751707,
-        "rotX": 359.9787,
-        "rotY": 179.99913,
-        "rotZ": 359.7398,
+        "posX": 12.572,
+        "posY": 1.642,
+        "posZ": -12.375,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4434,7 +4410,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4468,12 +4444,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5630465,
-        "posY": 1.83377528,
-        "posZ": -12.3949928,
-        "rotX": 4.409462E-06,
-        "rotY": 178.999115,
-        "rotZ": 359.851471,
+        "posX": 12.562,
+        "posY": 1.839,
+        "posZ": -12.395,
+        "rotX": 0,
+        "rotY": 179,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4484,7 +4460,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4518,12 +4494,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5633535,
-        "posY": 2.032859,
-        "posZ": -12.3899727,
-        "rotX": 359.911438,
-        "rotY": 178.99588,
-        "rotZ": 359.878143,
+        "posX": 12.562,
+        "posY": 2.036,
+        "posZ": -12.39,
+        "rotX": 0,
+        "rotY": 179,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4534,7 +4510,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4568,12 +4544,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5539579,
-        "posY": 2.23042464,
-        "posZ": -12.3765211,
-        "rotX": 359.879669,
-        "rotY": 178.99765,
-        "rotZ": 359.810455,
+        "posX": 12.553,
+        "posY": 2.235,
+        "posZ": -12.377,
+        "rotX": 0,
+        "rotY": 179,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4584,7 +4560,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4618,12 +4594,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.5541954,
-        "posY": 2.429904,
-        "posZ": -12.3470907,
-        "rotX": 359.835327,
-        "rotY": 178.995667,
-        "rotZ": 359.823578,
+        "posX": 12.553,
+        "posY": 2.434,
+        "posZ": -12.348,
+        "rotX": 0,
+        "rotY": 179,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4634,7 +4610,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4668,12 +4644,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.55552,
-        "posY": 2.62903118,
-        "posZ": -12.3154936,
-        "rotX": 359.811584,
-        "rotY": 178.994659,
-        "rotZ": 359.831024,
+        "posX": 12.554,
+        "posY": 2.634,
+        "posZ": -12.316,
+        "rotX": 0,
+        "rotY": 179,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4684,7 +4660,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4718,12 +4694,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.2288113,
-        "posY": 1.24576521,
-        "posZ": -12.3916073,
-        "rotX": 0.00702925865,
-        "rotY": 179.991287,
-        "rotZ": 359.73587,
+        "posX": 18.228,
+        "posY": 1.252,
+        "posZ": -12.392,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4734,7 +4710,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4768,12 +4744,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.21218,
-        "posY": 1.44029343,
-        "posZ": -12.3623829,
-        "rotX": 359.9463,
-        "rotY": 179.9822,
-        "rotZ": 359.5478,
+        "posX": 18.211,
+        "posY": 1.447,
+        "posZ": -12.362,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4784,7 +4760,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4818,12 +4794,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.2104111,
-        "posY": 1.63885045,
-        "posZ": -12.3610868,
-        "rotX": 0.08469386,
-        "rotY": 179.982285,
-        "rotZ": 359.5893,
+        "posX": 18.209,
+        "posY": 1.646,
+        "posZ": -12.361,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4834,7 +4810,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4868,12 +4844,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.184227,
-        "posY": 1.834762,
-        "posZ": -12.345521,
-        "rotX": 0.0540574677,
-        "rotY": 179.984787,
-        "rotZ": 359.463684,
+        "posX": 18.182,
+        "posY": 1.842,
+        "posZ": -12.345,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4884,7 +4860,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4918,12 +4894,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.1791477,
-        "posY": 2.03377581,
-        "posZ": -12.343461,
-        "rotX": 0.0269425362,
-        "rotY": 179.979645,
-        "rotZ": 359.37262,
+        "posX": 18.177,
+        "posY": 2.041,
+        "posZ": -12.343,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4934,7 +4910,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -4968,12 +4944,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.1734123,
-        "posY": 2.23133659,
-        "posZ": -12.376771,
-        "rotX": 0.09635123,
-        "rotY": 179.982254,
-        "rotZ": 359.352753,
+        "posX": 18.171,
+        "posY": 2.238,
+        "posZ": -12.376,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -4984,7 +4960,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5018,12 +4994,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.163023,
-        "posY": 2.43081474,
-        "posZ": -12.3430138,
-        "rotX": 0.08303257,
-        "rotY": 179.978821,
-        "rotZ": 359.307953,
+        "posX": 18.16,
+        "posY": 2.438,
+        "posZ": -12.342,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5034,7 +5010,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5068,12 +5044,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.1554451,
-        "posY": 2.629932,
-        "posZ": -12.3582964,
-        "rotX": 0.09477143,
-        "rotY": 178.980057,
-        "rotZ": 359.315125,
+        "posX": 18.153,
+        "posY": 2.637,
+        "posZ": -12.358,
+        "rotX": 0,
+        "rotY": 179,
+        "rotZ": 359,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5084,7 +5060,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5118,12 +5094,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.9658833,
-        "posY": 1.24721479,
-        "posZ": -12.389637,
-        "rotX": 0.19639276,
-        "rotY": 180.000488,
-        "rotZ": 359.983124,
+        "posX": 23.966,
+        "posY": 1.25,
+        "posZ": -12.39,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5134,7 +5110,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5168,12 +5144,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.9678574,
-        "posY": 1.44623315,
-        "posZ": -12.3893843,
-        "rotX": 0.103451125,
-        "rotY": 180.0025,
-        "rotZ": 0.009759474,
+        "posX": 23.968,
+        "posY": 1.449,
+        "posZ": -12.39,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5184,7 +5160,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5218,12 +5194,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.9708271,
-        "posY": 1.643821,
-        "posZ": -12.4039221,
-        "rotX": 0.174587041,
-        "rotY": 180.004272,
-        "rotZ": 0.0285171848,
+        "posX": 23.971,
+        "posY": 1.647,
+        "posZ": -12.404,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5234,7 +5210,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5268,12 +5244,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.969883,
-        "posY": 1.84334707,
-        "posZ": -12.4035559,
-        "rotX": 0.219847471,
-        "rotY": 181.006241,
-        "rotZ": 0.04542604,
+        "posX": 23.97,
+        "posY": 1.846,
+        "posZ": -12.404,
+        "rotX": 0,
+        "rotY": 181,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5284,7 +5260,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5318,12 +5294,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.971983,
-        "posY": 2.04253483,
-        "posZ": -12.4063883,
-        "rotX": 0.242070973,
-        "rotY": 181.006821,
-        "rotZ": 0.05181417,
+        "posX": 23.972,
+        "posY": 2.045,
+        "posZ": -12.406,
+        "rotX": 0,
+        "rotY": 181,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5334,7 +5310,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5368,12 +5344,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.7120914,
-        "posY": 1.24729586,
-        "posZ": -12.39657,
-        "rotX": 0.20307675,
-        "rotY": 179.99765,
-        "rotZ": 359.9322,
+        "posX": 29.712,
+        "posY": 1.249,
+        "posZ": -12.397,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5384,7 +5360,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5418,12 +5394,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.7127838,
-        "posY": 1.4463172,
-        "posZ": -12.3993216,
-        "rotX": 0.295297861,
-        "rotY": 180.0011,
-        "rotZ": 359.958954,
+        "posX": 29.713,
+        "posY": 1.445,
+        "posZ": -12.4,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5434,7 +5410,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5468,12 +5444,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.7115974,
-        "posY": 1.64390087,
-        "posZ": -12.4015827,
-        "rotX": 0.3618808,
-        "rotY": 179.9995,
-        "rotZ": 359.9383,
+        "posX": 29.712,
+        "posY": 1.645,
+        "posZ": -12.402,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5484,7 +5460,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5518,12 +5494,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.7123852,
-        "posY": 1.84343982,
-        "posZ": -12.4009075,
-        "rotX": 0.316897035,
-        "rotY": 180.000412,
-        "rotZ": 359.951569,
+        "posX": 29.713,
+        "posY": 1.843,
+        "posZ": -12.401,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5534,7 +5510,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5568,12 +5544,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.7181816,
-        "posY": 2.042672,
-        "posZ": -12.39909,
-        "rotX": 0.2922128,
-        "rotY": 180.000778,
-        "rotZ": 359.958527,
+        "posX": 29.718,
+        "posY": 2.043,
+        "posZ": -12.4,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 0.85,
         "scaleY": 1.0,
         "scaleZ": 0.85
@@ -5584,7 +5560,7 @@
       "ColorDiffuse": {
         "r": 0.831,
         "g": 0.616,
-        "b": 0.113999821
+        "b": 0.114
       },
       "Locked": false,
       "Grid": false,
@@ -5618,12 +5594,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 1.0540272,
-        "posY": 1.05445015,
-        "posZ": -6.62635231,
-        "rotX": 0.004526971,
-        "rotY": 179.9993,
-        "rotZ": 359.990326,
+        "posX": 1.054,
+        "posY": 1.052,
+        "posZ": -6.627,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 1.997,
         "scaleY": 1.0,
         "scaleZ": 1.997
@@ -5671,12 +5647,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 6.79500246,
-        "posY": 1.05580533,
-        "posZ": -6.62437773,
-        "rotX": 0.004235024,
-        "rotY": 179.9989,
-        "rotZ": 359.988922,
+        "posX": 6.795,
+        "posY": 1.055,
+        "posZ": -6.625,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -5724,12 +5700,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 12.5480242,
-        "posY": 1.056967,
-        "posZ": -6.636242,
-        "rotX": 0.00420454238,
-        "rotY": 179.998962,
-        "rotZ": 359.9883,
+        "posX": 12.548,
+        "posY": 1.055,
+        "posZ": -6.637,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -5777,12 +5753,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 18.218956,
-        "posY": 1.05805206,
-        "posZ": -6.63922358,
-        "rotX": 0.004178894,
-        "rotY": 179.999252,
-        "rotZ": 359.9889,
+        "posX": 18.219,
+        "posY": 1.056,
+        "posZ": -6.639,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -5830,12 +5806,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 23.94397,
-        "posY": 1.0591346,
-        "posZ": -6.641082,
-        "rotX": 0.004162498,
-        "rotY": 179.9989,
-        "rotZ": 359.98938,
+        "posX": 23.944,
+        "posY": 1.056,
+        "posZ": -6.641,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -5883,12 +5859,12 @@
     {
       "Name": "Custom_Tile_Stack",
       "Transform": {
-        "posX": 29.7190514,
-        "posY": 1.06021738,
-        "posZ": -6.644949,
-        "rotX": 0.003975712,
-        "rotY": 179.9989,
-        "rotZ": 359.989655,
+        "posX": 29.719,
+        "posY": 1.059,
+        "posZ": -6.645,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 2.0,
         "scaleY": 1.0,
         "scaleZ": 2.0
@@ -5939,9 +5915,9 @@
         "posX": -42.095,
         "posY": 0.96,
         "posZ": 25.028,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 1.15,
         "scaleY": 0.0,
         "scaleZ": 1.15
@@ -5975,11 +5951,11 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": -39.975,
-        "posY": 1.06000018,
+        "posY": 1.06,
         "posZ": 22.321,
-        "rotX": 4.09229024E-08,
-        "rotY": 8.993139E-08,
-        "rotZ": 2.461221E-07,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -5988,9 +5964,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.5019998,
+        "r": 0.502,
         "g": 0.0,
-        "b": 0.5019998
+        "b": 0.502
       },
       "Locked": false,
       "Grid": false,
@@ -6022,12 +5998,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 15.3540354,
-        "posY": 0.957607865,
-        "posZ": -7.50408936,
-        "rotX": 0.00397423,
-        "rotY": 179.999817,
-        "rotZ": 359.9899,
+        "posX": 15.354,
+        "posY": 0.958,
+        "posZ": -7.504,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 9.177,
         "scaleY": 1.0,
         "scaleZ": 9.177
@@ -6293,9 +6269,9 @@
         "posX": -22.755,
         "posY": 0.96,
         "posZ": 3.221,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 20.0,
         "scaleY": 1.0,
         "scaleZ": 20.0
@@ -6332,8 +6308,8 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad()\n    local co = -0.844 -- column offset\n    local cs = 0.3565 -- column scale\n    local bs = 0.0526 -- button offset\n    local ro = -0.576 -- row offset\n    local rs = 0.3565 -- row scale\n    local index = 0\n    for c = 0,4 do\n        for r = 0,4 do\n            for b=0,5 do\n                -- skip the city service marker\n                if not (c == 2 and r == 2 and b == 0) then\n                    local button = {\n                        width = 20,\n                        height = 20,\n                        color = {0, 0, 0, 0},\n                        hover_color = {0, 0, 0, 0.7},\n                        press_color = {0, 0, 0, 0},\n                        function_owner = self,\n                        click_function = \"button\"..index,\n                        position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                        cube = nil, -- the cube object that's placed on this token\n                        token = nil, -- the score token object moved by the button on this cube\n                        cube_color = nil, -- the color of the cube on this button\n                    }\n\n                    self.createButton(button)\n                    -- I don't know why current_index is needed, but it has something to do with upvalues\n                    -- 'index' is already a local variable, so I don't know why we need another one\n                    -- Why don't we need a copy of 'button'?\n                    local current_index = b\n                    local func = function(obj, player, alt_click)\n                        buttonClicked(obj, player, alt_click, current_index, button)\n                    end\n                    self.setVar(\"button\"..index, func)\n                    index = index + 1\n                end\n            end\n        end\n    end\nend\n\nscoreToken = {\n--          green     red       yellow    blue\n    [0] = {'0de0a6', '3322fd', '289467', '98c6fd'}, -- water\n    [1] = {'ed27ad', '5eb69a', '3d5d30', '71aaaf'}, -- food\n    [2] = {'5808d7', '554ff6', 'e6b3dc', 'f14de0'}, -- religion\n    [3] = {'a524d6', '881675', 'c8c173', '946adc'}, -- defense\n    [4] = {'40acb1', '8a73ef', '212edc', 'b6ccbc'}, -- commerce\n    [5] = {'7f1cbf', '204a31', '55a0b9', 'abe989'}, -- entertainment\n}\n\nfunction buttonClicked(board, player, alt_click, index, button)\n    local token\n    local cubeBag\n    local score\n\n    if button.cube then\n        -- only allow a player to remove his own cubes\n        if button.cube_color ~= player then\n            return\n        end\n        token = button.token\n        score = token.getVar(\"score\") - 1\n\n        destroyObject(button.cube)\n        button.cube = nil\n        button.token = nil\n    else\n        if player == \"Red\" then\n            cubeBag = getObjectFromGUID(\"551726\")\n            token = getObjectFromGUID(scoreToken[index][2])\n        elseif player == \"Green\" then\n            cubeBag = getObjectFromGUID(\"c9ae8b\")\n            token = getObjectFromGUID(scoreToken[index][1])\n        elseif player == \"Blue\" then\n            cubeBag = getObjectFromGUID(\"97bcca\")\n            token = getObjectFromGUID(scoreToken[index][4])\n        elseif player == \"Yellow\" then\n            cubeBag = getObjectFromGUID(\"fd6678\")\n            token = getObjectFromGUID(scoreToken[index][3])\n        else\n            return\n        end\n\n        score = token.getVar(\"score\") + 1\n\n        -- We have to invert the X-axis for some log(button)\n        local buttonPos = {-button.position.x, button.position.y, button.position.z}\n        local params = {\n            smooth = false,\n            position = board.positionToWorld(buttonPos),\n        }\n        button.cube = cubeBag.takeObject(params) -- take the cube from the cube Bag\n        button.cube.interactable = false\n        button.token = token\n        button.cube_color = player\n    end\n\n    token.setVar(\"score\", score)\n    if score > 14 then\n        score = 14\n    end\n\n    local tokenPos = token.getPosition()\n    tokenPos.x = -0.9011 + 1.4 * score\n    tokenPos.y = 2\n    token.setPosition(tokenPos)\nend",
-      "LuaScriptState": "",
+      "LuaScript": "-- The collection of all the buttons, without or without cubes\nbuttons_set = {}\n\nfunction onLoad(save_state_json)\n    local co = -0.844 -- column offset\n    local cs = 0.3565 -- column scale\n    local bs = 0.0526 -- button offset\n    local ro = -0.576 -- row offset\n    local rs = 0.3565 -- row scale\n    local save_state = nil\n\n    if save_state_json ~= \"\" then\n        -- The save state contains the list of all 149 buttons, but the\n        -- JSON has to be decoded.  But first, let's verify it.\n        save_state = JSON.decode(save_state_json)\n\n        if #save_state ~= 149 then\n            broadcastToAll(\"Saved state is corrupted!\", Color.Red)\n            save_state = nil\n        end\n    end\n\n    if save_state ~= nil then\n        for _,button in ipairs(save_state) do\n            c = button.column\n            r = button.row\n            b = button.service\n            local button_data = {\n                position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                cube = getObjectFromGUID(button.cube_guid),\n                token = getObjectFromGUID(button.token_guid),\n                cube_color = button.cube_color,\n                column = c,\n                row = r,\n                service = b,\n            }\n            table.insert(buttons_set, button_data)\n        end\n    else\n        for c = 0,4 do\n            for r = 0,4 do\n                for b = 0,5 do\n                    -- skip the city service marker\n                    if not (c == 2 and r == 2 and b == 0) then\n                        local button_data = {\n                            position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                            cube = nil, -- the cube object that's placed on this token\n                            token = nil, -- the score token object moved by the button on this cube\n                            cube_color = nil, -- the color of the cube on this button\n                            column = c,\n                            row = r,\n                            service = b,\n                        }\n                        table.insert(buttons_set, button_data)\n                    end\n                end\n            end\n        end\n    end\n\n    for _,button0 in ipairs(buttons_set) do\n        local button = {\n            width = 20,\n            height = 20,\n            color = {0, 0, 0, 0},\n            hover_color = {0, 0, 0, 0.7},\n            press_color = {0, 0, 0, 0},\n            function_owner = self,\n            click_function = \"button\"..button0.column..button0.row..button0.service,\n            position = button0.position,\n        }\n\n        local func = function(obj, player, alt_click)\n            buttonClicked(obj, player, alt_click, button0)\n        end\n        self.setVar(\"button\"..button0.column..button0.row..button0.service, func)\n        self.createButton(button)\n    end\nend\n\nscoreToken = {\n--          green     red       yellow    blue\n    [0] = {'0de0a6', '3322fd', '289467', '98c6fd'}, -- water\n    [1] = {'ed27ad', '5eb69a', '3d5d30', '71aaaf'}, -- food\n    [2] = {'5808d7', '554ff6', 'e6b3dc', 'f14de0'}, -- religion\n    [3] = {'a524d6', '881675', 'c8c173', '946adc'}, -- defense\n    [4] = {'40acb1', '8a73ef', '212edc', 'b6ccbc'}, -- commerce\n    [5] = {'7f1cbf', '204a31', '55a0b9', 'abe989'}, -- entertainment\n}\n\nfunction buttonClicked(board, player, alt_click, button)\n    local token\n    local cubeBag\n    local score\n    local index = button.service\n\n    if button.cube then\n        -- only allow a player to remove his own cubes\n        if button.cube_color ~= player then\n            return\n        end\n        token = button.token\n        score = token.getVar(\"score\") - 1\n\n        destroyObject(button.cube)\n        button.cube = nil\n        button.token = nil\n        button.cube_color = nil\n    else\n        if player == \"Red\" then\n            cubeBag = getObjectFromGUID(\"551726\")\n            token = getObjectFromGUID(scoreToken[index][2])\n        elseif player == \"Green\" then\n            cubeBag = getObjectFromGUID(\"c9ae8b\")\n            token = getObjectFromGUID(scoreToken[index][1])\n        elseif player == \"Blue\" then\n            cubeBag = getObjectFromGUID(\"97bcca\")\n            token = getObjectFromGUID(scoreToken[index][4])\n        elseif player == \"Yellow\" then\n            cubeBag = getObjectFromGUID(\"fd6678\")\n            token = getObjectFromGUID(scoreToken[index][3])\n        else\n            print('Unrecognize color ', player)\n            return\n        end\n\n        score = token.getVar(\"score\") + 1\n\n        -- We have to invert the X-axis for some log(button)\n        local buttonPos = {-button.position.x, button.position.y, button.position.z}\n        local params = {\n            smooth = false,\n            position = board.positionToWorld(buttonPos),\n        }\n        button.cube = cubeBag.takeObject(params) -- take the cube from the cube Bag\n        button.token = token\n        button.cube_color = player\n    end\n\n    token.setVar(\"score\", score)\n    if score > 14 then\n        -- Maximum score displayed is 14, but we want to be able to track\n        -- scores higher than that, just in case.\n        score = 14\n    end\n\n    local tokenPos = token.getPosition()\n    tokenPos.x = -0.9011 + 1.4 * score\n    tokenPos.y = 2\n    token.setPosition(tokenPos)\nend\n\nfunction onSave()\n    -- Save the entire button array.  It would be take a lot less space if\n    -- we just saved the buttons that have cubes on them, but then it would\n    -- be a lot more work to parse that.\n    save_state = {}\n    for _,button in ipairs(buttons_set) do\n        local state = {\n            -- objects can't be encoded, so convert them to GUIDs\n            cube_guid = button.cube and button.cube.getGUID() or nil,\n            token_guid = button.token and button.token.getGUID() or nil,\n            cube_color = button.cube_color,\n            column = button.column,\n            row = button.row,\n            service = button.service,\n        }\n        table.insert(save_state, state)\n    end\n\n    return JSON.encode(save_state)\nend",
+      "LuaScriptState": "[{\"column\":0,\"row\":0,\"service\":0},{\"column\":0,\"row\":0,\"service\":1},{\"column\":0,\"row\":0,\"service\":2},{\"column\":0,\"row\":0,\"service\":3},{\"column\":0,\"row\":0,\"service\":4},{\"column\":0,\"row\":0,\"service\":5},{\"column\":0,\"row\":1,\"service\":0},{\"column\":0,\"row\":1,\"service\":1},{\"column\":0,\"row\":1,\"service\":2},{\"column\":0,\"row\":1,\"service\":3},{\"column\":0,\"row\":1,\"service\":4},{\"column\":0,\"row\":1,\"service\":5},{\"column\":0,\"row\":2,\"service\":0},{\"column\":0,\"row\":2,\"service\":1},{\"column\":0,\"row\":2,\"service\":2},{\"column\":0,\"row\":2,\"service\":3},{\"column\":0,\"row\":2,\"service\":4},{\"column\":0,\"row\":2,\"service\":5},{\"column\":0,\"row\":3,\"service\":0},{\"column\":0,\"row\":3,\"service\":1},{\"column\":0,\"row\":3,\"service\":2},{\"column\":0,\"row\":3,\"service\":3},{\"column\":0,\"row\":3,\"service\":4},{\"column\":0,\"row\":3,\"service\":5},{\"column\":0,\"row\":4,\"service\":0},{\"column\":0,\"row\":4,\"service\":1},{\"column\":0,\"row\":4,\"service\":2},{\"column\":0,\"row\":4,\"service\":3},{\"column\":0,\"row\":4,\"service\":4},{\"column\":0,\"row\":4,\"service\":5},{\"column\":1,\"row\":0,\"service\":0},{\"column\":1,\"row\":0,\"service\":1},{\"column\":1,\"row\":0,\"service\":2},{\"column\":1,\"row\":0,\"service\":3},{\"column\":1,\"row\":0,\"service\":4},{\"column\":1,\"row\":0,\"service\":5},{\"column\":1,\"row\":1,\"service\":0},{\"column\":1,\"row\":1,\"service\":1},{\"column\":1,\"row\":1,\"service\":2},{\"column\":1,\"row\":1,\"service\":3},{\"column\":1,\"row\":1,\"service\":4},{\"column\":1,\"row\":1,\"service\":5},{\"column\":1,\"row\":2,\"service\":0},{\"column\":1,\"row\":2,\"service\":1},{\"column\":1,\"row\":2,\"service\":2},{\"column\":1,\"row\":2,\"service\":3},{\"column\":1,\"row\":2,\"service\":4},{\"column\":1,\"row\":2,\"service\":5},{\"column\":1,\"row\":3,\"service\":0},{\"column\":1,\"row\":3,\"service\":1},{\"column\":1,\"row\":3,\"service\":2},{\"column\":1,\"row\":3,\"service\":3},{\"column\":1,\"row\":3,\"service\":4},{\"column\":1,\"row\":3,\"service\":5},{\"column\":1,\"row\":4,\"service\":0},{\"column\":1,\"row\":4,\"service\":1},{\"column\":1,\"row\":4,\"service\":2},{\"column\":1,\"row\":4,\"service\":3},{\"column\":1,\"row\":4,\"service\":4},{\"column\":1,\"row\":4,\"service\":5},{\"column\":2,\"row\":0,\"service\":0},{\"column\":2,\"row\":0,\"service\":1},{\"column\":2,\"row\":0,\"service\":2},{\"column\":2,\"row\":0,\"service\":3},{\"column\":2,\"row\":0,\"service\":4},{\"column\":2,\"row\":0,\"service\":5},{\"column\":2,\"row\":1,\"service\":0},{\"column\":2,\"row\":1,\"service\":1},{\"column\":2,\"row\":1,\"service\":2},{\"column\":2,\"row\":1,\"service\":3},{\"column\":2,\"row\":1,\"service\":4},{\"column\":2,\"row\":1,\"service\":5},{\"column\":2,\"row\":2,\"service\":1},{\"column\":2,\"row\":2,\"service\":2},{\"column\":2,\"row\":2,\"service\":3},{\"column\":2,\"row\":2,\"service\":4},{\"column\":2,\"row\":2,\"service\":5},{\"column\":2,\"row\":3,\"service\":0},{\"column\":2,\"row\":3,\"service\":1},{\"column\":2,\"row\":3,\"service\":2},{\"column\":2,\"row\":3,\"service\":3},{\"column\":2,\"row\":3,\"service\":4},{\"column\":2,\"row\":3,\"service\":5},{\"column\":2,\"row\":4,\"service\":0},{\"column\":2,\"row\":4,\"service\":1},{\"column\":2,\"row\":4,\"service\":2},{\"column\":2,\"row\":4,\"service\":3},{\"column\":2,\"row\":4,\"service\":4},{\"column\":2,\"row\":4,\"service\":5},{\"column\":3,\"row\":0,\"service\":0},{\"column\":3,\"row\":0,\"service\":1},{\"column\":3,\"row\":0,\"service\":2},{\"column\":3,\"row\":0,\"service\":3},{\"column\":3,\"row\":0,\"service\":4},{\"column\":3,\"row\":0,\"service\":5},{\"column\":3,\"row\":1,\"service\":0},{\"column\":3,\"row\":1,\"service\":1},{\"column\":3,\"row\":1,\"service\":2},{\"column\":3,\"row\":1,\"service\":3},{\"column\":3,\"row\":1,\"service\":4},{\"column\":3,\"row\":1,\"service\":5},{\"column\":3,\"row\":2,\"service\":0},{\"column\":3,\"row\":2,\"service\":1},{\"column\":3,\"row\":2,\"service\":2},{\"column\":3,\"row\":2,\"service\":3},{\"column\":3,\"row\":2,\"service\":4},{\"column\":3,\"row\":2,\"service\":5},{\"column\":3,\"row\":3,\"service\":0},{\"column\":3,\"row\":3,\"service\":1},{\"column\":3,\"row\":3,\"service\":2},{\"column\":3,\"row\":3,\"service\":3},{\"column\":3,\"row\":3,\"service\":4},{\"column\":3,\"row\":3,\"service\":5},{\"column\":3,\"row\":4,\"service\":0},{\"column\":3,\"row\":4,\"service\":1},{\"column\":3,\"row\":4,\"service\":2},{\"column\":3,\"row\":4,\"service\":3},{\"column\":3,\"row\":4,\"service\":4},{\"column\":3,\"row\":4,\"service\":5},{\"column\":4,\"row\":0,\"service\":0},{\"column\":4,\"row\":0,\"service\":1},{\"column\":4,\"row\":0,\"service\":2},{\"column\":4,\"row\":0,\"service\":3},{\"column\":4,\"row\":0,\"service\":4},{\"column\":4,\"row\":0,\"service\":5},{\"column\":4,\"row\":1,\"service\":0},{\"column\":4,\"row\":1,\"service\":1},{\"column\":4,\"row\":1,\"service\":2},{\"column\":4,\"row\":1,\"service\":3},{\"column\":4,\"row\":1,\"service\":4},{\"column\":4,\"row\":1,\"service\":5},{\"column\":4,\"row\":2,\"service\":0},{\"column\":4,\"row\":2,\"service\":1},{\"column\":4,\"row\":2,\"service\":2},{\"column\":4,\"row\":2,\"service\":3},{\"column\":4,\"row\":2,\"service\":4},{\"column\":4,\"row\":2,\"service\":5},{\"column\":4,\"row\":3,\"service\":0},{\"column\":4,\"row\":3,\"service\":1},{\"column\":4,\"row\":3,\"service\":2},{\"column\":4,\"row\":3,\"service\":3},{\"column\":4,\"row\":3,\"service\":4},{\"column\":4,\"row\":3,\"service\":5},{\"column\":4,\"row\":4,\"service\":0},{\"column\":4,\"row\":4,\"service\":1},{\"column\":4,\"row\":4,\"service\":2},{\"column\":4,\"row\":4,\"service\":3},{\"column\":4,\"row\":4,\"service\":4},{\"column\":4,\"row\":4,\"service\":5}]",
       "XmlUI": "",
       "GUID": "e2f237",
       "AttachedSnapPoints": [
@@ -10309,9 +10285,9 @@
         "posX": 8.824,
         "posY": 0.96,
         "posZ": 14.597,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 8.256,
         "scaleY": 1.0,
         "scaleZ": 8.256
@@ -10359,9 +10335,9 @@
         "posX": 33.073,
         "posY": 0.96,
         "posZ": 13.732,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 5.862,
         "scaleY": 1.0,
         "scaleZ": 5.862
@@ -10403,9 +10379,9 @@
         "posX": -49.13,
         "posY": 0.965,
         "posZ": -18.91,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 6.085,
         "scaleY": 1.0,
         "scaleZ": 6.085
@@ -10451,11 +10427,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 40.967,
-        "posY": 0.961217046,
+        "posY": 0.961,
         "posZ": 29.156,
-        "rotX": 1.12911641E-06,
-        "rotY": 180.0,
-        "rotZ": 1.40710794E-08,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10464,9 +10440,9 @@
       "Description": "For the two-player expert variant rules.",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.477999866,
-        "g": 0.470999956,
-        "b": 0.46699965
+        "r": 0.478,
+        "g": 0.471,
+        "b": 0.467
       },
       "Locked": false,
       "Grid": false,
@@ -10501,11 +10477,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": -35.568,
-        "posY": 0.9599997,
+        "posY": 0.96,
         "posZ": -19.629,
-        "rotX": -4.12970849E-06,
-        "rotY": 180.0,
-        "rotZ": -4.71119029E-06,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 1.532,
         "scaleY": 1.0,
         "scaleZ": 1.532
@@ -10516,7 +10492,7 @@
       "ColorDiffuse": {
         "r": 0.855,
         "g": 0.753,
-        "b": 0.505999744
+        "b": 0.506
       },
       "Locked": false,
       "Grid": false,
@@ -10551,11 +10527,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": -18.762,
-        "posY": 0.960000157,
+        "posY": 0.96,
         "posZ": -20.03,
-        "rotX": -6.62631965E-06,
-        "rotY": 180.0,
-        "rotZ": 1.569784E-06,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 1.532,
         "scaleY": 1.0,
         "scaleZ": 1.532
@@ -10566,7 +10542,7 @@
       "ColorDiffuse": {
         "r": 0.855,
         "g": 0.753,
-        "b": 0.505999744
+        "b": 0.506
       },
       "Locked": false,
       "Grid": false,
@@ -10601,11 +10577,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": -29.976,
-        "posY": 0.960000038,
+        "posY": 0.96,
         "posZ": -19.802,
-        "rotX": -4.37121844E-06,
-        "rotY": 180.0,
-        "rotZ": -5.259485E-06,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 1.532,
         "scaleY": 1.0,
         "scaleZ": 1.532
@@ -10616,7 +10592,7 @@
       "ColorDiffuse": {
         "r": 0.855,
         "g": 0.753,
-        "b": 0.505999744
+        "b": 0.506
       },
       "Locked": false,
       "Grid": false,
@@ -10651,11 +10627,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": -24.573,
-        "posY": 0.9600004,
+        "posY": 0.96,
         "posZ": -19.943,
-        "rotX": 3.880471E-06,
-        "rotY": 180.0,
-        "rotZ": 2.274887E-06,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 1.532,
         "scaleY": 1.0,
         "scaleZ": 1.532
@@ -10666,7 +10642,7 @@
       "ColorDiffuse": {
         "r": 0.855,
         "g": 0.753,
-        "b": 0.505999744
+        "b": 0.506
       },
       "Locked": false,
       "Grid": false,
@@ -10701,11 +10677,11 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 44.294,
-        "posY": 0.961217165,
+        "posY": 0.961,
         "posZ": 29.264,
-        "rotX": -4.27055824E-07,
-        "rotY": 180.0,
-        "rotZ": -7.414109E-07,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10714,9 +10690,9 @@
       "Description": "For the two-player expert variant rules.",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.477999866,
-        "g": 0.470999956,
-        "b": 0.46699965
+        "r": 0.478,
+        "g": 0.471,
+        "b": 0.467
       },
       "Locked": false,
       "Grid": false,
@@ -10750,12 +10726,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": -41.6954155,
-        "posY": 1.45897591,
-        "posZ": 22.1811066,
-        "rotX": 0.12463931,
-        "rotY": 359.970856,
-        "rotZ": 0.0327703245,
+        "posX": -41.696,
+        "posY": 1.459,
+        "posZ": 22.181,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 0.6,
         "scaleY": 1.0,
         "scaleZ": 0.6
@@ -10800,12 +10776,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": -41.69565,
-        "posY": 1.259044,
-        "posZ": 22.1811867,
-        "rotX": 0.100526385,
-        "rotY": 0.008167403,
-        "rotZ": 0.04110513,
+        "posX": -41.696,
+        "posY": 1.259,
+        "posZ": 22.181,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 0.6,
         "scaleY": 1.0,
         "scaleZ": 0.6
@@ -10850,12 +10826,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": -41.69474,
-        "posY": 1.05991435,
-        "posZ": 22.1808872,
-        "rotX": 0.0101838512,
-        "rotY": 0.00459139235,
-        "rotZ": 0.01694156,
+        "posX": -41.695,
+        "posY": 1.06,
+        "posZ": 22.181,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 0.6,
         "scaleY": 1.0,
         "scaleZ": 0.6
@@ -10892,7 +10868,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {0, 0, 0},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n",
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {0, 0, 0},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "c4ec6a"
@@ -10900,12 +10876,12 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": -41.69762,
-        "posY": 1.65856791,
-        "posZ": 22.1807461,
-        "rotX": 0.1553863,
-        "rotY": 0.0122617576,
-        "rotZ": 0.0225546546,
+        "posX": -41.698,
+        "posY": 1.659,
+        "posZ": 22.181,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
         "scaleX": 0.6,
         "scaleY": 1.0,
         "scaleZ": 0.6
@@ -10950,21 +10926,21 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.108952E-05,
-        "posY": 110.442322,
-        "posZ": 235.047363,
-        "rotX": 1.36603785E-05,
-        "rotY": 270.067474,
-        "rotZ": 90.1867752,
+        "posX": 0.0,
+        "posY": 110.442,
+        "posZ": 235.047,
+        "rotX": 0,
+        "rotY": 270,
+        "rotZ": 90,
         "scaleX": 18.0,
         "scaleY": 33.0,
-        "scaleZ": 26.9289169
+        "scaleZ": 26.929
       },
       "Nickname": "",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.9960908,
+        "r": 0.996,
         "g": 1.0,
         "b": 1.0
       },
@@ -11011,22 +10987,22 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 243.007767,
-        "posY": 112.462318,
-        "posZ": 0.04739161,
-        "rotX": -5.297732E-06,
-        "rotY": 0.0485671759,
-        "rotZ": 90.00009,
+        "posX": 243.008,
+        "posY": 112.462,
+        "posZ": 0.047,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 90,
         "scaleX": 18.04,
         "scaleY": 33.0,
-        "scaleZ": 26.24872
+        "scaleZ": 26.249
       },
       "Nickname": "",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
-        "g": 0.99609,
+        "g": 0.996,
         "b": 1.0
       },
       "Locked": true,
@@ -11083,21 +11059,21 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": -243.5,
-        "posY": 110.442322,
-        "posZ": 0.04739161,
-        "rotX": 6.513776E-12,
-        "rotY": 180.000137,
-        "rotZ": 90.00002,
+        "posY": 110.442,
+        "posZ": 0.047,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 90,
         "scaleX": 18.0,
         "scaleY": 33.0,
-        "scaleZ": 26.338028
+        "scaleZ": 26.338
       },
       "Nickname": "",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 1.0,
-        "g": 0.9960893,
+        "g": 0.996,
         "b": 1.0
       },
       "Locked": true,
@@ -11153,15 +11129,15 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 6.108952E-05,
-        "posY": 110.442322,
-        "posZ": -235.1085,
-        "rotX": 1.02452841E-05,
-        "rotY": 90.0,
-        "rotZ": 90.0,
+        "posX": 0.0,
+        "posY": 110.442,
+        "posZ": -235.108,
+        "rotX": 0,
+        "rotY": 90,
+        "rotZ": 90,
         "scaleX": 18.0,
         "scaleY": 33.0,
-        "scaleZ": 26.9951649
+        "scaleZ": 26.995
       },
       "Nickname": "",
       "Description": "",
@@ -11169,7 +11145,7 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 0.99608463
+        "b": 0.996
       },
       "Locked": true,
       "Grid": true,
@@ -11224,21 +11200,21 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -21.9726334,
-        "posY": -45.9629,
-        "posZ": 0.8722305,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 34.9403419,
-        "scaleY": 24.9573879,
-        "scaleZ": 27.9522743
+        "posX": -21.973,
+        "posY": -45.963,
+        "posZ": 0.872,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 34.94,
+        "scaleY": 24.957,
+        "scaleZ": 27.952
       },
       "Nickname": "",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.996088445,
+        "r": 0.996,
         "g": 1.0,
         "b": 1.0
       },

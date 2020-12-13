@@ -1,7 +1,7 @@
 {
   "SaveName": "Canterbury",
   "GameMode": "Canterbury",
-  "Date": "12/12/2020 10:33:14 PM",
+  "Date": "12/12/2020 10:49:39 PM",
   "Gravity": 0.5,
   "PlayArea": 0.622,
   "GameType": "Game",
@@ -316,7 +316,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "function onLoad()\n    self.interactable = false\nend\n",
+      "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "ContainedObjects": [
@@ -396,7 +396,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "function onLoad()\n    self.interactable = false\nend\n",
+      "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "ContainedObjects": [
@@ -476,7 +476,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "function onLoad()\n    self.interactable = false\nend\n",
+      "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "ContainedObjects": [
@@ -556,7 +556,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "function onLoad()\n    self.interactable = false\nend\n",
+      "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "ContainedObjects": [
@@ -953,9 +953,9 @@
     {
       "Name": "PlayerPawn",
       "Transform": {
-        "posX": 38.006,
+        "posX": 44.03,
         "posY": 1.063,
-        "posZ": -30.0,
+        "posZ": -29.997,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1177,9 +1177,9 @@
     {
       "Name": "PlayerPawn",
       "Transform": {
-        "posX": 9.006,
+        "posX": 15.03,
         "posY": 1.063,
-        "posZ": -30.0,
+        "posZ": -29.997,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1216,9 +1216,9 @@
     {
       "Name": "PlayerPawn",
       "Transform": {
-        "posX": -20.994,
+        "posX": -14.97,
         "posY": 1.063,
-        "posZ": -30.0,
+        "posZ": -29.997,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2054,7 +2054,7 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.899,
+        "posX": -0.898,
         "posY": 1.584,
         "posZ": 21.956,
         "rotX": 0.0,
@@ -2102,7 +2102,7 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.898,
+        "posX": -0.897,
         "posY": 1.584,
         "posZ": 11.235,
         "rotX": 0.0,
@@ -2150,7 +2150,7 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.898,
+        "posX": -0.897,
         "posY": 1.584,
         "posZ": 13.918,
         "rotX": 0.0,
@@ -2198,7 +2198,7 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9,
+        "posX": -0.899,
         "posY": 1.584,
         "posZ": 16.592,
         "rotX": 0.0,
@@ -2246,9 +2246,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9,
+        "posX": -0.899,
         "posY": 1.584,
-        "posZ": 19.274,
+        "posZ": 19.275,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2342,7 +2342,7 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
+        "posX": -0.901,
         "posY": 1.434,
         "posZ": 11.237,
         "rotX": 0.0,
@@ -2438,7 +2438,7 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.899,
+        "posX": -0.898,
         "posY": 1.434,
         "posZ": 16.596,
         "rotX": 0.0,
@@ -2830,9 +2830,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.665,
-        "posY": 3.221,
-        "posZ": -12.568,
+        "posX": 6.643,
+        "posY": 3.22,
+        "posZ": -12.61,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3220,7 +3220,7 @@
       "Transform": {
         "posX": 1.053,
         "posY": 1.25,
-        "posZ": -12.382,
+        "posZ": -12.383,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3268,9 +3268,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.049,
+        "posX": 1.048,
         "posY": 1.449,
-        "posZ": -12.396,
+        "posZ": -12.399,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3318,9 +3318,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.064,
+        "posX": 1.062,
         "posY": 1.641,
-        "posZ": -12.489,
+        "posZ": -12.495,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3368,9 +3368,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.044,
+        "posX": 1.041,
         "posY": 1.839,
-        "posZ": -12.537,
+        "posZ": -12.548,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3418,9 +3418,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.067,
+        "posX": 1.062,
         "posY": 2.032,
-        "posZ": -12.613,
+        "posZ": -12.629,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3468,9 +3468,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.03,
+        "posX": 1.024,
         "posY": 2.23,
-        "posZ": -12.636,
+        "posZ": -12.658,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3518,9 +3518,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.02,
+        "posX": 1.013,
         "posY": 2.425,
-        "posZ": -12.697,
+        "posZ": -12.725,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3568,9 +3568,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.982,
-        "posY": 2.624,
-        "posZ": -12.683,
+        "posX": 0.974,
+        "posY": 2.622,
+        "posZ": -12.718,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3618,9 +3618,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.955,
+        "posX": 0.945,
         "posY": 2.821,
-        "posZ": -12.7,
+        "posZ": -12.741,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3668,9 +3668,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.952,
-        "posY": 3.021,
-        "posZ": -12.7,
+        "posX": 0.94,
+        "posY": 3.019,
+        "posZ": -12.748,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3718,9 +3718,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.941,
-        "posY": 3.219,
-        "posZ": -12.746,
+        "posX": 0.927,
+        "posY": 3.217,
+        "posZ": -12.8,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3868,9 +3868,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.782,
+        "posX": 6.781,
         "posY": 1.448,
-        "posZ": -12.404,
+        "posZ": -12.405,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3918,9 +3918,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.777,
+        "posX": 6.775,
         "posY": 1.641,
-        "posZ": -12.42,
+        "posZ": -12.424,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3968,9 +3968,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.752,
-        "posY": 1.838,
-        "posZ": -12.472,
+        "posX": 6.748,
+        "posY": 1.836,
+        "posZ": -12.479,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4018,9 +4018,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.732,
-        "posY": 2.032,
-        "posZ": -12.505,
+        "posX": 6.726,
+        "posY": 2.034,
+        "posZ": -12.516,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4068,9 +4068,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.725,
-        "posY": 2.232,
-        "posZ": -12.461,
+        "posX": 6.717,
+        "posY": 2.23,
+        "posZ": -12.477,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4118,9 +4118,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.682,
-        "posY": 2.427,
-        "posZ": -12.503,
+        "posX": 6.671,
+        "posY": 2.428,
+        "posZ": -12.524,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4168,9 +4168,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.675,
-        "posY": 2.625,
-        "posZ": -12.531,
+        "posX": 6.662,
+        "posY": 2.624,
+        "posZ": -12.557,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4218,9 +4218,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.669,
-        "posY": 2.822,
-        "posZ": -12.565,
+        "posX": 6.653,
+        "posY": 2.821,
+        "posZ": -12.596,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4268,9 +4268,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.666,
-        "posY": 3.022,
-        "posZ": -12.561,
+        "posX": 6.647,
+        "posY": 3.021,
+        "posZ": -12.597,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4319,7 +4319,7 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 12.567,
-        "posY": 1.252,
+        "posY": 1.254,
         "posZ": -12.386,
         "rotX": 0.0,
         "rotY": 180.0,
@@ -4369,7 +4369,7 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 12.58,
-        "posY": 1.451,
+        "posY": 1.449,
         "posZ": -12.369,
         "rotX": 0.0,
         "rotY": 180.0,
@@ -4419,8 +4419,8 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 12.57,
-        "posY": 1.646,
-        "posZ": -12.374,
+        "posY": 1.648,
+        "posZ": -12.373,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4469,8 +4469,8 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 12.559,
-        "posY": 1.845,
-        "posZ": -12.393,
+        "posY": 1.844,
+        "posZ": -12.391,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4519,8 +4519,8 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 12.558,
-        "posY": 2.042,
-        "posZ": -12.387,
+        "posY": 2.043,
+        "posZ": -12.385,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4568,9 +4568,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.548,
-        "posY": 2.241,
-        "posZ": -12.372,
+        "posX": 12.547,
+        "posY": 2.24,
+        "posZ": -12.369,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4618,9 +4618,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.547,
-        "posY": 2.439,
-        "posZ": -12.342,
+        "posX": 12.545,
+        "posY": 2.44,
+        "posZ": -12.339,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4668,9 +4668,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.547,
+        "posX": 12.544,
         "posY": 2.639,
-        "posZ": -12.309,
+        "posZ": -12.305,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4768,7 +4768,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.206,
+        "posX": 18.205,
         "posY": 1.451,
         "posZ": -12.362,
         "rotX": 0.0,
@@ -4818,9 +4818,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.2,
-        "posY": 1.648,
-        "posZ": -12.362,
+        "posX": 18.198,
+        "posY": 1.646,
+        "posZ": -12.361,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4868,9 +4868,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.171,
-        "posY": 1.844,
-        "posZ": -12.346,
+        "posX": 18.166,
+        "posY": 1.845,
+        "posZ": -12.345,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4918,9 +4918,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.166,
-        "posY": 2.043,
-        "posZ": -12.344,
+        "posX": 18.159,
+        "posY": 2.042,
+        "posZ": -12.342,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4968,9 +4968,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.159,
-        "posY": 2.24,
-        "posZ": -12.377,
+        "posX": 18.149,
+        "posY": 2.241,
+        "posZ": -12.375,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5018,9 +5018,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.149,
-        "posY": 2.44,
-        "posZ": -12.342,
+        "posX": 18.136,
+        "posY": 2.439,
+        "posZ": -12.339,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5068,9 +5068,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.141,
+        "posX": 18.125,
         "posY": 2.639,
-        "posZ": -12.359,
+        "posZ": -12.356,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5170,7 +5170,7 @@
       "Transform": {
         "posX": 23.967,
         "posY": 1.454,
-        "posZ": -12.391,
+        "posZ": -12.392,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5220,7 +5220,7 @@
       "Transform": {
         "posX": 23.97,
         "posY": 1.652,
-        "posZ": -12.407,
+        "posZ": -12.408,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5270,7 +5270,7 @@
       "Transform": {
         "posX": 23.969,
         "posY": 1.851,
-        "posZ": -12.41,
+        "posZ": -12.412,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5320,7 +5320,7 @@
       "Transform": {
         "posX": 23.97,
         "posY": 2.051,
-        "posZ": -12.416,
+        "posZ": -12.42,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5420,7 +5420,7 @@
       "Transform": {
         "posX": 29.713,
         "posY": 1.454,
-        "posZ": -12.401,
+        "posZ": -12.402,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5468,9 +5468,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.71,
+        "posX": 29.709,
         "posY": 1.652,
-        "posZ": -12.406,
+        "posZ": -12.407,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5518,9 +5518,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.711,
+        "posX": 29.71,
         "posY": 1.851,
-        "posZ": -12.407,
+        "posZ": -12.409,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5568,9 +5568,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.716,
+        "posX": 29.715,
         "posY": 2.051,
-        "posZ": -12.409,
+        "posZ": -12.413,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5966,7 +5966,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"+100\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 500,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Left-click to increment your score marker, right-click to increment the city score marker. This button replaces the score marker and the city discs.\"\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\n    local marker\n\n    if alt_click then\n        marker = getObjectFromGUID('6bff57')\n    elseif color == \"Green\" then\n        marker = getObjectFromGUID('a0ccfc')\n    elseif color == \"Yellow\" then\n        marker = getObjectFromGUID('c4ec6a')\n    elseif color == \"Red\" then\n        marker = getObjectFromGUID('237668')\n    elseif color == \"Blue\" then\n        marker = getObjectFromGUID('5d159c')\n    else\n        print(\"Unknown color \", color)\n        return\n    end\n\n    marker.call(\"increment\")\nend",
+      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"+100\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 500,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Left-click to increment your score marker, right-click to increment the city score marker. This button replaces the 100/200 score tokens and the city discs.\"\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\n    local marker\n\n    if alt_click then\n        marker = getObjectFromGUID('6bff57')\n    elseif color == \"Green\" then\n        marker = getObjectFromGUID('a0ccfc')\n    elseif color == \"Yellow\" then\n        marker = getObjectFromGUID('c4ec6a')\n    elseif color == \"Red\" then\n        marker = getObjectFromGUID('237668')\n    elseif color == \"Blue\" then\n        marker = getObjectFromGUID('5d159c')\n    else\n        print(\"Unknown color \", color)\n        return\n    end\n\n    marker.call(\"increment\")\nend\n",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "50c5ee"
@@ -6014,7 +6014,7 @@
         "TypeIndex": 1,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad()\n    local left = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0.38, 0.94, 0},\n        rotation       = {0, 270, 37},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    local right = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {-0.38, 0.94, 0},\n        rotation       = {0, 90, -37},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    \n    self.createButton(left)\n    self.createButton(right)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"300\",\n    [\"300\"] = \"\",\n}\n\nfunction increment()\n    -- Assume that both sides have the same value\n    local button = self.getButtons()[1]\n    local label = table[button.label]\n\n    self.editButton({index = 0, label=label})\n    self.editButton({index = 1, label=label})\nend",
+      "LuaScript": "function onLoad(save_state)\n    local left = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0.38, 0.94, 0},\n        rotation       = {0, 270, 37},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    local right = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {-0.38, 0.94, 0},\n        rotation       = {0, 90, -37},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(left)\n    self.createButton(right)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"300\",\n    [\"300\"] = \"\",\n}\n\nfunction increment()\n    -- Assume that both sides have the same value\n    local button = self.getButtons()[1]\n    local label = table[button.label]\n\n    self.editButton({index = 0, label=label})\n    self.editButton({index = 1, label=label})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "6bff57"
@@ -10774,7 +10774,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": -41.696,
+        "posX": -41.695,
         "posY": 1.459,
         "posZ": 22.181,
         "rotX": 0.0,
@@ -10816,7 +10816,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
+      "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "a0ccfc"
@@ -10866,7 +10866,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
+      "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "5d159c"
@@ -10916,7 +10916,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {0, 0, 0},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
+      "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "c4ec6a"
@@ -10924,7 +10924,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": -41.695,
+        "posX": -41.694,
         "posY": 1.659,
         "posZ": 22.18,
         "rotX": 0.0,
@@ -10966,7 +10966,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad()\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = \"\",\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend",
+      "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "237668"

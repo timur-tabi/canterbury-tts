@@ -1,5 +1,4 @@
-# canterbury-tts
-Tabletop Simulator implementation of Canterbury
+# Tabletop Simulator implementation of Canterbury
 
 Designed by Andrew Parks. Published by Quixotic Games.
 © 2013 Quixotic Games LLC. All rights reserved.

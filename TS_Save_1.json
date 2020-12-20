@@ -1,7 +1,7 @@
 {
   "SaveName": "Canterbury",
   "GameMode": "Canterbury",
-  "Date": "12/20/2020 10:11:36 AM",
+  "Date": "12/20/2020 10:26:36 AM",
   "Gravity": 0.5,
   "PlayArea": 0.622,
   "GameType": "Game",
@@ -348,6 +348,7 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",
@@ -427,6 +428,7 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",
@@ -506,6 +508,7 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",
@@ -585,6 +588,7 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",
@@ -1546,13 +1550,14 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "946adc"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
         "posX": -0.9,
-        "posY": 1.284,
+        "posY": 1.283,
         "posZ": 21.953,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -1593,13 +1598,14 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "98c6fd"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
         "posX": -0.901,
-        "posY": 1.283,
+        "posY": 1.284,
         "posZ": 8.554,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -1640,6 +1646,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "abe989"
     },
     {
@@ -1687,13 +1694,14 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "b6ccbc"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
         "posX": -0.902,
-        "posY": 1.284,
+        "posY": 1.283,
         "posZ": 16.593,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -1734,6 +1742,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "f14de0"
     },
     {
@@ -1781,13 +1790,14 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "71aaaf"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
         "posX": -0.9,
-        "posY": 1.433,
+        "posY": 1.432,
         "posZ": 8.554,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -1828,6 +1838,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "55a0b9"
     },
     {
@@ -1835,7 +1846,7 @@
       "Transform": {
         "posX": -0.9,
         "posY": 1.732,
-        "posZ": 8.553,
+        "posZ": 8.554,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1875,6 +1886,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "204a31"
     },
     {
@@ -1922,13 +1934,14 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "212edc"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
-        "posY": 1.432,
+        "posX": -0.903,
+        "posY": 1.433,
         "posZ": 16.593,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -1969,6 +1982,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "e6b3dc"
     },
     {
@@ -2016,6 +2030,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "c8c173"
     },
     {
@@ -2063,13 +2078,14 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "3d5d30"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
-        "posY": 1.432,
+        "posX": -0.902,
+        "posY": 1.433,
         "posZ": 21.955,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -2110,12 +2126,13 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "289467"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
+        "posX": -0.902,
         "posY": 1.732,
         "posZ": 11.238,
         "rotX": 0.0,
@@ -2157,14 +2174,15 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "8a73ef"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9,
+        "posX": -0.899,
         "posY": 1.732,
-        "posZ": 13.919,
+        "posZ": 13.918,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2204,12 +2222,13 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "881675"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
+        "posX": -0.904,
         "posY": 1.732,
         "posZ": 16.592,
         "rotX": 0.0,
@@ -2251,12 +2270,13 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "554ff6"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.903,
+        "posX": -0.904,
         "posY": 1.732,
         "posZ": 19.275,
         "rotX": 0.0,
@@ -2298,12 +2318,13 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "5eb69a"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
+        "posX": -0.903,
         "posY": 1.732,
         "posZ": 21.949,
         "rotX": 0.0,
@@ -2345,12 +2366,13 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "3322fd"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
+        "posX": -0.903,
         "posY": 1.582,
         "posZ": 11.239,
         "rotX": 0.0,
@@ -2392,6 +2414,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "40acb1"
     },
     {
@@ -2399,7 +2422,7 @@
       "Transform": {
         "posX": -0.9,
         "posY": 1.583,
-        "posZ": 13.918,
+        "posZ": 13.917,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2439,13 +2462,14 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "a524d6"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
-        "posY": 1.582,
+        "posX": -0.903,
+        "posY": 1.583,
         "posZ": 16.595,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -2486,13 +2510,14 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "5808d7"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
-        "posY": 1.583,
+        "posX": -0.903,
+        "posY": 1.582,
         "posZ": 19.278,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -2533,12 +2558,13 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "ed27ad"
     },
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
+        "posX": -0.902,
         "posY": 1.582,
         "posZ": 21.953,
         "rotX": 0.0,
@@ -2580,6 +2606,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "0de0a6"
     },
     {
@@ -2587,7 +2614,7 @@
       "Transform": {
         "posX": -0.9,
         "posY": 1.582,
-        "posZ": 8.552,
+        "posZ": 8.553,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2627,6 +2654,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "7f1cbf"
     },
     {
@@ -3252,6 +3280,7 @@
       "Hands": false,
       "LuaScript": "function onLoad()\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"+100\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 500,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Left-click to increment your score marker, right-click to increment the city score marker. This button replaces the 100/200 score tokens and the city discs.\"\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\n    local marker\n\n    if alt_click then\n        marker = getObjectFromGUID('6bff57')\n    elseif color == \"Green\" then\n        marker = getObjectFromGUID('a0ccfc')\n    elseif color == \"Yellow\" then\n        marker = getObjectFromGUID('c4ec6a')\n    elseif color == \"Red\" then\n        marker = getObjectFromGUID('237668')\n    elseif color == \"Blue\" then\n        marker = getObjectFromGUID('5d159c')\n    else\n        print(\"Unknown color \", color)\n        return\n    end\n\n    marker.call(\"increment\")\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "50c5ee"
     },
     {
@@ -3299,6 +3328,7 @@
       },
       "LuaScript": "function onLoad(save_state)\n    local left = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0.38, 0.94, 0},\n        rotation       = {0, 270, 37},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    local right = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {-0.38, 0.94, 0},\n        rotation       = {0, 90, -37},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(left)\n    self.createButton(right)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"300\",\n    [\"300\"] = \"\",\n}\n\nfunction increment()\n    -- Assume that both sides have the same value\n    local button = self.getButtons()[1]\n    local label = table[button.label]\n\n    self.editButton({index = 0, label=label})\n    self.editButton({index = 1, label=label})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "6bff57"
     },
     {
@@ -3616,6 +3646,7 @@
       },
       "LuaScript": "-- The collection of all the buttons, without or without cubes\nbuttons_set = {}\n\nfunction onLoad(save_state_json)\n    local co = -0.844 -- column offset\n    local cs = 0.3565 -- column scale\n    local bs = 0.0526 -- button offset\n    local ro = -0.576 -- row offset\n    local rs = 0.3565 -- row scale\n    local save_state = nil\n\n    if save_state_json ~= \"\" then\n        -- The save state contains the list of all 149 buttons, but the\n        -- JSON has to be decoded.  But first, let's verify it.\n        save_state = JSON.decode(save_state_json)\n\n        if #save_state ~= 149 then\n            broadcastToAll(\"Saved state is corrupted!\", Color.Red)\n            save_state = nil\n        end\n    end\n\n    if save_state ~= nil then\n        for _,button in ipairs(save_state) do\n            c = button.column\n            r = button.row\n            b = button.service\n            local button_data = {\n                position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                cube = getObjectFromGUID(button.cube_guid),\n                token = getObjectFromGUID(button.token_guid),\n                cube_color = button.cube_color,\n                column = c,\n                row = r,\n                service = b,\n            }\n            table.insert(buttons_set, button_data)\n        end\n    else\n        for c = 0,4 do\n            for r = 0,4 do\n                for b = 0,5 do\n                    -- skip the city service marker\n                    if not (c == 2 and r == 2 and b == 0) then\n                        local button_data = {\n                            position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                            cube = nil, -- the cube object that's placed on this token\n                            token = nil, -- the score token object moved by the button on this cube\n                            cube_color = nil, -- the color of the cube on this button\n                            column = c,\n                            row = r,\n                            service = b,\n                        }\n                        table.insert(buttons_set, button_data)\n                    end\n                end\n            end\n        end\n    end\n\n    for _,button0 in ipairs(buttons_set) do\n        local button = {\n            width = 20,\n            height = 20,\n            color = {0, 0, 0, 0},\n            hover_color = {0, 0, 0, 0.7},\n            press_color = {0, 0, 0, 0},\n            function_owner = self,\n            click_function = \"button\"..button0.column..button0.row..button0.service,\n            position = button0.position,\n        }\n\n        local func = function(obj, player, alt_click)\n            buttonClicked(obj, player, alt_click, button0)\n        end\n        self.setVar(\"button\"..button0.column..button0.row..button0.service, func)\n        self.createButton(button)\n    end\nend\n\nscoreToken = {\n--          green     red       yellow    blue     neutral\n    [0] = {'0de0a6', '3322fd', '289467', '98c6fd', '1dee61'}, -- water\n    [1] = {'ed27ad', '5eb69a', '3d5d30', '71aaaf', '60fb49'}, -- food\n    [2] = {'5808d7', '554ff6', 'e6b3dc', 'f14de0', '4b3bc4'}, -- religion\n    [3] = {'a524d6', '881675', 'c8c173', '946adc', 'b81b1e'}, -- defense\n    [4] = {'40acb1', '8a73ef', '212edc', 'b6ccbc', 'ba1fd4'}, -- commerce\n    [5] = {'7f1cbf', '204a31', '55a0b9', 'abe989', '070f23'}, -- culture\n}\n\nfunction buttonClicked(board, player, alt_click, button)\n    local token\n    local cubeBag\n    local score\n    local index = button.service\n\n    if button.cube then\n        -- Right-button click in a two-player game is used to place neutral cubes\n        if alt_click then\n            if button.cube_color ~= \"Neutral\" then\n                return\n            end\n        else\n            -- only allow a player to remove his own cubes\n            if button.cube_color ~= player then\n                return\n            end\n        end\n        token = button.token\n        score = token.getVar(\"score\") - 1\n\n        destroyObject(button.cube)\n        button.cube = nil\n        button.token = nil\n        button.cube_color = nil\n    else\n        if alt_click then\n            cubeBag = getObjectFromGUID(\"e25a01\")\n            token = getObjectFromGUID(scoreToken[index][5])\n        elseif player == \"Red\" then\n            cubeBag = getObjectFromGUID(\"551726\")\n            token = getObjectFromGUID(scoreToken[index][2])\n        elseif player == \"Green\" then\n            cubeBag = getObjectFromGUID(\"c9ae8b\")\n            token = getObjectFromGUID(scoreToken[index][1])\n        elseif player == \"Blue\" then\n            cubeBag = getObjectFromGUID(\"97bcca\")\n            token = getObjectFromGUID(scoreToken[index][4])\n        elseif player == \"Yellow\" then\n            cubeBag = getObjectFromGUID(\"fd6678\")\n            token = getObjectFromGUID(scoreToken[index][3])\n        else\n            print('Unrecognize color ', player)\n            return\n        end\n\n        score = token.getVar(\"score\") + 1\n\n        -- We have to invert the X-axis for some log(button)\n        local buttonPos = {-button.position.x, button.position.y, button.position.z}\n        local params = {\n            smooth = false,\n            position = board.positionToWorld(buttonPos),\n        }\n        button.cube = cubeBag.takeObject(params) -- take the cube from the cube Bag\n        button.token = token\n        if alt_click then\n            button.cube_color = \"Neutral\"\n        else\n            button.cube_color = player\n        end\n    end\n\n    token.setVar(\"score\", score)\n    if score > 14 then\n        -- Maximum score displayed is 14, but we want to be able to track\n        -- scores higher than that, just in case.\n        score = 14\n    end\n\n    local tokenPos = token.getPosition()\n    tokenPos.x = -0.9011 + 1.4 * score\n    tokenPos.y = 2\n    token.setPosition(tokenPos)\nend\n\nfunction onSave()\n    -- Save the entire button array.  It would be take a lot less space if\n    -- we just saved the buttons that have cubes on them, but then it would\n    -- be a lot more work to parse that.\n    save_state = {}\n    for _,button in ipairs(buttons_set) do\n        local state = {\n            -- objects can't be encoded, so convert them to GUIDs\n            cube_guid = button.cube and button.cube.getGUID() or nil,\n            token_guid = button.token and button.token.getGUID() or nil,\n            cube_color = button.cube_color,\n            column = button.column,\n            row = button.row,\n            service = button.service,\n        }\n        table.insert(save_state, state)\n    end\n\n    return JSON.encode(save_state)\nend",
       "LuaScriptState": "[{\"column\":0,\"row\":0,\"service\":0},{\"column\":0,\"row\":0,\"service\":1},{\"column\":0,\"row\":0,\"service\":2},{\"column\":0,\"row\":0,\"service\":3},{\"column\":0,\"row\":0,\"service\":4},{\"column\":0,\"row\":0,\"service\":5},{\"column\":0,\"row\":1,\"service\":0},{\"column\":0,\"row\":1,\"service\":1},{\"column\":0,\"row\":1,\"service\":2},{\"column\":0,\"row\":1,\"service\":3},{\"column\":0,\"row\":1,\"service\":4},{\"column\":0,\"row\":1,\"service\":5},{\"column\":0,\"row\":2,\"service\":0},{\"column\":0,\"row\":2,\"service\":1},{\"column\":0,\"row\":2,\"service\":2},{\"column\":0,\"row\":2,\"service\":3},{\"column\":0,\"row\":2,\"service\":4},{\"column\":0,\"row\":2,\"service\":5},{\"column\":0,\"row\":3,\"service\":0},{\"column\":0,\"row\":3,\"service\":1},{\"column\":0,\"row\":3,\"service\":2},{\"column\":0,\"row\":3,\"service\":3},{\"column\":0,\"row\":3,\"service\":4},{\"column\":0,\"row\":3,\"service\":5},{\"column\":0,\"row\":4,\"service\":0},{\"column\":0,\"row\":4,\"service\":1},{\"column\":0,\"row\":4,\"service\":2},{\"column\":0,\"row\":4,\"service\":3},{\"column\":0,\"row\":4,\"service\":4},{\"column\":0,\"row\":4,\"service\":5},{\"column\":1,\"row\":0,\"service\":0},{\"column\":1,\"row\":0,\"service\":1},{\"column\":1,\"row\":0,\"service\":2},{\"column\":1,\"row\":0,\"service\":3},{\"column\":1,\"row\":0,\"service\":4},{\"column\":1,\"row\":0,\"service\":5},{\"column\":1,\"row\":1,\"service\":0},{\"column\":1,\"row\":1,\"service\":1},{\"column\":1,\"row\":1,\"service\":2},{\"column\":1,\"row\":1,\"service\":3},{\"column\":1,\"row\":1,\"service\":4},{\"column\":1,\"row\":1,\"service\":5},{\"column\":1,\"row\":2,\"service\":0},{\"column\":1,\"row\":2,\"service\":1},{\"column\":1,\"row\":2,\"service\":2},{\"column\":1,\"row\":2,\"service\":3},{\"column\":1,\"row\":2,\"service\":4},{\"column\":1,\"row\":2,\"service\":5},{\"column\":1,\"row\":3,\"service\":0},{\"column\":1,\"row\":3,\"service\":1},{\"column\":1,\"row\":3,\"service\":2},{\"column\":1,\"row\":3,\"service\":3},{\"column\":1,\"row\":3,\"service\":4},{\"column\":1,\"row\":3,\"service\":5},{\"column\":1,\"row\":4,\"service\":0},{\"column\":1,\"row\":4,\"service\":1},{\"column\":1,\"row\":4,\"service\":2},{\"column\":1,\"row\":4,\"service\":3},{\"column\":1,\"row\":4,\"service\":4},{\"column\":1,\"row\":4,\"service\":5},{\"column\":2,\"row\":0,\"service\":0},{\"column\":2,\"row\":0,\"service\":1},{\"column\":2,\"row\":0,\"service\":2},{\"column\":2,\"row\":0,\"service\":3},{\"column\":2,\"row\":0,\"service\":4},{\"column\":2,\"row\":0,\"service\":5},{\"column\":2,\"row\":1,\"service\":0},{\"column\":2,\"row\":1,\"service\":1},{\"column\":2,\"row\":1,\"service\":2},{\"column\":2,\"row\":1,\"service\":3},{\"column\":2,\"row\":1,\"service\":4},{\"column\":2,\"row\":1,\"service\":5},{\"column\":2,\"row\":2,\"service\":1},{\"column\":2,\"row\":2,\"service\":2},{\"column\":2,\"row\":2,\"service\":3},{\"column\":2,\"row\":2,\"service\":4},{\"column\":2,\"row\":2,\"service\":5},{\"column\":2,\"row\":3,\"service\":0},{\"column\":2,\"row\":3,\"service\":1},{\"column\":2,\"row\":3,\"service\":2},{\"column\":2,\"row\":3,\"service\":3},{\"column\":2,\"row\":3,\"service\":4},{\"column\":2,\"row\":3,\"service\":5},{\"column\":2,\"row\":4,\"service\":0},{\"column\":2,\"row\":4,\"service\":1},{\"column\":2,\"row\":4,\"service\":2},{\"column\":2,\"row\":4,\"service\":3},{\"column\":2,\"row\":4,\"service\":4},{\"column\":2,\"row\":4,\"service\":5},{\"column\":3,\"row\":0,\"service\":0},{\"column\":3,\"row\":0,\"service\":1},{\"column\":3,\"row\":0,\"service\":2},{\"column\":3,\"row\":0,\"service\":3},{\"column\":3,\"row\":0,\"service\":4},{\"column\":3,\"row\":0,\"service\":5},{\"column\":3,\"row\":1,\"service\":0},{\"column\":3,\"row\":1,\"service\":1},{\"column\":3,\"row\":1,\"service\":2},{\"column\":3,\"row\":1,\"service\":3},{\"column\":3,\"row\":1,\"service\":4},{\"column\":3,\"row\":1,\"service\":5},{\"column\":3,\"row\":2,\"service\":0},{\"column\":3,\"row\":2,\"service\":1},{\"column\":3,\"row\":2,\"service\":2},{\"column\":3,\"row\":2,\"service\":3},{\"column\":3,\"row\":2,\"service\":4},{\"column\":3,\"row\":2,\"service\":5},{\"column\":3,\"row\":3,\"service\":0},{\"column\":3,\"row\":3,\"service\":1},{\"column\":3,\"row\":3,\"service\":2},{\"column\":3,\"row\":3,\"service\":3},{\"column\":3,\"row\":3,\"service\":4},{\"column\":3,\"row\":3,\"service\":5},{\"column\":3,\"row\":4,\"service\":0},{\"column\":3,\"row\":4,\"service\":1},{\"column\":3,\"row\":4,\"service\":2},{\"column\":3,\"row\":4,\"service\":3},{\"column\":3,\"row\":4,\"service\":4},{\"column\":3,\"row\":4,\"service\":5},{\"column\":4,\"row\":0,\"service\":0},{\"column\":4,\"row\":0,\"service\":1},{\"column\":4,\"row\":0,\"service\":2},{\"column\":4,\"row\":0,\"service\":3},{\"column\":4,\"row\":0,\"service\":4},{\"column\":4,\"row\":0,\"service\":5},{\"column\":4,\"row\":1,\"service\":0},{\"column\":4,\"row\":1,\"service\":1},{\"column\":4,\"row\":1,\"service\":2},{\"column\":4,\"row\":1,\"service\":3},{\"column\":4,\"row\":1,\"service\":4},{\"column\":4,\"row\":1,\"service\":5},{\"column\":4,\"row\":2,\"service\":0},{\"column\":4,\"row\":2,\"service\":1},{\"column\":4,\"row\":2,\"service\":2},{\"column\":4,\"row\":2,\"service\":3},{\"column\":4,\"row\":2,\"service\":4},{\"column\":4,\"row\":2,\"service\":5},{\"column\":4,\"row\":3,\"service\":0},{\"column\":4,\"row\":3,\"service\":1},{\"column\":4,\"row\":3,\"service\":2},{\"column\":4,\"row\":3,\"service\":3},{\"column\":4,\"row\":3,\"service\":4},{\"column\":4,\"row\":3,\"service\":5},{\"column\":4,\"row\":4,\"service\":0},{\"column\":4,\"row\":4,\"service\":1},{\"column\":4,\"row\":4,\"service\":2},{\"column\":4,\"row\":4,\"service\":3},{\"column\":4,\"row\":4,\"service\":4},{\"column\":4,\"row\":4,\"service\":5}]",
+      "XmlUI": "",
       "GUID": "e2f237",
       "AttachedSnapPoints": [
         {
@@ -7708,6 +7739,7 @@
       },
       "LuaScript": "function onLoad()\n    children = self.getChildren()[1].getChildren()[1].getChildren()\n    children[1].getComponents()[1].set('localScale', {0.8,2,1}) -- next page    \n    children[2].getComponents()[1].set('localScale', {0.8,2,1}) -- prev page\n    children[3].getComponents()[1].set('localScale', {1,0.5,1}) -- pop out\n    children[1].getComponents()[1].set('localPosition', {340, 0, 0})\n    children[2].getComponents()[1].set('localPosition', {-340, 0, 0})\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "a0a73f"
     },
     {
@@ -7765,7 +7797,7 @@
       "Transform": {
         "posX": -41.695,
         "posY": 1.459,
-        "posZ": 22.182,
+        "posZ": 22.181,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -7807,6 +7839,7 @@
       },
       "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "a0ccfc"
     },
     {
@@ -7856,6 +7889,7 @@
       },
       "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "5d159c"
     },
     {
@@ -7905,6 +7939,7 @@
       },
       "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "c4ec6a"
     },
     {
@@ -7912,7 +7947,7 @@
       "Transform": {
         "posX": -41.694,
         "posY": 1.659,
-        "posZ": 22.18,
+        "posZ": 22.179,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -7954,6 +7989,7 @@
       },
       "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "237668"
     },
     {
@@ -8304,15 +8340,15 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 37.536,
-        "posY": 1.01,
-        "posZ": 0.179,
+        "posX": 37.54,
+        "posY": 0.96,
+        "posZ": -1.556,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
-        "scaleX": 2.159,
-        "scaleY": 0.1,
-        "scaleZ": 1.0
+        "scaleX": 2.0,
+        "scaleY": 0.0,
+        "scaleZ": 2.0
       },
       "Nickname": "Start Button",
       "Description": "",
@@ -8334,8 +8370,9 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "player_sequence = {\"Red\", \"Green\", \"Blue\", \"Yellow\"}\norderTokens = {}\ntokenZones = {}\n\nfunction onLoad()\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"Start Game\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1500,\n        height         = 500,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click here once all players are seated.\"\n    }\n\n    self.createButton(params)\n\n    orderTokens = {\n        \"7ed858\", -- Saxon Prince\n        \"e67c99\", -- Saxon Duke\n        \"39477f\", -- Saxon Count\n        \"886874\", -- Saxon Earl\n    }\n\n    tokenZones = {\n        Red = getObjectFromGUID(\"dc5713\"),\n        Green = getObjectFromGUID(\"e696de\"),\n        Blue = getObjectFromGUID(\"aacb34\"),\n        Yellow = getObjectFromGUID(\"25d4d6\"),\n    }\nend\n\nfunction findValue(table, value)\n    for _,v in ipairs(table) do\n        if v == value then\n            return true\n        end\n    end\n\n    return false\nend\n\nfunction click_func(obj, color, alt_click)\n    -- first, generate a list of seated players sorted by the order of\n    -- colors on the table itself: Red, Green, Blue, Yellow\n    local seatedPlayers = getSeatedPlayers()\n\n    if #seatedPlayers < 2 then\n        broadcastToAll(\"Not enough seated players\", {r=1, g=0, b=0})\n        return\n    end\n\n    local seatedOrder = {}\n    for _,v in ipairs(player_sequence) do\n        if findValue(seatedPlayers, v) then\n            table.insert(seatedOrder, v)\n        end\n    end\n\n    -- Choose one to be first\n    local first = math.random(1, #seatedOrder)\n\n    -- Create a table of the player order\n    local playerOrder = {}\n    for i = 1,#seatedOrder do\n        table.insert(playerOrder, seatedOrder[first])\n        first = first + 1\n        if first > #seatedOrder then\n            first = 1\n        end\n    end\n\n    -- Turns.enable = false\n    -- Turns.order = playerOrder\n    -- Turns.turn_color = playerOrder[1]\n\n    -- Now deal out the player order tokens, but first   This allows you to press the button\n    -- multiple times.\n    local orderBag = getObjectFromGUID(\"9566ac\")\n    for k,v in pairs(playerOrder) do\n        -- Make sure the token is in the bag first.\n        -- orderBag.putObject(getObjectFromGUID(orderTokens[k]))\n        local params = {\n            smooth = true,\n            position = tokenZones[playerOrder[k]].getPosition(),\n            guid = orderTokens[k],\n        }\n        orderBag.takeObject(params) -- grab the\n    end\n\n    -- once the order tokens have been distributed,\n    -- the button can't be used again\n\n    -- Two-player rules require additional setup\n    if #seatedOrder > 2 then\n        return\n    end\n\n    -- each player has a pair of zones next to his board that old the\n    -- stacks of structures for the neutral player.\n    local stackZones = {\n        Red = { \"c7a89a\", \"68f179\" },\n        Green = { \"8c0c34\", \"bd48f8\" },\n        Blue = { \"d4314d\", \"eb8643\" },\n        Yellow = { \"a6e79d\", \"fab66a\" },\n    }\n\n    -- The tiles to use to create the neutral builder stacks\n    local tiles = {\n        -- first player tiles\n        {\n            -- the top tile of each stack of small structures, right to left\n            {\"cbed80\", \"430a47\", \"67082d\", \"049be8\", \"c47b43\", \"10ac3b\"},\n\n            -- the top tile of each stack of medium structures, right to left\n            {\"a22d5f\", \"6b9061\", \"f91eb6\", \"d8d722\", \"6b3a3c\", \"25c7ae\"},\n        },\n        -- second player tiles\n        {\n            -- the second tile of each stack of small structures, right to left\n            {\"fd6a23\", \"56ed6c\", \"0fff36\", \"2bb81e\", \"b5a02f\", \"c6d1dc\"},\n\n            -- the second tile of each stack of medium structures, right to left\n            {\"97a11a\", \"a9f6fa\", \"82e26f\", \"b9e532\", \"66c5ea\", \"7d0515\"},\n        },\n    }\n\n    local buildZones = {\n        Red = \"fd003f\",\n        Green = \"71cf7f\",\n        Blue = \"bb551a\",\n        Yellow = \"7fd04a\",\n    }\n\n    local buildTokens = { \"24da88\", \"e42c68\" }\n\n    -- distribute all 24 tiles to four stacks, and give each player a\n    -- build / no-build token\n    for p = 1,2 do\n        local player = seatedOrder[p] -- player color\n        local tileSet = tiles[p]\n\n        for z = 1,2 do\n            -- target zone for this stack\n            local zone = getObjectFromGUID(stackZones[player][z])\n\n            for k,s in pairs(tileSet[z]) do\n                -- the tile to move\n                local tile = getObjectFromGUID(s)\n\n                -- setPosition() returns quickly, before it's finished moving\n                -- the tile.  If we try to move all of the tiles of one stack\n                -- to the same position, they will crash into each other.\n                -- So instead, we layer the tiles in mid-air.  They will then fall\n                -- down in a neat stack together.\n                local pos = zone.getPosition()\n                pos.y = pos.y + k / 2.0\n                tile.setPosition(pos)\n            end\n        end\n\n        -- And now the build / no-build tokens, which are kept in the same\n        -- bag as the order tiles\n        local params = {\n            smooth = true,\n            position = getObjectFromGUID(buildZones[player]).getPosition(),\n            guid = buildTokens[p],\n        }\n        orderBag.takeObject(params) -- grab the token\n    end\nend",
+      "LuaScript": "player_sequence = {\"Red\", \"Green\", \"Blue\", \"Yellow\"}\norderTokens = {}\ntokenZones = {}\n\nfunction onLoad()\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"Start\\nGame\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 1000,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click here once all players are seated.\"\n    }\n\n    self.createButton(params)\n\n    orderTokens = {\n        \"7ed858\", -- Saxon Prince\n        \"e67c99\", -- Saxon Duke\n        \"39477f\", -- Saxon Count\n        \"886874\", -- Saxon Earl\n    }\n\n    tokenZones = {\n        Red = getObjectFromGUID(\"dc5713\"),\n        Green = getObjectFromGUID(\"e696de\"),\n        Blue = getObjectFromGUID(\"aacb34\"),\n        Yellow = getObjectFromGUID(\"25d4d6\"),\n    }\nend\n\nfunction findValue(table, value)\n    for _,v in ipairs(table) do\n        if v == value then\n            return true\n        end\n    end\n\n    return false\nend\n\nfunction click_func(obj, color, alt_click)\n    -- first, generate a list of seated players sorted by the order of\n    -- colors on the table itself: Red, Green, Blue, Yellow\n    local seatedPlayers = getSeatedPlayers()\n\n    if #seatedPlayers < 2 then\n        broadcastToAll(\"Not enough seated players\", {r=1, g=0, b=0})\n        return\n    end\n\n    local seatedOrder = {}\n    for _,v in ipairs(player_sequence) do\n        if findValue(seatedPlayers, v) then\n            table.insert(seatedOrder, v)\n        end\n    end\n\n    -- Choose one to be first\n    local first = math.random(1, #seatedOrder)\n\n    -- Create a table of the player order\n    local playerOrder = {}\n    for i = 1,#seatedOrder do\n        table.insert(playerOrder, seatedOrder[first])\n        first = first + 1\n        if first > #seatedOrder then\n            first = 1\n        end\n    end\n\n    -- Turns.enable = false\n    -- Turns.order = playerOrder\n    -- Turns.turn_color = playerOrder[1]\n\n    -- Now deal out the player order tokens, but first   This allows you to press the button\n    -- multiple times.\n    local orderBag = getObjectFromGUID(\"9566ac\")\n    for k,v in pairs(playerOrder) do\n        -- Make sure the token is in the bag first.\n        -- orderBag.putObject(getObjectFromGUID(orderTokens[k]))\n        local params = {\n            smooth = true,\n            position = tokenZones[playerOrder[k]].getPosition(),\n            guid = orderTokens[k],\n        }\n        orderBag.takeObject(params) -- grab the\n    end\n\n    -- once the order tokens have been distributed,\n    -- the button can't be used again\n\n    -- Two-player rules require additional setup\n    if #seatedOrder > 2 then\n        return\n    end\n\n    -- each player has a pair of zones next to his board that old the\n    -- stacks of structures for the neutral player.\n    local stackZones = {\n        Red = { \"c7a89a\", \"68f179\" },\n        Green = { \"8c0c34\", \"bd48f8\" },\n        Blue = { \"d4314d\", \"eb8643\" },\n        Yellow = { \"a6e79d\", \"fab66a\" },\n    }\n\n    -- The tiles to use to create the neutral builder stacks\n    local tiles = {\n        -- first player tiles\n        {\n            -- the top tile of each stack of small structures, right to left\n            {\"cbed80\", \"430a47\", \"67082d\", \"049be8\", \"c47b43\", \"10ac3b\"},\n\n            -- the top tile of each stack of medium structures, right to left\n            {\"a22d5f\", \"6b9061\", \"f91eb6\", \"d8d722\", \"6b3a3c\", \"25c7ae\"},\n        },\n        -- second player tiles\n        {\n            -- the second tile of each stack of small structures, right to left\n            {\"fd6a23\", \"56ed6c\", \"0fff36\", \"2bb81e\", \"b5a02f\", \"c6d1dc\"},\n\n            -- the second tile of each stack of medium structures, right to left\n            {\"97a11a\", \"a9f6fa\", \"82e26f\", \"b9e532\", \"66c5ea\", \"7d0515\"},\n        },\n    }\n\n    local buildZones = {\n        Red = \"fd003f\",\n        Green = \"71cf7f\",\n        Blue = \"bb551a\",\n        Yellow = \"7fd04a\",\n    }\n\n    local buildTokens = { \"24da88\", \"e42c68\" }\n\n    -- distribute all 24 tiles to four stacks, and give each player a\n    -- build / no-build token\n    for p = 1,2 do\n        local player = seatedOrder[p] -- player color\n        local tileSet = tiles[p]\n\n        for z = 1,2 do\n            -- target zone for this stack\n            local zone = getObjectFromGUID(stackZones[player][z])\n\n            for k,s in pairs(tileSet[z]) do\n                -- the tile to move\n                local tile = getObjectFromGUID(s)\n\n                -- setPosition() returns quickly, before it's finished moving\n                -- the tile.  If we try to move all of the tiles of one stack\n                -- to the same position, they will crash into each other.\n                -- So instead, we layer the tiles in mid-air.  They will then fall\n                -- down in a neat stack together.\n                local pos = zone.getPosition()\n                pos.y = pos.y + k / 2.0\n                tile.setPosition(pos)\n            end\n        end\n\n        -- And now the build / no-build tokens, which are kept in the same\n        -- bag as the order tiles\n        local params = {\n            smooth = true,\n            position = getObjectFromGUID(buildZones[player]).getPosition(),\n            guid = buildTokens[p],\n        }\n        orderBag.takeObject(params) -- grab the token\n    end\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "ca0870"
     },
     {
@@ -8529,8 +8566,9 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "function onLoad()\n    self.interactable = false\nend\n",
+      "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "Custom_Tile",
@@ -9252,7 +9290,7 @@
       "Transform": {
         "posX": 29.711,
         "posY": 1.652,
-        "posZ": -12.402,
+        "posZ": -12.401,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -9302,7 +9340,7 @@
       "Transform": {
         "posX": 29.712,
         "posY": 1.851,
-        "posZ": -12.403,
+        "posZ": -12.402,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -9352,7 +9390,7 @@
       "Transform": {
         "posX": 29.711,
         "posY": 2.051,
-        "posZ": -12.403,
+        "posZ": -12.401,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -9750,7 +9788,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.953,
+        "posX": 23.952,
         "posY": 1.656,
         "posZ": -6.678,
         "rotX": 0.0,
@@ -10002,7 +10040,7 @@
       "Transform": {
         "posX": 18.226,
         "posY": 1.854,
-        "posZ": -6.678,
+        "posZ": -6.679,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -10252,7 +10290,7 @@
       "Transform": {
         "posX": 12.555,
         "posY": 1.854,
-        "posZ": -6.678,
+        "posZ": -6.679,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -10400,7 +10438,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.795,
+        "posX": 6.794,
         "posY": 1.454,
         "posZ": -6.678,
         "rotX": 0.0,
@@ -10450,7 +10488,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.793,
+        "posX": 6.791,
         "posY": 1.652,
         "posZ": -6.678,
         "rotX": 0.0,
@@ -10500,9 +10538,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.797,
+        "posX": 6.794,
         "posY": 2.051,
-        "posZ": -6.677,
+        "posZ": -6.678,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -10550,7 +10588,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.792,
+        "posX": 6.79,
         "posY": 1.851,
         "posZ": -6.678,
         "rotX": 0.0,
@@ -10650,7 +10688,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.053,
+        "posX": 1.052,
         "posY": 1.851,
         "posZ": -6.682,
         "rotX": 0.0,
@@ -10700,7 +10738,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.054,
+        "posX": 1.053,
         "posY": 1.652,
         "posZ": -6.682,
         "rotX": 0.0,
@@ -10751,7 +10789,7 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 1.059,
-        "posY": 1.255,
+        "posY": 1.256,
         "posZ": -6.679,
         "rotX": 0.0,
         "rotY": 180.0,
@@ -10801,7 +10839,7 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 1.057,
-        "posY": 1.454,
+        "posY": 1.453,
         "posZ": -6.68,
         "rotX": 0.0,
         "rotY": 180.0,
@@ -10850,7 +10888,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.053,
+        "posX": 1.052,
         "posY": 2.051,
         "posZ": -6.682,
         "rotX": 0.0,
@@ -11002,7 +11040,7 @@
       "Transform": {
         "posX": 23.963,
         "posY": 1.652,
-        "posZ": -12.405,
+        "posZ": -12.406,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11102,7 +11140,7 @@
       "Transform": {
         "posX": 23.962,
         "posY": 2.051,
-        "posZ": -12.407,
+        "posZ": -12.408,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11150,9 +11188,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.231,
-        "posY": 1.252,
-        "posZ": -12.396,
+        "posX": 18.23,
+        "posY": 1.254,
+        "posZ": -12.397,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11200,9 +11238,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.23,
+        "posX": 18.229,
         "posY": 1.449,
-        "posZ": -12.397,
+        "posZ": -12.398,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11250,9 +11288,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.229,
-        "posY": 1.648,
-        "posZ": -12.4,
+        "posX": 18.228,
+        "posY": 1.647,
+        "posZ": -12.402,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11300,9 +11338,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.227,
-        "posY": 1.844,
-        "posZ": -12.401,
+        "posX": 18.225,
+        "posY": 1.843,
+        "posZ": -12.404,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11350,9 +11388,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.227,
+        "posX": 18.224,
         "posY": 2.043,
-        "posZ": -12.401,
+        "posZ": -12.405,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11502,7 +11540,7 @@
       "Transform": {
         "posX": 12.563,
         "posY": 1.646,
-        "posZ": -12.436,
+        "posZ": -12.435,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11550,9 +11588,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.562,
+        "posX": 12.561,
         "posY": 1.845,
-        "posZ": -12.438,
+        "posZ": -12.436,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11600,9 +11638,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.56,
-        "posY": 2.043,
-        "posZ": -12.436,
+        "posX": 12.558,
+        "posY": 2.042,
+        "posZ": -12.434,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11702,7 +11740,7 @@
       "Transform": {
         "posX": 6.79,
         "posY": 1.447,
-        "posZ": -12.408,
+        "posZ": -12.409,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11752,7 +11790,7 @@
       "Transform": {
         "posX": 6.783,
         "posY": 1.64,
-        "posZ": -12.413,
+        "posZ": -12.416,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11800,9 +11838,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.781,
-        "posY": 1.838,
-        "posZ": -12.416,
+        "posX": 6.78,
+        "posY": 1.839,
+        "posZ": -12.421,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11850,9 +11888,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.777,
+        "posX": 6.776,
         "posY": 2.033,
-        "posZ": -12.424,
+        "posZ": -12.433,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -11900,7 +11938,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.064,
+        "posX": 1.063,
         "posY": 1.249,
         "posZ": -12.427,
         "rotX": 0.0,
@@ -11950,9 +11988,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.064,
+        "posX": 1.063,
         "posY": 1.447,
-        "posZ": -12.429,
+        "posZ": -12.431,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12000,9 +12038,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.064,
-        "posY": 1.642,
-        "posZ": -12.435,
+        "posX": 1.062,
+        "posY": 1.643,
+        "posZ": -12.439,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12050,9 +12088,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.064,
+        "posX": 1.061,
         "posY": 1.836,
-        "posZ": -12.439,
+        "posZ": -12.446,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12100,9 +12138,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.062,
-        "posY": 2.034,
-        "posZ": -12.44,
+        "posX": 1.058,
+        "posY": 2.035,
+        "posZ": -12.451,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12150,9 +12188,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.062,
+        "posX": 1.057,
         "posY": 2.23,
-        "posZ": -12.441,
+        "posZ": -12.456,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12200,9 +12238,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.06,
-        "posY": 2.427,
-        "posZ": -12.444,
+        "posX": 1.053,
+        "posY": 2.428,
+        "posZ": -12.464,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12250,9 +12288,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.059,
-        "posY": 2.626,
-        "posZ": -12.447,
+        "posX": 1.051,
+        "posY": 2.625,
+        "posZ": -12.472,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12300,9 +12338,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.057,
+        "posX": 1.048,
         "posY": 2.824,
-        "posZ": -12.45,
+        "posZ": -12.48,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12350,9 +12388,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.053,
-        "posY": 3.023,
-        "posZ": -12.454,
+        "posX": 1.042,
+        "posY": 3.022,
+        "posZ": -12.49,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12400,9 +12438,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.054,
-        "posY": 3.223,
-        "posZ": -12.447,
+        "posX": 1.041,
+        "posY": 3.222,
+        "posZ": -12.488,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12450,9 +12488,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.777,
+        "posX": 6.776,
         "posY": 2.231,
-        "posZ": -12.425,
+        "posZ": -12.438,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12500,9 +12538,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.769,
+        "posX": 6.767,
         "posY": 2.427,
-        "posZ": -12.426,
+        "posZ": -12.444,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12550,9 +12588,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.793,
+        "posX": 6.79,
         "posY": 2.626,
-        "posZ": -12.424,
+        "posZ": -12.447,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12600,9 +12638,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.793,
+        "posX": 6.79,
         "posY": 2.824,
-        "posZ": -12.424,
+        "posZ": -12.451,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12650,9 +12688,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.788,
-        "posY": 3.024,
-        "posZ": -12.423,
+        "posX": 6.784,
+        "posY": 3.023,
+        "posZ": -12.455,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12700,9 +12738,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.791,
+        "posX": 6.786,
         "posY": 3.223,
-        "posZ": -12.426,
+        "posZ": -12.462,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12750,9 +12788,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.56,
-        "posY": 2.24,
-        "posZ": -12.436,
+        "posX": 12.556,
+        "posY": 2.241,
+        "posZ": -12.433,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12800,9 +12838,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.556,
-        "posY": 2.44,
-        "posZ": -12.437,
+        "posX": 12.551,
+        "posY": 2.439,
+        "posZ": -12.434,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12850,9 +12888,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.552,
+        "posX": 12.545,
         "posY": 2.639,
-        "posZ": -12.438,
+        "posZ": -12.435,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12900,9 +12938,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.227,
+        "posX": 18.223,
         "posY": 2.24,
-        "posZ": -12.402,
+        "posZ": -12.408,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -12950,9 +12988,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.227,
+        "posX": 18.223,
         "posY": 2.44,
-        "posZ": -12.401,
+        "posZ": -12.408,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -13000,9 +13038,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.225,
+        "posX": 18.22,
         "posY": 2.639,
-        "posZ": -12.401,
+        "posZ": -12.41,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -13248,6 +13286,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "60fb49"
     },
     {
@@ -13295,6 +13334,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "1dee61"
     },
     {
@@ -13342,6 +13382,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "4b3bc4"
     },
     {
@@ -13389,6 +13430,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "b81b1e"
     },
     {
@@ -13436,6 +13478,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "ba1fd4"
     },
     {
@@ -13483,6 +13526,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "070f23"
     },
     {
@@ -13520,8 +13564,9 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "function onLoad()\n    self.interactable = false\nend\n",
+      "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "ContainedObjects": [
         {
           "Name": "BlockSquare",

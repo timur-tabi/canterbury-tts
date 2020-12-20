@@ -1,7 +1,7 @@
 {
   "SaveName": "Canterbury",
   "GameMode": "Canterbury",
-  "Date": "12/12/2020 10:49:39 PM",
+  "Date": "12/19/2020 6:48:13 PM",
   "Gravity": 0.5,
   "PlayArea": 0.622,
   "GameType": "Game",
@@ -2055,7 +2055,7 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": -0.898,
-        "posY": 1.584,
+        "posY": 1.284,
         "posZ": 21.956,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -2200,7 +2200,7 @@
       "Transform": {
         "posX": -0.899,
         "posY": 1.584,
-        "posZ": 16.592,
+        "posZ": 16.593,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2294,8 +2294,8 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9,
-        "posY": 1.434,
+        "posX": -0.901,
+        "posY": 1.584,
         "posZ": 21.951,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -2534,8 +2534,8 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.903,
-        "posY": 1.284,
+        "posX": -0.901,
+        "posY": 1.434,
         "posZ": 21.955,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -2830,9 +2830,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.643,
-        "posY": 3.22,
-        "posZ": -12.61,
+        "posX": 6.642,
+        "posY": 3.224,
+        "posZ": -12.59,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3219,7 +3219,7 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 1.053,
-        "posY": 1.25,
+        "posY": 1.248,
         "posZ": -12.383,
         "rotX": 0.0,
         "rotY": 180.0,
@@ -3269,7 +3269,7 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 1.048,
-        "posY": 1.449,
+        "posY": 1.445,
         "posZ": -12.399,
         "rotX": 0.0,
         "rotY": 180.0,
@@ -3319,8 +3319,8 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 1.062,
-        "posY": 1.641,
-        "posZ": -12.495,
+        "posY": 1.639,
+        "posZ": -12.494,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3369,8 +3369,8 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 1.041,
-        "posY": 1.839,
-        "posZ": -12.548,
+        "posY": 1.837,
+        "posZ": -12.547,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3418,9 +3418,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.062,
+        "posX": 1.061,
         "posY": 2.032,
-        "posZ": -12.629,
+        "posZ": -12.627,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3468,9 +3468,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.024,
+        "posX": 1.022,
         "posY": 2.23,
-        "posZ": -12.658,
+        "posZ": -12.656,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3518,9 +3518,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 1.013,
-        "posY": 2.425,
-        "posZ": -12.725,
+        "posX": 1.01,
+        "posY": 2.427,
+        "posZ": -12.721,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3568,9 +3568,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.974,
-        "posY": 2.622,
-        "posZ": -12.718,
+        "posX": 0.97,
+        "posY": 2.626,
+        "posZ": -12.713,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3618,9 +3618,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.945,
-        "posY": 2.821,
-        "posZ": -12.741,
+        "posX": 0.94,
+        "posY": 2.823,
+        "posZ": -12.735,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3668,9 +3668,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.94,
-        "posY": 3.019,
-        "posZ": -12.748,
+        "posX": 0.933,
+        "posY": 3.023,
+        "posZ": -12.74,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3718,9 +3718,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.927,
-        "posY": 3.217,
-        "posZ": -12.8,
+        "posX": 0.919,
+        "posY": 3.222,
+        "posZ": -12.791,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3819,7 +3819,7 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 6.787,
-        "posY": 1.25,
+        "posY": 1.249,
         "posZ": -12.373,
         "rotX": 0.0,
         "rotY": 180.0,
@@ -3869,7 +3869,7 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 6.781,
-        "posY": 1.448,
+        "posY": 1.446,
         "posZ": -12.405,
         "rotX": 0.0,
         "rotY": 180.0,
@@ -3918,9 +3918,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.775,
-        "posY": 1.641,
-        "posZ": -12.424,
+        "posX": 6.774,
+        "posY": 1.639,
+        "posZ": -12.423,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -3968,9 +3968,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.748,
-        "posY": 1.836,
-        "posZ": -12.479,
+        "posX": 6.747,
+        "posY": 1.838,
+        "posZ": -12.477,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4018,9 +4018,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.726,
-        "posY": 2.034,
-        "posZ": -12.516,
+        "posX": 6.725,
+        "posY": 2.033,
+        "posZ": -12.512,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4068,9 +4068,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.717,
-        "posY": 2.23,
-        "posZ": -12.477,
+        "posX": 6.716,
+        "posY": 2.231,
+        "posZ": -12.47,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4118,9 +4118,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.671,
-        "posY": 2.428,
-        "posZ": -12.524,
+        "posX": 6.67,
+        "posY": 2.427,
+        "posZ": -12.515,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4168,9 +4168,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.662,
-        "posY": 2.624,
-        "posZ": -12.557,
+        "posX": 6.661,
+        "posY": 2.627,
+        "posZ": -12.546,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4218,9 +4218,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.653,
-        "posY": 2.821,
-        "posZ": -12.596,
+        "posX": 6.652,
+        "posY": 2.825,
+        "posZ": -12.582,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4268,9 +4268,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 6.647,
-        "posY": 3.021,
-        "posZ": -12.597,
+        "posX": 6.646,
+        "posY": 3.024,
+        "posZ": -12.58,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4319,7 +4319,7 @@
       "Name": "Custom_Tile",
       "Transform": {
         "posX": 12.567,
-        "posY": 1.254,
+        "posY": 1.252,
         "posZ": -12.386,
         "rotX": 0.0,
         "rotY": 180.0,
@@ -4368,8 +4368,8 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.58,
-        "posY": 1.449,
+        "posX": 12.579,
+        "posY": 1.451,
         "posZ": -12.369,
         "rotX": 0.0,
         "rotY": 180.0,
@@ -4418,9 +4418,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.57,
-        "posY": 1.648,
-        "posZ": -12.373,
+        "posX": 12.569,
+        "posY": 1.646,
+        "posZ": -12.374,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4468,9 +4468,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.559,
-        "posY": 1.844,
-        "posZ": -12.391,
+        "posX": 12.557,
+        "posY": 1.845,
+        "posZ": -12.392,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4518,9 +4518,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.558,
-        "posY": 2.043,
-        "posZ": -12.385,
+        "posX": 12.556,
+        "posY": 2.042,
+        "posZ": -12.386,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4568,9 +4568,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.547,
-        "posY": 2.24,
-        "posZ": -12.369,
+        "posX": 12.545,
+        "posY": 2.241,
+        "posZ": -12.371,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4618,9 +4618,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.545,
-        "posY": 2.44,
-        "posZ": -12.339,
+        "posX": 12.543,
+        "posY": 2.439,
+        "posZ": -12.342,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4668,9 +4668,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 12.544,
+        "posX": 12.541,
         "posY": 2.639,
-        "posZ": -12.305,
+        "posZ": -12.308,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4720,7 +4720,7 @@
       "Transform": {
         "posX": 18.226,
         "posY": 1.252,
-        "posZ": -12.393,
+        "posZ": -12.394,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4768,9 +4768,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.205,
+        "posX": 18.204,
         "posY": 1.451,
-        "posZ": -12.362,
+        "posZ": -12.364,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4818,9 +4818,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.198,
-        "posY": 1.646,
-        "posZ": -12.361,
+        "posX": 18.197,
+        "posY": 1.647,
+        "posZ": -12.364,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4868,9 +4868,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.166,
-        "posY": 1.845,
-        "posZ": -12.345,
+        "posX": 18.165,
+        "posY": 1.846,
+        "posZ": -12.35,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4918,9 +4918,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.159,
+        "posX": 18.158,
         "posY": 2.042,
-        "posZ": -12.342,
+        "posZ": -12.35,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -4968,9 +4968,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.149,
+        "posX": 18.148,
         "posY": 2.241,
-        "posZ": -12.375,
+        "posZ": -12.385,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5018,9 +5018,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.136,
-        "posY": 2.439,
-        "posZ": -12.339,
+        "posX": 18.135,
+        "posY": 2.441,
+        "posZ": -12.352,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5068,9 +5068,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 18.125,
-        "posY": 2.639,
-        "posZ": -12.356,
+        "posX": 18.124,
+        "posY": 2.64,
+        "posZ": -12.371,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5168,7 +5168,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.967,
+        "posX": 23.966,
         "posY": 1.454,
         "posZ": -12.392,
         "rotX": 0.0,
@@ -5218,7 +5218,7 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.97,
+        "posX": 23.969,
         "posY": 1.652,
         "posZ": -12.408,
         "rotX": 0.0,
@@ -5268,9 +5268,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.969,
+        "posX": 23.966,
         "posY": 1.851,
-        "posZ": -12.412,
+        "posZ": -12.411,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5318,9 +5318,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 23.97,
+        "posX": 23.966,
         "posY": 2.051,
-        "posZ": -12.42,
+        "posZ": -12.419,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5468,9 +5468,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.709,
+        "posX": 29.708,
         "posY": 1.652,
-        "posZ": -12.407,
+        "posZ": -12.406,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5518,9 +5518,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.71,
+        "posX": 29.709,
         "posY": 1.851,
-        "posZ": -12.409,
+        "posZ": -12.408,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -5568,9 +5568,9 @@
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 29.715,
+        "posX": 29.714,
         "posY": 2.051,
-        "posZ": -12.413,
+        "posZ": -12.411,
         "rotX": 0.0,
         "rotY": 180.0,
         "rotZ": 0.0,
@@ -10926,7 +10926,7 @@
       "Transform": {
         "posX": -41.694,
         "posY": 1.659,
-        "posZ": 22.18,
+        "posZ": 22.179,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,

@@ -1,7 +1,7 @@
 {
   "SaveName": "Canterbury",
   "GameMode": "Canterbury",
-  "Date": "12/22/2020 2:05:26 PM",
+  "Date": "12/22/2020 8:50:37 PM",
   "Gravity": 0.5,
   "PlayArea": 0.622,
   "GameType": "Game",
@@ -705,10 +705,10 @@
             "ImageScalar": 1.0,
             "WidthScale": 0.0,
             "CustomToken": {
-              "Thickness": 0.295,
+              "Thickness": 0.2,
               "MergeDistancePixels": 25.0,
               "StandUp": false,
-              "Stackable": true
+              "Stackable": false
             }
           },
           "LuaScript": "",
@@ -797,10 +797,10 @@
             "ImageScalar": 1.0,
             "WidthScale": 0.0,
             "CustomToken": {
-              "Thickness": 0.3,
+              "Thickness": 0.2,
               "MergeDistancePixels": 25.0,
               "StandUp": false,
-              "Stackable": true
+              "Stackable": false
             }
           },
           "LuaScript": "",
@@ -889,10 +889,10 @@
             "ImageScalar": 1.0,
             "WidthScale": 0.0,
             "CustomToken": {
-              "Thickness": 0.3,
+              "Thickness": 0.2,
               "MergeDistancePixels": 25.0,
               "StandUp": false,
-              "Stackable": true
+              "Stackable": false
             }
           },
           "LuaScript": "",
@@ -1392,7 +1392,7 @@
         "CustomTile": {
           "Type": 0,
           "Thickness": 0.2,
-          "Stackable": true,
+          "Stackable": false,
           "Stretch": true
         }
       },
@@ -1441,7 +1441,7 @@
         "CustomTile": {
           "Type": 0,
           "Thickness": 0.2,
-          "Stackable": true,
+          "Stackable": false,
           "Stretch": true
         }
       },
@@ -1490,7 +1490,7 @@
         "CustomTile": {
           "Type": 0,
           "Thickness": 0.2,
-          "Stackable": true,
+          "Stackable": false,
           "Stretch": true
         }
       },
@@ -1643,7 +1643,7 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": -0.901,
-        "posY": 1.284,
+        "posY": 1.283,
         "posZ": 11.237,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -1825,6 +1825,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "55a0b9"
     },
     {
@@ -1878,7 +1879,7 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": -0.904,
-        "posY": 1.432,
+        "posY": 1.433,
         "posZ": 11.241,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -1919,6 +1920,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "212edc"
     },
     {
@@ -1966,6 +1968,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "e6b3dc"
     },
     {
@@ -2013,6 +2016,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "c8c173"
     },
     {
@@ -2060,6 +2064,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "3d5d30"
     },
     {
@@ -2107,6 +2112,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "289467"
     },
     {
@@ -2114,7 +2120,7 @@
       "Transform": {
         "posX": -0.906,
         "posY": 1.732,
-        "posZ": 11.241,
+        "posZ": 11.24,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2161,7 +2167,7 @@
       "Transform": {
         "posX": -0.9,
         "posY": 1.732,
-        "posZ": 13.917,
+        "posZ": 13.916,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2208,7 +2214,7 @@
       "Transform": {
         "posX": -0.906,
         "posY": 1.732,
-        "posZ": 16.594,
+        "posZ": 16.593,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2255,7 +2261,7 @@
       "Transform": {
         "posX": -0.906,
         "posY": 1.732,
-        "posZ": 19.278,
+        "posZ": 19.277,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2302,7 +2308,7 @@
       "Transform": {
         "posX": -0.909,
         "posY": 1.732,
-        "posZ": 21.949,
+        "posZ": 21.948,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2396,7 +2402,7 @@
       "Transform": {
         "posX": -0.901,
         "posY": 1.582,
-        "posZ": 13.915,
+        "posZ": 13.914,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2901,7 +2907,7 @@
         "CustomTile": {
           "Type": 0,
           "Thickness": 0.2,
-          "Stackable": true,
+          "Stackable": false,
           "Stretch": true
         }
       },
@@ -2950,7 +2956,7 @@
         "CustomTile": {
           "Type": 0,
           "Thickness": 0.2,
-          "Stackable": true,
+          "Stackable": false,
           "Stretch": true
         }
       },
@@ -2999,7 +3005,7 @@
         "CustomTile": {
           "Type": 0,
           "Thickness": 0.2,
-          "Stackable": true,
+          "Stackable": false,
           "Stretch": true
         }
       },
@@ -3504,7 +3510,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "-- The collection of all the buttons, without or without cubes\nbuttons_set = {}\n\nfunction onLoad(save_state_json)\n    local co = -0.844 -- column offset\n    local cs = 0.3565 -- column scale\n    local bs = 0.0526 -- button offset\n    local ro = -0.576 -- row offset\n    local rs = 0.3565 -- row scale\n    local save_state = nil\n\n    if save_state_json ~= \"\" then\n        -- The save state contains the list of all 149 buttons, but the\n        -- JSON has to be decoded.  But first, let's verify it.\n        save_state = JSON.decode(save_state_json)\n\n        if #save_state ~= 149 then\n            broadcastToAll(\"Saved state is corrupted!\", Color.Red)\n            save_state = nil\n        end\n    end\n\n    if save_state ~= nil then\n        for _,button in ipairs(save_state) do\n            c = button.column\n            r = button.row\n            b = button.service\n            local button_data = {\n                position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                cube = getObjectFromGUID(button.cube_guid),\n                token = getObjectFromGUID(button.token_guid),\n                cube_color = button.cube_color,\n                column = c,\n                row = r,\n                service = b,\n            }\n            table.insert(buttons_set, button_data)\n        end\n    else\n        for c = 0,4 do\n            for r = 0,4 do\n                for b = 0,5 do\n                    -- skip the city service marker\n                    if not (c == 2 and r == 2 and b == 0) then\n                        local button_data = {\n                            position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                            cube = nil, -- the cube object that's placed on this token\n                            token = nil, -- the score token object moved by the button on this cube\n                            cube_color = nil, -- the color of the cube on this button\n                            column = c,\n                            row = r,\n                            service = b,\n                        }\n                        table.insert(buttons_set, button_data)\n                    end\n                end\n            end\n        end\n    end\n\n    for _,button0 in ipairs(buttons_set) do\n        local button = {\n            width = 20,\n            height = 20,\n            color = {0, 0, 0, 0},\n            hover_color = {0, 0, 0, 0.7},\n            press_color = {0, 0, 0, 0},\n            function_owner = self,\n            click_function = \"button\"..button0.column..button0.row..button0.service,\n            position = button0.position,\n        }\n\n        local func = function(obj, player, alt_click)\n            buttonClicked(obj, player, alt_click, button0)\n        end\n        self.setVar(\"button\"..button0.column..button0.row..button0.service, func)\n        self.createButton(button)\n    end\nend\n\nscoreToken = {\n--          green     red       yellow    blue     neutral\n    [0] = {'0de0a6', '3322fd', '289467', '98c6fd', '1dee61'}, -- water\n    [1] = {'ed27ad', '5eb69a', '3d5d30', '71aaaf', '60fb49'}, -- food\n    [2] = {'5808d7', '554ff6', 'e6b3dc', 'f14de0', '4b3bc4'}, -- religion\n    [3] = {'a524d6', '881675', 'c8c173', '946adc', 'b81b1e'}, -- defense\n    [4] = {'40acb1', '8a73ef', '212edc', 'b6ccbc', 'ba1fd4'}, -- commerce\n    [5] = {'7f1cbf', '204a31', '55a0b9', 'abe989', '070f23'}, -- culture\n}\n\nfunction buttonClicked(board, player, alt_click, button)\n    local token\n    local cubeBag\n    local score\n    local index = button.service\n\n    if button.cube then\n        -- Right-button click in a two-player game is used to place neutral cubes\n        if alt_click then\n            if button.cube_color ~= \"Neutral\" then\n                return\n            end\n        else\n            -- only allow a player to remove his own cubes\n            if button.cube_color ~= player then\n                return\n            end\n        end\n        token = button.token\n        score = token.getVar(\"score\") - 1\n\n        destroyObject(button.cube)\n        button.cube = nil\n        button.token = nil\n        button.cube_color = nil\n    else\n        if alt_click then\n            if #getSeatedPlayers() == 2 then\n                cubeBag = getObjectFromGUID(\"e25a01\")\n                token = getObjectFromGUID(scoreToken[index][5])\n            else\n                -- Only add a neutral token if we're in a two-player game\n                return\n            end\n        elseif player == \"Red\" then\n            cubeBag = getObjectFromGUID(\"551726\")\n            token = getObjectFromGUID(scoreToken[index][2])\n        elseif player == \"Green\" then\n            cubeBag = getObjectFromGUID(\"c9ae8b\")\n            token = getObjectFromGUID(scoreToken[index][1])\n        elseif player == \"Blue\" then\n            cubeBag = getObjectFromGUID(\"97bcca\")\n            token = getObjectFromGUID(scoreToken[index][4])\n        elseif player == \"Yellow\" then\n            cubeBag = getObjectFromGUID(\"fd6678\")\n            token = getObjectFromGUID(scoreToken[index][3])\n        else\n            print('Unrecognize color ', player)\n            return\n        end\n\n        score = token.getVar(\"score\") + 1\n\n        -- We have to invert the X-axis for some log(button)\n        local buttonPos = {-button.position.x, button.position.y, button.position.z}\n        local params = {\n            smooth = false,\n            position = board.positionToWorld(buttonPos),\n        }\n        button.cube = cubeBag.takeObject(params) -- take the cube from the cube Bag\n        button.token = token\n        if alt_click then\n            button.cube_color = \"Neutral\"\n        else\n            button.cube_color = player\n        end\n    end\n\n    token.setVar(\"score\", score)\n    if score > 14 then\n        -- Maximum score displayed is 14, but we want to be able to track\n        -- scores higher than that, just in case.\n        score = 14\n    end\n\n    local tokenPos = token.getPosition()\n    tokenPos.x = -0.9011 + 1.4 * score\n    tokenPos.y = 2\n    token.setPosition(tokenPos)\nend\n\nfunction onSave()\n    -- Save the entire button array.  It would be take a lot less space if\n    -- we just saved the buttons that have cubes on them, but then it would\n    -- be a lot more work to parse that.\n    save_state = {}\n    for _,button in ipairs(buttons_set) do\n        local state = {\n            -- objects can't be encoded, so convert them to GUIDs\n            cube_guid = button.cube and button.cube.getGUID() or nil,\n            token_guid = button.token and button.token.getGUID() or nil,\n            cube_color = button.cube_color,\n            column = button.column,\n            row = button.row,\n            service = button.service,\n        }\n        table.insert(save_state, state)\n    end\n\n    return JSON.encode(save_state)\nend\n",
+      "LuaScript": "-- The collection of all the buttons, without or without cubes\nbuttons_set = {}\n\nfunction onLoad(save_state_json)\n    local co = -0.844 -- column offset\n    local cs = 0.3565 -- column scale\n    local bs = 0.0526 -- button offset\n    local ro = -0.576 -- row offset\n    local rs = 0.3565 -- row scale\n    local save_state = nil\n\n    if save_state_json ~= \"\" then\n        -- The save state contains the list of all 149 buttons, but the\n        -- JSON has to be decoded.  But first, let's verify it.\n        save_state = JSON.decode(save_state_json)\n\n        if #save_state ~= 149 then\n            broadcastToAll(\"Saved state is corrupted!\", Color.Red)\n            save_state = nil\n        end\n    end\n\n    if save_state ~= nil then\n        for _,button in ipairs(save_state) do\n            c = button.column\n            r = button.row\n            b = button.service\n            local button_data = {\n                position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                cube = getObjectFromGUID(button.cube_guid),\n                token = getObjectFromGUID(button.token_guid),\n                cube_color = button.cube_color,\n                column = c,\n                row = r,\n                service = b,\n            }\n            table.insert(buttons_set, button_data)\n        end\n    else\n        for c = 0,4 do\n            for r = 0,4 do\n                for b = 0,5 do\n                    -- skip the city service marker\n                    if not (c == 2 and r == 2 and b == 0) then\n                        local button_data = {\n                            position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                            cube = nil, -- the cube object that's placed on this token\n                            token = nil, -- the score token object moved by the button on this cube\n                            cube_color = nil, -- the color of the cube on this button\n                            column = c,\n                            row = r,\n                            service = b,\n                        }\n                        table.insert(buttons_set, button_data)\n                    end\n                end\n            end\n        end\n    end\n\n    for _,button0 in ipairs(buttons_set) do\n        local button = {\n            width = 20,\n            height = 20,\n            color = {0, 0, 0, 0},\n            hover_color = {0, 0, 0, 0.7},\n            press_color = {0, 0, 0, 0},\n            function_owner = self,\n            click_function = \"button\"..button0.column..button0.row..button0.service,\n            position = button0.position,\n        }\n\n        local func = function(obj, player, alt_click)\n            buttonClicked(obj, player, alt_click, button0)\n        end\n        self.setVar(\"button\"..button0.column..button0.row..button0.service, func)\n        self.createButton(button)\n    end\nend\n\nscoreToken = {\n--          green     red       yellow    blue     neutral\n    [0] = {'0de0a6', '3322fd', '289467', '98c6fd', '1dee61'}, -- water\n    [1] = {'ed27ad', '5eb69a', '3d5d30', '71aaaf', '60fb49'}, -- food\n    [2] = {'5808d7', '554ff6', 'e6b3dc', 'f14de0', '4b3bc4'}, -- religion\n    [3] = {'a524d6', '881675', 'c8c173', '946adc', 'b81b1e'}, -- defense\n    [4] = {'40acb1', '8a73ef', '212edc', 'b6ccbc', 'ba1fd4'}, -- commerce\n    [5] = {'7f1cbf', '204a31', '55a0b9', 'abe989', '070f23'}, -- culture\n}\n\nfunction buttonClicked(board, player, alt_click, button)\n    local token\n    local cubeBag\n    local score\n    local index = button.service\n\n    if button.cube then\n        -- Right-button click in a two-player game is used to place neutral cubes\n        if alt_click then\n            if button.cube_color ~= \"Neutral\" then\n                return\n            end\n        else\n            -- only allow a player to remove his own cubes\n            if button.cube_color ~= player then\n                return\n            end\n        end\n        token = button.token\n        score = token.getVar(\"score\") - 1\n\n        destroyObject(button.cube)\n        button.cube = nil\n        button.token = nil\n        button.cube_color = nil\n    else\n        if alt_click then\n            if #getSeatedPlayers() == 2 then\n                cubeBag = getObjectFromGUID(\"e25a01\")\n                token = getObjectFromGUID(scoreToken[index][5])\n            else\n                -- Only add a neutral token if we're in a two-player game\n                return\n            end\n        elseif player == \"Red\" then\n            cubeBag = getObjectFromGUID(\"551726\")\n            token = getObjectFromGUID(scoreToken[index][2])\n        elseif player == \"Green\" then\n            cubeBag = getObjectFromGUID(\"c9ae8b\")\n            token = getObjectFromGUID(scoreToken[index][1])\n        elseif player == \"Blue\" then\n            cubeBag = getObjectFromGUID(\"97bcca\")\n            token = getObjectFromGUID(scoreToken[index][4])\n        elseif player == \"Yellow\" then\n            cubeBag = getObjectFromGUID(\"fd6678\")\n            token = getObjectFromGUID(scoreToken[index][3])\n        else\n            print('Unrecognize color ', player)\n            return\n        end\n\n        score = token.getVar(\"score\") + 1\n\n        -- We have to invert the X-axis for some log(button)\n        local buttonPos = {-button.position.x, button.position.y, button.position.z}\n        local params = {\n            smooth = false,\n            position = board.positionToWorld(buttonPos),\n        }\n        button.cube = cubeBag.takeObject(params) -- take the cube from the cube Bag\n        button.token = token\n        if alt_click then\n            button.cube_color = \"Neutral\"\n        else\n            button.cube_color = player\n        end\n    end\n\n    token.setVar(\"score\", score)\n    if score > 14 then\n        -- Maximum score displayed is 14, but we want to be able to track\n        -- scores higher than that, just in case.\n        score = 14\n    end\n\n    local tokenPos = token.getPosition()\n    tokenPos.x = -0.9011 + 1.4 * score\n    tokenPos.y = 2\n    token.setPosition(tokenPos)\nend\n\nfunction onSave()\n    -- Save the entire button array.  It would be take a lot less space if\n    -- we just saved the buttons that have cubes on them, but then it would\n    -- be a lot more work to parse that.\n    save_state = {}\n    for _,button in ipairs(buttons_set) do\n        local state = {\n            -- objects can't be encoded, so convert them to GUIDs\n            cube_guid = button.cube and button.cube.getGUID() or nil,\n            token_guid = button.token and button.token.getGUID() or nil,\n            cube_color = button.cube_color,\n            column = button.column,\n            row = button.row,\n            service = button.service,\n        }\n        table.insert(save_state, state)\n    end\n\n    return JSON.encode(save_state)\nend",
       "LuaScriptState": "[{\"column\":0,\"row\":0,\"service\":0},{\"column\":0,\"row\":0,\"service\":1},{\"column\":0,\"row\":0,\"service\":2},{\"column\":0,\"row\":0,\"service\":3},{\"column\":0,\"row\":0,\"service\":4},{\"column\":0,\"row\":0,\"service\":5},{\"column\":0,\"row\":1,\"service\":0},{\"column\":0,\"row\":1,\"service\":1},{\"column\":0,\"row\":1,\"service\":2},{\"column\":0,\"row\":1,\"service\":3},{\"column\":0,\"row\":1,\"service\":4},{\"column\":0,\"row\":1,\"service\":5},{\"column\":0,\"row\":2,\"service\":0},{\"column\":0,\"row\":2,\"service\":1},{\"column\":0,\"row\":2,\"service\":2},{\"column\":0,\"row\":2,\"service\":3},{\"column\":0,\"row\":2,\"service\":4},{\"column\":0,\"row\":2,\"service\":5},{\"column\":0,\"row\":3,\"service\":0},{\"column\":0,\"row\":3,\"service\":1},{\"column\":0,\"row\":3,\"service\":2},{\"column\":0,\"row\":3,\"service\":3},{\"column\":0,\"row\":3,\"service\":4},{\"column\":0,\"row\":3,\"service\":5},{\"column\":0,\"row\":4,\"service\":0},{\"column\":0,\"row\":4,\"service\":1},{\"column\":0,\"row\":4,\"service\":2},{\"column\":0,\"row\":4,\"service\":3},{\"column\":0,\"row\":4,\"service\":4},{\"column\":0,\"row\":4,\"service\":5},{\"column\":1,\"row\":0,\"service\":0},{\"column\":1,\"row\":0,\"service\":1},{\"column\":1,\"row\":0,\"service\":2},{\"column\":1,\"row\":0,\"service\":3},{\"column\":1,\"row\":0,\"service\":4},{\"column\":1,\"row\":0,\"service\":5},{\"column\":1,\"row\":1,\"service\":0},{\"column\":1,\"row\":1,\"service\":1},{\"column\":1,\"row\":1,\"service\":2},{\"column\":1,\"row\":1,\"service\":3},{\"column\":1,\"row\":1,\"service\":4},{\"column\":1,\"row\":1,\"service\":5},{\"column\":1,\"row\":2,\"service\":0},{\"column\":1,\"row\":2,\"service\":1},{\"column\":1,\"row\":2,\"service\":2},{\"column\":1,\"row\":2,\"service\":3},{\"column\":1,\"row\":2,\"service\":4},{\"column\":1,\"row\":2,\"service\":5},{\"column\":1,\"row\":3,\"service\":0},{\"column\":1,\"row\":3,\"service\":1},{\"column\":1,\"row\":3,\"service\":2},{\"column\":1,\"row\":3,\"service\":3},{\"column\":1,\"row\":3,\"service\":4},{\"column\":1,\"row\":3,\"service\":5},{\"column\":1,\"row\":4,\"service\":0},{\"column\":1,\"row\":4,\"service\":1},{\"column\":1,\"row\":4,\"service\":2},{\"column\":1,\"row\":4,\"service\":3},{\"column\":1,\"row\":4,\"service\":4},{\"column\":1,\"row\":4,\"service\":5},{\"column\":2,\"row\":0,\"service\":0},{\"column\":2,\"row\":0,\"service\":1},{\"column\":2,\"row\":0,\"service\":2},{\"column\":2,\"row\":0,\"service\":3},{\"column\":2,\"row\":0,\"service\":4},{\"column\":2,\"row\":0,\"service\":5},{\"column\":2,\"row\":1,\"service\":0},{\"column\":2,\"row\":1,\"service\":1},{\"column\":2,\"row\":1,\"service\":2},{\"column\":2,\"row\":1,\"service\":3},{\"column\":2,\"row\":1,\"service\":4},{\"column\":2,\"row\":1,\"service\":5},{\"column\":2,\"row\":2,\"service\":1},{\"column\":2,\"row\":2,\"service\":2},{\"column\":2,\"row\":2,\"service\":3},{\"column\":2,\"row\":2,\"service\":4},{\"column\":2,\"row\":2,\"service\":5},{\"column\":2,\"row\":3,\"service\":0},{\"column\":2,\"row\":3,\"service\":1},{\"column\":2,\"row\":3,\"service\":2},{\"column\":2,\"row\":3,\"service\":3},{\"column\":2,\"row\":3,\"service\":4},{\"column\":2,\"row\":3,\"service\":5},{\"column\":2,\"row\":4,\"service\":0},{\"column\":2,\"row\":4,\"service\":1},{\"column\":2,\"row\":4,\"service\":2},{\"column\":2,\"row\":4,\"service\":3},{\"column\":2,\"row\":4,\"service\":4},{\"column\":2,\"row\":4,\"service\":5},{\"column\":3,\"row\":0,\"service\":0},{\"column\":3,\"row\":0,\"service\":1},{\"column\":3,\"row\":0,\"service\":2},{\"column\":3,\"row\":0,\"service\":3},{\"column\":3,\"row\":0,\"service\":4},{\"column\":3,\"row\":0,\"service\":5},{\"column\":3,\"row\":1,\"service\":0},{\"column\":3,\"row\":1,\"service\":1},{\"column\":3,\"row\":1,\"service\":2},{\"column\":3,\"row\":1,\"service\":3},{\"column\":3,\"row\":1,\"service\":4},{\"column\":3,\"row\":1,\"service\":5},{\"column\":3,\"row\":2,\"service\":0},{\"column\":3,\"row\":2,\"service\":1},{\"column\":3,\"row\":2,\"service\":2},{\"column\":3,\"row\":2,\"service\":3},{\"column\":3,\"row\":2,\"service\":4},{\"column\":3,\"row\":2,\"service\":5},{\"column\":3,\"row\":3,\"service\":0},{\"column\":3,\"row\":3,\"service\":1},{\"column\":3,\"row\":3,\"service\":2},{\"column\":3,\"row\":3,\"service\":3},{\"column\":3,\"row\":3,\"service\":4},{\"column\":3,\"row\":3,\"service\":5},{\"column\":3,\"row\":4,\"service\":0},{\"column\":3,\"row\":4,\"service\":1},{\"column\":3,\"row\":4,\"service\":2},{\"column\":3,\"row\":4,\"service\":3},{\"column\":3,\"row\":4,\"service\":4},{\"column\":3,\"row\":4,\"service\":5},{\"column\":4,\"row\":0,\"service\":0},{\"column\":4,\"row\":0,\"service\":1},{\"column\":4,\"row\":0,\"service\":2},{\"column\":4,\"row\":0,\"service\":3},{\"column\":4,\"row\":0,\"service\":4},{\"column\":4,\"row\":0,\"service\":5},{\"column\":4,\"row\":1,\"service\":0},{\"column\":4,\"row\":1,\"service\":1},{\"column\":4,\"row\":1,\"service\":2},{\"column\":4,\"row\":1,\"service\":3},{\"column\":4,\"row\":1,\"service\":4},{\"column\":4,\"row\":1,\"service\":5},{\"column\":4,\"row\":2,\"service\":0},{\"column\":4,\"row\":2,\"service\":1},{\"column\":4,\"row\":2,\"service\":2},{\"column\":4,\"row\":2,\"service\":3},{\"column\":4,\"row\":2,\"service\":4},{\"column\":4,\"row\":2,\"service\":5},{\"column\":4,\"row\":3,\"service\":0},{\"column\":4,\"row\":3,\"service\":1},{\"column\":4,\"row\":3,\"service\":2},{\"column\":4,\"row\":3,\"service\":3},{\"column\":4,\"row\":3,\"service\":4},{\"column\":4,\"row\":3,\"service\":5},{\"column\":4,\"row\":4,\"service\":0},{\"column\":4,\"row\":4,\"service\":1},{\"column\":4,\"row\":4,\"service\":2},{\"column\":4,\"row\":4,\"service\":3},{\"column\":4,\"row\":4,\"service\":4},{\"column\":4,\"row\":4,\"service\":5}]",
       "GUID": "e2f237",
       "AttachedSnapPoints": [
@@ -7795,14 +7801,15 @@
       },
       "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "c4ec6a"
     },
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": -41.692,
+        "posX": -41.691,
         "posY": 1.659,
-        "posZ": 22.176,
+        "posZ": 22.175,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -9862,7 +9869,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "playerSequence = {\"Red\", \"Green\", \"Blue\", \"Yellow\"}\norderTokenGUIDs = {\n    \"7ed858\", -- Saxon Prince\n    \"e67c99\", -- Saxon Duke\n    \"39477f\", -- Saxon Count\n    \"886874\", -- Saxon Earl\n}\norderBag = nil\n\nfunction onLoad()\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"Start\\nGame\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 1000,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click here once all players are seated.\"\n    }\n\n    self.createButton(params)\n    orderBag = getObjectFromGUID(\"9566ac\")\nend\n\n-- returns the index of table where 'value' exist, or 0\nfunction findIndex(table, value)\n    for k,v in pairs(table) do\n        if v == value then\n            return k\n        end\n    end\n\n    return 0\nend\n\n-- Returns the top two tiles\nfunction topTiles(zone)\n    local tiles = {nil, nil}\n\n    -- the heights of the two highest tiles so far\n    local heights = {0, 0}\n\n    for k,v in pairs(zone.getObjects()) do\n        local pos = v.getPosition()\n\n        -- if the new height is higher than the current top, then it becomes\n        -- the new top, and the previous top because second place\n        if pos.y > heights[1] then\n            tiles[2] = tiles[1]\n            tiles[1] = v\n            heights[1] = pos.y\n        -- otherwise, if the new height is in between the top two heights,\n        -- then it becomes the new second place\n        elseif pos.y > heights[2] then\n            tiles[2] = v\n            heights[2] = pos.y\n        end\n    end\n\n    return tiles\nend\n\n-- Create the remaining clones of all the structure tiles\n-- We do this so that we don't need to create the clones manually.\n-- That makes it easier to maintain the code for the tiles.\nfunction createStructureTileClones()\n    -- But first, we only want to do this if there are no clones at all.\n    -- That is a pristine board.\n    for _,v in ipairs(getAllObjects()) do\n        if v.getGMNotes() == \"clone\" then\n            -- If there's at least one clone on the board,\n            -- then assume that they all exist.\n            print(\"Continuing game in progress\")\n            return\n        end\n    end\n\n    local tiles = {\n        { \"55f02e\", 11 }, -- small structures\n        { \"1d9538\", 11 },\n        { \"fbf9c8\", 8 },\n        { \"0db045\", 8 },\n        { \"6e8c71\", 5 },\n        { \"564ba1\", 5 },\n        { \"c05fff\", 5 }, -- medium structures\n        { \"378eb3\", 5 },\n        { \"4d6a48\", 4 },\n        { \"fddac6\", 4 },\n        { \"54137a\", 3 },\n        { \"1c7cef\", 3},\n    }\n\n    for _,v in ipairs(tiles) do\n        local tile = getObjectFromGUID(v[1])\n        local pos = tile.getPosition()\n\n        for i = 1,v[2] do\n            pos.y = 1 + i / 4.0\n            local params = {\n                position = pos,\n                snap_to_grid = true,\n            }\n\n            local clone = tile.clone(params)\n            clone.setGMNotes(\"clone\")\n        end\n    end\nend\n\nfunction twoPlayers(seatedOrder)\n    -- The scripting zones of each small and medium tile stack\n    local sourceZoneGUIDs = {\n        -- Small, from right to left\n        { \"80c9b0\", \"2bf2e1\", \"6f5c54\", \"3725cd\", \"9c1045\", \"4a6642\"},\n        -- Medium, from right to left\n        { \"c1a842\", \"5ad5ea\", \"057f91\", \"77bdf6\", \"c26c72\", \"4819cb\"},\n    }\n\n    -- each player has a pair of zones next to his board that old the\n    -- stacks of structures for the neutral player.\n    local targetZoneGUIDs = {\n        --         small     medium    build token\n        Red =    { \"c7a89a\", \"68f179\", \"fd003f\" },\n        Green =  { \"8c0c34\", \"bd48f8\", \"71cf7f\" },\n        Blue =   { \"d4314d\", \"eb8643\", \"bb551a\" },\n        Yellow = { \"a6e79d\", \"fab66a\", \"7fd04a\" },\n    }\n\n    -- The actual build/nobuild tokens, one for each player\n    local buildTokensGUIDs = { \"24da88\", \"e42c68\" }\n\n    -- Distribute all 24 tiles to four stacks, and give each player a\n    -- build / no-build token\n\n    -- first build the small structure stacks, then the medium structure stacks\n    -- index==1 -> small structures, index==2 -> medium structures\n    for sizeIndex = 1,2 do\n        -- iterate over each of the stacks\n        for tileIndex,sourceZoneGuid in pairs(sourceZoneGUIDs[sizeIndex]) do\n            local sourceZone = getObjectFromGUID(sourceZoneGuid)\n            local tiles = topTiles(sourceZone)\n\n            -- tiles[1] is the top tile of the stack, tiles[2] is under it\n            for playerNumber,tile in pairs(tiles) do\n                local playerColor = seatedOrder[playerNumber]\n\n                -- target zone for this stack\n                local targetZoneGUID = targetZoneGUIDs[playerColor][sizeIndex]\n                local targetZone = getObjectFromGUID(targetZoneGUID)\n\n                -- setPosition() returns quickly, before it's finished moving\n                -- the tile.  If we try to move all of the tiles of one stack\n                -- to the same position, they will crash into each other.\n                -- So instead, we layer the tiles in mid-air.  They will then fall\n                -- down in a neat stack together.\n                local pos = targetZone.getPosition()\n                pos.y = pos.y + tileIndex / 2.0\n                tile.setPosition(pos)\n            end\n        end\n    end\n\n    -- And now the build / no-build tokens, which are kept in the same\n    -- bag as the order tiles\n    for playerNumber = 1,2 do\n        local playerColor = seatedOrder[playerNumber]\n        local targetZoneGUID = targetZoneGUIDs[playerColor][3]\n        local targetZone = getObjectFromGUID(targetZoneGUID)\n        local params = {\n            smooth = false,\n            position = targetZone.getPosition(),\n            guid = buildTokensGUIDs[playerNumber],\n        }\n        orderBag.takeObject(params) -- grab the token\n    end\nend\n\n-- Remove tokens for colors that are not playing.  It's easier in TTS to\n-- remove unwanted objects than it is to create them via code\nfunction deleteOtherPlayers(players)\n    -- List of objects to remove for each color\n    local playerTokens = {\n        -- Score token, king's bonus tokens, player mat, player pawn\n        Red = { \"237668\", \"204a31\", \"3322fd\", \"554ff6\", \"5eb69a\", \"881675\", \"8a73ef\", \"aa2037\", \"bd0da8\" },\n        Green = { \"a0ccfc\", \"0de0a6\", \"40acb1\", \"5808d7\", \"7f1cbf\", \"a524d6\", \"ed27ad\", \"3c489f\", \"e88e72\"},\n        Blue = { \"5d159c\", \"71aaaf\", \"946adc\", \"98c6fd\", \"abe989\", \"b6ccbc\", \"f14de0\", \"fe9bbb\", \"55d8d6\" },\n        Yellow = { \"c4ec6a\", \"212edc\", \"289467\", \"3d5d30\", \"55a0b9\", \"c8c173\", \"e6b3dc\", \"4f60c5\", \"320610\" },\n        -- king's bonus tokens only\n        Neutral = { \"1dee61\", \"4b3bc4\", \"60fb49\", \"070f23\", \"b81b1e\", \"ba1fd4\" }\n    }\n\n    for _,playerColor in ipairs(players) do\n        local tokensToDelete = playerTokens[playerColor]\n\n        for _,tokenGUID in ipairs(tokensToDelete) do\n            local token = getObjectFromGUID(tokenGUID)\n\n            destroyObject(token)\n        end\n    end\nend\n\nfunction click_func(obj, color, alt_click)\n    -- first, generate a list of seated players sorted by the order of\n    -- colors on the table itself: Red, Green, Blue, Yellow\n    local seatedPlayers = getSeatedPlayers()\n\n    if #seatedPlayers < 2 then\n        broadcastToAll(\"Not enough seated players\", {r=1, g=0, b=0})\n        return\n    end\n\n    -- A list of which players are seated, from left to right\n    -- This is an array of player colors\n    local seatedOrder = {}\n    for _,v in ipairs(playerSequence) do\n        if findIndex(seatedPlayers, v) > 0 then\n            table.insert(seatedOrder, v)\n        end\n    end\n\n    -- Choose one to be first\n    local first = math.random(1, #seatedOrder)\n\n    -- Create a table of the player order.  This is an array of player colors\n    -- This is basically seatedOrder rotated so that the first player is\n    -- the first element in the array.\n    local playerOrder = {}\n    for i = 1,#seatedOrder do\n        table.insert(playerOrder, seatedOrder[first])\n        first = first + 1\n        if first > #seatedOrder then\n            first = 1\n        end\n    end\n\n    -- The locations where the player order tokens go\n    local playerOrderTokenZones = {\n        Red = getObjectFromGUID(\"dc5713\"),\n        Green = getObjectFromGUID(\"e696de\"),\n        Blue = getObjectFromGUID(\"aacb34\"),\n        Yellow = getObjectFromGUID(\"25d4d6\"),\n    }\n\n    -- Now deal out the player order tokens\n    for k,v in pairs(playerOrder) do\n        local targetZone = playerOrderTokenZones[v]\n        local params = {\n            smooth = false,\n            position = targetZone.getPosition(),\n            guid = orderTokenGUIDs[k],\n        }\n        orderBag.takeObject(params)\n    end\n\n    createStructureTileClones()\n\n    local missingPlayers = {}\n    for _,v in ipairs(Player.getAvailableColors()) do\n        local index = findIndex(seatedPlayers, v)\n        if index == 0 then\n            table.insert(missingPlayers, v)\n        end\n    end\n\n    -- if we're playing with more than 2 players, delete the neutral player too\n    if #seatedOrder > 2 then\n        table.insert(missingPlayers, \"Neutral\")\n    end\n\n    deleteOtherPlayers(missingPlayers)\n\n    -- Two-player rules require additional setup\n    if #seatedOrder == 2 then\n        -- We need to wait one frame to give the structure tile scripting zones\n        -- time to notice all these cloned tiles inside them.\n        Wait.frames(function() twoPlayers(seatedOrder) end, 1)\n    end\nend",
+      "LuaScript": "playerSequence = {\"Red\", \"Green\", \"Blue\", \"Yellow\"}\norderTokenGUIDs = {\n    \"7ed858\", -- Saxon Prince\n    \"e67c99\", -- Saxon Duke\n    \"39477f\", -- Saxon Count\n    \"886874\", -- Saxon Earl\n}\norderBag = nil\n\nfunction onLoad()\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"Start\\nGame\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 1000,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click here once all players are seated.\"\n    }\n\n    self.createButton(params)\n    orderBag = getObjectFromGUID(\"9566ac\")\nend\n\n-- returns the index of table where 'value' exist, or 0\nfunction findIndex(table, value)\n    for k,v in pairs(table) do\n        if v == value then\n            return k\n        end\n    end\n\n    return 0\nend\n\n-- Returns the top two tiles\nfunction topTiles(zone)\n    local tiles = {nil, nil}\n\n    -- the heights of the two highest tiles so far\n    local heights = {0, 0}\n\n    for k,v in pairs(zone.getObjects()) do\n        local pos = v.getPosition()\n\n        -- if the new height is higher than the current top, then it becomes\n        -- the new top, and the previous top because second place\n        if pos.y > heights[1] then\n            tiles[2] = tiles[1]\n            tiles[1] = v\n            heights[1] = pos.y\n        -- otherwise, if the new height is in between the top two heights,\n        -- then it becomes the new second place\n        elseif pos.y > heights[2] then\n            tiles[2] = v\n            heights[2] = pos.y\n        end\n    end\n\n    return tiles\nend\n\n-- Create the remaining clones of all the structure tiles\n-- We do this so that we don't need to create the clones manually.\n-- That makes it easier to maintain the code for the tiles.\nfunction createStructureTileClones()\n    -- But first, we only want to do this if there are no clones at all.\n    -- That is a pristine board.\n    for _,v in ipairs(getAllObjects()) do\n        if v.getGMNotes() == \"clone\" then\n            -- If there's at least one clone on the board,\n            -- then assume that they all exist.\n            print(\"Continuing game in progress\")\n            return\n        end\n    end\n\n    local tiles = {\n        { \"55f02e\", 11 }, -- small structures\n        { \"1d9538\", 11 },\n        { \"fbf9c8\", 8 },\n        { \"0db045\", 8 },\n        { \"6e8c71\", 5 },\n        { \"564ba1\", 5 },\n        { \"c05fff\", 5 }, -- medium structures\n        { \"378eb3\", 5 },\n        { \"4d6a48\", 4 },\n        { \"fddac6\", 4 },\n        { \"54137a\", 3 },\n        { \"1c7cef\", 3},\n    }\n\n    for _,v in ipairs(tiles) do\n        local tile = getObjectFromGUID(v[1])\n        local pos = tile.getPosition()\n\n        for i = 1,v[2] do\n            pos.y = 1 + i / 4.0\n            local params = {\n                position = pos,\n                snap_to_grid = true,\n            }\n\n            local clone = tile.clone(params)\n            clone.setGMNotes(\"clone\")\n        end\n    end\nend\n\nfunction twoPlayers(seatedOrder)\n    -- The scripting zones of each small and medium tile stack\n    local sourceZoneGUIDs = {\n        -- Small, from right to left\n        { \"80c9b0\", \"2bf2e1\", \"6f5c54\", \"3725cd\", \"9c1045\", \"4a6642\"},\n        -- Medium, from right to left\n        { \"c1a842\", \"5ad5ea\", \"057f91\", \"77bdf6\", \"c26c72\", \"4819cb\"},\n    }\n\n    -- each player has a pair of zones next to his board that old the\n    -- stacks of structures for the neutral player.\n    local targetZoneGUIDs = {\n        --         small     medium    build token\n        Red =    { \"c7a89a\", \"68f179\", \"fd003f\" },\n        Green =  { \"8c0c34\", \"bd48f8\", \"71cf7f\" },\n        Blue =   { \"d4314d\", \"eb8643\", \"bb551a\" },\n        Yellow = { \"a6e79d\", \"fab66a\", \"7fd04a\" },\n    }\n\n    -- The actual build/nobuild tokens, one for each player\n    local buildTokensGUIDs = { \"24da88\", \"e42c68\" }\n\n    -- Distribute all 24 tiles to four stacks, and give each player a\n    -- build / no-build token\n\n    -- first build the small structure stacks, then the medium structure stacks\n    -- index==1 -> small structures, index==2 -> medium structures\n    for sizeIndex = 1,2 do\n        -- iterate over each of the stacks\n        for tileIndex,sourceZoneGuid in pairs(sourceZoneGUIDs[sizeIndex]) do\n            local sourceZone = getObjectFromGUID(sourceZoneGuid)\n            local tiles = topTiles(sourceZone)\n\n            -- tiles[1] is the top tile of the stack, tiles[2] is under it\n            for playerNumber,tile in pairs(tiles) do\n                local playerColor = seatedOrder[playerNumber]\n\n                -- target zone for this stack\n                local targetZoneGUID = targetZoneGUIDs[playerColor][sizeIndex]\n                local targetZone = getObjectFromGUID(targetZoneGUID)\n\n                -- setPosition() returns quickly, before it's finished moving\n                -- the tile.  If we try to move all of the tiles of one stack\n                -- to the same position, they will crash into each other.\n                -- So instead, we layer the tiles in mid-air.  They will then fall\n                -- down in a neat stack together.\n                local pos = targetZone.getPosition()\n                pos.y = pos.y + tileIndex / 2.0\n                tile.setPosition(pos)\n            end\n        end\n    end\n\n    -- And now the build / no-build tokens, which are kept in the same\n    -- bag as the order tiles\n    for playerNumber = 1,2 do\n        local playerColor = seatedOrder[playerNumber]\n        local targetZoneGUID = targetZoneGUIDs[playerColor][3]\n        local targetZone = getObjectFromGUID(targetZoneGUID)\n        local params = {\n            smooth = false,\n            position = targetZone.getPosition(),\n            guid = buildTokensGUIDs[playerNumber],\n        }\n        orderBag.takeObject(params) -- grab the token\n    end\nend\n\n-- Remove tokens for colors that are not playing.  It's easier in TTS to\n-- remove unwanted objects than it is to create them via code\nfunction deleteOtherPlayers(players)\n    -- List of objects to remove for each color\n    local playerTokens = {\n        -- Score token, king's bonus tokens, player mat, player pawn\n        Red = { \"237668\", \"204a31\", \"3322fd\", \"554ff6\", \"5eb69a\", \"881675\", \"8a73ef\", \"aa2037\", \"bd0da8\" },\n        Green = { \"a0ccfc\", \"0de0a6\", \"40acb1\", \"5808d7\", \"7f1cbf\", \"a524d6\", \"ed27ad\", \"3c489f\", \"e88e72\"},\n        Blue = { \"5d159c\", \"71aaaf\", \"946adc\", \"98c6fd\", \"abe989\", \"b6ccbc\", \"f14de0\", \"fe9bbb\", \"55d8d6\" },\n        Yellow = { \"c4ec6a\", \"212edc\", \"289467\", \"3d5d30\", \"55a0b9\", \"c8c173\", \"e6b3dc\", \"4f60c5\", \"320610\" },\n        -- king's bonus tokens only\n        Neutral = { \"1dee61\", \"4b3bc4\", \"60fb49\", \"070f23\", \"b81b1e\", \"ba1fd4\" }\n    }\n\n    for _,playerColor in ipairs(players) do\n        local tokensToDelete = playerTokens[playerColor]\n\n        for _,tokenGUID in ipairs(tokensToDelete) do\n            local token = getObjectFromGUID(tokenGUID)\n\n            destroyObject(token)\n        end\n    end\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction click_func(obj, color, alt_click)\n    -- first, generate a list of seated players sorted by the order of\n    -- colors on the table itself: Red, Green, Blue, Yellow\n    local seatedPlayers = getSeatedPlayers()\n\n    if #seatedPlayers < 2 then\n        broadcastToAll(\"Not enough seated players\", {r=1, g=0, b=0})\n        return\n    end\n\n    -- A list of which players are seated, from left to right\n    -- This is an array of player colors\n    local seatedOrder = {}\n    for _,v in ipairs(playerSequence) do\n        if findIndex(seatedPlayers, v) > 0 then\n            table.insert(seatedOrder, v)\n        end\n    end\n\n    -- Choose one to be first\n    local first = math.random(#seatedOrder)\n\n    -- Create a table of the player order.  This is an array of player colors\n    -- This is basically seatedOrder rotated so that the first player is\n    -- the first element in the array.\n    local playerOrder = {}\n    for i = 1,#seatedOrder do\n        table.insert(playerOrder, seatedOrder[first])\n        first = first + 1\n        if first > #seatedOrder then\n            first = 1\n        end\n    end\n\n    -- The locations where the player order tokens go\n    local playerOrderTokenZones = {\n        Red = getObjectFromGUID(\"dc5713\"),\n        Green = getObjectFromGUID(\"e696de\"),\n        Blue = getObjectFromGUID(\"aacb34\"),\n        Yellow = getObjectFromGUID(\"25d4d6\"),\n    }\n\n    local playerMoneyZones = {\n        Red = getObjectFromGUID(\"0c864b\"),\n        Green = getObjectFromGUID(\"f30c9d\"),\n        Blue = getObjectFromGUID(\"09fffe\"),\n        Yellow = getObjectFromGUID(\"67f67f\"),\n    }\n\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    -- Now deal out the player order tokens and money\n    for k,playerColor in pairs(playerOrder) do\n        local targetZone = playerOrderTokenZones[playerColor]\n        local params = {\n            smooth = false,\n            position = targetZone.getPosition(),\n            guid = orderTokenGUIDs[k],\n        }\n        orderBag.takeObject(params)\n\n        -- Each player starts with $6\n        local targetZone = playerMoneyZones[playerColor]\n        local zoneSize = targetZone.getScale()\n        local params = {\n            smooth = false,\n        }\n        for i = 1,6 do\n            -- Distribute the coins, but make sure they're distributed\n            -- randomly so that they don't create a sticky stack\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + i\n            params.position = pos\n            moneyBags[1].takeObject(params)\n        end\n    end\n\n    createStructureTileClones()\n\n    -- Remove all the objects associated with player colors not at the table\n    local missingPlayers = {}\n    for _,v in ipairs(Player.getAvailableColors()) do\n        local index = findIndex(seatedPlayers, v)\n        if index == 0 then\n            table.insert(missingPlayers, v)\n        end\n    end\n\n    -- if we're playing with more than 2 players, delete the neutral player too\n    if #seatedOrder > 2 then\n        table.insert(missingPlayers, \"Neutral\")\n    end\n\n    deleteOtherPlayers(missingPlayers)\n\n    -- Two-player rules require additional setup\n    if #seatedOrder == 2 then\n        -- We need to wait one frame to give the structure tile scripting zones\n        -- time to notice all these cloned tiles inside them.\n        Wait.frames(function() twoPlayers(seatedOrder) end, 1)\n    end\nend",
       "LuaScriptState": "",
       "GUID": "ca0870"
     },
@@ -10368,7 +10375,7 @@
       "Transform": {
         "posX": -52.0,
         "posY": 1.0,
-        "posZ": -24.0,
+        "posZ": -23.003,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -10446,7 +10453,7 @@
       "Transform": {
         "posX": -22.5,
         "posY": 1.0,
-        "posZ": -24.0,
+        "posZ": -23.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -10524,7 +10531,7 @@
       "Transform": {
         "posX": 20.0,
         "posY": 1.0,
-        "posZ": -24.0,
+        "posZ": -23.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -10602,7 +10609,7 @@
       "Transform": {
         "posX": 48.5,
         "posY": 1.0,
-        "posZ": -24.0,
+        "posZ": -23.0,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -11021,9 +11028,9 @@
     {
       "Name": "ScriptingTrigger",
       "Transform": {
-        "posX": -44.0,
+        "posX": -52.0,
         "posY": 1.0,
-        "posZ": -25.0,
+        "posZ": -25.5,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -11060,9 +11067,9 @@
     {
       "Name": "ScriptingTrigger",
       "Transform": {
-        "posX": -14.97,
+        "posX": -22.5,
         "posY": 1.0,
-        "posZ": -25.0,
+        "posZ": -25.5,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -11099,9 +11106,9 @@
     {
       "Name": "ScriptingTrigger",
       "Transform": {
-        "posX": 15.03,
+        "posX": 20.0,
         "posY": 1.0,
-        "posZ": -25.0,
+        "posZ": -25.5,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -11138,9 +11145,9 @@
     {
       "Name": "ScriptingTrigger",
       "Transform": {
-        "posX": 44.03,
+        "posX": 48.5,
         "posY": 1.0,
-        "posZ": -25.0,
+        "posZ": -25.5,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -11219,6 +11226,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "60fb49"
     },
     {
@@ -11266,6 +11274,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "1dee61"
     },
     {
@@ -11313,6 +11322,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "4b3bc4"
     },
     {
@@ -11360,6 +11370,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "b81b1e"
     },
     {
@@ -11407,6 +11418,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "ba1fd4"
     },
     {
@@ -11454,6 +11466,7 @@
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
       "LuaScriptState": "0",
+      "XmlUI": "",
       "GUID": "070f23"
     },
     {
@@ -11659,6 +11672,162 @@
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "c1a842"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -43.96,
+        "posY": 1.0,
+        "posZ": -22.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 5.0,
+        "scaleY": 0.1,
+        "scaleZ": 9.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.51
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "0c864b"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -14.97,
+        "posY": 1.0,
+        "posZ": -22.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 5.0,
+        "scaleY": 0.1,
+        "scaleZ": 9.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.51
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "f30c9d"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 15.03,
+        "posY": 1.0,
+        "posZ": -22.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 5.0,
+        "scaleY": 0.1,
+        "scaleZ": 9.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.51
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "09fffe"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 44.03,
+        "posY": 1.0,
+        "posZ": -22.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 5.0,
+        "scaleY": 0.1,
+        "scaleZ": 9.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.51
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "67f67f"
     }
   ],
   "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",

@@ -1,7 +1,7 @@
 {
   "SaveName": "Canterbury",
   "GameMode": "Canterbury",
-  "Date": "12/22/2020 8:50:37 PM",
+  "Date": "12/26/2020 10:43:19 AM",
   "Gravity": 0.5,
   "PlayArea": 0.622,
   "GameType": "Game",
@@ -948,7 +948,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad()\n    local params = {\n        click_function = \"clickLevyFunds\",\n        function_owner = self,\n        label          = \"Collect\",\n        position       = {-2, 0.2, 0.75},\n        rotation       = {0, 0, 0},\n        width          = 400,\n        height         = 150,\n        font_size      = 100,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click to collect money\"\n    }\n\n    -- Create the button for Levy Funds\n    self.createButton(params)\n\n    -- Create the button for Tax and Build\n    params.click_function = \"clickTaxBuild\"\n    params.position = {2, 0.2, 0.75}\n    self.createButton(params)\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction collectMoney(money)\n    local targetZone = getObjectFromGUID(\"67f67f\")\n    local zoneSize = targetZone.getScale()\n\n    local denominations = {10, 5, 1}\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    local params = {\n        smooth = false,\n    }\n    local height = 3\n\n    for _,v in pairs(denominations) do\n        while money >= v do\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + height\n            params.position = pos\n            moneyBags[v].takeObject(params)\n\n            height = height + 1\n            money = money - v\n        end\n    end\nend\n\nfunction getMoney()\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local cityMarker = getObjectFromGUID(\"6bff57\")\n    local score = gameBoard.call(\"markerScore\", cityMarker)\n\n    return math.floor((score - 1) / 10) + 5\nend\n\nfunction clickLevyFunds(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(money)\nend\n\nfunction clickTaxBuild(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(math.floor(money / 2))\nend\n",
+      "LuaScript": "function onLoad()\n    local params = {\n        click_function = \"clickLevyFunds\",\n        function_owner = self,\n        label          = \"Collect\",\n        position       = {-2, 0.2, 0.75},\n        rotation       = {0, 0, 0},\n        width          = 400,\n        height         = 150,\n        font_size      = 100,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click to collect money\"\n    }\n\n    -- Create the button for Levy Funds\n    self.createButton(params)\n\n    -- Create the button for Tax and Build\n    params.click_function = \"clickTaxBuild\"\n    params.position = {2, 0.2, 0.75}\n    self.createButton(params)\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction collectMoney(money)\n    local targetZone = getObjectFromGUID(\"67f67f\")\n    local zoneSize = targetZone.getScale()\n\n    local denominations = {10, 5, 1}\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    local params = {\n        smooth = false,\n    }\n    local height = 3\n\n    for _,v in pairs(denominations) do\n        while money >= v do\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + height\n            params.position = pos\n            moneyBags[v].takeObject(params)\n\n            height = height + 1\n            money = money - v\n        end\n    end\nend\n\nfunction getMoney()\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local cityMarker = getObjectFromGUID(\"6bff57\")\n    local score = gameBoard.call(\"markerScore\", cityMarker)\n\n    return math.floor((score - 1) / 10) + 5\nend\n\nfunction clickLevyFunds(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(money)\nend\n\nfunction clickTaxBuild(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(math.floor(money / 2))\nend",
       "LuaScriptState": "",
       "GUID": "4f60c5",
       "AttachedSnapPoints": [
@@ -1059,7 +1059,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad()\n    local params = {\n        click_function = \"clickLevyFunds\",\n        function_owner = self,\n        label          = \"Collect\",\n        position       = {-2, 0.2, 0.75},\n        rotation       = {0, 0, 0},\n        width          = 400,\n        height         = 150,\n        font_size      = 100,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click to collect money\"\n    }\n\n    -- Create the button for Levy Funds\n    self.createButton(params)\n\n    -- Create the button for Tax and Build\n    params.click_function = \"clickTaxBuild\"\n    params.position = {2, 0.2, 0.75}\n    self.createButton(params)\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction collectMoney(money)\n    local targetZone = getObjectFromGUID(\"f30c9d\")\n    local zoneSize = targetZone.getScale()\n\n    local denominations = {10, 5, 1}\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    local params = {\n        smooth = false,\n    }\n    local height = 3\n\n    for _,v in pairs(denominations) do\n        while money >= v do\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + height\n            params.position = pos\n            moneyBags[v].takeObject(params)\n\n            height = height + 1\n            money = money - v\n        end\n    end\nend\n\nfunction getMoney()\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local cityMarker = getObjectFromGUID(\"6bff57\")\n    local score = gameBoard.call(\"markerScore\", cityMarker)\n\n    return math.floor((score - 1) / 10) + 5\nend\n\nfunction clickLevyFunds(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(money)\nend\n\nfunction clickTaxBuild(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(math.floor(money / 2))\nend\n",
+      "LuaScript": "function onLoad()\n    local params = {\n        click_function = \"clickLevyFunds\",\n        function_owner = self,\n        label          = \"Collect\",\n        position       = {-2, 0.2, 0.75},\n        rotation       = {0, 0, 0},\n        width          = 400,\n        height         = 150,\n        font_size      = 100,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click to collect money\"\n    }\n\n    -- Create the button for Levy Funds\n    self.createButton(params)\n\n    -- Create the button for Tax and Build\n    params.click_function = \"clickTaxBuild\"\n    params.position = {2, 0.2, 0.75}\n    self.createButton(params)\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction collectMoney(money)\n    local targetZone = getObjectFromGUID(\"f30c9d\")\n    local zoneSize = targetZone.getScale()\n\n    local denominations = {10, 5, 1}\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    local params = {\n        smooth = false,\n    }\n    local height = 3\n\n    for _,v in pairs(denominations) do\n        while money >= v do\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + height\n            params.position = pos\n            moneyBags[v].takeObject(params)\n\n            height = height + 1\n            money = money - v\n        end\n    end\nend\n\nfunction getMoney()\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local cityMarker = getObjectFromGUID(\"6bff57\")\n    local score = gameBoard.call(\"markerScore\", cityMarker)\n\n    return math.floor((score - 1) / 10) + 5\nend\n\nfunction clickLevyFunds(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(money)\nend\n\nfunction clickTaxBuild(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(math.floor(money / 2))\nend",
       "LuaScriptState": "",
       "GUID": "3c489f",
       "AttachedSnapPoints": [
@@ -1320,7 +1320,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad()\n    local params = {\n        click_function = \"clickLevyFunds\",\n        function_owner = self,\n        label          = \"Collect\",\n        position       = {-2, 0.2, 0.75},\n        rotation       = {0, 0, 0},\n        width          = 400,\n        height         = 150,\n        font_size      = 100,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click to collect money\"\n    }\n\n    -- Create the button for Levy Funds\n    self.createButton(params)\n\n    -- Create the button for Tax and Build\n    params.click_function = \"clickTaxBuild\"\n    params.position = {2, 0.2, 0.75}\n    self.createButton(params)\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction collectMoney(money)\n    local targetZone = getObjectFromGUID(\"09fffe\")\n    local zoneSize = targetZone.getScale()\n\n    local denominations = {10, 5, 1}\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    local params = {\n        smooth = false,\n    }\n    local height = 3\n\n    for _,v in pairs(denominations) do\n        while money >= v do\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + height\n            params.position = pos\n            moneyBags[v].takeObject(params)\n\n            height = height + 1\n            money = money - v\n        end\n    end\nend\n\nfunction getMoney()\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local cityMarker = getObjectFromGUID(\"6bff57\")\n    local score = gameBoard.call(\"markerScore\", cityMarker)\n\n    return math.floor((score - 1) / 10) + 5\nend\n\nfunction clickLevyFunds(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(money)\nend\n\nfunction clickTaxBuild(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(math.floor(money / 2))\nend\n",
+      "LuaScript": "function onLoad()\n    local params = {\n        click_function = \"clickLevyFunds\",\n        function_owner = self,\n        label          = \"Collect\",\n        position       = {-2, 0.2, 0.75},\n        rotation       = {0, 0, 0},\n        width          = 400,\n        height         = 150,\n        font_size      = 100,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click to collect money\"\n    }\n\n    -- Create the button for Levy Funds\n    self.createButton(params)\n\n    -- Create the button for Tax and Build\n    params.click_function = \"clickTaxBuild\"\n    params.position = {2, 0.2, 0.75}\n    self.createButton(params)\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction collectMoney(money)\n    local targetZone = getObjectFromGUID(\"09fffe\")\n    local zoneSize = targetZone.getScale()\n\n    local denominations = {10, 5, 1}\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    local params = {\n        smooth = false,\n    }\n    local height = 3\n\n    for _,v in pairs(denominations) do\n        while money >= v do\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + height\n            params.position = pos\n            moneyBags[v].takeObject(params)\n\n            height = height + 1\n            money = money - v\n        end\n    end\nend\n\nfunction getMoney()\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local cityMarker = getObjectFromGUID(\"6bff57\")\n    local score = gameBoard.call(\"markerScore\", cityMarker)\n\n    return math.floor((score - 1) / 10) + 5\nend\n\nfunction clickLevyFunds(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(money)\nend\n\nfunction clickTaxBuild(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(math.floor(money / 2))\nend",
       "LuaScriptState": "",
       "GUID": "fe9bbb",
       "AttachedSnapPoints": [
@@ -1499,7 +1499,7 @@
       "Transform": {
         "posX": -0.901,
         "posY": 1.283,
-        "posZ": 13.919,
+        "posZ": 13.918,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1544,8 +1544,8 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9,
-        "posY": 1.283,
+        "posX": -0.901,
+        "posY": 1.284,
         "posZ": 21.953,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -1591,7 +1591,7 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
+        "posX": -0.9,
         "posY": 1.283,
         "posZ": 8.555,
         "rotX": 0.0,
@@ -1638,7 +1638,7 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
+        "posX": -0.9,
         "posY": 1.283,
         "posZ": 11.237,
         "rotX": 0.0,
@@ -1779,9 +1779,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.902,
+        "posX": -0.901,
         "posY": 1.433,
-        "posZ": 8.557,
+        "posZ": 8.556,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1826,9 +1826,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.907,
+        "posX": -0.904,
         "posY": 1.732,
-        "posZ": 8.56,
+        "posZ": 8.558,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1873,9 +1873,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.904,
+        "posX": -0.903,
         "posY": 1.433,
-        "posZ": 11.241,
+        "posZ": 11.24,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1922,7 +1922,7 @@
       "Transform": {
         "posX": -0.904,
         "posY": 1.433,
-        "posZ": 16.594,
+        "posZ": 16.593,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -1969,7 +1969,7 @@
       "Transform": {
         "posX": -0.899,
         "posY": 1.433,
-        "posZ": 13.917,
+        "posZ": 13.916,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2016,7 +2016,7 @@
       "Transform": {
         "posX": -0.903,
         "posY": 1.433,
-        "posZ": 19.28,
+        "posZ": 19.279,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2061,9 +2061,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.905,
-        "posY": 1.433,
-        "posZ": 21.955,
+        "posX": -0.906,
+        "posY": 1.432,
+        "posZ": 21.956,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2108,9 +2108,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.906,
+        "posX": -0.903,
         "posY": 1.732,
-        "posZ": 11.24,
+        "posZ": 11.238,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2155,9 +2155,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.9,
+        "posX": -0.901,
         "posY": 1.732,
-        "posZ": 13.916,
+        "posZ": 13.912,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2204,7 +2204,7 @@
       "Transform": {
         "posX": -0.906,
         "posY": 1.732,
-        "posZ": 16.593,
+        "posZ": 16.59,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2249,9 +2249,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.906,
+        "posX": -0.907,
         "posY": 1.732,
-        "posZ": 19.277,
+        "posZ": 19.274,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2296,9 +2296,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.909,
+        "posX": -0.911,
         "posY": 1.732,
-        "posZ": 21.948,
+        "posZ": 21.95,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2343,9 +2343,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.905,
+        "posX": -0.903,
         "posY": 1.582,
-        "posZ": 11.241,
+        "posZ": 11.24,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2390,9 +2390,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.901,
+        "posX": -0.902,
         "posY": 1.582,
-        "posZ": 13.914,
+        "posZ": 13.911,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2438,8 +2438,8 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": -0.904,
-        "posY": 1.582,
-        "posZ": 16.598,
+        "posY": 1.583,
+        "posZ": 16.596,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2484,9 +2484,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.906,
+        "posX": -0.907,
         "posY": 1.582,
-        "posZ": 19.28,
+        "posZ": 19.278,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2531,9 +2531,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.908,
+        "posX": -0.91,
         "posY": 1.582,
-        "posZ": 21.954,
+        "posZ": 21.955,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -2578,9 +2578,9 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.905,
+        "posX": -0.903,
         "posY": 1.582,
-        "posZ": 8.557,
+        "posZ": 8.556,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -7691,7 +7691,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
+      "LuaScript": "function onLoad(save_state)\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
       "GUID": "a0ccfc"
     },
@@ -7740,7 +7740,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
+      "LuaScript": "function onLoad(save_state)\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
       "GUID": "5d159c"
     },
@@ -7789,16 +7789,16 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
+      "LuaScript": "function onLoad(save_state)\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
       "GUID": "c4ec6a"
     },
     {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": -41.691,
+        "posX": -41.69,
         "posY": 1.659,
-        "posZ": 22.175,
+        "posZ": 22.174,
         "rotX": 0.0,
         "rotY": 0.0,
         "rotZ": 0.0,
@@ -7838,7 +7838,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function onLoad(save_state)\n    params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
+      "LuaScript": "function onLoad(save_state)\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
       "GUID": "237668"
     },
@@ -11811,9 +11811,194 @@
       "LuaScriptState": "",
       "XmlUI": "",
       "GUID": "67f67f"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -33.94,
+        "posY": 1.01,
+        "posZ": 24.552,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 0.1,
+        "scaleZ": 1.0
+      },
+      "Nickname": "District Bonus",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "function onLoad(save_state)\n    --self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"District\\nBonus\",\n        width          = 1800,\n        height         = 1200,\n        font_size      = 500,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click this button to calculate the current district bonus scores.\"\n    }\n    self.createButton(params)\nend\n\n-- returns the index of table where 'value' exist, or 0\nfunction findIndex(table, value)\n    for k,v in pairs(table) do\n        if v == value then\n            return k\n        end\n    end\n\n    return 0\nend\n\nfunction click_func(obj, color, alt_click)\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local buttonSet = gameBoard.getVar(\"buttons_set\")\n    --print(string.format(\"#buttonSet=%u\", #buttonSet))\n\n    -- Build an array of districts from the buttonSet data.\n    -- This matches the order of zones in Global.boardZones,\n    -- so include that as well while we're at it\n    local districts = {}\n    local boardZones = Global.getVar(\"boardZones\")\n    --print(string.format(\"#boardZones=%u\", #boardZones))\n    --log(boardZones, \"boardZones =\")\n    for k,v in pairs(buttonSet) do\n        local d = v.column * 5 + v.row + 1\n        -- print(\"row=\"..v.row, \" column=\"..v.column, \" district=\"..d, \" owner=\", v.cube_color)\n\n        if districts[d] == nil then\n            districts[d] = { Red = 0, Green = 0, Blue = 0, Yellow = 0, zone = boardZones[d], count = 0, first = {}, second = {} }\n        end\n        if v.cube_color then\n            districts[d][v.cube_color] = districts[d][v.cube_color] + 1\n            print(v.cube_color..\" \"..districts[d][v.cube_color])\n        end\n    end\n\n    --log(districts)\n\n    -- Who has the most and second-most number of cubes?\n    for _,district in ipairs(districts) do\n        --log(district, \"district =\")\n        local most = { 0, 0 }\n\n        for _,c in ipairs({\"Red\", \"Green\", \"Blue\", \"Yellow\"}) do\n            if district[c] > most[1] then\n                most[2] = most[1]\n                most[1] = district[c]\n            elseif district[c] > most[2] then\n                most[2] = district[c]\n            end\n        end\n\n        -- Now make a list of each color that is in first and second place\n        -- Not sure if this is the best algorithm, but it appears to work\n        for _,c in ipairs({\"Red\", \"Green\", \"Blue\", \"Yellow\"}) do\n            --print(\"district[\"..c..\"]=\"..district[c], \" most=\"..most[1]..\",\"..most[2])\n            if most[1] > 0 and district[c] == most[1] then\n                table.insert(district[\"first\"], c)\n            elseif most[2] > 0 and district[c] == most[2] then\n                table.insert(district[\"second\"], c)\n            end\n        end\n        --log(district, \"district =\")\n    end\n\n    -- Now figure out how many tiles are in each zone\n    for k,district in pairs(districts) do\n        --log(district, \"district =\")\n        local tiles = district[\"zone\"].getObjects()\n\n        -- Now we need to figure out how big each tile is. I really wish\n        -- TTS let us store metadata with each object.  For now, just use\n        -- the structure name.  Now that the City Well has a unique name,\n        -- and it should be ignored anyway, so this works out.\n        local count = 0\n        local smallStructures = {\"Well\", \"Garden\", \"Chapel\", \"Watchtower\", \"Merchant Stall\", \"Pageant Wagon\" }\n        local mediumStructures = {\"Fountain\", \"Farm\", \"Church\", \"Garrison\", \"Marketplace\", \"Stage\" }\n        local largeStructures = {\"Water Works\", \"Granary\", \"Cathedral\", \"Citadel\", \"Guild Hall\", \"Town Square\" }\n\n        for _,tile in ipairs(tiles) do\n            local name = tile.getName()\n            if findIndex(smallStructures, name) > 0 then\n                count = count + 1\n            elseif findIndex(mediumStructures, name) > 0 then\n                count = count + 2\n            elseif findIndex(largeStructures, name) > 0 then\n                count = count + 4\n            end\n        end\n\n        district[\"count\"] = count\n    end\n\n    -- Now add up the points for each district\n    local points = { Red = 0, Blue = 0, Green = 0, Yellow = 0 }\n    for k,district in pairs(districts) do\n        if #district[\"first\"] > 0 then\n            local firstScore = math.floor(district[\"count\"] / #district[\"first\"])\n\n            for _,v in ipairs(district[\"first\"]) do\n                points[v] = points[v] + firstScore\n            end\n\n            -- Second place scoring is award only if one player gets second place\n            local second = district[\"second\"]\n            if #second == 1 then\n                points[second[1]] = points[second[1]] + math.floor(firstScore / 2)\n            end\n        end\n    end\n\n    local Red = getObjectFromGUID(\"70add7\")\n    local Green = getObjectFromGUID(\"f29f5a\")\n    local Blue = getObjectFromGUID(\"5e0202\")\n    local Yellow = getObjectFromGUID(\"467c8e\")\n\n    Red.editButton({index = 0, label=points[\"Red\"]})\n    Green.editButton({index = 0, label=points[\"Green\"]})\n    Blue.editButton({index = 0, label=points[\"Blue\"]})\n    Yellow.editButton({index = 0, label=points[\"Yellow\"]})\nend\n\nfunction nop()\nend",
+      "LuaScriptState": "",
+      "GUID": "bfbcfe"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": -29.0,
+        "posY": 0.965,
+        "posZ": 24.6,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 3.0,
+        "scaleY": 0.01,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Red District Bonus",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "function onLoad(save_state)\n    --self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend",
+      "LuaScriptState": "",
+      "GUID": "70add7"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": -25.0,
+        "posY": 0.965,
+        "posZ": 24.6,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 3.0,
+        "scaleY": 0.01,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Green District Bonus",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "function onLoad(save_state)\n    --self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {0, 0, 0},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n",
+      "LuaScriptState": "",
+      "GUID": "f29f5a"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": -21.0,
+        "posY": 0.965,
+        "posZ": 24.6,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 3.0,
+        "scaleY": 0.01,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Blue District Bonus",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "function onLoad(save_state)\n    --self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend",
+      "LuaScriptState": "",
+      "GUID": "5e0202"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": -17.0,
+        "posY": 0.965,
+        "posZ": 24.6,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 3.0,
+        "scaleY": 0.01,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Yellow District Bonus",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "function onLoad(save_state)\n    --self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {0, 0, 0},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n",
+      "LuaScriptState": "",
+      "GUID": "467c8e"
     }
   ],
-  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScript": "boardZones = {}\n\nfunction onLoad(save_state)\n    boardZones = {\n        -- leftmost column, top to bottom\n        getObjectFromGUID(\"54a354\"),\n        getObjectFromGUID(\"47822a\"),\n        getObjectFromGUID(\"c7909f\"),\n        getObjectFromGUID(\"a2953e\"),\n        getObjectFromGUID(\"a41bfc\"),\n\n        getObjectFromGUID(\"639e06\"),\n        getObjectFromGUID(\"180d1e\"),\n        getObjectFromGUID(\"8e9050\"),\n        getObjectFromGUID(\"c80859\"),\n        getObjectFromGUID(\"48522c\"),\n\n        -- central column\n        getObjectFromGUID(\"d51e5c\"),\n        getObjectFromGUID(\"f73ef7\"),\n        getObjectFromGUID(\"52c4ab\"),\n        getObjectFromGUID(\"a4ecdf\"),\n        getObjectFromGUID(\"502e38\"),\n\n        getObjectFromGUID(\"2f6d24\"),\n        getObjectFromGUID(\"074769\"),\n        getObjectFromGUID(\"ed6264\"),\n        getObjectFromGUID(\"3ba1ba\"),\n        getObjectFromGUID(\"7f9741\"),\n\n        -- rightmost column\n        getObjectFromGUID(\"49f991\"),\n        getObjectFromGUID(\"37cb1c\"),\n        getObjectFromGUID(\"f92194\"),\n        getObjectFromGUID(\"111815\"),\n        getObjectFromGUID(\"2cb367\"),\n    }\nend\n\nfunction onObjectEnterScriptingZone(zone, obj)\n    for k,v in pairs(boardZones) do\n        if v == zone then\n            if #zone.getObjects() == 1 then\n                print(\"Don't forget the breaking-ground bonus. One point for each service provided in the new district at the end of your turn.\")\n            end\n            break\n        end\n    end\nend",
   "LuaScriptState": "",
   "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
   "SnapPoints": [

@@ -26,7 +26,7 @@
     "Type": 0,
     "Lines": false,
     "Color": {
-      "r": 1.0,
+      "r": 0.0,
       "g": 0.0,
       "b": 0.0
     },
@@ -327,9 +327,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 1.0
+        "r": 0.1,
+        "g": 0.35,
+        "b": 0.65
       },
       "Locked": true,
       "Grid": false,
@@ -365,9 +365,9 @@
           "Description": "",
           "GMNotes": "",
           "ColorDiffuse": {
-            "r": 0.0,
-            "g": 0.0,
-            "b": 1.0
+            "r": 0.1,
+            "g": 0.35,
+            "b": 0.65
           },
           "Locked": false,
           "Grid": false,
@@ -406,7 +406,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
+        "r": 0.75,
         "g": 0.0,
         "b": 0.0
       },
@@ -444,7 +444,7 @@
           "Description": "",
           "GMNotes": "",
           "ColorDiffuse": {
-            "r": 1.0,
+            "r": 0.75,
             "g": 0.0,
             "b": 0.0
           },
@@ -523,8 +523,8 @@
           "Description": "",
           "GMNotes": "",
           "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
+            "r": 1,
+            "g": 1,
             "b": 0.0
           },
           "Locked": false,
@@ -564,9 +564,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 1.0,
-        "b": 0.0
+        "r": 0.25,
+        "g": 0.63,
+        "b": 0.2,
       },
       "Locked": true,
       "Grid": false,
@@ -602,9 +602,9 @@
           "Description": "",
           "GMNotes": "",
           "ColorDiffuse": {
-            "r": 0.0,
-            "g": 1.0,
-            "b": 0.0
+            "r": 0.25,
+            "g": 0.63,
+            "b": 0.2,
           },
           "Locked": false,
           "Grid": false,
@@ -919,9 +919,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+        "r": 0.82,
+        "g": 0.66,
+        "b": 0
       },
       "Locked": true,
       "Grid": false,
@@ -1030,9 +1030,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+        "r": 0.25,
+        "g": 0.63,
+        "b": 0.2,
       },
       "Locked": true,
       "Grid": false,
@@ -1102,9 +1102,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+          "r": 0.75,
+          "g": 0.0,
+          "b": 0.0
       },
       "Locked": true,
       "Grid": false,
@@ -1174,7 +1174,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
+        "r": 0.75,
         "g": 0.0,
         "b": 0.0
       },
@@ -1213,9 +1213,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 1.0
+        "r": 0.1,
+        "g": 0.35,
+        "b": 0.65
       },
       "Locked": false,
       "Grid": false,
@@ -1252,9 +1252,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 1.0,
-        "b": 0.0
+        "r": 0.25,
+        "g": 0.63,
+        "b": 0.2,
       },
       "Locked": false,
       "Grid": false,
@@ -1291,9 +1291,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+          "r": 0.1,
+          "g": 0.35,
+          "b": 0.65
       },
       "Locked": true,
       "Grid": false,
@@ -1391,7 +1391,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('84c367')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('84c367')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "81ff32"
     },
@@ -1440,7 +1440,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('4c1ebc')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('4c1ebc')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "52e61c"
     },
@@ -1489,7 +1489,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('0628ba')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('0628ba')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "7729d6"
     },
@@ -1510,9 +1510,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 1.0
+        "r": 0.1,
+        "g": 0.35,
+        "b": 0.65
       },
       "Locked": false,
       "Grid": false,
@@ -1557,9 +1557,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 1.0
+        "r": 0.1,
+        "g": 0.35,
+        "b": 0.65
       },
       "Locked": false,
       "Grid": false,
@@ -1604,9 +1604,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 1.0
+        "r": 0.1,
+        "g": 0.35,
+        "b": 0.65
       },
       "Locked": false,
       "Grid": false,
@@ -1651,9 +1651,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 1.0
+        "r": 0.1,
+        "g": 0.35,
+        "b": 0.65
       },
       "Locked": false,
       "Grid": false,
@@ -1698,9 +1698,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 1.0
+        "r": 0.1,
+        "g": 0.35,
+        "b": 0.65
       },
       "Locked": false,
       "Grid": false,
@@ -1745,9 +1745,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 1.0
+        "r": 0.1,
+        "g": 0.35,
+        "b": 0.65
       },
       "Locked": false,
       "Grid": false,
@@ -1839,7 +1839,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
+        "r": 0.75,
         "g": 0.0,
         "b": 0.0
       },
@@ -2121,7 +2121,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
+        "r": 0.75,
         "g": 0.0,
         "b": 0.0
       },
@@ -2168,7 +2168,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
+        "r": 0.75,
         "g": 0.0,
         "b": 0.0
       },
@@ -2215,7 +2215,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
+        "r": 0.75,
         "g": 0.0,
         "b": 0.0
       },
@@ -2262,7 +2262,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
+        "r": 0.75,
         "g": 0.0,
         "b": 0.0
       },
@@ -2309,7 +2309,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
+        "r": 0.75,
         "g": 0.0,
         "b": 0.0
       },
@@ -2356,9 +2356,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 1.0,
-        "b": 0.0
+        "r": 0.25,
+        "g": 0.63,
+        "b": 0.2
       },
       "Locked": false,
       "Grid": false,
@@ -2403,9 +2403,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 1.0,
-        "b": 0.0
+          "r": 0.25,
+          "g": 0.63,
+          "b": 0.2
       },
       "Locked": false,
       "Grid": false,
@@ -2450,9 +2450,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 1.0,
-        "b": 0.0
+          "r": 0.25,
+          "g": 0.63,
+          "b": 0.2
       },
       "Locked": false,
       "Grid": false,
@@ -2497,9 +2497,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 1.0,
-        "b": 0.0
+          "r": 0.25,
+          "g": 0.63,
+          "b": 0.2
       },
       "Locked": false,
       "Grid": false,
@@ -2544,9 +2544,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 1.0,
-        "b": 0.0
+          "r": 0.25,
+          "g": 0.63,
+          "b": 0.2
       },
       "Locked": false,
       "Grid": false,
@@ -2591,9 +2591,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 1.0,
-        "b": 0.0
+          "r": 0.25,
+          "g": 0.63,
+          "b": 0.2
       },
       "Locked": false,
       "Grid": false,
@@ -2666,7 +2666,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('80c9b0')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('80c9b0')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "564ba1"
     },
@@ -2715,7 +2715,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('2bf2e1')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('2bf2e1')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "6e8c71"
     },
@@ -2764,7 +2764,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('6f5c54')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('6f5c54')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "0db045"
     },
@@ -2813,7 +2813,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('3725cd')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('3725cd')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "fbf9c8"
     },
@@ -2900,7 +2900,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('a42447')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('a42447')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "83462e"
     },
@@ -2949,7 +2949,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('783f60')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('783f60')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "a98aae"
     },
@@ -2998,7 +2998,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('d83b27')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('d83b27')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "6784ff"
     },
@@ -3069,9 +3069,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+        "r": 0.33,
+        "g": 0.33,
+        "b": 0.33
       },
       "Locked": true,
       "Grid": false,
@@ -3156,9 +3156,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.502,
+        "r": 0.5,
         "g": 0.0,
-        "b": 0.502
+        "b": 0.5
       },
       "Locked": false,
       "Grid": false,
@@ -3182,7 +3182,7 @@
         "TypeIndex": 1,
         "CastShadows": true
       },
-      "LuaScript": "function onLoad(save_state)\n    local left = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0.38, 0.94, 0},\n        rotation       = {0, 270, 37},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n    local right = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {-0.38, 0.94, 0},\n        rotation       = {0, 90, -37},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0, 0, 1},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(left)\n    self.createButton(right)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"300\",\n    [\"300\"] = \"\",\n}\n\nfunction increment()\n    -- Assume that both sides have the same value\n    local button = self.getButtons()[1]\n    local label = table[button.label]\n\n    self.editButton({index = 0, label=label})\n    self.editButton({index = 1, label=label})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
+      "LuaScript": "function onLoad(save_state)\n    local left = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0.38, 0.94, 0},\n        rotation       = {0, 270, 37},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0.1, 0.35, 0.65},\n        font_color     = {1, 1, 1},\n    }\n    local right = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {-0.38, 0.94, 0},\n        rotation       = {0, 90, -37},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0.1, 0.35, 0.65},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(left)\n    self.createButton(right)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"300\",\n    [\"300\"] = \"\",\n}\n\nfunction increment()\n    -- Assume that both sides have the same value\n    local button = self.getButtons()[1]\n    local label = table[button.label]\n\n    self.editButton({index = 0, label=label})\n    self.editButton({index = 1, label=label})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": "",
       "GUID": "6bff57"
     },
@@ -3203,9 +3203,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+        "r": 0.5,
+        "g": 0.6,
+        "b": 0.08
       },
       "Locked": true,
       "Grid": false,
@@ -3471,9 +3471,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+        "r": 0.94,
+        "g": 0.82,
+        "b": 0.47
       },
       "Locked": true,
       "Grid": false,
@@ -7510,9 +7510,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+          "r": 0.33,
+          "g": 0.33,
+          "b": 0.33
       },
       "Locked": true,
       "Grid": false,
@@ -7569,9 +7569,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+        "r": 0.49,
+        "g": 0.44,
+        "b": 0.41
       },
       "Locked": true,
       "Grid": false,
@@ -7612,9 +7612,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
+          "r": 0.33,
+          "g": 0.33,
+          "b": 0.33
       },
       "Locked": true,
       "Grid": false,
@@ -7662,9 +7662,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 1.0,
-        "b": 0.0
+          "r": 0.25,
+          "g": 0.63,
+          "b": 0.2
       },
       "Locked": false,
       "Grid": false,
@@ -7679,7 +7679,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651096811766417994/9B6EA71992D3BAF237F953F00C8D5D823A30AE5C/",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1755810815780720369/53358BD4E60A0083E5BE6E744CE0624001E419C9/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -7711,9 +7711,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 1.0
+        "r": 0.1,
+        "g": 0.35,
+        "b": 0.65
       },
       "Locked": false,
       "Grid": false,
@@ -7728,7 +7728,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651096811766418055/667CD2CC5A7B11CEDC7FA82EF1A84173D6D5BE99/",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1755810815780719295/65E019FFEB8F79D935AA21DE44687DFAB483CACF/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -7809,7 +7809,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
+        "r": 0.75,
         "g": 0.0,
         "b": 0.0
       },
@@ -7826,7 +7826,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1651096811766418182/8C5DB4EA2708751419DAD7C67D069C201B1E8F63/",
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1755810815780721523/373A5709CFC97000959BB99936C0893EFB14D586/",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -10715,7 +10715,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('c1a842')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('c1a842')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "1c7cef"
     },
@@ -10764,7 +10764,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('5ad5ea')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('5ad5ea')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "54137a"
     },
@@ -10813,7 +10813,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('057f91')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('057f91')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "fddac6"
     },
@@ -10862,7 +10862,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('77bdf6')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('77bdf6')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "4d6a48"
     },
@@ -10911,7 +10911,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('c26c72')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('c26c72')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "378eb3"
     },
@@ -10960,7 +10960,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('4819cb')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('4819cb')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "c05fff"
     },
@@ -11009,7 +11009,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('4a6642')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('4a6642')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "55f02e"
     },
@@ -11575,7 +11575,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {1, 0, 0}, Green = {0, 1, 0}, Blue = {0, 0, 1}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('9c1045')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
+      "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('9c1045')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
       "LuaScriptState": "",
       "GUID": "1d9538"
     },
@@ -11828,7 +11828,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 1.0,
+        "r": 0.75,
         "g": 0.0,
         "b": 0.0
       },
@@ -11865,9 +11865,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 1.0,
-        "b": 0.0
+          "r": 0.25,
+          "g": 0.63,
+          "b": 0.2
       },
       "Locked": true,
       "Grid": false,
@@ -11881,7 +11881,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "function onLoad(save_state)\n    --self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {0, 0, 0},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend",
+      "LuaScript": "function onLoad(save_state)\n    --self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend",
       "LuaScriptState": "",
       "GUID": "f29f5a"
     },
@@ -11902,9 +11902,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 1.0
+        "r": 0.1,
+        "g": 0.35,
+        "b": 0.65
       },
       "Locked": true,
       "Grid": false,

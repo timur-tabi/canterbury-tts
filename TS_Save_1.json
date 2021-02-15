@@ -843,7 +843,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "zones = {}\n\nfunction onLoad(save_state)\n    self.max_typed_number = 9\n\n    zones['Red'] = getObjectFromGUID('0c864b')\n    zones['Green'] = getObjectFromGUID('f30c9d')\n    zones['Blue'] = getObjectFromGUID('09fffe')\n    zones['Yellow'] = getObjectFromGUID('67f67f')\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction onNumberTyped(player_color, number_typed)\n    local params = {\n        smooth = false,\n    }\n    local targetZone = zones[player_color]\n    local zoneSize = targetZone.getScale()\n    local height = 3\n\n    for i = 1,number_typed\n    do\n        local pos = targetZone.getPosition()\n\n        pos.x = pos.x + random() * zoneSize.x / 4\n        pos.z = pos.z + random() * zoneSize.z / 4\n        pos.y = pos.y + height\n\n        params.position = pos\n        self.takeObject(params)\n\n        height = height + 1\n    end\nend\n",
+      "LuaScript": "zones = {}\n\nfunction onLoad()\n    self.max_typed_number = 9\n\n    zones['Red'] = getObjectFromGUID('0c864b')\n    zones['Green'] = getObjectFromGUID('f30c9d')\n    zones['Blue'] = getObjectFromGUID('09fffe')\n    zones['Yellow'] = getObjectFromGUID('67f67f')\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction onNumberTyped(player_color, number_typed)\n    local params = {\n        smooth = false,\n    }\n    local targetZone = zones[player_color]\n    local zoneSize = targetZone.getScale()\n    local height = 3\n\n    for i = 1,number_typed\n    do\n        local pos = targetZone.getPosition()\n\n        pos.x = pos.x + random() * zoneSize.x / 4\n        pos.z = pos.z + random() * zoneSize.z / 4\n        pos.y = pos.y + height\n\n        params.position = pos\n        self.takeObject(params)\n\n        height = height + 1\n    end\nend",
       "LuaScriptState": "",
       "ContainedObjects": [
         {
@@ -936,7 +936,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "zones = {}\n\nfunction onLoad(save_state)\n    self.max_typed_number = 9\n\n    zones['Red'] = getObjectFromGUID('0c864b')\n    zones['Green'] = getObjectFromGUID('f30c9d')\n    zones['Blue'] = getObjectFromGUID('09fffe')\n    zones['Yellow'] = getObjectFromGUID('67f67f')\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction onNumberTyped(player_color, number_typed)\n    local params = {\n        smooth = false,\n    }\n    local targetZone = zones[player_color]\n    local zoneSize = targetZone.getScale()\n    local height = 3\n\n    for i = 1,number_typed\n    do\n        local pos = targetZone.getPosition()\n\n        pos.x = pos.x + random() * zoneSize.x / 4\n        pos.z = pos.z + random() * zoneSize.z / 4\n        pos.y = pos.y + height\n\n        params.position = pos\n        self.takeObject(params)\n\n        height = height + 1\n    end\nend\n",
+      "LuaScript": "zones = {}\n\nfunction onLoad()\n    self.max_typed_number = 9\n\n    zones['Red'] = getObjectFromGUID('0c864b')\n    zones['Green'] = getObjectFromGUID('f30c9d')\n    zones['Blue'] = getObjectFromGUID('09fffe')\n    zones['Yellow'] = getObjectFromGUID('67f67f')\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction onNumberTyped(player_color, number_typed)\n    local params = {\n        smooth = false,\n    }\n    local targetZone = zones[player_color]\n    local zoneSize = targetZone.getScale()\n    local height = 3\n\n    for i = 1,number_typed\n    do\n        local pos = targetZone.getPosition()\n\n        pos.x = pos.x + random() * zoneSize.x / 4\n        pos.z = pos.z + random() * zoneSize.z / 4\n        pos.y = pos.y + height\n\n        params.position = pos\n        self.takeObject(params)\n\n        height = height + 1\n    end\nend",
       "LuaScriptState": "",
       "ContainedObjects": [
         {
@@ -1029,7 +1029,7 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
-      "LuaScript": "zones = {}\n\nfunction onLoad(save_state)\n    self.max_typed_number = 9\n\n    zones['Red'] = getObjectFromGUID('0c864b')\n    zones['Green'] = getObjectFromGUID('f30c9d')\n    zones['Blue'] = getObjectFromGUID('09fffe')\n    zones['Yellow'] = getObjectFromGUID('67f67f')\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction onNumberTyped(player_color, number_typed)\n    local params = {\n        smooth = false,\n    }\n    local targetZone = zones[player_color]\n    local zoneSize = targetZone.getScale()\n    local height = 3\n    \n    for i = 1,number_typed\n    do\n        local pos = targetZone.getPosition()\n\n        pos.x = pos.x + random() * zoneSize.x / 4\n        pos.z = pos.z + random() * zoneSize.z / 4\n        pos.y = pos.y + height\n\n        params.position = pos\n        self.takeObject(params)\n\n        height = height + 1\n    end\nend",
+      "LuaScript": "zones = {}\n\nfunction onLoad()\n    self.max_typed_number = 9\n\n    zones['Red'] = getObjectFromGUID('0c864b')\n    zones['Green'] = getObjectFromGUID('f30c9d')\n    zones['Blue'] = getObjectFromGUID('09fffe')\n    zones['Yellow'] = getObjectFromGUID('67f67f')\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction onNumberTyped(player_color, number_typed)\n    local params = {\n        smooth = false,\n    }\n    local targetZone = zones[player_color]\n    local zoneSize = targetZone.getScale()\n    local height = 3\n\n    for i = 1,number_typed\n    do\n        local pos = targetZone.getPosition()\n\n        pos.x = pos.x + random() * zoneSize.x / 4\n        pos.z = pos.z + random() * zoneSize.z / 4\n        pos.y = pos.y + height\n\n        params.position = pos\n        self.takeObject(params)\n\n        height = height + 1\n    end\nend",
       "LuaScriptState": "",
       "ContainedObjects": [
         {
@@ -12548,7 +12548,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"District\\nBonus\",\n        width          = 1800,\n        height         = 1200,\n        font_size      = 500,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click this button to calculate the current district bonus scores.\"\n    }\n    self.createButton(params)\nend\n\n-- returns the index in table where 'value' exist, or 0\nfunction findIndex(table, value)\n    for k,v in pairs(table) do\n        if v == value then\n            return k\n        end\n    end\n\n    return 0\nend\n\nfunction click_func(obj, color, alt_click)\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local buttonSet = gameBoard.getVar(\"buttons_set\")\n\n    -- Build an array of districts from the buttonSet data.\n    -- This matches the order of zones in Global.boardZones,\n    -- so include that as well while we're at it\n    local districts = {}\n    local boardZones = Global.getVar(\"boardZones\")\n\n    for k,v in pairs(buttonSet) do\n        local d = v.column * 5 + v.row + 1\n\n        if districts[d] == nil then\n            districts[d] = { Red = 0, Green = 0, Blue = 0, Yellow = 0, City = 0, Neutral = 0,\n                zone = boardZones[d], count = 0, first = {}, second = {} }\n            -- the central district has a city well marker that is not recorded,\n            -- so mark it here.\n            if d == 13 then\n                districts[d].City = 1\n            end\n        end\n        if v.cube_color then\n            districts[d][v.cube_color] = districts[d][v.cube_color] + 1\n        end\n    end\n\n    -- Who has the most and second-most number of cubes?\n    for _,district in ipairs(districts) do\n        local most = { 0, 0 }\n\n        for _,c in ipairs({\"Red\", \"Green\", \"Blue\", \"Yellow\", \"City\", \"Neutral\"}) do\n            if district[c] > most[1] then\n                most[2] = most[1]\n                most[1] = district[c]\n            elseif district[c] > most[2] then\n                most[2] = district[c]\n            end\n        end\n\n        -- Now make a list of each color that is in first and second place\n        -- Not sure if this is the best algorithm, but it appears to work\n        for _,c in ipairs({\"Red\", \"Green\", \"Blue\", \"Yellow\", \"City\", \"Neutral\"}) do\n            if most[1] > 0 and district[c] == most[1] then\n                table.insert(district[\"first\"], c)\n            elseif most[2] > 0 and district[c] == most[2] then\n                table.insert(district[\"second\"], c)\n            end\n        end\n    end\n\n    -- Now figure out how many tiles are in each zone\n    for k,district in pairs(districts) do\n        local tiles = district[\"zone\"].getObjects()\n\n        -- Now we need to figure out how big each tile is. I really wish\n        -- TTS let us store metadata with each object.  For now, just use\n        -- the structure name.  Note that the City Well has a unique name,\n        -- and it should be ignored anyway, so this works out.\n        local count = 0\n        local smallStructures = {\"Well\", \"Garden\", \"Chapel\", \"Watchtower\", \"Merchant Stall\", \"Pageant Wagon\" }\n        local mediumStructures = {\"Fountain\", \"Farm\", \"Church\", \"Garrison\", \"Marketplace\", \"Stage\" }\n        local largeStructures = {\"Water Works\", \"Granary\", \"Cathedral\", \"Citadel\", \"Guild Hall\", \"Town Square\" }\n\n        for _,tile in ipairs(tiles) do\n            local name = tile.getName()\n            if findIndex(smallStructures, name) > 0 then\n                count = count + 1\n            elseif findIndex(mediumStructures, name) > 0 then\n                count = count + 2\n            elseif findIndex(largeStructures, name) > 0 then\n                count = count + 4\n            end\n        end\n\n        district[\"count\"] = count\n    end\n\n    -- Now add up the points for each district\n    local points = { Red = 0, Blue = 0, Green = 0, Yellow = 0, City = 0, Neutral = 0}\n    for k,district in pairs(districts) do\n        if #district[\"first\"] > 0 then\n            local firstScore = math.floor(district[\"count\"] / #district[\"first\"])\n\n            for _,v in ipairs(district[\"first\"]) do\n                points[v] = points[v] + firstScore\n            end\n\n            -- Second place scoring is award only if one player gets second place\n            local second = district[\"second\"]\n            if #second == 1 then\n                points[second[1]] = points[second[1]] + math.floor(firstScore / 2)\n            end\n        end\n    end\n\n    local Red = getObjectFromGUID(\"70add7\")\n    local Green = getObjectFromGUID(\"f29f5a\")\n    local Blue = getObjectFromGUID(\"5e0202\")\n    local Yellow = getObjectFromGUID(\"467c8e\")\n\n    Red.editButton({index = 0, label=points[\"Red\"]})\n    Green.editButton({index = 0, label=points[\"Green\"]})\n    Blue.editButton({index = 0, label=points[\"Blue\"]})\n    Yellow.editButton({index = 0, label=points[\"Yellow\"]})\nend\n\nfunction nop()\nend",
+      "LuaScript": "function onLoad()\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"District\\nBonus\",\n        width          = 1800,\n        height         = 1200,\n        font_size      = 500,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click this button to calculate the current district bonus scores.\"\n    }\n    self.createButton(params)\nend\n\n-- returns the index in table where 'value' exist, or 0\nfunction findIndex(table, value)\n    for k,v in pairs(table) do\n        if v == value then\n            return k\n        end\n    end\n\n    return 0\nend\n\nfunction click_func(obj, color, alt_click)\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local buttonSet = gameBoard.getVar(\"buttons_set\")\n\n    -- Build an array of districts from the buttonSet data.\n    -- This matches the order of zones in Global.boardZones,\n    -- so include that as well while we're at it\n    local districts = {}\n    local boardZones = Global.getVar(\"boardZones\")\n\n    for k,v in pairs(buttonSet) do\n        local d = v.column * 5 + v.row + 1\n\n        if districts[d] == nil then\n            districts[d] = { Red = 0, Green = 0, Blue = 0, Yellow = 0, City = 0, Neutral = 0,\n                zone = boardZones[d], count = 0, first = {}, second = {} }\n            -- the central district has a city well marker that is not recorded,\n            -- so mark it here.\n            if d == 13 then\n                districts[d].City = 1\n            end\n        end\n        if v.cube_color then\n            districts[d][v.cube_color] = districts[d][v.cube_color] + 1\n        end\n    end\n\n    -- Who has the most and second-most number of cubes?\n    for _,district in ipairs(districts) do\n        local most = { 0, 0 }\n\n        for _,c in ipairs({\"Red\", \"Green\", \"Blue\", \"Yellow\", \"City\", \"Neutral\"}) do\n            if district[c] > most[1] then\n                most[2] = most[1]\n                most[1] = district[c]\n            elseif district[c] > most[2] then\n                most[2] = district[c]\n            end\n        end\n\n        -- Now make a list of each color that is in first and second place\n        -- Not sure if this is the best algorithm, but it appears to work\n        for _,c in ipairs({\"Red\", \"Green\", \"Blue\", \"Yellow\", \"City\", \"Neutral\"}) do\n            if most[1] > 0 and district[c] == most[1] then\n                table.insert(district[\"first\"], c)\n            elseif most[2] > 0 and district[c] == most[2] then\n                table.insert(district[\"second\"], c)\n            end\n        end\n    end\n\n    -- Now figure out how many tiles are in each zone\n    for k,district in pairs(districts) do\n        local tiles = district[\"zone\"].getObjects()\n\n        -- Now we need to figure out how big each tile is. I really wish\n        -- TTS let us store metadata with each object.  For now, just use\n        -- the structure name.  Note that the City Well has a unique name,\n        -- and it should be ignored anyway, so this works out.\n        local count = 0\n        local smallStructures = {\"Well\", \"Garden\", \"Chapel\", \"Watchtower\", \"Merchant Stall\", \"Pageant Wagon\" }\n        local mediumStructures = {\"Fountain\", \"Farm\", \"Church\", \"Garrison\", \"Marketplace\", \"Stage\" }\n        local largeStructures = {\"Water Works\", \"Granary\", \"Cathedral\", \"Citadel\", \"Guild Hall\", \"Town Square\" }\n\n        for _,tile in ipairs(tiles) do\n            local name = tile.getName()\n            if findIndex(smallStructures, name) > 0 then\n                count = count + 1\n            elseif findIndex(mediumStructures, name) > 0 then\n                count = count + 2\n            elseif findIndex(largeStructures, name) > 0 then\n                count = count + 4\n            end\n        end\n\n        district[\"count\"] = count\n    end\n\n    -- Now add up the points for each district\n    local points = { Red = 0, Blue = 0, Green = 0, Yellow = 0, City = 0, Neutral = 0}\n    for k,district in pairs(districts) do\n        if #district[\"first\"] > 0 then\n            local firstScore = math.floor(district[\"count\"] / #district[\"first\"])\n\n            for _,v in ipairs(district[\"first\"]) do\n                points[v] = points[v] + firstScore\n            end\n\n            -- Second place scoring is award only if one player gets second place\n            local second = district[\"second\"]\n            if #second == 1 then\n                points[second[1]] = points[second[1]] + math.floor(firstScore / 2)\n            end\n        end\n    end\n\n    local Red = getObjectFromGUID(\"70add7\")\n    local Green = getObjectFromGUID(\"f29f5a\")\n    local Blue = getObjectFromGUID(\"5e0202\")\n    local Yellow = getObjectFromGUID(\"467c8e\")\n\n    Red.editButton({index = 0, label=points[\"Red\"]})\n    Green.editButton({index = 0, label=points[\"Green\"]})\n    Blue.editButton({index = 0, label=points[\"Blue\"]})\n    Yellow.editButton({index = 0, label=points[\"Yellow\"]})\nend",
       "LuaScriptState": ""
     },
     {
@@ -12586,7 +12586,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "function onLoad(save_state)\n    --self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend",
+      "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": ""
     },
     {
@@ -12624,7 +12624,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "function onLoad(save_state)\n    --self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend",
+      "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": ""
     },
     {
@@ -12662,7 +12662,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "function onLoad(save_state)\n    --self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend",
+      "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
       "LuaScriptState": ""
     },
     {
@@ -12700,7 +12700,197 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "function onLoad(save_state)\n    --self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {0, 0, 0},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend",
+      "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {0, 0, 0},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
+      "LuaScriptState": ""
+    },
+    {
+      "GUID": "58dd21",
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 16.0,
+        "posY": 0.965,
+        "posZ": 24.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 3.0,
+        "scaleY": 0.01,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Yellow King's Bonus",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": false,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {0, 0, 0},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
+      "LuaScriptState": ""
+    },
+    {
+      "GUID": "bbeb39",
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 12.0,
+        "posY": 0.965,
+        "posZ": 24.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 3.0,
+        "scaleY": 0.01,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Blue King's Bonus",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.1,
+        "g": 0.35,
+        "b": 0.65
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": false,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
+      "LuaScriptState": ""
+    },
+    {
+      "GUID": "f966d6",
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 8.0,
+        "posY": 0.965,
+        "posZ": 24.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 3.0,
+        "scaleY": 0.01,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Green King's Bonus",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.25,
+        "g": 0.63,
+        "b": 0.2
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": false,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
+      "LuaScriptState": ""
+    },
+    {
+      "GUID": "6456f5",
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 4.0,
+        "posY": 0.965,
+        "posZ": 24.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 3.0,
+        "scaleY": 0.01,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Red King's Bonus",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.75,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": false,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
+      "LuaScriptState": ""
+    },
+    {
+      "GUID": "0d2807",
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 1.01,
+        "posZ": 24.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 0.1,
+        "scaleZ": 1.0
+      },
+      "Nickname": "King's Bonus",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": false,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "function onLoad()\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"King's\\nBonus\",\n        width          = 1800,\n        height         = 1200,\n        font_size      = 500,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click this button to calculate the current Kings' Bonus scores.\"\n    }\n\n    self.createButton(params)\nend\n\nscoreTokens = {\n--   green     red       yellow    blue     neutral\n    {'0de0a6', '3322fd', '289467', '98c6fd', '1dee61'}, -- water\n    {'ed27ad', '5eb69a', '3d5d30', '71aaaf', '60fb49'}, -- food\n    {'5808d7', '554ff6', 'e6b3dc', 'f14de0', '4b3bc4'}, -- religion\n    {'a524d6', '881675', 'c8c173', '946adc', 'b81b1e'}, -- defense\n    {'40acb1', '8a73ef', '212edc', 'b6ccbc', 'ba1fd4'}, -- commerce\n    {'7f1cbf', '204a31', '55a0b9', 'abe989', '070f23'}, -- culture\n}\n\nscoreChart = {\n    { -- water\n        {0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12},\n        {0, 0, 0, 0, 0, 2, 2, 3, 3, 4, 4, 5},\n    },\n    { -- food\n        {0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12},\n        {0, 0, 0, 0, 0, 2, 2, 3, 3, 4, 4, 5},\n    },\n    { -- religion\n        {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14},\n        {0, 0, 0, 0, 0, 3, 3, 4, 4, 5, 5, 6},\n    },\n    { -- defense\n        {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14},\n        {0, 0, 0, 0, 0, 3, 3, 4, 4, 5, 5, 6},\n    },\n    { -- commerce\n        {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16},\n        {0, 0, 0, 0, 0, 4, 4, 5, 5, 6, 6, 7},\n    },\n    { -- culture\n        {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16},\n        {0, 0, 0, 0, 0, 4, 4, 5, 5, 6, 6, 7},\n    },\n}\n\nscoreButton = {\n    ['Green'] = 'f966d6',\n    ['Red'] = '6456f5',\n    ['Yellow'] = '58dd21',\n    ['Blue'] = 'bbeb39',\n}\n\nfunction click_func(obj, color, alt_click)\n    -- We track the score of the Neutral player if present, but we just\n    -- don't show it.\n    local total_scores = {\n        ['Green'] = 0,\n        ['Red'] = 0,\n        ['Yellow'] = 0,\n        ['Blue'] = 0,\n        ['Neutral'] = 0,\n    }\n    -- iterate over all the services\n    for service,tokens in ipairs(scoreTokens)\n    do\n        local scores = {}\n        local marker\n\n        -- get the current scores for each active player for this service\n        marker = getObjectFromGUID(tokens[1])\n        scores['Green'] = marker and marker.getVar('score')\n        marker = getObjectFromGUID(tokens[2])\n        scores['Red'] = marker and marker.getVar('score')\n        marker = getObjectFromGUID(tokens[3])\n        scores['Yellow'] = marker and marker.getVar('score')\n        marker = getObjectFromGUID(tokens[4])\n        scores['Blue'] = marker and marker.getVar('score')\n        marker = getObjectFromGUID(tokens[5])\n        scores['Neutral'] = marker and marker.getVar('score')\n\n        -- Calculate the highest and second-highest scores\n        local most = {0, 0}\n        for _,score in pairs(scores)\n        do\n            if score > most[1] then\n                most[2] = most[1]\n                most[1] = score\n            elseif score > most[2] then\n                most[2] = score\n            end\n        end\n        -- Figure out which players are in first and second\n        local first = {}\n        local second = {}\n        for color,score in pairs(scores)\n        do\n            if score > 0 and score == most[1] then\n                table.insert(first, color)\n            elseif score > 0 and score == most[2] then\n                table.insert(second, color)\n            end\n        end\n        -- Figure out the scores for each player based on how many ties\n        local f = 0\n        local s = 0\n        --print(\"first = \", logString(first))\n        --print(\"second = \", logString(second))\n        if #first > 1 then\n            -- more than one first place, no one gets second place\n            --print(\"more than one first place\")\n            f = math.floor((scoreChart[service][1][most[1]] + scoreChart[service][2][most[1]]) / #first)\n        elseif #second > 1 then\n            -- more than on second place, no one gets second place\n            --print(\"more than one second place\")\n            f = scoreChart[service][1][most[1]]\n        else\n            if #first == 1 then\n                f = scoreChart[service][1][most[1]]\n            end\n            if #second == 1 then\n                s = scoreChart[service][2][most[2]]\n            end\n        end\n        for _,v in ipairs(first) do\n            total_scores[v] = total_scores[v] + f\n        end\n        for _,v in ipairs(second) do\n            total_scores[v] = total_scores[v] + s\n        end\n    end\n    for color,guid in pairs(scoreButton) do\n        local button = getObjectFromGUID(guid)\n        button.editButton({index = 0, label=total_scores[color]})\n    end\nend",
       "LuaScriptState": ""
     }
   ]

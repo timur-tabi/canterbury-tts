@@ -8803,7 +8803,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -22.7,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 4.3,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -8843,7 +8843,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -29.9,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 4.3,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -8883,7 +8883,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -37.0,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 18.6,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -8923,7 +8923,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -37.0,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 11.45,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -8963,7 +8963,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -37.0,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 4.3,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9003,7 +9003,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -37.0,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": -2.8,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9043,7 +9043,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -37.0,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": -9.95,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9083,7 +9083,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -29.9,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": -9.95,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9123,7 +9123,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -22.7,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": -9.95,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9163,7 +9163,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -15.65,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": -9.95,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9203,7 +9203,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -8.5,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": -9.95,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9243,7 +9243,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -8.5,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": -2.8,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9283,7 +9283,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -8.5,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 4.3,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9323,7 +9323,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -8.503,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 11.45,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9363,7 +9363,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -8.5,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 18.601,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9403,7 +9403,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -15.65,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 18.6,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9443,7 +9443,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -22.7,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 18.6,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9483,7 +9483,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -29.9,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 18.6,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9523,7 +9523,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -29.9,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 11.45,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9563,7 +9563,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -22.7,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 11.45,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9603,7 +9603,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -15.65,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 11.45,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9643,7 +9643,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -15.65,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": 4.3,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9683,7 +9683,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -15.65,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": -2.8,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9723,7 +9723,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -22.7,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": -2.8,
         "rotX": 0.0,
         "rotY": 0.0,
@@ -9763,7 +9763,7 @@
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -29.9,
-        "posY": 1.1,
+        "posY": 1.15,
         "posZ": -2.8,
         "rotX": 0.0,
         "rotY": 0.0,

@@ -98,7 +98,7 @@
   "TabStates": {
     "0": {
       "title": "Rules",
-      "body": "To place a building in a district, drag it from its stack and drop it in the appropriate location.  Snap points ensure that the building will be aligned neatly.\n\nTo add a service marker to a district, click on the square underneath the service icon.  A block of your color will be added, and the King's Bonus chart will be updated automatically.  Click on the square again to remove the block.  Players can only add or remove their own blocks.\n\nWhen your score pass 100, left-click on the \"+100\" button and the number \"100\" will appear on your marker.  Click again and it will change to 200.  A third-click removes the number.  Right-clicking on the button will add the number to the City Marker.",
+      "body": "Once all players are seated, click the \"Start Game\" button to set up the game.  One player will be randomly chosen as the first player and starting money will be distributed.\n\nTo place a structure in a district, drag it from its stack and drop it in the appropriate location.  Snap points ensure that the building will be aligned neatly.  Make sure all structures are placed properly on the game board, otherwise the score calculators will not work.\n\nTo add a service marker to a district, left-click on the square underneath the service icon.  A block of your color will be added, and the King's Bonus chart will be updated automatically.  Click on the square again to remove the block.  Players can only add or remove their own blocks.\n\nIn a two-player game, right-click on the square to add a block for the Neutral player instead.\n\nWhen selecting the \"Levy Funds\" or \"Tax & Build\" actions, simply click on the button underneath the action to automatically receive the correct funds.  This depends on the City Marker being placed accurately on the game board.\n\nWhen your score passes the \"100\", left-click on the \"+100\" button and the number \"100\" will appear on your marker.  Click again and it will change to 200.  A third-click removes the number.  Right-clicking on the button will add the number to the City Marker.\n\nTo calculate the District Bonus, click on the \"District Bonus\" button above the game board.  The District Bonus points are added whenever the City Marker passes the \"100\" space.\n\nAt the end of the game, click on the King's Bonus button to calculate the King's Bonus score.\n",
       "color": "Grey",
       "visibleColor": {
         "r": 0.5,
@@ -106,28 +106,6 @@
         "b": 0.5
       },
       "id": 0
-    },
-    "1": {
-      "title": "White",
-      "body": "",
-      "color": "White",
-      "visibleColor": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "id": 1
-    },
-    "2": {
-      "title": "Brown",
-      "body": "",
-      "color": "Brown",
-      "visibleColor": {
-        "r": 0.443,
-        "g": 0.231,
-        "b": 0.09
-      },
-      "id": 2
     },
     "3": {
       "title": "Red",
@@ -139,17 +117,6 @@
         "b": 0.094
       },
       "id": 3
-    },
-    "4": {
-      "title": "Orange",
-      "body": "",
-      "color": "Orange",
-      "visibleColor": {
-        "r": 0.956,
-        "g": 0.392,
-        "b": 0.113
-      },
-      "id": 4
     },
     "5": {
       "title": "Yellow",
@@ -183,50 +150,6 @@
         "b": 1.0
       },
       "id": 7
-    },
-    "8": {
-      "title": "Teal",
-      "body": "",
-      "color": "Teal",
-      "visibleColor": {
-        "r": 0.129,
-        "g": 0.694,
-        "b": 0.607
-      },
-      "id": 8
-    },
-    "9": {
-      "title": "Purple",
-      "body": "",
-      "color": "Purple",
-      "visibleColor": {
-        "r": 0.627,
-        "g": 0.125,
-        "b": 0.941
-      },
-      "id": 9
-    },
-    "10": {
-      "title": "Pink",
-      "body": "",
-      "color": "Pink",
-      "visibleColor": {
-        "r": 0.96,
-        "g": 0.439,
-        "b": 0.807
-      },
-      "id": 10
-    },
-    "11": {
-      "title": "Black",
-      "body": "",
-      "color": "Black",
-      "visibleColor": {
-        "r": 0.25,
-        "g": 0.25,
-        "b": 0.25
-      },
-      "id": 11
     }
   },
   "CameraStates": [

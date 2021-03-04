@@ -779,9 +779,9 @@
             "rotX": 0.0,
             "rotY": 0.0,
             "rotZ": 0.0,
-            "scaleX": 0.75,
+            "scaleX": 0.6,
             "scaleY": 1.0,
-            "scaleZ": 0.75
+            "scaleZ": 0.6
           },
           "Nickname": "Five gold",
           "Description": "",
@@ -872,9 +872,9 @@
             "rotX": 0.0,
             "rotY": 0.0,
             "rotZ": 0.0,
-            "scaleX": 1.0,
+            "scaleX": 0.7,
             "scaleY": 1.0,
-            "scaleZ": 1.0
+            "scaleZ": 0.7
           },
           "Nickname": "Ten gold",
           "Description": "",

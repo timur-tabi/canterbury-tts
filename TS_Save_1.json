@@ -1,8 +1,8 @@
 {
   "SaveName": "Canterbury",
-  "GameMode": "Canterbury",
   "Date": "3/4/2021 7:58:31 PM",
   "VersionNumber": "v13.0.5",
+  "GameMode": "Canterbury",
   "GameType": "Game",
   "GameComplexity": "Medium Complexity",
   "PlayingTime": [
@@ -22,7 +22,63 @@
   "TableURL": "http://cloud-3.steamusercontent.com/ugc/1651095327071030324/45EDC7C4806730883A3AEB990675850A19200473/",
   "Sky": "Sky_Museum",
   "Note": "",
-  "Rules": "",
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "Once all players are seated, click the \"Start Game\" button to set up the game.  One player will be randomly chosen as the first player and starting money will be distributed.\n\nTo place a structure in a district, drag it from its stack and drop it in the appropriate location.  Snap points ensure that the building will be aligned neatly.  Make sure all structures are placed properly on the game board, otherwise the score calculators will not work.\n\nTo add a service marker to a district, left-click on the square underneath the service icon.  A block of your color will be added, and the King's Bonus chart will be updated automatically.  Click on the square again to remove the block.  Players can only add or remove their own blocks.\n\nIn a two-player game, right-click on the square to add a block for the Neutral player instead.\n\nWhen selecting the \"Levy Funds\" or \"Tax & Build\" actions, simply click on the button underneath the action to automatically receive the correct funds.  This depends on the City Marker being placed accurately on the game board.\n\nWhen your score passes the \"100\", left-click on the \"+100\" button and the number \"100\" will appear on your marker.  Click again and it will change to 200.  A third-click removes the number.  Right-clicking on the button will add the number to the City Marker.\n\nTo calculate the District Bonus, click on the \"District Bonus\" button above the game board.  The District Bonus points are added whenever the City Marker passes the \"100\" space.\n\nAt the end of the game, click on the King's Bonus button to calculate the King's Bonus score.\n",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    }
+  },
   "Grid": {
     "Type": 0,
     "Lines": false,
@@ -124,63 +180,6 @@
     "PassTurns": false,
     "TurnColor": ""
   },
-  "TabStates": {
-    "0": {
-      "title": "Rules",
-      "body": "Once all players are seated, click the \"Start Game\" button to set up the game.  One player will be randomly chosen as the first player and starting money will be distributed.\n\nTo place a structure in a district, drag it from its stack and drop it in the appropriate location.  Snap points ensure that the building will be aligned neatly.  Make sure all structures are placed properly on the game board, otherwise the score calculators will not work.\n\nTo add a service marker to a district, left-click on the square underneath the service icon.  A block of your color will be added, and the King's Bonus chart will be updated automatically.  Click on the square again to remove the block.  Players can only add or remove their own blocks.\n\nIn a two-player game, right-click on the square to add a block for the Neutral player instead.\n\nWhen selecting the \"Levy Funds\" or \"Tax & Build\" actions, simply click on the button underneath the action to automatically receive the correct funds.  This depends on the City Marker being placed accurately on the game board.\n\nWhen your score passes the \"100\", left-click on the \"+100\" button and the number \"100\" will appear on your marker.  Click again and it will change to 200.  A third-click removes the number.  Right-clicking on the button will add the number to the City Marker.\n\nTo calculate the District Bonus, click on the \"District Bonus\" button above the game board.  The District Bonus points are added whenever the City Marker passes the \"100\" space.\n\nAt the end of the game, click on the King's Bonus button to calculate the King's Bonus score.\n",
-      "color": "Grey",
-      "visibleColor": {
-        "r": 0.5,
-        "g": 0.5,
-        "b": 0.5
-      },
-      "id": 0
-    },
-    "3": {
-      "title": "Red",
-      "body": "",
-      "color": "Red",
-      "visibleColor": {
-        "r": 0.856,
-        "g": 0.1,
-        "b": 0.094
-      },
-      "id": 3
-    },
-    "5": {
-      "title": "Yellow",
-      "body": "",
-      "color": "Yellow",
-      "visibleColor": {
-        "r": 0.905,
-        "g": 0.898,
-        "b": 0.172
-      },
-      "id": 5
-    },
-    "6": {
-      "title": "Green",
-      "body": "",
-      "color": "Green",
-      "visibleColor": {
-        "r": 0.192,
-        "g": 0.701,
-        "b": 0.168
-      },
-      "id": 6
-    },
-    "7": {
-      "title": "Blue",
-      "body": "",
-      "color": "Blue",
-      "visibleColor": {
-        "r": 0.118,
-        "g": 0.53,
-        "b": 1.0
-      },
-      "id": 7
-    }
-  },
   "CameraStates": [
     null,
     {
@@ -240,6 +239,7 @@
         "a": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": true,
@@ -281,6 +281,7 @@
         "a": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": true,
@@ -322,6 +323,7 @@
         "a": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": true,
@@ -363,6 +365,7 @@
         "a": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": true,
@@ -403,6 +406,7 @@
         "b": 0.65
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -419,7 +423,6 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "ContainedObjects": [
         {
           "GUID": "618bd7",
@@ -444,6 +447,7 @@
             "b": 0.65
           },
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": true,
@@ -485,6 +489,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -501,7 +506,6 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "ContainedObjects": [
         {
           "GUID": "2471f1",
@@ -526,6 +530,7 @@
             "b": 0.0
           },
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": true,
@@ -567,6 +572,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -583,7 +589,6 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "ContainedObjects": [
         {
           "GUID": "a8ac73",
@@ -608,6 +613,7 @@
             "b": 0.0
           },
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": true,
@@ -649,6 +655,7 @@
         "b": 0.2
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -665,7 +672,6 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "ContainedObjects": [
         {
           "GUID": "2471f1",
@@ -690,6 +696,7 @@
             "b": 0.2
           },
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": true,
@@ -731,6 +738,7 @@
         "b": 0.753
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -747,7 +755,6 @@
       "MeshIndex": -1,
       "LuaScript": "zones = {}\n\nfunction onLoad()\n    self.max_typed_number = 9\n\n    zones['Red'] = getObjectFromGUID('0c864b')\n    zones['Green'] = getObjectFromGUID('f30c9d')\n    zones['Blue'] = getObjectFromGUID('09fffe')\n    zones['Yellow'] = getObjectFromGUID('67f67f')\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction onNumberTyped(player_color, number_typed)\n    local params = {\n        smooth = false,\n    }\n    local targetZone = zones[player_color]\n    local zoneSize = targetZone.getScale()\n    local height = 3\n\n    for i = 1,number_typed\n    do\n        local pos = targetZone.getPosition()\n\n        pos.x = pos.x + random() * zoneSize.x / 4\n        pos.z = pos.z + random() * zoneSize.z / 4\n        pos.y = pos.y + height\n\n        params.position = pos\n        self.takeObject(params)\n\n        height = height + 1\n    end\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "ContainedObjects": [
         {
           "GUID": "79ecbd",
@@ -775,6 +782,7 @@
             "five"
           ],
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": false,
@@ -828,6 +836,7 @@
         "b": 0.216
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -844,7 +853,6 @@
       "MeshIndex": -1,
       "LuaScript": "zones = {}\n\nfunction onLoad()\n    self.max_typed_number = 9\n\n    zones['Red'] = getObjectFromGUID('0c864b')\n    zones['Green'] = getObjectFromGUID('f30c9d')\n    zones['Blue'] = getObjectFromGUID('09fffe')\n    zones['Yellow'] = getObjectFromGUID('67f67f')\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction onNumberTyped(player_color, number_typed)\n    local params = {\n        smooth = false,\n    }\n    local targetZone = zones[player_color]\n    local zoneSize = targetZone.getScale()\n    local height = 3\n\n    for i = 1,number_typed\n    do\n        local pos = targetZone.getPosition()\n\n        pos.x = pos.x + random() * zoneSize.x / 4\n        pos.z = pos.z + random() * zoneSize.z / 4\n        pos.y = pos.y + height\n\n        params.position = pos\n        self.takeObject(params)\n\n        height = height + 1\n    end\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "ContainedObjects": [
         {
           "GUID": "bc0606",
@@ -872,6 +880,7 @@
             "ten"
           ],
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": false,
@@ -925,6 +934,7 @@
         "b": 0.58
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -941,7 +951,6 @@
       "MeshIndex": -1,
       "LuaScript": "zones = {}\n\nfunction onLoad()\n    self.max_typed_number = 9\n\n    zones['Red'] = getObjectFromGUID('0c864b')\n    zones['Green'] = getObjectFromGUID('f30c9d')\n    zones['Blue'] = getObjectFromGUID('09fffe')\n    zones['Yellow'] = getObjectFromGUID('67f67f')\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction onNumberTyped(player_color, number_typed)\n    local params = {\n        smooth = false,\n    }\n    local targetZone = zones[player_color]\n    local zoneSize = targetZone.getScale()\n    local height = 3\n\n    for i = 1,number_typed\n    do\n        local pos = targetZone.getPosition()\n\n        pos.x = pos.x + random() * zoneSize.x / 4\n        pos.z = pos.z + random() * zoneSize.z / 4\n        pos.y = pos.y + height\n\n        params.position = pos\n        self.takeObject(params)\n\n        height = height + 1\n    end\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "ContainedObjects": [
         {
           "GUID": "dd87cf",
@@ -969,6 +978,7 @@
             "one"
           ],
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": false,
@@ -1022,6 +1032,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -1048,7 +1059,6 @@
       },
       "LuaScript": "function onLoad()\n    local params = {\n        click_function = \"clickLevyFunds\",\n        function_owner = self,\n        label          = \"Collect\",\n        position       = {-2, 0.2, 0.75},\n        rotation       = {0, 0, 0},\n        width          = 400,\n        height         = 150,\n        font_size      = 100,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click to collect money\"\n    }\n\n    -- Create the button for Levy Funds\n    self.createButton(params)\n\n    -- Create the button for Tax and Build\n    params.click_function = \"clickTaxBuild\"\n    params.position = {2, 0.2, 0.75}\n    self.createButton(params)\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction collectMoney(money)\n    local targetZone = getObjectFromGUID(\"67f67f\")\n    local zoneSize = targetZone.getScale()\n\n    local denominations = {10, 5, 1}\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    local params = {\n        smooth = false,\n    }\n    local height = 3\n\n    for _,v in pairs(denominations) do\n        while money >= v do\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + height\n            params.position = pos\n            moneyBags[v].takeObject(params)\n\n            height = height + 1\n            money = money - v\n        end\n    end\nend\n\nfunction getMoney()\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local cityMarker = getObjectFromGUID(\"6bff57\")\n    local score = gameBoard.call(\"markerScore\", cityMarker)\n\n    return math.floor((score - 1) / 10) + 5\nend\n\nfunction clickLevyFunds(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(money)\nend\n\nfunction clickTaxBuild(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(math.floor(money / 2))\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "AttachedSnapPoints": [
         {
           "Position": {
@@ -1099,6 +1109,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1139,6 +1150,7 @@
         "b": 0.2
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -1165,7 +1177,6 @@
       },
       "LuaScript": "function onLoad()\n    local params = {\n        click_function = \"clickLevyFunds\",\n        function_owner = self,\n        label          = \"Collect\",\n        position       = {-2, 0.2, 0.75},\n        rotation       = {0, 0, 0},\n        width          = 400,\n        height         = 150,\n        font_size      = 100,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click to collect money\"\n    }\n\n    -- Create the button for Levy Funds\n    self.createButton(params)\n\n    -- Create the button for Tax and Build\n    params.click_function = \"clickTaxBuild\"\n    params.position = {2, 0.2, 0.75}\n    self.createButton(params)\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction collectMoney(money)\n    local targetZone = getObjectFromGUID(\"f30c9d\")\n    local zoneSize = targetZone.getScale()\n\n    local denominations = {10, 5, 1}\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    local params = {\n        smooth = false,\n    }\n    local height = 3\n\n    for _,v in pairs(denominations) do\n        while money >= v do\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + height\n            params.position = pos\n            moneyBags[v].takeObject(params)\n\n            height = height + 1\n            money = money - v\n        end\n    end\nend\n\nfunction getMoney()\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local cityMarker = getObjectFromGUID(\"6bff57\")\n    local score = gameBoard.call(\"markerScore\", cityMarker)\n\n    return math.floor((score - 1) / 10) + 5\nend\n\nfunction clickLevyFunds(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(money)\nend\n\nfunction clickTaxBuild(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(math.floor(money / 2))\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "AttachedSnapPoints": [
         {
           "Position": {
@@ -1216,6 +1227,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -1242,7 +1254,6 @@
       },
       "LuaScript": "function onLoad()\n    local params = {\n        click_function = \"clickLevyFunds\",\n        function_owner = self,\n        label          = \"Collect\",\n        position       = {-2, 0.2, 0.75},\n        rotation       = {0, 0, 0},\n        width          = 400,\n        height         = 150,\n        font_size      = 100,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click to collect money\"\n    }\n\n    -- Create the button for Levy Funds\n    self.createButton(params)\n\n    -- Create the button for Tax and Build\n    params.click_function = \"clickTaxBuild\"\n    params.position = {2, 0.2, 0.75}\n    self.createButton(params)\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction collectMoney(money)\n    local targetZone = getObjectFromGUID(\"0c864b\")\n    local zoneSize = targetZone.getScale()\n\n    local denominations = {10, 5, 1}\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    local params = {\n        smooth = false,\n    }\n    local height = 3\n\n    for _,v in pairs(denominations) do\n        while money >= v do\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + height\n            params.position = pos\n            moneyBags[v].takeObject(params)\n\n            height = height + 1\n            money = money - v\n        end\n    end\nend\n\nfunction getMoney()\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local cityMarker = getObjectFromGUID(\"6bff57\")\n    local score = gameBoard.call(\"markerScore\", cityMarker)\n\n    return math.floor((score - 1) / 10) + 5\nend\n\nfunction clickLevyFunds(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(money)\nend\n\nfunction clickTaxBuild(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(math.floor(money / 2))\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "AttachedSnapPoints": [
         {
           "Position": {
@@ -1293,6 +1304,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1333,6 +1345,7 @@
         "b": 0.65
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1373,6 +1386,7 @@
         "b": 0.2
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1413,6 +1427,7 @@
         "b": 0.65
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -1439,7 +1454,6 @@
       },
       "LuaScript": "function onLoad()\n    local params = {\n        click_function = \"clickLevyFunds\",\n        function_owner = self,\n        label          = \"Collect\",\n        position       = {-2, 0.2, 0.75},\n        rotation       = {0, 0, 0},\n        width          = 400,\n        height         = 150,\n        font_size      = 100,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click to collect money\"\n    }\n\n    -- Create the button for Levy Funds\n    self.createButton(params)\n\n    -- Create the button for Tax and Build\n    params.click_function = \"clickTaxBuild\"\n    params.position = {2, 0.2, 0.75}\n    self.createButton(params)\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction collectMoney(money)\n    local targetZone = getObjectFromGUID(\"09fffe\")\n    local zoneSize = targetZone.getScale()\n\n    local denominations = {10, 5, 1}\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    local params = {\n        smooth = false,\n    }\n    local height = 3\n\n    for _,v in pairs(denominations) do\n        while money >= v do\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + height\n            params.position = pos\n            moneyBags[v].takeObject(params)\n\n            height = height + 1\n            money = money - v\n        end\n    end\nend\n\nfunction getMoney()\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local cityMarker = getObjectFromGUID(\"6bff57\")\n    local score = gameBoard.call(\"markerScore\", cityMarker)\n\n    return math.floor((score - 1) / 10) + 5\nend\n\nfunction clickLevyFunds(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(money)\nend\n\nfunction clickTaxBuild(obj, color, alt_click)\n    local money = getMoney()\n    collectMoney(math.floor(money / 2))\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "AttachedSnapPoints": [
         {
           "Position": {
@@ -1493,6 +1507,7 @@
         "large"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1518,8 +1533,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('84c367')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "52e61c",
@@ -1544,6 +1558,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1569,8 +1584,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('4c1ebc')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "7729d6",
@@ -1595,6 +1609,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1620,8 +1635,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('0628ba')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "946adc",
@@ -1646,6 +1660,7 @@
         "b": 0.65
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1669,8 +1684,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "98c6fd",
@@ -1695,6 +1709,7 @@
         "b": 0.65
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1718,8 +1733,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "abe989",
@@ -1744,6 +1758,7 @@
         "b": 0.65
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1767,8 +1782,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "b6ccbc",
@@ -1793,6 +1807,7 @@
         "b": 0.65
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1816,8 +1831,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "f14de0",
@@ -1842,6 +1856,7 @@
         "b": 0.65
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1865,8 +1880,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "71aaaf",
@@ -1891,6 +1905,7 @@
         "b": 0.65
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1914,8 +1929,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "55a0b9",
@@ -1940,6 +1954,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -1963,8 +1978,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "204a31",
@@ -1989,6 +2003,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2012,8 +2027,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "212edc",
@@ -2038,6 +2052,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2061,8 +2076,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "e6b3dc",
@@ -2087,6 +2101,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2110,8 +2125,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "c8c173",
@@ -2136,6 +2150,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2159,8 +2174,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "3d5d30",
@@ -2185,6 +2199,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2208,8 +2223,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "289467",
@@ -2234,6 +2248,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2257,8 +2272,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "8a73ef",
@@ -2283,6 +2297,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2306,8 +2321,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "881675",
@@ -2332,6 +2346,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2355,8 +2370,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "554ff6",
@@ -2381,6 +2395,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2404,8 +2419,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "5eb69a",
@@ -2430,6 +2444,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2453,8 +2468,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "3322fd",
@@ -2479,6 +2493,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2502,8 +2517,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "40acb1",
@@ -2528,6 +2542,7 @@
         "b": 0.2
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2551,8 +2566,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "a524d6",
@@ -2577,6 +2591,7 @@
         "b": 0.2
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2600,8 +2615,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "5808d7",
@@ -2626,6 +2640,7 @@
         "b": 0.2
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2649,8 +2664,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "ed27ad",
@@ -2675,6 +2689,7 @@
         "b": 0.2
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2698,8 +2713,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "0de0a6",
@@ -2724,6 +2738,7 @@
         "b": 0.2
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2747,8 +2762,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "7f1cbf",
@@ -2773,6 +2787,7 @@
         "b": 0.2
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2796,8 +2811,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "564ba1",
@@ -2825,6 +2839,7 @@
         "small"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2850,8 +2865,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('80c9b0')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "6e8c71",
@@ -2879,6 +2893,7 @@
         "small"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2904,8 +2919,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('2bf2e1')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "0db045",
@@ -2933,6 +2947,7 @@
         "small"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -2958,8 +2973,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('6f5c54')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "fbf9c8",
@@ -2987,6 +3001,7 @@
         "small"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -3012,8 +3027,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('3725cd')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "8caf83",
@@ -3038,6 +3052,7 @@
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -3077,6 +3092,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -3102,8 +3118,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('a42447')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "a98aae",
@@ -3128,6 +3143,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -3153,8 +3169,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('783f60')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "6784ff",
@@ -3179,6 +3194,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -3204,8 +3220,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('d83b27')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "5afbb8",
@@ -3233,6 +3248,7 @@
         "small"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -3284,6 +3300,7 @@
         "b": 0.33
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -3335,6 +3352,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -3348,8 +3366,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "LuaScript": "function onLoad()\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"+100\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 500,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Left-click to increment your score marker, right-click to increment the city score marker. This button replaces the 100/200 score tokens and the city discs.\"\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\n    local marker\n\n    if alt_click then\n        marker = getObjectFromGUID('6bff57')\n    elseif color == \"Green\" then\n        marker = getObjectFromGUID('a0ccfc')\n    elseif color == \"Yellow\" then\n        marker = getObjectFromGUID('c4ec6a')\n    elseif color == \"Red\" then\n        marker = getObjectFromGUID('237668')\n    elseif color == \"Blue\" then\n        marker = getObjectFromGUID('5d159c')\n    else\n        print(\"Unknown color \", color)\n        return\n    end\n\n    marker.call(\"increment\")\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "6bff57",
@@ -3377,6 +3394,7 @@
         "score"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -3400,8 +3418,7 @@
         "CastShadows": true
       },
       "LuaScript": "function onLoad(save_state)\n    local left = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0.38, 0.94, 0},\n        rotation       = {0, 270, 37},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0.1, 0.35, 0.65},\n        font_color     = {1, 1, 1},\n    }\n    local right = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {-0.38, 0.94, 0},\n        rotation       = {0, 90, -37},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 270,\n        color          = {0.1, 0.35, 0.65},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(left)\n    self.createButton(right)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"300\",\n    [\"300\"] = \"\",\n}\n\nfunction increment()\n    -- Assume that both sides have the same value\n    local button = self.getButtons()[1]\n    local label = table[button.label]\n\n    self.editButton({index = 0, label=label})\n    self.editButton({index = 1, label=label})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "63370c",
@@ -3426,6 +3443,7 @@
         "b": 0.08
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -3723,6 +3741,7 @@
         "b": 0.47
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -3749,7 +3768,6 @@
       },
       "LuaScript": "-- The collection of all the buttons, without or without cubes\nbuttons_set = {}\n\nfunction onLoad(save_state_json)\n    local co = -0.844 -- column offset\n    local cs = 0.3565 -- column scale\n    local bs = 0.0526 -- button offset\n    local ro = -0.576 -- row offset\n    local rs = 0.3565 -- row scale\n    local save_state = nil\n\n    if save_state_json ~= \"\" then\n        -- The save state contains the list of all 149 buttons, but the\n        -- JSON has to be decoded.  But first, let's verify it.\n        save_state = JSON.decode(save_state_json)\n\n        if #save_state ~= 149 then\n            broadcastToAll(\"Saved state is corrupted!\", Color.Red)\n            save_state = nil\n        end\n    end\n\n    if save_state ~= nil then\n        for _,button in ipairs(save_state) do\n            c = button.column\n            r = button.row\n            b = button.service\n            local button_data = {\n                position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                cube = getObjectFromGUID(button.cube_guid),\n                token = getObjectFromGUID(button.token_guid),\n                cube_color = button.cube_color,\n                column = c,\n                row = r,\n                service = b,\n            }\n            table.insert(buttons_set, button_data)\n        end\n    else\n        for c = 0,4 do\n            for r = 0,4 do\n                for b = 0,5 do\n                    -- skip the city service marker\n                    if not (c == 2 and r == 2 and b == 0) then\n                        local button_data = {\n                            position = {x = co + (c * cs) + (b * bs), y = 0.1, z = ro + (r * rs)},\n                            cube = nil, -- the cube object that's placed on this token\n                            token = nil, -- the score token object moved by the button on this cube\n                            cube_color = nil, -- the color of the cube on this button\n                            column = c,\n                            row = r,\n                            service = b,\n                        }\n                        table.insert(buttons_set, button_data)\n                    end\n                end\n            end\n        end\n    end\n\n    for _,button0 in ipairs(buttons_set) do\n        local button = {\n            width = 20,\n            height = 20,\n            color = {0, 0, 0, 0},\n            hover_color = {0, 0, 0, 0.7},\n            press_color = {0, 0, 0, 0},\n            function_owner = self,\n            click_function = \"button\"..button0.column..button0.row..button0.service,\n            position = button0.position,\n        }\n\n        local func = function(obj, player, alt_click)\n            buttonClicked(obj, player, alt_click, button0)\n        end\n        self.setVar(\"button\"..button0.column..button0.row..button0.service, func)\n        self.createButton(button)\n    end\nend\n\nscoreToken = {\n--          green     red       yellow    blue     neutral\n    [0] = {'0de0a6', '3322fd', '289467', '98c6fd', '1dee61'}, -- water\n    [1] = {'ed27ad', '5eb69a', '3d5d30', '71aaaf', '60fb49'}, -- food\n    [2] = {'5808d7', '554ff6', 'e6b3dc', 'f14de0', '4b3bc4'}, -- religion\n    [3] = {'a524d6', '881675', 'c8c173', '946adc', 'b81b1e'}, -- defense\n    [4] = {'40acb1', '8a73ef', '212edc', 'b6ccbc', 'ba1fd4'}, -- commerce\n    [5] = {'7f1cbf', '204a31', '55a0b9', 'abe989', '070f23'}, -- culture\n}\n\nfunction buttonClicked(board, player, alt_click, button)\n    local token\n    local cubeBag\n    local score\n    local index = button.service\n\n    if button.cube then\n        -- Right-button click in a two-player game is used to place neutral cubes\n        if alt_click then\n            if button.cube_color ~= \"Neutral\" then\n                return\n            end\n        else\n            -- only allow a player to remove his own cubes\n            if button.cube_color ~= player then\n                return\n            end\n        end\n        token = button.token\n        score = token.getVar(\"score\") - 1\n\n        destroyObject(button.cube)\n        button.cube = nil\n        button.token = nil\n        button.cube_color = nil\n    else\n        if alt_click then\n            if #getSeatedPlayers() == 2 then\n                cubeBag = getObjectFromGUID(\"e25a01\")\n                token = getObjectFromGUID(scoreToken[index][5])\n            else\n                -- Only add a neutral token if we're in a two-player game\n                return\n            end\n        elseif player == \"Red\" then\n            cubeBag = getObjectFromGUID(\"551726\")\n            token = getObjectFromGUID(scoreToken[index][2])\n        elseif player == \"Green\" then\n            cubeBag = getObjectFromGUID(\"c9ae8b\")\n            token = getObjectFromGUID(scoreToken[index][1])\n        elseif player == \"Blue\" then\n            cubeBag = getObjectFromGUID(\"97bcca\")\n            token = getObjectFromGUID(scoreToken[index][4])\n        elseif player == \"Yellow\" then\n            cubeBag = getObjectFromGUID(\"fd6678\")\n            token = getObjectFromGUID(scoreToken[index][3])\n        else\n            print('Unrecognize color ', player)\n            return\n        end\n\n        score = token.getVar(\"score\") + 1\n\n        -- We have to invert the X-axis for some log(button)\n        local buttonPos = {-button.position.x, button.position.y, button.position.z}\n        local params = {\n            smooth = false,\n            position = board.positionToWorld(buttonPos),\n        }\n        button.cube = cubeBag.takeObject(params) -- take the cube from the cube Bag\n        button.token = token\n        if alt_click then\n            button.cube_color = \"Neutral\"\n        else\n            button.cube_color = player\n        end\n    end\n\n    token.setVar(\"score\", score)\n    if score > 14 then\n        -- Maximum score displayed is 14, but we want to be able to track\n        -- scores higher than that, just in case.\n        score = 14\n    end\n\n    local tokenPos = token.getPosition()\n    tokenPos.x = -0.9011 + 1.4 * score\n    tokenPos.y = 2\n    token.setPosition(tokenPos)\nend\n\nfunction markerScore(marker)\n    local pos = self.positionToLocal(marker.getPosition())\n    local score = 0\n\n    -- These give either -1 or a number between 1 and 25\n    local x = math.floor(((pos.x * -100) + 93.6) / 7.5 + 0.1)\n    local z = math.floor(((pos.z * -100) + 94.6) / 7.5 + 0.1)\n\n    -- first, make some corrections for the corners, which are not aligned\n    if x < 0 then\n        x = 0\n    end\n    if z < 1 then\n        z = 0\n    end\n\n    -- calculate the score between 0 and 99\n    if z == 25 then\n        score = x\n    elseif x == 25 then\n        score = 50 - z\n    elseif z == 0 then\n        score = 75 - x\n    else\n        score = 75 + z\n    end\n\n    -- Add the +100 bonus score if present\n    local button = marker.getButtons()[1]\n    if button.label ~= \"\" then\n        score = score + tonumber(button.label)\n    end\n\n    return score\nend\n\nfunction onSave()\n    -- Save the entire button array.  It would be take a lot less space if\n    -- we just saved the buttons that have cubes on them, but then it would\n    -- be a lot more work to parse that.\n    save_state = {}\n    for _,button in ipairs(buttons_set) do\n        local state = {\n            -- objects can't be encoded, so convert them to GUIDs\n            cube_guid = button.cube and button.cube.getGUID() or nil,\n            token_guid = button.token and button.token.getGUID() or nil,\n            cube_color = button.cube_color,\n            column = button.column,\n            row = button.row,\n            service = button.service,\n        }\n        table.insert(save_state, state)\n    end\n\n    return JSON.encode(save_state)\nend",
       "LuaScriptState": "[{\"column\":0,\"row\":0,\"service\":0},{\"column\":0,\"row\":0,\"service\":1},{\"column\":0,\"row\":0,\"service\":2},{\"column\":0,\"row\":0,\"service\":3},{\"column\":0,\"row\":0,\"service\":4},{\"column\":0,\"row\":0,\"service\":5},{\"column\":0,\"row\":1,\"service\":0},{\"column\":0,\"row\":1,\"service\":1},{\"column\":0,\"row\":1,\"service\":2},{\"column\":0,\"row\":1,\"service\":3},{\"column\":0,\"row\":1,\"service\":4},{\"column\":0,\"row\":1,\"service\":5},{\"column\":0,\"row\":2,\"service\":0},{\"column\":0,\"row\":2,\"service\":1},{\"column\":0,\"row\":2,\"service\":2},{\"column\":0,\"row\":2,\"service\":3},{\"column\":0,\"row\":2,\"service\":4},{\"column\":0,\"row\":2,\"service\":5},{\"column\":0,\"row\":3,\"service\":0},{\"column\":0,\"row\":3,\"service\":1},{\"column\":0,\"row\":3,\"service\":2},{\"column\":0,\"row\":3,\"service\":3},{\"column\":0,\"row\":3,\"service\":4},{\"column\":0,\"row\":3,\"service\":5},{\"column\":0,\"row\":4,\"service\":0},{\"column\":0,\"row\":4,\"service\":1},{\"column\":0,\"row\":4,\"service\":2},{\"column\":0,\"row\":4,\"service\":3},{\"column\":0,\"row\":4,\"service\":4},{\"column\":0,\"row\":4,\"service\":5},{\"column\":1,\"row\":0,\"service\":0},{\"column\":1,\"row\":0,\"service\":1},{\"column\":1,\"row\":0,\"service\":2},{\"column\":1,\"row\":0,\"service\":3},{\"column\":1,\"row\":0,\"service\":4},{\"column\":1,\"row\":0,\"service\":5},{\"column\":1,\"row\":1,\"service\":0},{\"column\":1,\"row\":1,\"service\":1},{\"column\":1,\"row\":1,\"service\":2},{\"column\":1,\"row\":1,\"service\":3},{\"column\":1,\"row\":1,\"service\":4},{\"column\":1,\"row\":1,\"service\":5},{\"column\":1,\"row\":2,\"service\":0},{\"column\":1,\"row\":2,\"service\":1},{\"column\":1,\"row\":2,\"service\":2},{\"column\":1,\"row\":2,\"service\":3},{\"column\":1,\"row\":2,\"service\":4},{\"column\":1,\"row\":2,\"service\":5},{\"column\":1,\"row\":3,\"service\":0},{\"column\":1,\"row\":3,\"service\":1},{\"column\":1,\"row\":3,\"service\":2},{\"column\":1,\"row\":3,\"service\":3},{\"column\":1,\"row\":3,\"service\":4},{\"column\":1,\"row\":3,\"service\":5},{\"column\":1,\"row\":4,\"service\":0},{\"column\":1,\"row\":4,\"service\":1},{\"column\":1,\"row\":4,\"service\":2},{\"column\":1,\"row\":4,\"service\":3},{\"column\":1,\"row\":4,\"service\":4},{\"column\":1,\"row\":4,\"service\":5},{\"column\":2,\"row\":0,\"service\":0},{\"column\":2,\"row\":0,\"service\":1},{\"column\":2,\"row\":0,\"service\":2},{\"column\":2,\"row\":0,\"service\":3},{\"column\":2,\"row\":0,\"service\":4},{\"column\":2,\"row\":0,\"service\":5},{\"column\":2,\"row\":1,\"service\":0},{\"column\":2,\"row\":1,\"service\":1},{\"column\":2,\"row\":1,\"service\":2},{\"column\":2,\"row\":1,\"service\":3},{\"column\":2,\"row\":1,\"service\":4},{\"column\":2,\"row\":1,\"service\":5},{\"column\":2,\"row\":2,\"service\":1},{\"column\":2,\"row\":2,\"service\":2},{\"column\":2,\"row\":2,\"service\":3},{\"column\":2,\"row\":2,\"service\":4},{\"column\":2,\"row\":2,\"service\":5},{\"column\":2,\"row\":3,\"service\":0},{\"column\":2,\"row\":3,\"service\":1},{\"column\":2,\"row\":3,\"service\":2},{\"column\":2,\"row\":3,\"service\":3},{\"column\":2,\"row\":3,\"service\":4},{\"column\":2,\"row\":3,\"service\":5},{\"column\":2,\"row\":4,\"service\":0},{\"column\":2,\"row\":4,\"service\":1},{\"column\":2,\"row\":4,\"service\":2},{\"column\":2,\"row\":4,\"service\":3},{\"column\":2,\"row\":4,\"service\":4},{\"column\":2,\"row\":4,\"service\":5},{\"column\":3,\"row\":0,\"service\":0},{\"column\":3,\"row\":0,\"service\":1},{\"column\":3,\"row\":0,\"service\":2},{\"column\":3,\"row\":0,\"service\":3},{\"column\":3,\"row\":0,\"service\":4},{\"column\":3,\"row\":0,\"service\":5},{\"column\":3,\"row\":1,\"service\":0},{\"column\":3,\"row\":1,\"service\":1},{\"column\":3,\"row\":1,\"service\":2},{\"column\":3,\"row\":1,\"service\":3},{\"column\":3,\"row\":1,\"service\":4},{\"column\":3,\"row\":1,\"service\":5},{\"column\":3,\"row\":2,\"service\":0},{\"column\":3,\"row\":2,\"service\":1},{\"column\":3,\"row\":2,\"service\":2},{\"column\":3,\"row\":2,\"service\":3},{\"column\":3,\"row\":2,\"service\":4},{\"column\":3,\"row\":2,\"service\":5},{\"column\":3,\"row\":3,\"service\":0},{\"column\":3,\"row\":3,\"service\":1},{\"column\":3,\"row\":3,\"service\":2},{\"column\":3,\"row\":3,\"service\":3},{\"column\":3,\"row\":3,\"service\":4},{\"column\":3,\"row\":3,\"service\":5},{\"column\":3,\"row\":4,\"service\":0},{\"column\":3,\"row\":4,\"service\":1},{\"column\":3,\"row\":4,\"service\":2},{\"column\":3,\"row\":4,\"service\":3},{\"column\":3,\"row\":4,\"service\":4},{\"column\":3,\"row\":4,\"service\":5},{\"column\":4,\"row\":0,\"service\":0},{\"column\":4,\"row\":0,\"service\":1},{\"column\":4,\"row\":0,\"service\":2},{\"column\":4,\"row\":0,\"service\":3},{\"column\":4,\"row\":0,\"service\":4},{\"column\":4,\"row\":0,\"service\":5},{\"column\":4,\"row\":1,\"service\":0},{\"column\":4,\"row\":1,\"service\":1},{\"column\":4,\"row\":1,\"service\":2},{\"column\":4,\"row\":1,\"service\":3},{\"column\":4,\"row\":1,\"service\":4},{\"column\":4,\"row\":1,\"service\":5},{\"column\":4,\"row\":2,\"service\":0},{\"column\":4,\"row\":2,\"service\":1},{\"column\":4,\"row\":2,\"service\":2},{\"column\":4,\"row\":2,\"service\":3},{\"column\":4,\"row\":2,\"service\":4},{\"column\":4,\"row\":2,\"service\":5},{\"column\":4,\"row\":3,\"service\":0},{\"column\":4,\"row\":3,\"service\":1},{\"column\":4,\"row\":3,\"service\":2},{\"column\":4,\"row\":3,\"service\":3},{\"column\":4,\"row\":3,\"service\":4},{\"column\":4,\"row\":3,\"service\":5},{\"column\":4,\"row\":4,\"service\":0},{\"column\":4,\"row\":4,\"service\":1},{\"column\":4,\"row\":4,\"service\":2},{\"column\":4,\"row\":4,\"service\":3},{\"column\":4,\"row\":4,\"service\":4},{\"column\":4,\"row\":4,\"service\":5}]",
-      "XmlUI": "",
       "AttachedSnapPoints": [
         {
           "Position": {
@@ -8902,6 +8920,7 @@
         "b": 0.33
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -8953,6 +8972,7 @@
         "b": 0.41
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -8997,6 +9017,7 @@
         "b": 0.33
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -9051,6 +9072,7 @@
         "score"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -9076,8 +9098,7 @@
         }
       },
       "LuaScript": "function onLoad(save_state)\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "5d159c",
@@ -9105,6 +9126,7 @@
         "score"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -9130,8 +9152,7 @@
         }
       },
       "LuaScript": "function onLoad(save_state)\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "c4ec6a",
@@ -9159,6 +9180,7 @@
         "score"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -9184,8 +9206,7 @@
         }
       },
       "LuaScript": "function onLoad(save_state)\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "237668",
@@ -9213,6 +9234,7 @@
         "score"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -9238,8 +9260,7 @@
         }
       },
       "LuaScript": "function onLoad(save_state)\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 0.2, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state,\n        width          = 0,\n        height         = 0,\n        font_size      = 500,\n        color          = {0, 0, 0},\n        font_color     = {1, 1, 1},\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\ntable = {\n    [\"\"] = \"100\",\n    [\"100\"] = \"200\",\n    [\"200\"] = \"\",\n}\n\nfunction increment()\n    local button = self.getButtons()[1]\n\n    self.editButton({index = 0, label=table[button.label]})\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "689208",
@@ -9264,6 +9285,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9326,6 +9348,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9398,6 +9421,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9470,6 +9494,7 @@
         "b": 0.996
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9542,6 +9567,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9615,6 +9641,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9655,6 +9682,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9695,6 +9723,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9735,6 +9764,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9775,6 +9805,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9815,6 +9846,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9855,6 +9887,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9895,6 +9928,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9935,6 +9969,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -9975,6 +10010,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10015,6 +10051,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10055,6 +10092,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10095,6 +10133,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10135,6 +10174,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10175,6 +10215,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10215,6 +10256,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10255,6 +10297,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10295,6 +10338,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10335,6 +10379,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10375,6 +10420,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10415,6 +10461,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10455,6 +10502,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10495,6 +10543,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10535,6 +10584,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10575,6 +10625,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10615,6 +10666,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10655,6 +10707,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10695,6 +10748,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10735,6 +10789,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10775,6 +10830,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10815,6 +10871,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10855,6 +10912,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10895,6 +10953,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10935,6 +10994,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -10975,6 +11035,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11015,6 +11076,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11055,6 +11117,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11095,6 +11158,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11135,6 +11199,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11175,6 +11240,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11215,6 +11281,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11255,6 +11322,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11294,6 +11362,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": false,
@@ -11306,7 +11375,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "orderBag = nil\n\nfunction onLoad()\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"Start\\nGame\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 1000,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click here once all players are seated.\"\n    }\n\n    self.createButton(params)\n    orderBag = getObjectFromGUID(\"9566ac\")\nend\n\n-- returns the index of table where 'value' exist, or 0\nfunction findIndex(table, value)\n    for k,v in pairs(table) do\n        if v == value then\n            return k\n        end\n    end\n\n    return 0\nend\n\n-- Returns the top two tiles\nfunction topTiles(zone)\n    local tiles = {nil, nil}\n\n    -- the heights of the two highest tiles so far\n    local heights = {0, 0}\n\n    for k,v in pairs(zone.getObjects()) do\n        local pos = v.getPosition()\n\n        -- if the new height is higher than the current top, then it becomes\n        -- the new top, and the previous top because second place\n        if pos.y > heights[1] then\n            tiles[2] = tiles[1]\n            tiles[1] = v\n            heights[1] = pos.y\n        -- otherwise, if the new height is in between the top two heights,\n        -- then it becomes the new second place\n        elseif pos.y > heights[2] then\n            tiles[2] = v\n            heights[2] = pos.y\n        end\n    end\n\n    return tiles\nend\n\n-- Create the remaining clones of all the structure tiles\n-- We do this so that we don't need to create the clones manually.\n-- That makes it easier to maintain the code for the tiles.\nfunction createStructureTileClones()\n    -- But first, we only want to do this if there are no clones at all.\n    -- That is a pristine board.\n    for _,v in ipairs(getAllObjects()) do\n        if v.getGMNotes() == \"clone\" then\n            -- If there's at least one clone on the board,\n            -- then assume that they all exist.\n            print(\"Continuing game in progress\")\n            return\n        end\n    end\n\n    local tiles = {\n        { \"55f02e\", 11 }, -- small structures\n        { \"1d9538\", 11 },\n        { \"fbf9c8\", 8 },\n        { \"0db045\", 8 },\n        { \"6e8c71\", 5 },\n        { \"564ba1\", 5 },\n        { \"c05fff\", 5 }, -- medium structures\n        { \"378eb3\", 5 },\n        { \"4d6a48\", 4 },\n        { \"fddac6\", 4 },\n        { \"54137a\", 3 },\n        { \"1c7cef\", 3},\n    }\n\n    for _,v in ipairs(tiles) do\n        local tile = getObjectFromGUID(v[1])\n        local pos = tile.getPosition()\n\n        for i = 1,v[2] do\n            pos.y = 1 + i / 4.0\n            local params = {\n                position = pos,\n                snap_to_grid = true,\n            }\n\n            local clone = tile.clone(params)\n            clone.setGMNotes(\"clone\")\n        end\n    end\nend\n\nfunction twoPlayers(seatedOrder)\n    -- The scripting zones of each small and medium tile stack\n    local sourceZoneGUIDs = {\n        -- Small, from right to left\n        { \"80c9b0\", \"2bf2e1\", \"6f5c54\", \"3725cd\", \"9c1045\", \"4a6642\"},\n        -- Medium, from right to left\n        { \"c1a842\", \"5ad5ea\", \"057f91\", \"77bdf6\", \"c26c72\", \"4819cb\"},\n    }\n\n    -- each player has a pair of zones next to his board that old the\n    -- stacks of structures for the neutral player.\n    local targetZoneGUIDs = {\n        --         small     medium    build token\n        Red =    { \"c7a89a\", \"68f179\", \"fd003f\" },\n        Green =  { \"8c0c34\", \"bd48f8\", \"71cf7f\" },\n        Blue =   { \"d4314d\", \"eb8643\", \"bb551a\" },\n        Yellow = { \"a6e79d\", \"fab66a\", \"7fd04a\" },\n    }\n\n    -- The actual build/nobuild tokens, one for each player\n    local buildTokensGUIDs = { \"24da88\", \"e42c68\" }\n\n    -- Distribute all 24 tiles to four stacks, and give each player a\n    -- build / no-build token\n\n    -- first build the small structure stacks, then the medium structure stacks\n    -- index==1 -> small structures, index==2 -> medium structures\n    for sizeIndex = 1,2 do\n        -- iterate over each of the stacks\n        for tileIndex,sourceZoneGuid in pairs(sourceZoneGUIDs[sizeIndex]) do\n            local sourceZone = getObjectFromGUID(sourceZoneGuid)\n            local tiles = topTiles(sourceZone)\n\n            -- tiles[1] is the top tile of the stack, tiles[2] is under it\n            for playerNumber,tile in pairs(tiles) do\n                local playerColor = seatedOrder[playerNumber]\n\n                -- target zone for this stack\n                local targetZoneGUID = targetZoneGUIDs[playerColor][sizeIndex]\n                local targetZone = getObjectFromGUID(targetZoneGUID)\n\n                -- setPosition() returns quickly, before it's finished moving\n                -- the tile.  If we try to move all of the tiles of one stack\n                -- to the same position, they will crash into each other.\n                -- So instead, we layer the tiles in mid-air.  They will then fall\n                -- down in a neat stack together.\n                local pos = targetZone.getPosition()\n                pos.y = pos.y + tileIndex / 2.0\n                tile.setPosition(pos)\n\n                -- Also mark the tile as being owned by the Neutral player\n                tile.setVar(\"owner\", \"Neutral\")\n                tile.setColorTint({0.5, 0.5, 0.5})\n            end\n        end\n    end\n\n    -- And now the build / no-build tokens, which are kept in the same\n    -- bag as the order tiles\n    for playerNumber = 1,2 do\n        local playerColor = seatedOrder[playerNumber]\n        local targetZoneGUID = targetZoneGUIDs[playerColor][3]\n        local targetZone = getObjectFromGUID(targetZoneGUID)\n        local params = {\n            smooth = false,\n            position = targetZone.getPosition(),\n            guid = buildTokensGUIDs[playerNumber],\n        }\n        orderBag.takeObject(params) -- grab the token\n    end\nend\n\n-- Remove tokens for colors that are not playing.  It's easier in TTS to\n-- remove unwanted objects than it is to create them via code\nfunction deleteOtherPlayers(players)\n    -- List of objects to remove for each color\n    local playerTokens = {\n        -- Score token, king's bonus tokens, player mat, player pawn, district bonus score, king's bonus score, money counter zone, money counter\n        Red = { \"19a7ca\", \"237668\", \"204a31\", \"3322fd\", \"554ff6\", \"5eb69a\", \"881675\", \"8a73ef\", \"aa2037\", \"bd0da8\", \"70add7\", \"6456f5\", \"72893e\"},\n        Green = { \"7fbbb4\", \"a0ccfc\", \"0de0a6\", \"40acb1\", \"5808d7\", \"7f1cbf\", \"a524d6\", \"ed27ad\", \"3c489f\", \"e88e72\", \"f29f5a\", \"f966d6\", \"7f043b\"},\n        Blue = { \"6c3784\", \"5d159c\", \"71aaaf\", \"946adc\", \"98c6fd\", \"abe989\", \"b6ccbc\", \"f14de0\", \"fe9bbb\", \"55d8d6\", \"5e0202\", \"bbeb39\", \"dbfbd4\"},\n        Yellow = { \"3e6e2f\", \"c4ec6a\", \"212edc\", \"289467\", \"3d5d30\", \"55a0b9\", \"c8c173\", \"e6b3dc\", \"4f60c5\", \"320610\", \"467c8e\", \"58dd21\", \"1f460d\"},\n        -- king's bonus tokens only\n        Neutral = { \"1dee61\", \"4b3bc4\", \"60fb49\", \"070f23\", \"b81b1e\", \"ba1fd4\" }\n    }\n\n    for _,playerColor in ipairs(players) do\n        local tokensToDelete = playerTokens[playerColor]\n\n        for _,tokenGUID in ipairs(tokensToDelete) do\n            local token = getObjectFromGUID(tokenGUID)\n\n            destroyObject(token)\n        end\n    end\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction click_func(obj, color, alt_click)\n    local playerSequence = {\"Red\", \"Green\", \"Blue\", \"Yellow\"}\n\n    -- First, make sure that everyone has chosen a valid color\n    for _,v in ipairs(Player.getPlayers()) do\n        if findIndex(playerSequence, v.color) == 0 then\n            broadcastToAll(\"Some players need to choose valid colors\", {r=1, g=0, b=0})\n            return\n        end\n    end\n\n    -- Generate a list of seated players sorted by the order of\n    -- colors on the table itself: Red, Green, Blue, Yellow\n    local seatedPlayers = getSeatedPlayers()\n    if #seatedPlayers < 2 then\n        broadcastToAll(\"Not enough seated players\", {r=1, g=0, b=0})\n        return\n    end\n\n    -- A list of which players are seated, from left to right\n    -- This is an array of player colors\n    local seatedOrder = {}\n    for _,v in ipairs(playerSequence) do\n        if findIndex(seatedPlayers, v) > 0 then\n            table.insert(seatedOrder, v)\n        end\n    end\n\n    -- Choose one to be first\n    local first = math.random(#seatedOrder)\n\n    -- Create a table of the player order.  This is an array of player colors\n    -- This is basically seatedOrder rotated so that the first player is\n    -- the first element in the array.\n    local playerOrder = {}\n    for i = 1,#seatedOrder do\n        table.insert(playerOrder, seatedOrder[first])\n        first = first + 1\n        if first > #seatedOrder then\n            first = 1\n        end\n    end\n\n    -- The locations where the player order tokens go\n    local playerOrderTokenZones = {\n        Red = getObjectFromGUID(\"dc5713\"),\n        Green = getObjectFromGUID(\"e696de\"),\n        Blue = getObjectFromGUID(\"aacb34\"),\n        Yellow = getObjectFromGUID(\"25d4d6\"),\n    }\n\n    local playerMoneyZones = {\n        Red = getObjectFromGUID(\"0c864b\"),\n        Green = getObjectFromGUID(\"f30c9d\"),\n        Blue = getObjectFromGUID(\"09fffe\"),\n        Yellow = getObjectFromGUID(\"67f67f\"),\n    }\n\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    orderTokenGUIDs = {\n        \"7ed858\", -- Saxon Prince\n        \"e67c99\", -- Saxon Duke\n        \"39477f\", -- Saxon Count\n        \"886874\", -- Saxon Earl\n    }\n\n    -- Now deal out the player order tokens and money\n    for k,playerColor in pairs(playerOrder) do\n        local targetZone = playerOrderTokenZones[playerColor]\n        local params = {\n            smooth = false,\n            position = targetZone.getPosition(),\n            guid = orderTokenGUIDs[k],\n        }\n        orderBag.takeObject(params)\n\n        -- Each player starts with $6\n        local targetZone = playerMoneyZones[playerColor]\n        local zoneSize = targetZone.getScale()\n        local params = {\n            smooth = false,\n        }\n        for i = 1,6 do\n            -- Distribute the coins, but make sure they're distributed\n            -- randomly so that they don't create a sticky stack\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + i\n            params.position = pos\n            moneyBags[1].takeObject(params)\n        end\n    end\n\n    createStructureTileClones()\n\n    -- Remove all the objects associated with player colors not at the table\n    local missingPlayers = {}\n    for _,v in ipairs(Player.getAvailableColors()) do\n        local index = findIndex(seatedPlayers, v)\n        if index == 0 then\n            table.insert(missingPlayers, v)\n        end\n    end\n\n    -- if we're playing with more than 2 players, delete the neutral player too\n    if #seatedOrder > 2 then\n        table.insert(missingPlayers, \"Neutral\")\n    end\n\n    deleteOtherPlayers(missingPlayers)\n\n    -- Two-player rules require additional setup\n    if #seatedOrder == 2 then\n        -- We need to wait one frame to give the structure tile scripting zones\n        -- time to notice all these cloned tiles inside them.\n        Wait.frames(function() twoPlayers(seatedOrder) end, 1)\n    end\n\n    Turns.order = playerOrder\n    Turns.turn_color = playerOrder[1]\n\n    -- Delete the start button because we don't support resetting a game\n    self.destruct()\nend",
+      "LuaScript": "orderBag = nil\n\nfunction onLoad()\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        label          = \"Start\\nGame\",\n        position       = {0, 1, 0},\n        rotation       = {0, 0, 0},\n        width          = 1000,\n        height         = 1000,\n        font_size      = 300,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click here once all players are seated.\"\n    }\n\n    self.createButton(params)\n    orderBag = getObjectFromGUID(\"9566ac\")\nend\n\n-- returns the index of table where 'value' exist, or 0\nfunction findIndex(table, value)\n    for k,v in pairs(table) do\n        if v == value then\n            return k\n        end\n    end\n\n    return 0\nend\n\n-- Returns the top two tiles\nfunction topTiles(zone)\n    local tiles = {nil, nil}\n\n    -- the heights of the two highest tiles so far\n    local heights = {0, 0}\n\n    for k,v in pairs(zone.getObjects()) do\n        local pos = v.getPosition()\n\n        -- if the new height is higher than the current top, then it becomes\n        -- the new top, and the previous top because second place\n        if pos.y > heights[1] then\n            tiles[2] = tiles[1]\n            tiles[1] = v\n            heights[1] = pos.y\n        -- otherwise, if the new height is in between the top two heights,\n        -- then it becomes the new second place\n        elseif pos.y > heights[2] then\n            tiles[2] = v\n            heights[2] = pos.y\n        end\n    end\n\n    return tiles\nend\n\n-- Create the remaining clones of all the structure tiles\n-- We do this so that we don't need to create the clones manually.\n-- That makes it easier to maintain the code for the tiles.\nfunction createStructureTileClones()\n    -- But first, we only want to do this if there are no clones at all.\n    -- That is a pristine board.\n    for _,v in ipairs(getAllObjects()) do\n        if v.getGMNotes() == \"clone\" then\n            -- If there's at least one clone on the board,\n            -- then assume that they all exist.\n            print(\"Continuing game in progress\")\n            return\n        end\n    end\n\n    local tiles = {\n        { \"55f02e\", 11 }, -- small structures\n        { \"1d9538\", 11 },\n        { \"fbf9c8\", 8 },\n        { \"0db045\", 8 },\n        { \"6e8c71\", 5 },\n        { \"564ba1\", 5 },\n        { \"c05fff\", 5 }, -- medium structures\n        { \"378eb3\", 5 },\n        { \"4d6a48\", 4 },\n        { \"fddac6\", 4 },\n        { \"54137a\", 3 },\n        { \"1c7cef\", 3},\n    }\n\n    for _,v in ipairs(tiles) do\n        local tile = getObjectFromGUID(v[1])\n        local pos = tile.getPosition()\n\n        for i = 1,v[2] do\n            pos.y = 1 + i / 4.0\n            local params = {\n                position = pos,\n                snap_to_grid = true,\n            }\n\n            local clone = tile.clone(params)\n            clone.setGMNotes(\"clone\")\n        end\n    end\nend\n\nfunction twoPlayers(seatedOrder)\n    -- The scripting zones of each small and medium tile stack\n    local sourceZoneGUIDs = {\n        -- Small, from right to left\n        { \"80c9b0\", \"2bf2e1\", \"6f5c54\", \"3725cd\", \"9c1045\", \"4a6642\"},\n        -- Medium, from right to left\n        { \"c1a842\", \"5ad5ea\", \"057f91\", \"77bdf6\", \"c26c72\", \"4819cb\"},\n    }\n\n    -- each player has a pair of zones next to his board that old the\n    -- stacks of structures for the neutral player.\n    local targetZoneGUIDs = {\n        --         small     medium    build token\n        Red =    { \"c7a89a\", \"68f179\", \"fd003f\" },\n        Green =  { \"8c0c34\", \"bd48f8\", \"71cf7f\" },\n        Blue =   { \"d4314d\", \"eb8643\", \"bb551a\" },\n        Yellow = { \"a6e79d\", \"fab66a\", \"7fd04a\" },\n    }\n\n    -- The actual build/nobuild tokens, one for each player\n    local buildTokensGUIDs = { \"24da88\", \"e42c68\" }\n\n    -- Distribute all 24 tiles to four stacks, and give each player a\n    -- build / no-build token\n\n    -- first build the small structure stacks, then the medium structure stacks\n    -- index==1 -> small structures, index==2 -> medium structures\n    for sizeIndex = 1,2 do\n        -- iterate over each of the stacks\n        for tileIndex,sourceZoneGuid in pairs(sourceZoneGUIDs[sizeIndex]) do\n            local sourceZone = getObjectFromGUID(sourceZoneGuid)\n            local tiles = topTiles(sourceZone)\n\n            -- tiles[1] is the top tile of the stack, tiles[2] is under it\n            for playerNumber,tile in pairs(tiles) do\n                local playerColor = seatedOrder[playerNumber]\n\n                -- target zone for this stack\n                local targetZoneGUID = targetZoneGUIDs[playerColor][sizeIndex]\n                local targetZone = getObjectFromGUID(targetZoneGUID)\n\n                -- setPosition() returns quickly, before it's finished moving\n                -- the tile.  If we try to move all of the tiles of one stack\n                -- to the same position, they will crash into each other.\n                -- So instead, we layer the tiles in mid-air.  They will then fall\n                -- down in a neat stack together.\n                local pos = targetZone.getPosition()\n                pos.y = pos.y + tileIndex / 2.0\n                tile.setPosition(pos)\n\n                -- Also mark the tile as being owned by the Neutral player\n                tile.setVar(\"owner\", \"Neutral\")\n                tile.setColorTint({0.5, 0.5, 0.5})\n            end\n        end\n    end\n\n    -- And now the build / no-build tokens, which are kept in the same\n    -- bag as the order tiles\n    for playerNumber = 1,2 do\n        local playerColor = seatedOrder[playerNumber]\n        local targetZoneGUID = targetZoneGUIDs[playerColor][3]\n        local targetZone = getObjectFromGUID(targetZoneGUID)\n        local params = {\n            smooth = false,\n            position = targetZone.getPosition(),\n            guid = buildTokensGUIDs[playerNumber],\n        }\n        orderBag.takeObject(params) -- grab the token\n    end\nend\n\n-- Remove tokens for colors that are not playing.  It's easier in TTS to\n-- remove unwanted objects than it is to create them via code\nfunction deleteOtherPlayers(players)\n    -- List of objects to remove for each color\n    local playerTokens = {\n        -- Score token, king's bonus tokens, player mat, player pawn, district bonus score, king's bonus score, money counter zone, money counter\n        Red = { \"237668\", \"204a31\", \"3322fd\", \"554ff6\", \"5eb69a\", \"881675\", \"8a73ef\", \"aa2037\", \"bd0da8\", \"70add7\", \"6456f5\", \"19a7ca\", \"72893e\"},\n        Green = { \"a0ccfc\", \"0de0a6\", \"40acb1\", \"5808d7\", \"7f1cbf\", \"a524d6\", \"ed27ad\", \"3c489f\", \"e88e72\", \"f29f5a\", \"f966d6\", \"7fbbb4\", \"7f043b\"},\n        Blue = { \"5d159c\", \"71aaaf\", \"946adc\", \"98c6fd\", \"abe989\", \"b6ccbc\", \"f14de0\", \"fe9bbb\", \"55d8d6\", \"5e0202\", \"bbeb39\", \"6c3784\", \"dbfbd4\"},\n        Yellow = { \"c4ec6a\", \"212edc\", \"289467\", \"3d5d30\", \"55a0b9\", \"c8c173\", \"e6b3dc\", \"4f60c5\", \"320610\", \"467c8e\", \"58dd21\", \"3e6e2f\", \"1f460d\"},\n        -- king's bonus tokens only\n        Neutral = { \"1dee61\", \"4b3bc4\", \"60fb49\", \"070f23\", \"b81b1e\", \"ba1fd4\" }\n    }\n\n    for _,playerColor in ipairs(players) do\n        local tokensToDelete = playerTokens[playerColor]\n\n        for _,tokenGUID in ipairs(tokensToDelete) do\n            local token = getObjectFromGUID(tokenGUID)\n\n            destroyObject(token)\n        end\n    end\nend\n\n-- Returns a random number between -1 and 1\nfunction random()\n    return (math.random() * 2) - 1\nend\n\nfunction click_func(obj, color, alt_click)\n    local playerSequence = {\"Red\", \"Green\", \"Blue\", \"Yellow\"}\n\n    -- First, make sure that everyone has chosen a valid color\n    for _,v in ipairs(Player.getPlayers()) do\n        if findIndex(playerSequence, v.color) == 0 then\n            broadcastToAll(\"Some players need to choose valid colors\", {r=1, g=0, b=0})\n            return\n        end\n    end\n\n    -- Generate a list of seated players sorted by the order of\n    -- colors on the table itself: Red, Green, Blue, Yellow\n    local seatedPlayers = getSeatedPlayers()\n    if #seatedPlayers < 2 then\n        broadcastToAll(\"Not enough seated players\", {r=1, g=0, b=0})\n        return\n    end\n\n    -- A list of which players are seated, from left to right\n    -- This is an array of player colors\n    local seatedOrder = {}\n    for _,v in ipairs(playerSequence) do\n        if findIndex(seatedPlayers, v) > 0 then\n            table.insert(seatedOrder, v)\n        end\n    end\n\n    -- Choose one to be first\n    local first = math.random(#seatedOrder)\n\n    -- Create a table of the player order.  This is an array of player colors\n    -- This is basically seatedOrder rotated so that the first player is\n    -- the first element in the array.\n    local playerOrder = {}\n    for i = 1,#seatedOrder do\n        table.insert(playerOrder, seatedOrder[first])\n        first = first + 1\n        if first > #seatedOrder then\n            first = 1\n        end\n    end\n\n    -- The locations where the player order tokens go\n    local playerOrderTokenZones = {\n        Red = getObjectFromGUID(\"dc5713\"),\n        Green = getObjectFromGUID(\"e696de\"),\n        Blue = getObjectFromGUID(\"aacb34\"),\n        Yellow = getObjectFromGUID(\"25d4d6\"),\n    }\n\n    local playerMoneyZones = {\n        Red = getObjectFromGUID(\"0c864b\"),\n        Green = getObjectFromGUID(\"f30c9d\"),\n        Blue = getObjectFromGUID(\"09fffe\"),\n        Yellow = getObjectFromGUID(\"67f67f\"),\n    }\n\n    local moneyBags = {\n        [1] = getObjectFromGUID(\"871136\"),\n        [5] = getObjectFromGUID(\"3fbf02\"),\n        [10] = getObjectFromGUID(\"2a92a3\"),\n    }\n\n    orderTokenGUIDs = {\n        \"7ed858\", -- Saxon Prince\n        \"e67c99\", -- Saxon Duke\n        \"39477f\", -- Saxon Count\n        \"886874\", -- Saxon Earl\n    }\n\n    -- Now deal out the player order tokens and money\n    for k,playerColor in pairs(playerOrder) do\n        local targetZone = playerOrderTokenZones[playerColor]\n        local params = {\n            smooth = false,\n            position = targetZone.getPosition(),\n            guid = orderTokenGUIDs[k],\n        }\n        orderBag.takeObject(params)\n\n        -- Each player starts with $6\n        local targetZone = playerMoneyZones[playerColor]\n        local zoneSize = targetZone.getScale()\n        local params = {\n            smooth = false,\n        }\n        for i = 1,6 do\n            -- Distribute the coins, but make sure they're distributed\n            -- randomly so that they don't create a sticky stack\n            local pos = targetZone.getPosition()\n            pos.x = pos.x + random() * zoneSize.x / 4\n            pos.z = pos.z + random() * zoneSize.z / 4\n            pos.y = pos.y + i\n            params.position = pos\n            moneyBags[1].takeObject(params)\n        end\n    end\n\n    createStructureTileClones()\n\n    -- Remove all the objects associated with player colors not at the table\n    local missingPlayers = {}\n    for _,v in ipairs(Player.getAvailableColors()) do\n        local index = findIndex(seatedPlayers, v)\n        if index == 0 then\n            table.insert(missingPlayers, v)\n        end\n    end\n\n    -- if we're playing with more than 2 players, delete the neutral player too\n    if #seatedOrder > 2 then\n        table.insert(missingPlayers, \"Neutral\")\n    end\n\n    deleteOtherPlayers(missingPlayers)\n\n    -- Two-player rules require additional setup\n    if #seatedOrder == 2 then\n        -- We need to wait one frame to give the structure tile scripting zones\n        -- time to notice all these cloned tiles inside them.\n        Wait.frames(function() twoPlayers(seatedOrder) end, 1)\n    end\n\n    Turns.order = playerOrder\n    Turns.turn_color = playerOrder[1]\n\n    -- Delete the start button because we don't support resetting a game\n    self.destruct()\nend",
       "LuaScriptState": ""
     },
     {
@@ -11333,6 +11402,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11373,6 +11443,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11413,6 +11484,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11453,6 +11525,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11492,6 +11565,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": false,
@@ -11511,7 +11585,6 @@
       },
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "ContainedObjects": [
         {
           "GUID": "886874",
@@ -11536,6 +11609,7 @@
             "b": 0.506
           },
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": false,
@@ -11587,6 +11661,7 @@
             "b": 0.506
           },
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": false,
@@ -11638,6 +11713,7 @@
             "b": 0.506
           },
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": false,
@@ -11689,6 +11765,7 @@
             "b": 0.506
           },
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": false,
@@ -11740,6 +11817,7 @@
             "b": 0.467
           },
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": false,
@@ -11791,6 +11869,7 @@
             "b": 0.467
           },
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": false,
@@ -11845,6 +11924,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11885,6 +11965,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11925,6 +12006,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -11965,6 +12047,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -12005,6 +12088,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -12045,6 +12129,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -12085,6 +12170,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -12125,6 +12211,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -12167,6 +12254,7 @@
         "medium"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12192,8 +12280,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('c1a842')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "54137a",
@@ -12221,6 +12308,7 @@
         "medium"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12246,8 +12334,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('5ad5ea')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "fddac6",
@@ -12275,6 +12362,7 @@
         "medium"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12300,8 +12388,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('057f91')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "4d6a48",
@@ -12329,6 +12416,7 @@
         "medium"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12354,8 +12442,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('77bdf6')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "378eb3",
@@ -12383,6 +12470,7 @@
         "medium"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12408,8 +12496,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('c26c72')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "c05fff",
@@ -12437,6 +12524,7 @@
         "medium"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12462,8 +12550,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('4819cb')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.7, 0.7, 0.7}) -- grey\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "55f02e",
@@ -12491,6 +12578,7 @@
         "small"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12516,8 +12604,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('4a6642')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "fd003f",
@@ -12543,6 +12630,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -12583,6 +12671,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -12623,6 +12712,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -12663,6 +12753,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -12702,6 +12793,7 @@
         "b": 0.5
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12725,8 +12817,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "1dee61",
@@ -12751,6 +12842,7 @@
         "b": 0.5
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12774,8 +12866,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "4b3bc4",
@@ -12800,6 +12891,7 @@
         "b": 0.5
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12823,8 +12915,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "b81b1e",
@@ -12849,6 +12940,7 @@
         "b": 0.5
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12872,8 +12964,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "ba1fd4",
@@ -12898,6 +12989,7 @@
         "b": 0.5
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12921,8 +13013,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "070f23",
@@ -12947,6 +13038,7 @@
         "b": 0.5
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -12970,8 +13062,7 @@
         "CastShadows": true
       },
       "LuaScript": "score = 0\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        score = tonumber(save_state)\n    end\n    self.interactable = false\nend\n\nfunction onSave()\n    return tostring(score)\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "e25a01",
@@ -12996,6 +13087,7 @@
         "b": 0.502
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": false,
@@ -13012,7 +13104,6 @@
       "MeshIndex": -1,
       "LuaScript": "function onLoad()\n    self.interactable = false\nend",
       "LuaScriptState": "",
-      "XmlUI": "",
       "ContainedObjects": [
         {
           "GUID": "2471f1",
@@ -13037,6 +13128,7 @@
             "b": 0.5
           },
           "LayoutGroupSortIndex": 0,
+          "Value": 0,
           "Locked": false,
           "Grid": false,
           "Snap": true,
@@ -13081,6 +13173,7 @@
         "small"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": true,
@@ -13106,8 +13199,7 @@
         }
       },
       "LuaScript": "owner = nil -- who owns this tile\nstack_zone = nil -- the scripting zone that covers the tile stack\ncolormap = {Red = {0.75, 0, 0}, Green = {0.25, 0.63, 0.2}, Blue = {0.1, 0.35, 0.65}, Yellow = {1, 1, 0}}\n\nfunction onLoad(save_state)\n    if save_state ~= \"\" then\n        owner = save_state\n    end\n\n    stack_zone = getObjectFromGUID('9c1045')\nend\n\n-- if a player picks up a piece and it's not already owned, then assign it\nfunction onPickUp(player)\n    color = colormap[player]\n\n    if not color then\n        print(\"Unknown color \", player)\n        return\n    end\n\n    if owner == nil then\n        owner = player\n        self.setColorTint(color)\n    end\nend\n\n-- if the player drops the piece back on its stack, then reset it\nfunction onDrop(player)\n    local inStack = false\n\n    for _,v in ipairs(stack_zone.getObjects()) do\n        if v == self then\n            owner = nil\n            self.setColorTint({0.831, 0.616, 0.114}) -- some kind of orange\n            break\n        end\n    end\nend\n\nfunction onSave()\n    return owner or \"\"\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "c1a842",
@@ -13133,6 +13225,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -13173,6 +13266,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -13213,6 +13307,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -13253,6 +13348,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -13293,6 +13389,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -13332,6 +13429,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -13345,8 +13443,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "LuaScript": "function onLoad()\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"District\\nBonus\",\n        width          = 1800,\n        height         = 1200,\n        font_size      = 500,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click this button to calculate the current district bonus scores.\"\n    }\n    self.createButton(params)\nend\n\n-- returns the index in table where 'value' exist, or 0\nfunction findIndex(table, value)\n    for k,v in pairs(table) do\n        if v == value then\n            return k\n        end\n    end\n\n    return 0\nend\n\nfunction click_func(obj, color, alt_click)\n    local gameBoard = getObjectFromGUID(\"e2f237\")\n    local buttonSet = gameBoard.getVar(\"buttons_set\")\n\n    -- Build an array of districts from the buttonSet data.\n    -- This matches the order of zones in Global.boardZones,\n    -- so include that as well while we're at it\n    local districts = {}\n    local boardZones = Global.getVar(\"boardZones\")\n\n    for k,v in pairs(buttonSet) do\n        local d = v.column * 5 + v.row + 1\n\n        if districts[d] == nil then\n            districts[d] = { Red = 0, Green = 0, Blue = 0, Yellow = 0, City = 0, Neutral = 0,\n                zone = boardZones[d], count = 0, first = {}, second = {} }\n            -- the central district has a city well marker that is not recorded,\n            -- so mark it here.\n            if d == 13 then\n                districts[d].City = 1\n            end\n        end\n        if v.cube_color then\n            districts[d][v.cube_color] = districts[d][v.cube_color] + 1\n        end\n    end\n\n    -- Who has the most and second-most number of cubes?\n    for _,district in ipairs(districts) do\n        local most = { 0, 0 }\n\n        for _,c in ipairs({\"Red\", \"Green\", \"Blue\", \"Yellow\", \"City\", \"Neutral\"}) do\n            if district[c] > most[1] then\n                most[2] = most[1]\n                most[1] = district[c]\n            elseif district[c] > most[2] then\n                most[2] = district[c]\n            end\n        end\n\n        -- Now make a list of each color that is in first and second place\n        -- Not sure if this is the best algorithm, but it appears to work\n        for _,c in ipairs({\"Red\", \"Green\", \"Blue\", \"Yellow\", \"City\", \"Neutral\"}) do\n            if most[1] > 0 and district[c] == most[1] then\n                table.insert(district[\"first\"], c)\n            elseif most[2] > 0 and district[c] == most[2] then\n                table.insert(district[\"second\"], c)\n            end\n        end\n    end\n\n    -- Now figure out how many tiles are in each zone\n    for k,district in pairs(districts) do\n        local tiles = district[\"zone\"].getObjects()\n\n        -- Now we need to figure out how big each tile is. I really wish\n        -- TTS let us store metadata with each object.  For now, just use\n        -- the structure name.  Note that the City Well has a unique name,\n        -- and it should be ignored anyway, so this works out.\n        local count = 0\n        local smallStructures = {\"Well\", \"Garden\", \"Chapel\", \"Watchtower\", \"Merchant Stall\", \"Pageant Wagon\" }\n        local mediumStructures = {\"Fountain\", \"Farm\", \"Church\", \"Garrison\", \"Marketplace\", \"Stage\" }\n        local largeStructures = {\"Water Works\", \"Granary\", \"Cathedral\", \"Citadel\", \"Guild Hall\", \"Town Square\" }\n\n        for _,tile in ipairs(tiles) do\n            local name = tile.getName()\n            if findIndex(smallStructures, name) > 0 then\n                count = count + 1\n            elseif findIndex(mediumStructures, name) > 0 then\n                count = count + 2\n            elseif findIndex(largeStructures, name) > 0 then\n                count = count + 4\n            end\n        end\n\n        district[\"count\"] = count\n    end\n\n    -- Now add up the points for each district\n    local total_score = {\n        [\"Red\"] = 0,\n        [\"Blue\"] = 0,\n        [\"Green\"] = 0,\n        [\"Yellow\"] = 0,\n        [\"City\"] = 0,\n        [\"Neutral\"] = 0\n    }\n    for k,district in pairs(districts) do\n        if #district[\"first\"] > 0 then\n            local firstScore = math.floor(district[\"count\"] / #district[\"first\"])\n\n            for _,v in ipairs(district[\"first\"]) do\n                total_score[v] = total_score[v] + firstScore\n            end\n\n            -- Second place scoring is awarded only if one player gets second place\n            local second = district[\"second\"]\n            if #second == 1 then\n                total_score[second[1]] = total_score[second[1]] + math.floor(firstScore / 2)\n            end\n        end\n    end\n\n    local scoreButton = {\n        [\"Red\"] = \"70add7\",\n        [\"Green\"] = \"f29f5a\",\n        [\"Blue\"] = \"5e0202\",\n        [\"Yellow\"] = \"467c8e\",\n    }\n\n    for color,guid in pairs(scoreButton) do\n        local button = getObjectFromGUID(guid)\n        if button\n        then\n            button.editButton({index = 0, label=total_score[color]})\n        end\n    end\n\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "70add7",
@@ -13371,6 +13468,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -13384,8 +13482,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "f29f5a",
@@ -13410,6 +13507,7 @@
         "b": 0.2
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -13423,8 +13521,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "5e0202",
@@ -13449,6 +13546,7 @@
         "b": 0.65
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -13462,8 +13560,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "467c8e",
@@ -13488,6 +13585,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -13501,8 +13599,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {0, 0, 0},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "58dd21",
@@ -13527,6 +13624,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": false,
@@ -13540,8 +13638,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {0, 0, 0},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "bbeb39",
@@ -13566,6 +13663,7 @@
         "b": 0.65
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": false,
@@ -13579,8 +13677,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "f966d6",
@@ -13605,6 +13702,7 @@
         "b": 0.2
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": false,
@@ -13618,8 +13716,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "6456f5",
@@ -13644,6 +13741,7 @@
         "b": 0.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": false,
@@ -13657,8 +13755,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "LuaScript": "function onLoad(save_state)\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = save_state ~= \"\" and save_state or \"0\",\n        width          = 0,\n        height         = 0,\n        font_size      = 400,\n        font_color     = {1, 1, 1},\n    }\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\nend\n\nfunction onSave()\n    local button = self.getButtons()[1]\n\n    return button.label\nend",
-      "LuaScriptState": "0",
-      "XmlUI": ""
+      "LuaScriptState": "0"
     },
     {
       "GUID": "0d2807",
@@ -13683,6 +13780,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": false,
@@ -13696,8 +13794,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "LuaScript": "function onLoad()\n    self.interactable = false\n\n    local params = {\n        click_function = \"click_func\",\n        function_owner = self,\n        position       = {0, 1, 0},\n        rotation       = {0, 180, 0},\n        label          = \"King's\\nBonus\",\n        width          = 1800,\n        height         = 1200,\n        font_size      = 500,\n        color          = {1, 1, 1},\n        font_color     = {0, 0, 0},\n        tooltip        = \"Click this button to calculate the current Kings' Bonus scores.\"\n    }\n\n    self.createButton(params)\nend\n\nfunction click_func(obj, color, alt_click)\n    local scoreTokens = {\n    --   green     red       yellow    blue     neutral\n        {\"0de0a6\", \"3322fd\", \"289467\", \"98c6fd\", \"1dee61\"}, -- water\n        {\"ed27ad\", \"5eb69a\", \"3d5d30\", \"71aaaf\", \"60fb49\"}, -- food\n        {\"5808d7\", \"554ff6\", \"e6b3dc\", \"f14de0\", \"4b3bc4\"}, -- religion\n        {\"a524d6\", \"881675\", \"c8c173\", \"946adc\", \"b81b1e\"}, -- defense\n        {\"40acb1\", \"8a73ef\", \"212edc\", \"b6ccbc\", \"ba1fd4\"}, -- commerce\n        {\"7f1cbf\", \"204a31\", \"55a0b9\", \"abe989\", \"070f23\"}, -- culture\n    }\n\n    local scoreChart = {\n        { -- water\n            {0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12},\n            {0, 0, 0, 0, 0, 2, 2, 3, 3, 4, 4, 5},\n        },\n        { -- food\n            {0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12},\n            {0, 0, 0, 0, 0, 2, 2, 3, 3, 4, 4, 5},\n        },\n        { -- religion\n            {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14},\n            {0, 0, 0, 0, 0, 3, 3, 4, 4, 5, 5, 6},\n        },\n        { -- defense\n            {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14},\n            {0, 0, 0, 0, 0, 3, 3, 4, 4, 5, 5, 6},\n        },\n        { -- commerce\n            {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16},\n            {0, 0, 0, 0, 0, 4, 4, 5, 5, 6, 6, 7},\n        },\n        { -- culture\n            {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16},\n            {0, 0, 0, 0, 0, 4, 4, 5, 5, 6, 6, 7},\n        },\n    }\n\n    -- We track the score of the Neutral player if present, but we just\n    -- don\"t show it.\n    local total_scores = {\n        [\"Red\"] = 0,\n        [\"Green\"] = 0,\n        [\"Blue\"] = 0,\n        [\"Yellow\"] = 0,\n        [\"Neutral\"] = 0,\n    }\n    -- iterate over all the services\n    for service,tokens in ipairs(scoreTokens)\n    do\n        local scores = {}\n        local marker\n\n        -- get the current scores for each active player for this service\n        marker = getObjectFromGUID(tokens[1])\n        if marker then\n                scores['Green'] = math.min(marker.getVar('score'), 14)\n        end\n\n        marker = getObjectFromGUID(tokens[2])\n        if marker then\n                scores['Red'] = math.min(marker.getVar('score'), 14)\n        end\n\n        marker = getObjectFromGUID(tokens[3])\n        if marker then\n                scores['Yellow'] = math.min(marker.getVar('score'), 14)\n        end\n\n        marker = getObjectFromGUID(tokens[4])\n        if marker then\n                scores['Blue'] = math.min(marker.getVar('score'), 14)\n        end\n\n        marker = getObjectFromGUID(tokens[5])\n        if marker then\n                scores['Neutral'] = math.min(marker.getVar('score'), 14)\n        end\n\n        -- Calculate the highest and second-highest scores\n        local most = {0, 0}\n        for _,score in pairs(scores)\n        do\n            if score > most[1] then\n                most[2] = most[1]\n                most[1] = score\n            elseif score > most[2] then\n                most[2] = score\n            end\n        end\n        -- Figure out which players are in first and second\n        local first = {}\n        local second = {}\n        for color,score in pairs(scores)\n        do\n            if score > 0 and score == most[1] then\n                table.insert(first, color)\n            elseif score > 0 and score == most[2] then\n                table.insert(second, color)\n            end\n        end\n        -- Figure out the scores for each player based on how many ties\n        local f = 0\n        local s = 0\n        --print(\"first = \", logString(first))\n        --print(\"second = \", logString(second))\n        if #first > 1 then\n            -- more than one first place, no one gets second place\n            --print(\"more than one first place\")\n            f = math.floor((scoreChart[service][1][most[1]] + scoreChart[service][2][most[1]]) / #first)\n        elseif #second > 1 then\n            -- more than on second place, no one gets second place\n            --print(\"more than one second place\")\n            f = scoreChart[service][1][most[1]]\n        else\n            if #first == 1 then\n                f = scoreChart[service][1][most[1]]\n            end\n            if #second == 1 then\n                s = scoreChart[service][2][most[2]]\n            end\n        end\n        for _,v in ipairs(first) do\n            total_scores[v] = total_scores[v] + f\n        end\n        for _,v in ipairs(second) do\n            total_scores[v] = total_scores[v] + s\n        end\n    end\n\n    local scoreButton = {\n        [\"Red\"] = \"6456f5\",\n        [\"Green\"] = \"f966d6\",\n        [\"Blue\"] = \"bbeb39\",\n        [\"Yellow\"] = \"58dd21\",\n    }\n\n    for color,guid in pairs(scoreButton) do\n        local button = getObjectFromGUID(guid)\n        if button\n        then\n            button.editButton({index = 0, label=total_scores[color]})\n        end\n    end\nend",
-      "LuaScriptState": "",
-      "XmlUI": ""
+      "LuaScriptState": ""
     },
     {
       "GUID": "5404a5",
@@ -13722,6 +13819,7 @@
         "b": 0.427
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -13777,6 +13875,7 @@
         "b": 0.427
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": false,
       "Snap": false,
@@ -13838,6 +13937,7 @@
         "ten"
       ],
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -13877,6 +13977,7 @@
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
+      "Value": 0,
       "Grid": false,
       "Snap": false,
       "IgnoreFoW": false,
@@ -13925,6 +14026,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -13964,6 +14066,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -14003,6 +14106,7 @@
         "a": 0.51
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -14041,6 +14145,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -14089,6 +14194,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -14137,6 +14243,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": true,
       "Grid": true,
       "Snap": true,
@@ -14185,6 +14292,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": false,
@@ -14224,6 +14332,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
+      "Value": 0,
       "Locked": false,
       "Grid": false,
       "Snap": false,
@@ -14240,5 +14349,6 @@
       "LuaScriptState": "",
       "XmlUI": ""
     }
-  ]
+  ],
+  "Rules": ""
 }

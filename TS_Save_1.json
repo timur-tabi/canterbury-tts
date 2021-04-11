@@ -13958,7 +13958,7 @@
       "Name": "3DText",
       "Transform": {
         "posX": -44.0,
-        "posY": 0.965,
+        "posY": 0.961,
         "posZ": -26.0,
         "rotX": 90.0,
         "rotY": 0.0,
@@ -13976,8 +13976,8 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
-      "Locked": false,
       "Value": 0,
+      "Locked": true,
       "Grid": false,
       "Snap": false,
       "IgnoreFoW": false,
@@ -14025,6 +14025,11 @@
         "b": 1.0,
         "a": 0.51
       },
+      "Tags": [
+        "five",
+        "one",
+        "ten"
+      ],
       "LayoutGroupSortIndex": 0,
       "Value": 0,
       "Locked": true,
@@ -14065,6 +14070,11 @@
         "b": 1.0,
         "a": 0.51
       },
+      "Tags": [
+        "five",
+        "one",
+        "ten"
+      ],
       "LayoutGroupSortIndex": 0,
       "Value": 0,
       "Locked": true,
@@ -14105,6 +14115,11 @@
         "b": 1.0,
         "a": 0.51
       },
+      "Tags": [
+        "five",
+        "one",
+        "ten"
+      ],
       "LayoutGroupSortIndex": 0,
       "Value": 0,
       "Locked": true,
